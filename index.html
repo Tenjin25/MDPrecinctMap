@@ -10751,7 +10751,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v3';
+    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v4';
     const APP_BUILD_ID = '2026-10-26-maryland-data-v2';
 
     function withCacheBuster(path) {
@@ -13728,7 +13728,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyActive: 0.65,
           countyWithPrecinct: 0.11,
           district: 0.59,
-          house: 0.65,
+          house: 0.84,
           senate: 0.64,
           precinctFill: 0.62,
           precinctDot: 0.80
@@ -13737,7 +13737,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyActive: 0.71,
           countyWithPrecinct: 0.13,
           district: 0.72,
-          house: 0.72,
+          house: 0.88,
           senate: 0.73,
           precinctFill: 0.68,
           precinctDot: 0.84
@@ -13746,7 +13746,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyActive: 0.9,
           countyWithPrecinct: 0.18,
           district: 0.88,
-          house: 0.87,
+          house: 0.94,
           senate: 0.86,
           precinctFill: 0.76,
           precinctDot: 0.88
@@ -19639,6 +19639,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
 
+      async function applyCountyCandidateNamesToDistrictSlice(payload, contestType, year) {
+        if (!payload || !payload.general?.results) return payload;
+        const key = String(contestType || '').trim().toLowerCase();
+        // These offices elect different candidates in each district. Every
+        // other contest is statewide, so its county-level candidate labels are
+        // authoritative across congressional and legislative map layers.
+        if (key === 'us_house' || key === 'state_house' || key === 'state_senate') return payload;
+        let candidates = null;
+        try { candidates = await getContestCandidates(key, year); } catch (_) { candidates = null; }
+        const demCandidate = stripRunningMateName((candidates?.dem || '').toString().trim());
+        const repCandidate = stripRunningMateName((candidates?.rep || '').toString().trim());
+        if (!demCandidate && !repCandidate) return payload;
+        Object.values(payload.general.results).forEach(row => {
+          if (!row || typeof row !== 'object') return;
+          if (demCandidate) row.dem_candidate = demCandidate;
+          if (repCandidate) row.rep_candidate = repCandidate;
+        });
+        return payload;
+      }
+
       async function ensureDistrictElectionDataLoaded() {
         if (districtElectionDataJSON) return districtElectionDataJSON;
         if (districtElectionDataLoadFailed) return null;
@@ -19696,6 +19716,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (const path of candidatePaths) {
           try {
             const payload = await loadJSON(path);
+            await applyCountyCandidateNamesToDistrictSlice(payload, contestType, year);
             districtSliceCache.set(cacheKey, payload);
             return payload;
           } catch (_) {}
@@ -19707,6 +19728,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const fallback = linesYear === 2022
           ? (districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null)
           : null;
+        await applyCountyCandidateNamesToDistrictSlice(fallback, contestType, year);
         districtSliceCache.set(cacheKey, fallback);
         return fallback;
       });
@@ -34052,6 +34074,20 @@ document.addEventListener('DOMContentLoaded', function() {
       return yes ? '#bbf7d0' : '#fecaca';
     }
 
+    function colorForHouseDistrictMarginMode(contestType, marginPctAbs, winner) {
+      if (isBallotMeasureContest(contestType) || isColorblindModeActive()) {
+        return colorForContestMarginMode(contestType, marginPctAbs, winner);
+      }
+      const margin = Math.abs(Number(marginPctAbs) || 0);
+      // Small legislative districts sit over a detailed basemap. Use brighter
+      // endpoints so safe lettered seats remain visibly red or blue instead of
+      // blending into near-black at statewide zoom.
+      if (margin >= 40) return winner === 'R' ? '#b91c1c' : '#1d4ed8';
+      if (margin >= 30) return winner === 'R' ? '#dc2626' : '#2563eb';
+      if (margin >= 20) return winner === 'R' ? '#ef4444' : '#3b82f6';
+      return colorForContestMarginMode(contestType, margin, winner);
+    }
+
     function colorForContestWinnerMode(contestType, winner) {
       if (!isBallotMeasureContest(contestType)) return colorForWinnerMode(winner);
       return winner === 'D' ? '#16a34a' : (winner === 'R' ? '#dc2626' : '#94a3b8');
@@ -36097,7 +36133,9 @@ document.addEventListener('DOMContentLoaded', function() {
               const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
               color = colorForShiftMode(signed - prevSigned);
             } else {
-              color = colorForContestMarginMode(contestType, Math.abs(signed), winner);
+              color = districtScope === 'state_house'
+                ? colorForHouseDistrictMarginMode(contestType, Math.abs(signed), winner)
+                : colorForContestMarginMode(contestType, Math.abs(signed), winner);
             }
 
             if (districtNum) {

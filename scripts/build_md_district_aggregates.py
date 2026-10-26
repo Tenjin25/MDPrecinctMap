@@ -232,6 +232,22 @@ def result_row(values: dict[str, float], candidates: tuple[str, str]) -> dict[st
     }
 
 
+def canonical_candidate_names(
+    contest_type: str,
+    year: int,
+    fallback: tuple[str, str],
+) -> tuple[str, str]:
+    """Use county contest labels as the display-name authority when available."""
+    path = DATA / "contests" / f"{contest_type}_{year}.json"
+    if not path.exists():
+        return fallback
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    rows = payload.get("rows") or []
+    dem = next((str(row.get("dem_candidate") or "").strip() for row in rows if row.get("dem_candidate")), "")
+    rep = next((str(row.get("rep_candidate") or "").strip() for row in rows if row.get("rep_candidate")), "")
+    return dem or fallback[0], rep or fallback[1]
+
+
 def main() -> None:
     generated_at = datetime.now(timezone.utc).isoformat()
     assignments = {
@@ -311,7 +327,11 @@ def main() -> None:
             output_dir.mkdir(parents=True, exist_ok=True)
 
             for contest_type, raw_county_totals in county_totals[plan_name].items():
-                candidates = tuple(resolved[contest_type]["candidates"])
+                candidates = canonical_candidate_names(
+                    contest_type,
+                    year,
+                    tuple(resolved[contest_type]["candidates"]),
+                )
                 whole_district_totals, county_contributions = apportion_counties_to_districts(
                     raw_county_totals,
                     official_targets[contest_type],

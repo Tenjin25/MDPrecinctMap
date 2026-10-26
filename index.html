@@ -10749,8 +10749,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-25-maryland-congressional-plans-v1';
-    const APP_BUILD_ID = '2026-10-25-maryland-congressional-plans-v1';
+    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v2';
+    const APP_BUILD_ID = '2026-10-26-maryland-data-v2';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -12569,7 +12569,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!c) return null;
       if (modeledCensusContextMemo.has(c)) return modeledCensusContextMemo.get(c) || null;
       let ctx = null;
-      try { ctx = getNcCensusContext(c); } catch (_) { ctx = null; }
+      try { ctx = getMdCensusContext(c); } catch (_) { ctx = null; }
       try { modeledCensusContextMemo.set(c, ctx); } catch (_) {}
       return ctx;
     }
@@ -15673,7 +15673,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if ((meta.kind === 'county' || meta.kind === 'precinct') && meta.county) {
           try {
-            censusContext = getNcCensusContext(meta.county);
+            censusContext = getMdCensusContext(meta.county);
             trendOptions.censusContext = censusContext;
             trendOptions.censusContextTitle = meta.kind === 'precinct'
               ? `${displayCountyName(meta.county)} Census Insight`
@@ -16212,20 +16212,6 @@ document.addEventListener('DOMContentLoaded', function() {
           2018: withBase('./data/openelections/md_sbe/20181106__md__general__precinct.csv'),
           2022: withBase('./data/openelections/md_sbe/20221108__md__general__precinct.csv')
         },
-        us_house: {
-          2000: withBase('./data/openelections/md_sbe/20001107__md__general__precinct.csv'),
-          2004: withBase('./data/openelections/md_sbe/20041102__md__general__precinct.csv'),
-          2006: withBase('./data/openelections/md_sbe/20061107__md__general__precinct.csv'),
-          2008: withBase('./data/openelections/md_sbe/20081104__md__general__precinct.csv'),
-          2010: withBase('./data/openelections/md_sbe/20101102__md__general__precinct.csv'),
-          2012: withBase('./data/openelections/md_sbe/20121106__md__general__precinct.csv'),
-          2014: withBase('./data/openelections/md_sbe/20141104__md__general__precinct.csv'),
-          2016: withBase('./data/openelections/md_sbe/20161108__md__general__precinct.csv'),
-          2018: withBase('./data/openelections/md_sbe/20181106__md__general__precinct.csv'),
-          2020: withBase('./data/openelections/md_sbe/20201103__md__general__precinct.csv'),
-          2022: withBase('./data/openelections/md_sbe/20221108__md__general__precinct.csv'),
-          2024: withBase('./data/openelections/md_sbe/20241105__md__general__precinct.csv')
-        }
       };
 
       function getOpenElectionsCsvPath(contestType, year) {
@@ -17237,7 +17223,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const out = new Map();
             baseAgg.forEach((totals, county) => {
               const ctx = (() => {
-                try { return getNcCensusContext(county); } catch (_) { return null; }
+                try { return getMdCensusContext(county); } catch (_) { return null; }
               })();
               const pattern = String(ctx?.patternLabel || '');
               const note = String(ctx?.noteLabel || '');
@@ -21939,6 +21925,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function stripRunningMateName(name) {
       const raw = (name || '').toString().trim();
       if (!raw) return '';
+      // Maryland SBE 2024 results spell tickets as
+      // "Kamala D. Harris and Tim Walz". Treat the word "and" as a ticket
+      // separator while preserving the presidential candidate's full name.
+      const conjunctionTicket = raw.match(/^(.+?)\s+and\s+(.+)$/i);
+      if (conjunctionTicket) {
+        return expandLegacyCandidateShorthand(conjunctionTicket[1].trim());
+      }
       // Common presidential ticket separators.
       const seps = [' / ', '/', ' & ', '&', ' + ', '+', ' - ', ' – ', ' — '];
       for (const sep of seps) {
@@ -24007,11 +24000,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return lookup;
     })();
 
-    function getVaCorridorDescriptor(countyNormRaw, estimate = null) {
+    function getMarylandCorridorDescriptor(countyNormRaw, estimate = null) {
       const norm = normalizePopulationLocalityKey(countyNormRaw);
       if (!norm) return null;
 
-      for (const descriptor of VA_CORRIDOR_DESCRIPTORS) {
+      for (const descriptor of MD_CORRIDOR_DESCRIPTORS) {
         if (descriptor.members.has(norm)) {
           return {
             corridorEmoji: descriptor.corridorEmoji || '',
@@ -24023,7 +24016,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       const totalPct = Number(estimate?.changePct2020To2025);
-      const macroRegion = VA_MACRO_REGION_LOOKUP.get(norm) || '';
+      const macroRegion = MD_MACRO_REGION_LOOKUP.get(norm) || '';
       if (macroRegion) {
         return {
           corridorEmoji: '',
@@ -24037,7 +24030,7 @@ document.addEventListener('DOMContentLoaded', function() {
           corridorEmoji: '🚀',
           macroRegion: '',
           corridorLabel: 'High-growth outlier',
-          corridorNote: 'A population outlier relative to most Virginia localities, with faster recent churn than the statewide norm.'
+          corridorNote: 'A population outlier relative to most Maryland jurisdictions, with faster recent churn than the statewide norm.'
         };
       }
       if (Number.isFinite(totalPct) && totalPct <= -4) {
@@ -24045,13 +24038,13 @@ document.addEventListener('DOMContentLoaded', function() {
           corridorEmoji: '📉',
           macroRegion: '',
           corridorLabel: 'High-decline outlier',
-          corridorNote: 'A population-decline outlier relative to most Virginia localities, with slower turnover than faster-growing parts of the state.'
+          corridorNote: 'A population-decline outlier relative to most Maryland jurisdictions, with slower turnover than faster-growing parts of the state.'
         };
       }
       return null;
     }
 
-    function getVirginiaGeographyPhrase(localityNormRaw, censusContext = null, options = {}) {
+    function getMarylandGeographyPhrase(localityNormRaw, censusContext = null, options = {}) {
       const norm = normalizePopulationLocalityKey(localityNormRaw);
       const corridorLabel = String(censusContext?.corridorLabel || '').trim();
       const corridorEmoji = String(censusContext?.corridorEmoji || '').trim();
@@ -24061,21 +24054,17 @@ document.addEventListener('DOMContentLoaded', function() {
       if (forProfile && corridorLabel) {
         return `${corridorEmoji ? `${corridorEmoji} ` : ''}${corridorLabel}`.trim();
       }
-      if (/NoVA/i.test(corridorLabel)) return 'Northern Virginia';
-      if (/Richmond/i.test(corridorLabel)) return forProfile ? 'Richmond Metro' : 'the Richmond Metro';
-      if (/Hampton Roads|Historic Triangle|Oceanfront/i.test(corridorLabel)) return 'Hampton Roads';
+      if (/Baltimore/i.test(corridorLabel)) return 'Baltimore Metro';
+      if (/Washington|D\.C\./i.test(corridorLabel)) return 'D.C. Suburbs';
+      if (/Western Maryland/i.test(corridorLabel)) return 'Western Maryland';
       if (/Eastern Shore/i.test(corridorLabel)) return forProfile ? 'Eastern Shore' : 'the Eastern Shore';
-      if (/New River Valley/i.test(corridorLabel)) return forProfile ? 'New River Valley' : 'the New River Valley';
-      if (/Roanoke Valley|Upper Valley|Central Valley|I-81/i.test(corridorLabel)) return forProfile ? 'I-81 corridor' : 'the I-81 corridor';
-      if (/I-95|Fredericksburg/i.test(corridorLabel)) return forProfile ? 'I-95 exurbs' : 'the I-95 exurbs';
-      if (/coalfield/i.test(corridorLabel)) return 'Southwest Virginia';
-      if (/Southside|Dan River|tobacco belt/i.test(corridorLabel)) return 'Southside';
+      if (/Southern Maryland/i.test(corridorLabel)) return 'Southern Maryland';
       if (macroRegion) return macroRegion;
-      if (norm && /CITY$/.test(norm)) return 'Independent city';
+      if (norm === 'BALTIMORE CITY') return 'Baltimore City';
       return 'Maryland';
     }
 
-    function buildVirginiaLocalityArchetype(localityNormRaw, winnerCall, censusContext = null, trajectoryMeta = null) {
+    function buildMarylandLocalityArchetype(localityNormRaw, winnerCall, censusContext = null, trajectoryMeta = null) {
       const norm = normalizePopulationLocalityKey(localityNormRaw);
       const corridorLabel = String(censusContext?.corridorLabel || '').trim();
       const marginPct = Math.abs(Number(winnerCall?.marginPct) || 0);
@@ -24083,47 +24072,34 @@ document.addEventListener('DOMContentLoaded', function() {
       const fastGrowth = Number(censusContext?.changePct2020To2025) >= 6;
       const competitive = marginPct < 6 || String(trajectoryMeta?.statusMain || '').trim() === 'Competitive';
 
-      if (VA_MILITARY_HEAVY_LOCALITIES.has(norm)) {
-        if (competitive) return 'Military-heavy coastal battleground';
-        return party === 'dem' ? 'Military-heavy coastal Democratic base' : 'Military-heavy coastal GOP area';
+      if (MD_MILITARY_HEAVY_LOCALITIES.has(norm)) {
+        if (competitive) return 'Military-connected battleground';
+        return party === 'dem' ? 'Military-connected Democratic base' : 'Military-connected GOP area';
       }
-      if (VA_COLLEGE_DRIVEN_LOCALITIES.has(norm) || /New River Valley/i.test(corridorLabel)) {
+      if (MD_COLLEGE_DRIVEN_LOCALITIES.has(norm)) {
         if (competitive) return 'College-driven swing locality';
         return 'College-driven locality';
       }
-      if (/NoVA mature core/i.test(corridorLabel)) {
-        if (party === 'dem' && marginPct >= 12) return 'Northern Virginia Democratic stronghold';
-        if (competitive) return fastGrowth ? 'Fast-growing Northern Virginia battleground' : 'Northern Virginia swing locality';
+      if (/Washington suburban/i.test(corridorLabel)) {
+        if (competitive) return 'Washington suburban battleground';
         if (party === 'rep' && fastGrowth) return 'Fast-growing Northern Virginia GOP outlier';
-        return party === 'dem' ? 'Northern Virginia Democratic-leaning suburb' : 'Northern Virginia Republican-leaning suburb';
+        return party === 'dem' ? 'Washington suburban Democratic base' : 'Washington suburban GOP area';
       }
-      if (/NoVA outer-suburban/i.test(corridorLabel)) {
-        if (competitive) return 'Fast-growing Northern Virginia battleground';
-        if (party === 'rep' && fastGrowth) return 'Fast-growing Northern Virginia GOP outlier';
-        return party === 'dem' ? 'Northern Virginia Democratic-leaning suburb' : 'Northern Virginia Republican-leaning suburb';
+      if (/Baltimore metropolitan core/i.test(corridorLabel)) {
+        if (competitive) return 'Baltimore metropolitan battleground';
+        return party === 'dem' ? 'Baltimore metropolitan Democratic base' : 'Baltimore metropolitan GOP area';
       }
-      if (/I-95 Fredericksburg exurbs/i.test(corridorLabel)) {
-        if (competitive) return 'Fast-growing exurban battleground';
-        if (fastGrowth && party === 'rep') return 'Fast-growing exurban GOP area';
-        if (fastGrowth && party === 'dem') return 'Fast-growing Democratic-leaning suburb';
-        return party === 'rep' ? 'Republican-leaning exurb' : 'Democratic-leaning exurb';
+      if (/Eastern Shore/i.test(corridorLabel)) {
+        if (competitive) return 'Eastern Shore battleground';
+        return party === 'rep' ? 'Eastern Shore Republican base' : 'Eastern Shore Democratic area';
       }
-      if (/Richmond core/i.test(corridorLabel)) {
-        return party === 'dem' ? 'Richmond urban Democratic base' : 'Richmond crossover locality';
+      if (/Western Maryland/i.test(corridorLabel)) {
+        if (competitive) return 'Western Maryland battleground';
+        return party === 'rep' ? 'Western Maryland Republican base' : 'Western Maryland Democratic area';
       }
-      if (/Richmond exurbs/i.test(corridorLabel)) {
-        if (competitive) return 'Richmond suburban battleground';
-        if (fastGrowth && party === 'rep') return 'Fast-growing exurban GOP area';
-        if (party === 'dem') return 'Richmond suburban Democratic gain';
-        return 'Richmond-area Republican base';
-      }
-      if (/Hampton Roads|Historic Triangle|Oceanfront/i.test(corridorLabel)) {
-        if (competitive) return 'Tidewater swing region';
-        return party === 'dem' ? 'Tidewater Democratic anchor' : 'Tidewater Republican base';
-      }
-      if (/coalfield|Roanoke Valley|Upper Valley|Central Valley|Southside|Dan River|tobacco belt/i.test(corridorLabel)) {
-        if (party === 'rep' && marginPct >= 12) return 'Appalachian Republican base';
-        if (competitive) return 'Interior Maryland battleground';
+      if (/Southern Maryland/i.test(corridorLabel)) {
+        if (competitive) return 'Southern Maryland battleground';
+        return party === 'rep' ? 'Southern Maryland Republican-leaning area' : 'Southern Maryland Democratic-leaning area';
       }
       if (fastGrowth && party === 'rep') return 'Fast-growing exurban GOP area';
       if (fastGrowth && party === 'dem') return 'Fast-growing Democratic-leaning suburb';
@@ -24133,11 +24109,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return 'Closely divided locality';
     }
 
-    function getNcCensusContext(countyNorm) {
+    function getMdCensusContext(countyNorm) {
       const norm = normalizePopulationLocalityKey(countyNorm);
       const estimate = countyPopulationEstimatesByNorm?.get(norm) || null;
       const statewide = countyPopulationEstimateStatewide || null;
-      const corridor = getVaCorridorDescriptor(norm, estimate);
+      const corridor = getMarylandCorridorDescriptor(norm, estimate);
 
       const totalPct = Number(estimate?.changePct2020To2025);
       const recentPct = Number(estimate?.changePct2024To2025);
@@ -27579,9 +27555,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function ensureUnmatchedAuditDataLoaded() {
       if (Array.isArray(unmatchedYearSummaryRows) && Array.isArray(unmatchedTopRows)) return;
+      const yearPath = CONFIG.paths?.reports_match_year_summary;
+      const topPath = CONFIG.paths?.reports_top_unmatched;
+      if (!yearPath || !topPath) {
+        unmatchedYearSummaryRows = [];
+        unmatchedTopRows = [];
+        return;
+      }
       const [yearRes, topRes] = await Promise.allSettled([
-        loadCSV(CONFIG.paths.reports_match_year_summary),
-        loadCSV(CONFIG.paths.reports_top_unmatched)
+        loadCSV(yearPath),
+        loadCSV(topPath)
       ]);
       unmatchedYearSummaryRows = yearRes.status === 'fulfilled' ? parseAuditCSVQuiet(yearRes.value) : [];
       unmatchedTopRows = topRes.status === 'fulfilled' ? parseAuditCSVQuiet(topRes.value) : [];
@@ -29566,8 +29549,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const censusContext = (() => {
         try {
-          if (typeof getNcCensusContext !== 'function') return null;
-          return getNcCensusContext(norm);
+          if (typeof getMdCensusContext !== 'function') return null;
+          return getMdCensusContext(norm);
         } catch (_) {
           return null;
         }
@@ -29632,8 +29615,8 @@ document.addEventListener('DOMContentLoaded', function() {
         party: partyTone,
         marginPct: Math.abs(Number(signedMarginPct) || 0)
       };
-      const geographyShort = getVirginiaGeographyPhrase(norm, censusContext, { forProfile: true }) || 'Maryland';
-      const archetypeShort = buildVirginiaLocalityArchetype(norm, countyProfileCall, censusContext, null);
+      const geographyShort = getMarylandGeographyPhrase(norm, censusContext, { forProfile: true }) || 'Maryland';
+      const archetypeShort = buildMarylandLocalityArchetype(norm, countyProfileCall, censusContext, null);
 
       const miniCards = [];
       miniCards.push({
@@ -31037,7 +31020,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const friendly = rawCode ? getPrecinctFriendlyName(countyName, rawCode) : '';
       const friendlyLabel = friendly || '';
       // Preserve verified affiliations even when geometry has an older venue label.
-      if (friendlyLabel && /,\s*(?:PCA|PCUSA|EPC|OPC|ECO|Evangel Presbytery)\s*$/i.test(friendlyLabel)) return friendlyLabel;
+      if (friendlyLabel && /(?:,\s*|\()(?:PCA|PCUSA|KAPC|BPC|EPC|OPC|ECO|Evangel Presbytery)\)?\s*$/i.test(friendlyLabel)) return friendlyLabel;
       // Friendly-name JSON is the canonical display source. Geometry and
       // result labels are fallbacks only when the index has no entry.
       if (friendlyLabel) return friendlyLabel;

@@ -48,6 +48,14 @@ def norm_office(raw: str) -> str:
     return re.sub(r"[^A-Z0-9]+", " ", str(raw or "").upper()).strip().replace("U S ", "US ")
 
 
+def ticket_nominee(raw: str) -> str:
+    """Return the lead nominee when an SBE row contains a two-person ticket."""
+    value = " ".join(str(raw or "").strip().split())
+    if not value:
+        return ""
+    return re.split(r"\s+and\s+|\s*/\s*|\s*&\s*|\s*\+\s*", value, maxsplit=1, flags=re.IGNORECASE)[0].strip()
+
+
 def load_weights(path: Path):
     out = defaultdict(list)
     with path.open(encoding="utf-8-sig", newline="") as handle:
@@ -125,6 +133,9 @@ def build_slice(contest_type, office, year, weights, target_keys, targets_by_cou
 
     dem_candidate = candidates["dem"].most_common(1)[0][0] if candidates["dem"] else ""
     rep_candidate = candidates["rep"].most_common(1)[0][0] if candidates["rep"] else ""
+    if contest_type in {"president", "governor"}:
+        dem_candidate = ticket_nominee(dem_candidate)
+        rep_candidate = ticket_nominee(rep_candidate)
     precinct_votes = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     unmatched = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     matched_sources = 0

@@ -4,12 +4,11 @@
 - `MCRC-2021-Final-Congressional-BEF.xlsx` is the block-equivalency workbook for the final congressional plan recommended to Governor Larry Hogan by the Maryland Citizens Redistricting Commission on November 5, 2021.
 - `MCRC-2021-Final-Congressional-Shapefile.zip` is the matching official MCRC GIS download.
 - `tl_2024_24_cd119.zip` is the Census TIGER/Line representation of Maryland's enacted congressional districts for the 119th Congress.
-- `md_counties.geojson` was filtered from the Census TIGER/Line national county source to Maryland (state FIPS 24). The 84 MB national ZIP is not retained in this project.
+- `tl_2020_24_county20.zip` is the official Census TIGER/Line 2020 county shapefile for Maryland (state FIPS 24). It is the canonical source for the generated `md_counties.geojson` runtime layer and matches the VTD20/block crosswalk vintage.
 
 Run `scripts/build_md_boundaries.py` to regenerate the county, congressional,
 House of Delegates, and State Senate GeoJSON files used by the atlas. The
-builder prefers `tl_2024_us_county.zip` for counties and falls back to the
-checked source name `tl_2020_24_county20.zip`. Legislative boundaries are read
+builder reads county boundaries from `tl_2020_24_county20.zip`. Legislative boundaries are read
 from `2022HOUSEOFFICIAL.zip` and `2022SENATEOFFICIAL.zip`.
 
 Run `scripts/build_md_bef_crosswalks.py` to regenerate the precinct-to-district

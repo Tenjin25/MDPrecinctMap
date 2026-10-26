@@ -121,10 +121,11 @@ def build_congressional(source: Path, output: Path, plan: str) -> None:
 
 
 def main() -> None:
-    county_source = DATA / "tl_2024_us_county.zip"
-    if not county_source.exists():
-        county_source = DATA / "tl_2020_24_county20.zip"
-    build_counties(county_source)
+    # Keep the atlas county layer fixed to the official 2020 Maryland county
+    # geography.  This is also the county vintage used by the VTD20 and block
+    # crosswalk pipeline, so rebuilds do not silently change when a newer
+    # national TIGER/Line archive happens to be present in data/.
+    build_counties(DATA / "tl_2020_24_county20.zip")
     build_congressional(
         DATA / "tl_2024_24_cd119.zip",
         DATA / "md_congress_enacted.geojson",

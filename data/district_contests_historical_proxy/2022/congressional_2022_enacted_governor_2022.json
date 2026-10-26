@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "status": "modern_precinct_crosswalk",
+    "scope": "congressional",
+    "contest_type": "governor",
+    "year": 2022,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2020,
+    "generated_at_utc": "2026-10-26T04:47:06.403915+00:00",
+    "source": "Maryland SBE 2022 precinct returns via 2020-block official-BEF crosswalk",
+    "input_file": "data/openelections/md_sbe/20221108__md__general__precinct.csv",
+    "crosswalk": "data/crosswalks_bef/precinct_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate split precincts and non-geographic buckets with county-local crosswalk evidence; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2005223.0,
+      "direct_geographic_votes": 1957003.0,
+      "unmatched_geographic_votes": 48220.0,
+      "aliased_geographic_votes": 15132.0,
+      "imputed_votes": 48220.0,
+      "pseudo_votes": 0.0,
+      "allocated_votes": 2005223,
+      "matched_precinct_keys": 1943,
+      "unmatched_precinct_keys": 131,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 97.59527992647202,
+      "direct_geographic_vote_coverage_pct": 97.59527992647202
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 256210,
+        "dem_votes": 133957,
+        "rep_votes": 113845,
+        "other_votes": 8408,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -7.849810702158385
+      },
+      "3": {
+        "total_votes": 296347,
+        "dem_votes": 183700,
+        "rep_votes": 101364,
+        "other_votes": 11283,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -27.78364552365976
+      },
+      "7": {
+        "total_votes": 185297,
+        "dem_votes": 150375,
+        "rep_votes": 28474,
+        "other_votes": 6448,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -65.78681791934031
+      },
+      "5": {
+        "total_votes": 271780,
+        "dem_votes": 178566,
+        "rep_votes": 85542,
+        "other_votes": 7672,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -34.22768415630289
+      },
+      "2": {
+        "total_votes": 268509,
+        "dem_votes": 162508,
+        "rep_votes": 95499,
+        "other_votes": 10502,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -24.95596050784145
+      },
+      "1": {
+        "total_votes": 294376,
+        "dem_votes": 124427,
+        "rep_votes": 158955,
+        "other_votes": 10994,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.72921705573824
+      },
+      "8": {
+        "total_votes": 266302,
+        "dem_votes": 212592,
+        "rep_votes": 46256,
+        "other_votes": 7454,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -62.461415986361345
+      },
+      "4": {
+        "total_votes": 166402,
+        "dem_votes": 147819,
+        "rep_votes": 14065,
+        "other_votes": 4518,
+        "dem_candidate": "Wes Moore and Aruna Miller",
+        "rep_candidate": "Dan Cox and Gordana Schifanelli",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.38004350909243
+      }
+    }
+  }
+}

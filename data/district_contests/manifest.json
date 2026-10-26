@@ -1,7 +1,7 @@
 {
-  "source": "RDH Maryland election results on 2020 Census blocks + official Maryland BEFs",
+  "source": "Maryland SBE precinct/block election results + official Maryland BEF crosswalks",
   "district_lines_year": 2022,
-  "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+  "generated_at_utc": "2026-10-26T04:47:08.510948+00:00",
   "files": [
     {
       "scope": "congressional",
@@ -71,6 +71,23 @@
     },
     {
       "scope": "congressional",
+      "contest_type": "attorney_general",
+      "year": 2022,
+      "file": "congressional_attorney_general_2022.json",
+      "rows": 8,
+      "districts": 8,
+      "total_votes": 1982290,
+      "dem_total": 1287418,
+      "rep_total": 691910,
+      "other_total": 2962,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59298589005645,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "congressional",
       "contest_type": "comptroller",
       "year": 2006,
       "file": "congressional_comptroller_2006.json",
@@ -137,6 +154,23 @@
     },
     {
       "scope": "congressional",
+      "contest_type": "comptroller",
+      "year": 2022,
+      "file": "congressional_comptroller_2022.json",
+      "rows": 8,
+      "districts": 8,
+      "total_votes": 1986710,
+      "dem_total": 1223044,
+      "rep_total": 761422,
+      "other_total": 2244,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59758595869553,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "congressional",
       "contest_type": "governor",
       "year": 2006,
       "file": "congressional_governor_2006.json",
@@ -200,6 +234,23 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "county_constrained_aggregation": true
+    },
+    {
+      "scope": "congressional",
+      "contest_type": "governor",
+      "year": 2022,
+      "file": "congressional_governor_2022.json",
+      "rows": 8,
+      "districts": 8,
+      "total_votes": 2005223,
+      "dem_total": 1293944,
+      "rep_total": 644000,
+      "other_total": 67279,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59527992647202,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
     },
     {
       "scope": "congressional",
@@ -432,6 +483,23 @@
     {
       "scope": "congressional",
       "contest_type": "us_senate",
+      "year": 2022,
+      "file": "congressional_us_senate_2022.json",
+      "rows": 8,
+      "districts": 8,
+      "total_votes": 2002336,
+      "dem_total": 1317231,
+      "rep_total": 682293,
+      "other_total": 2812,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59630751282502,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "congressional",
+      "contest_type": "us_senate",
       "year": 2024,
       "file": "congressional_us_senate_2024.json",
       "rows": 8,
@@ -512,6 +580,23 @@
     },
     {
       "scope": "state_house",
+      "contest_type": "attorney_general",
+      "year": 2022,
+      "file": "state_house_attorney_general_2022.json",
+      "rows": 71,
+      "districts": 71,
+      "total_votes": 1982290,
+      "dem_total": 1287418,
+      "rep_total": 691910,
+      "other_total": 2962,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59298589005645,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "state_house",
       "contest_type": "comptroller",
       "year": 2006,
       "file": "state_house_comptroller_2006.json",
@@ -578,6 +663,23 @@
     },
     {
       "scope": "state_house",
+      "contest_type": "comptroller",
+      "year": 2022,
+      "file": "state_house_comptroller_2022.json",
+      "rows": 71,
+      "districts": 71,
+      "total_votes": 1986710,
+      "dem_total": 1223044,
+      "rep_total": 761422,
+      "other_total": 2244,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59758595869553,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "state_house",
       "contest_type": "governor",
       "year": 2006,
       "file": "state_house_governor_2006.json",
@@ -641,6 +743,23 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "county_constrained_aggregation": true
+    },
+    {
+      "scope": "state_house",
+      "contest_type": "governor",
+      "year": 2022,
+      "file": "state_house_governor_2022.json",
+      "rows": 71,
+      "districts": 71,
+      "total_votes": 2005223,
+      "dem_total": 1293944,
+      "rep_total": 644000,
+      "other_total": 67279,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59527992647202,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
     },
     {
       "scope": "state_house",
@@ -873,6 +992,23 @@
     {
       "scope": "state_house",
       "contest_type": "us_senate",
+      "year": 2022,
+      "file": "state_house_us_senate_2022.json",
+      "rows": 71,
+      "districts": 71,
+      "total_votes": 2002336,
+      "dem_total": 1317231,
+      "rep_total": 682293,
+      "other_total": 2812,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59630751282502,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "state_house",
+      "contest_type": "us_senate",
       "year": 2024,
       "file": "state_house_us_senate_2024.json",
       "rows": 71,
@@ -953,6 +1089,23 @@
     },
     {
       "scope": "state_senate",
+      "contest_type": "attorney_general",
+      "year": 2022,
+      "file": "state_senate_attorney_general_2022.json",
+      "rows": 47,
+      "districts": 47,
+      "total_votes": 1982290,
+      "dem_total": 1287418,
+      "rep_total": 691910,
+      "other_total": 2962,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59298589005645,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "state_senate",
       "contest_type": "comptroller",
       "year": 2006,
       "file": "state_senate_comptroller_2006.json",
@@ -1019,6 +1172,23 @@
     },
     {
       "scope": "state_senate",
+      "contest_type": "comptroller",
+      "year": 2022,
+      "file": "state_senate_comptroller_2022.json",
+      "rows": 47,
+      "districts": 47,
+      "total_votes": 1986710,
+      "dem_total": 1223044,
+      "rep_total": 761422,
+      "other_total": 2244,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59758595869553,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "state_senate",
       "contest_type": "governor",
       "year": 2006,
       "file": "state_senate_governor_2006.json",
@@ -1082,6 +1252,23 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "county_constrained_aggregation": true
+    },
+    {
+      "scope": "state_senate",
+      "contest_type": "governor",
+      "year": 2022,
+      "file": "state_senate_governor_2022.json",
+      "rows": 47,
+      "districts": 47,
+      "total_votes": 2005223,
+      "dem_total": 1293944,
+      "rep_total": 644000,
+      "other_total": 67279,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59527992647202,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
     },
     {
       "scope": "state_senate",
@@ -1314,6 +1501,23 @@
     {
       "scope": "state_senate",
       "contest_type": "us_senate",
+      "year": 2022,
+      "file": "state_senate_us_senate_2022.json",
+      "rows": 47,
+      "districts": 47,
+      "total_votes": 2002336,
+      "dem_total": 1317231,
+      "rep_total": 682293,
+      "other_total": 2812,
+      "major_party_contested": true,
+      "match_coverage_pct": 97.59630751282502,
+      "precinct_crosswalk": true,
+      "vtd_vintage": 2020,
+      "allocation_method": "county_constrained_2022_precinct_to_2020_block_bef_crosswalk"
+    },
+    {
+      "scope": "state_senate",
+      "contest_type": "us_senate",
       "year": 2024,
       "file": "state_senate_us_senate_2024.json",
       "rows": 47,
@@ -1327,5 +1531,6 @@
       "county_constrained_aggregation": true
     }
   ],
-  "includes_provisional_historical_slices": true
+  "includes_provisional_historical_slices": true,
+  "includes_2022_precinct_crosswalk_slices": true
 }

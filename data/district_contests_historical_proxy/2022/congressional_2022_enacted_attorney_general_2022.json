@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "status": "modern_precinct_crosswalk",
+    "scope": "congressional",
+    "contest_type": "attorney_general",
+    "year": 2022,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2020,
+    "generated_at_utc": "2026-10-26T04:47:06.403915+00:00",
+    "source": "Maryland SBE 2022 precinct returns via 2020-block official-BEF crosswalk",
+    "input_file": "data/openelections/md_sbe/20221108__md__general__precinct.csv",
+    "crosswalk": "data/crosswalks_bef/precinct_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate split precincts and non-geographic buckets with county-local crosswalk evidence; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1982290.0,
+      "direct_geographic_votes": 1934576.0,
+      "unmatched_geographic_votes": 47714.0,
+      "aliased_geographic_votes": 14849.0,
+      "imputed_votes": 47714.0,
+      "pseudo_votes": 0.0,
+      "allocated_votes": 1982290,
+      "matched_precinct_keys": 1943,
+      "unmatched_precinct_keys": 131,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 97.59298589005645,
+      "direct_geographic_vote_coverage_pct": 97.59298589005645
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 252012,
+        "dem_votes": 134227,
+        "rep_votes": 117520,
+        "other_votes": 265,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -6.629446216846817
+      },
+      "3": {
+        "total_votes": 292273,
+        "dem_votes": 179454,
+        "rep_votes": 112264,
+        "other_votes": 555,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -22.988781036907273
+      },
+      "7": {
+        "total_votes": 184756,
+        "dem_votes": 152567,
+        "rep_votes": 31873,
+        "other_votes": 316,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -65.32615990820325
+      },
+      "5": {
+        "total_votes": 268100,
+        "dem_votes": 178652,
+        "rep_votes": 89123,
+        "other_votes": 325,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.39388287952257
+      },
+      "2": {
+        "total_votes": 267534,
+        "dem_votes": 159594,
+        "rep_votes": 107448,
+        "other_votes": 492,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -19.49135436991186
+      },
+      "1": {
+        "total_votes": 291830,
+        "dem_votes": 121554,
+        "rep_votes": 169913,
+        "other_votes": 363,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 16.570948840078128
+      },
+      "8": {
+        "total_votes": 261743,
+        "dem_votes": 211795,
+        "rep_votes": 49526,
+        "other_votes": 422,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -61.99554524858354
+      },
+      "4": {
+        "total_votes": 164042,
+        "dem_votes": 149575,
+        "rep_votes": 14243,
+        "other_votes": 224,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Michael Anthony Peroutka",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -82.49838456005169
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "status": "modern_precinct_crosswalk",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2022,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2020,
+    "generated_at_utc": "2026-10-26T04:47:06.403915+00:00",
+    "source": "Maryland SBE 2022 precinct returns via 2020-block official-BEF crosswalk",
+    "input_file": "data/openelections/md_sbe/20221108__md__general__precinct.csv",
+    "crosswalk": "data/crosswalks_bef/precinct_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate split precincts and non-geographic buckets with county-local crosswalk evidence; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2002336.0,
+      "direct_geographic_votes": 1954206.0,
+      "unmatched_geographic_votes": 48130.0,
+      "aliased_geographic_votes": 15030.0,
+      "imputed_votes": 48130.0,
+      "pseudo_votes": 0.0,
+      "allocated_votes": 2002336,
+      "matched_precinct_keys": 1943,
+      "unmatched_precinct_keys": 131,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 97.59630751282502,
+      "direct_geographic_vote_coverage_pct": 97.59630751282502
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 288343,
+        "dem_votes": 134989,
+        "rep_votes": 153037,
+        "other_votes": 317,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 6.259212118900059
+      },
+      "7": {
+        "total_votes": 191011,
+        "dem_votes": 156046,
+        "rep_votes": 34639,
+        "other_votes": 326,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -63.56021380967588
+      },
+      "3": {
+        "total_votes": 307755,
+        "dem_votes": 193814,
+        "rep_votes": 113453,
+        "other_votes": 488,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.112004679046645
+      },
+      "4": {
+        "total_votes": 188603,
+        "dem_votes": 167143,
+        "rep_votes": 21149,
+        "other_votes": 311,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -77.4081006134579
+      },
+      "5": {
+        "total_votes": 237208,
+        "dem_votes": 174283,
+        "rep_votes": 62601,
+        "other_votes": 324,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -47.08188593976595
+      },
+      "2": {
+        "total_votes": 240578,
+        "dem_votes": 160652,
+        "rep_votes": 79624,
+        "other_votes": 302,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.68055266898885
+      },
+      "1": {
+        "total_votes": 294894,
+        "dem_votes": 126313,
+        "rep_votes": 168254,
+        "other_votes": 327,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 14.22239855676955
+      },
+      "8": {
+        "total_votes": 253944,
+        "dem_votes": 203991,
+        "rep_votes": 49536,
+        "other_votes": 417,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.822464795387965
+      }
+    }
+  }
+}

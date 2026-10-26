@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "status": "modern_precinct_crosswalk",
+    "scope": "congressional",
+    "contest_type": "comptroller",
+    "year": 2022,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2020,
+    "generated_at_utc": "2026-10-26T04:47:06.403915+00:00",
+    "source": "Maryland SBE 2022 precinct returns via 2020-block official-BEF crosswalk",
+    "input_file": "data/openelections/md_sbe/20221108__md__general__precinct.csv",
+    "crosswalk": "data/crosswalks_bef/precinct_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate split precincts and non-geographic buckets with county-local crosswalk evidence; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1986710.0,
+      "direct_geographic_votes": 1938981.0,
+      "unmatched_geographic_votes": 47729.0,
+      "aliased_geographic_votes": 14873.0,
+      "imputed_votes": 47729.0,
+      "pseudo_votes": 0.0,
+      "allocated_votes": 1986710,
+      "matched_precinct_keys": 1943,
+      "unmatched_precinct_keys": 131,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 97.59758595869553,
+      "direct_geographic_vote_coverage_pct": 97.59758595869553
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 285229,
+        "dem_votes": 121547,
+        "rep_votes": 163480,
+        "other_votes": 202,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 14.701520532624663
+      },
+      "7": {
+        "total_votes": 190630,
+        "dem_votes": 149005,
+        "rep_votes": 41305,
+        "other_votes": 320,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -56.49687877039291
+      },
+      "3": {
+        "total_votes": 305227,
+        "dem_votes": 175347,
+        "rep_votes": 129646,
+        "other_votes": 234,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -14.972790742627618
+      },
+      "4": {
+        "total_votes": 186510,
+        "dem_votes": 160960,
+        "rep_votes": 25278,
+        "other_votes": 272,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -72.74784193877004
+      },
+      "5": {
+        "total_votes": 234639,
+        "dem_votes": 168296,
+        "rep_votes": 66059,
+        "other_votes": 284,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -43.57204045363303
+      },
+      "2": {
+        "total_votes": 240504,
+        "dem_votes": 149139,
+        "rep_votes": 91110,
+        "other_votes": 255,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -24.128081029837343
+      },
+      "1": {
+        "total_votes": 293129,
+        "dem_votes": 111598,
+        "rep_votes": 181084,
+        "other_votes": 447,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 23.70492172388266
+      },
+      "8": {
+        "total_votes": 250842,
+        "dem_votes": 187152,
+        "rep_votes": 63460,
+        "other_votes": 230,
+        "dem_candidate": "Brooke Elizabeth Lierman",
+        "rep_candidate": "Barry Glassman",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -49.310721490021606
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "status": "modern_precinct_crosswalk",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2022,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2020,
+    "generated_at_utc": "2026-10-26T04:47:06.403915+00:00",
+    "source": "Maryland SBE 2022 precinct returns via 2020-block official-BEF crosswalk",
+    "input_file": "data/openelections/md_sbe/20221108__md__general__precinct.csv",
+    "crosswalk": "data/crosswalks_bef/precinct_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate split precincts and non-geographic buckets with county-local crosswalk evidence; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2002336.0,
+      "direct_geographic_votes": 1954206.0,
+      "unmatched_geographic_votes": 48130.0,
+      "aliased_geographic_votes": 15030.0,
+      "imputed_votes": 48130.0,
+      "pseudo_votes": 0.0,
+      "allocated_votes": 2002336,
+      "matched_precinct_keys": 1943,
+      "unmatched_precinct_keys": 131,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 97.59630751282502,
+      "direct_geographic_vote_coverage_pct": 97.59630751282502
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 255240,
+        "dem_votes": 138653,
+        "rep_votes": 116294,
+        "other_votes": 293,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -8.759990597085096
+      },
+      "3": {
+        "total_votes": 295749,
+        "dem_votes": 184650,
+        "rep_votes": 110634,
+        "other_votes": 465,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -25.02662730896808
+      },
+      "7": {
+        "total_votes": 185063,
+        "dem_votes": 154093,
+        "rep_votes": 30655,
+        "other_votes": 315,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -66.70052900904017
+      },
+      "5": {
+        "total_votes": 271130,
+        "dem_votes": 181150,
+        "rep_votes": 89615,
+        "other_votes": 365,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.76055766606425
+      },
+      "2": {
+        "total_votes": 269041,
+        "dem_votes": 163862,
+        "rep_votes": 104861,
+        "other_votes": 318,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.930114740875926
+      },
+      "1": {
+        "total_votes": 293935,
+        "dem_votes": 125661,
+        "rep_votes": 167941,
+        "other_votes": 333,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 14.38413254631126
+      },
+      "8": {
+        "total_votes": 266164,
+        "dem_votes": 218143,
+        "rep_votes": 47555,
+        "other_votes": 466,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -64.09131212335252
+      },
+      "4": {
+        "total_votes": 166014,
+        "dem_votes": 151019,
+        "rep_votes": 14738,
+        "other_votes": 257,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Chris Chaffee",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -82.09006469333912
+      }
+    }
+  }
+}

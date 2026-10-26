@@ -10,6 +10,7 @@ The application is a single-page Mapbox GL site backed by generated GeoJSON, CSV
 - County and precinct results sourced from Maryland State Board of Elections returns.
 - Congressional comparisons for the enacted 2022 plan and the Maryland Citizens Redistricting Commission's 2021 recommended plan.
 - House of Delegates and State Senate results on the enacted 2022 lines.
+- 2022 governor, U.S. Senate, comptroller, and attorney general returns aggregated from SBE precinct results to each modern district layer.
 - Historical district estimates routed through the closest available VTD vintage and clearly marked as provisional.
 - County, precinct, and district CVAP context where aggregate files are available.
 
@@ -36,6 +37,10 @@ District results use a county-constrained method modeled on the NCPrecinctMap wo
 5. County contributions are summed into district totals.
 
 This preserves official county and statewide totals while limiting geographic estimation to split-county components. Modern result metadata lists `exact_components` and `allocated_components` for auditability.
+
+For 2022 statewide offices, the pipeline joins SBE precinct codes to the 2020-block official-BEF crosswalks. Direct geographic vote coverage is approximately 97.6%; precincts that changed after 2020 and non-geographic early/absentee/provisional buckets use county-local allocation evidence. Whole-vote largest-remainder rounding preserves every official county/party total. The same method supplies enacted congressional, House of Delegates, State Senate, and 2021 MCRC comparison slices.
+
+Other statewide years with SBE precinct data are already represented through the closest available 2008, 2012, or 2020 VTD/block chain. The county-only 2002 governor result remains available at the county layer because no corresponding precinct file is present in the normalized SBE archive.
 
 ## Repository layout
 
@@ -71,8 +76,10 @@ python scripts/build_md_district_aggregates.py
 python scripts/build_md_2000s_sbe_aggregates.py --promote
 python scripts/build_md_2012_vtd_crosswalks.py
 python scripts/build_md_2010s_sbe_aggregates.py --promote
+python scripts/build_md_2022_sbe_aggregates.py --promote
 python scripts/build_md_actual_legislative_results.py
 python scripts/build_md_county_precinct_contests.py
+python scripts/sync_md_district_candidate_names.py
 ```
 
 See [data/README.md](data/README.md) for source-specific details and provenance.

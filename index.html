@@ -10744,8 +10744,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-26-maryland-regions-v9';
-    const APP_BUILD_ID = '2026-10-26-maryland-regions-v9';
+    const DATA_CACHE_BUSTER = '2026-10-26-mobile-popchange-v10';
+    const APP_BUILD_ID = '2026-10-26-mobile-popchange-v10';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -23881,8 +23881,27 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${value > 0 ? 'up' : 'down'} ${Math.abs(value).toFixed(1)}%`;
     }
 
+    function getCountyPopulationEstimate(...countyNames) {
+      if (!countyPopulationEstimatesByNorm || typeof countyPopulationEstimatesByNorm.get !== 'function') return null;
+      const keys = new Set();
+      countyNames.forEach(name => {
+        const key = normalizeCountyToken(name);
+        if (!key) return;
+        keys.add(key);
+        // Election results normalize St. Mary's to SAINT MARYS, while Census
+        // preserves the abbreviated locality name. Support both spellings.
+        if (/^SAINT\s+MARYS\b/.test(key)) keys.add(key.replace(/^SAINT\s+MARYS\b/, 'ST. MARYS'));
+        if (/^ST\.?\s+MARYS\b/.test(key)) keys.add(key.replace(/^ST\.?\s+MARYS\b/, 'SAINT MARYS'));
+      });
+      for (const key of keys) {
+        const estimate = countyPopulationEstimatesByNorm.get(key);
+        if (estimate) return estimate;
+      }
+      return null;
+    }
+
     function buildPopulationChangeSummaryHTML(countyNorm) {
-      const estimate = countyPopulationEstimatesByNorm?.get(normalizeCountyToken(countyNorm)) || null;
+      const estimate = getCountyPopulationEstimate(countyNorm);
       if (!estimate) return '<div class="tooltip-insight">No Census population estimate is available for this locality.</div>';
       const p2020 = Number(estimate.population2020 || 0);
       const p2025 = Number(estimate.population2025 || 0);
@@ -27926,7 +27945,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // If precinct overlay is enabled and a precinct feature is under the cursor, let the
       // precinct hover path own the tooltip/outline to avoid flicker between layers.
       try {
-        if (precinctsEnabled && e?.point) {
+        if (currentVizMode !== 'population_change' && precinctsEnabled && e?.point) {
           const layers = [];
           if (map.getLayer('precinct-dot')) layers.push('precinct-dot');
           if (map.getLayer('precinct-dot-missing')) layers.push('precinct-dot-missing');
@@ -27988,7 +28007,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
         const copyText = `${countyDisplay}`;
         if (currentVizMode === 'population_change') {
-          const populationSummary = buildPopulationChangeSummaryHTML(norm);
+          const populationSummary = buildPopulationChangeSummaryHTML(countyName || norm);
           showHoverTooltip(
             e.point.x,
             e.point.y,
@@ -28161,7 +28180,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const deltaBlock = buildCountyDeltaBlockHTML(norm, contestType, { presentation: 'desktop-expanded' });
       const popChangeHeaderMeta = (() => {
         if (currentVizMode !== 'population_change') return null;
-        const estimate = countyPopulationEstimatesByNorm?.get(normalizeCountyToken(norm)) || null;
+        const estimate = getCountyPopulationEstimate(countyName, norm, countyDisplay);
         if (!estimate) return null;
         const p2020 = Number(estimate.population2020 || 0);
         const p2025 = Number(estimate.population2025 || 0);
@@ -28283,6 +28302,40 @@ document.addEventListener('DOMContentLoaded', function() {
         fallbackFullName: fallbackFull
       });
       const title = `${displayPrecinctLocalityName(countyName)} - ${displayPrecinct}`;
+
+      // Pop Change is county-level Census data. On touch devices a precinct
+      // layer can sit above the county fill and otherwise steal the tap. Route
+      // that interaction back through the county tooltip so mobile matches the
+      // county Pop Change experience even when precincts are enabled.
+      if (currentVizMode === 'population_change' && point && map?.getLayer?.('county-fill')) {
+        try {
+          const countyFeatures = map.queryRenderedFeatures(point, { layers: ['county-fill'] });
+          if (countyFeatures && countyFeatures.length) {
+            clearPrecinctHoverFeature();
+            renderCountyHoverAtPoint(
+              { point, features: [countyFeatures[0]] },
+              { forceTooltip: !!forceTooltip }
+            );
+            return;
+          }
+        } catch (_) {}
+
+        const countyDisplay = displayCountyName(countyName);
+        const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
+        const copyText = countyDisplay;
+        showHoverTooltip(
+          point.x,
+          point.y,
+          buildTooltipShell(
+            buildTooltipTitleWithTier(countyDisplay),
+            buildPopulationChangeSummaryHTML(countyName),
+            { pinned: pinnedShell, showClose: pinnedShell, copyText }
+          ),
+          { force: !!forceTooltip, pinned: pinnedShell, context: 'votehub-results', copyText }
+        );
+        wireTooltipButtons();
+        return;
+      }
       setPrecinctHoverFeature(feature);
 
       const contestValue = document.getElementById('contestSelect')?.value || '';

@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "attorney_general",
+    "year": 2006,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T03:24:28.745444+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1711090.0,
+      "direct_geographic_votes": 1401724.0,
+      "aliased_geographic_votes": 27639.0,
+      "pseudo_votes": 176720.0,
+      "unmatched_geographic_votes": 132646.0,
+      "imputed_votes": 309366.0,
+      "allocated_votes": 1711090,
+      "matched_precinct_keys": 1630,
+      "unmatched_precinct_keys": 187,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 81.91994576556463,
+      "direct_geographic_vote_coverage_pct": 91.35501867215861
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 185256,
+        "dem_votes": 85888,
+        "rep_votes": 99217,
+        "other_votes": 151,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 7.194908666925767
+      },
+      "3": {
+        "total_votes": 247350,
+        "dem_votes": 132020,
+        "rep_votes": 115074,
+        "other_votes": 256,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -6.851020820699413
+      },
+      "5": {
+        "total_votes": 191283,
+        "dem_votes": 119016,
+        "rep_votes": 72127,
+        "other_votes": 140,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -24.512894507091588
+      },
+      "7": {
+        "total_votes": 196889,
+        "dem_votes": 152631,
+        "rep_votes": 43889,
+        "other_votes": 369,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -55.23010427195019
+      },
+      "2": {
+        "total_votes": 248631,
+        "dem_votes": 130428,
+        "rep_votes": 117929,
+        "other_votes": 274,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -5.027128555972506
+      },
+      "1": {
+        "total_votes": 244065,
+        "dem_votes": 107105,
+        "rep_votes": 136774,
+        "other_votes": 186,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 12.156187900764142
+      },
+      "8": {
+        "total_votes": 244406,
+        "dem_votes": 183662,
+        "rep_votes": 60351,
+        "other_votes": 393,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -50.453344025924075
+      },
+      "4": {
+        "total_votes": 153210,
+        "dem_votes": 132814,
+        "rep_votes": 20217,
+        "other_votes": 179,
+        "dem_candidate": "Douglas F. Gansler",
+        "rep_candidate": "Scott L. Rolle",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -73.49193916846158
+      }
+    }
+  }
+}

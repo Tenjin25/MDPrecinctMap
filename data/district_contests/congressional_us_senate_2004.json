@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2004,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T03:24:28.745444+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2323183.0,
+      "direct_geographic_votes": 2003237.0,
+      "aliased_geographic_votes": 46344.0,
+      "unmatched_geographic_votes": 158965.0,
+      "pseudo_votes": 160981.0,
+      "imputed_votes": 319946.0,
+      "allocated_votes": 2323183,
+      "matched_precinct_keys": 1641,
+      "unmatched_precinct_keys": 170,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 86.22811892132475,
+      "direct_geographic_vote_coverage_pct": 92.64800421052242
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 263871,
+        "dem_votes": 140766,
+        "rep_votes": 119019,
+        "other_votes": 4086,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -8.241527109837762
+      },
+      "3": {
+        "total_votes": 321492,
+        "dem_votes": 186049,
+        "rep_votes": 130474,
+        "other_votes": 4969,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -17.286588779814117
+      },
+      "5": {
+        "total_votes": 267748,
+        "dem_votes": 167806,
+        "rep_votes": 96047,
+        "other_votes": 3895,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.80094715926916
+      },
+      "7": {
+        "total_votes": 269405,
+        "dem_votes": 221637,
+        "rep_votes": 43213,
+        "other_votes": 4555,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -66.22891186132402
+      },
+      "2": {
+        "total_votes": 320584,
+        "dem_votes": 185424,
+        "rep_votes": 130059,
+        "other_votes": 5101,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -17.270044668480026
+      },
+      "1": {
+        "total_votes": 317709,
+        "dem_votes": 158613,
+        "rep_votes": 155395,
+        "other_votes": 3701,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -1.0128765631442609
+      },
+      "8": {
+        "total_votes": 323431,
+        "dem_votes": 237185,
+        "rep_votes": 81127,
+        "other_votes": 5119,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -48.25078610275453
+      },
+      "4": {
+        "total_votes": 238943,
+        "dem_votes": 207211,
+        "rep_votes": 27877,
+        "other_votes": 3855,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "E. J. Pipkin",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -75.05304612397099
+      }
+    }
+  }
+}

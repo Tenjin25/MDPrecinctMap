@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "attorney_general",
+    "year": 2014,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2012,
+    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1677269.0,
+      "direct_geographic_votes": 1261240.0,
+      "unmatched_geographic_votes": 48614.0,
+      "pseudo_votes": 367415.0,
+      "aliased_geographic_votes": 15332.0,
+      "imputed_votes": 416029.0,
+      "allocated_votes": 1677269,
+      "matched_precinct_keys": 1830,
+      "unmatched_precinct_keys": 222,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 75.19604786113618,
+      "direct_geographic_vote_coverage_pct": 96.28859399597206
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 223465,
+        "dem_votes": 77715,
+        "rep_votes": 136128,
+        "other_votes": 9622,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 26.139663929474416
+      },
+      "7": {
+        "total_votes": 180882,
+        "dem_votes": 132308,
+        "rep_votes": 41145,
+        "other_votes": 7429,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -50.39915525038423
+      },
+      "3": {
+        "total_votes": 241728,
+        "dem_votes": 113457,
+        "rep_votes": 118974,
+        "other_votes": 9297,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.282317315329627
+      },
+      "2": {
+        "total_votes": 224857,
+        "dem_votes": 125169,
+        "rep_votes": 90958,
+        "other_votes": 8730,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -15.214558586123625
+      },
+      "1": {
+        "total_votes": 247545,
+        "dem_votes": 87539,
+        "rep_votes": 149828,
+        "other_votes": 10178,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 25.16269769132885
+      },
+      "5": {
+        "total_votes": 209070,
+        "dem_votes": 142886,
+        "rep_votes": 60784,
+        "other_votes": 5400,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.27010092313579
+      },
+      "8": {
+        "total_votes": 194576,
+        "dem_votes": 130030,
+        "rep_votes": 59598,
+        "other_votes": 4948,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -36.19768111175068
+      },
+      "4": {
+        "total_votes": 155146,
+        "dem_votes": 126742,
+        "rep_votes": 24850,
+        "other_votes": 3554,
+        "dem_candidate": "Brian E. Frosh",
+        "rep_candidate": "Jeffrey N. Pritzker",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -65.67491266291107
+      }
+    }
+  }
+}

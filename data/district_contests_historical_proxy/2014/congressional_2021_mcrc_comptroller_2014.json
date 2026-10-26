@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "comptroller",
+    "year": 2014,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2012,
+    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1693912.0,
+      "direct_geographic_votes": 1273267.0,
+      "unmatched_geographic_votes": 49061.0,
+      "pseudo_votes": 371584.0,
+      "aliased_geographic_votes": 15647.0,
+      "imputed_votes": 420645.0,
+      "allocated_votes": 1693912,
+      "matched_precinct_keys": 1830,
+      "unmatched_precinct_keys": 222,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 75.1672459962501,
+      "direct_geographic_vote_coverage_pct": 96.28980101759926
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 227772,
+        "dem_votes": 100701,
+        "rep_votes": 126792,
+        "other_votes": 279,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.454875928560138
+      },
+      "7": {
+        "total_votes": 182460,
+        "dem_votes": 143552,
+        "rep_votes": 38428,
+        "other_votes": 480,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -57.614819686506635
+      },
+      "3": {
+        "total_votes": 243846,
+        "dem_votes": 135146,
+        "rep_votes": 108343,
+        "other_votes": 357,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -10.991773496387063
+      },
+      "2": {
+        "total_votes": 227014,
+        "dem_votes": 149661,
+        "rep_votes": 76992,
+        "other_votes": 361,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -32.01080109596765
+      },
+      "1": {
+        "total_votes": 252953,
+        "dem_votes": 123258,
+        "rep_votes": 129461,
+        "other_votes": 234,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.452234209517183
+      },
+      "5": {
+        "total_votes": 210833,
+        "dem_votes": 148198,
+        "rep_votes": 62389,
+        "other_votes": 246,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -40.69998529641944
+      },
+      "8": {
+        "total_votes": 193859,
+        "dem_votes": 131701,
+        "rep_votes": 61843,
+        "other_votes": 315,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -36.03546907804125
+      },
+      "4": {
+        "total_votes": 155175,
+        "dem_votes": 129050,
+        "rep_votes": 25861,
+        "other_votes": 264,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "William H. Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -66.49846946995328
+      }
+    }
+  }
+}

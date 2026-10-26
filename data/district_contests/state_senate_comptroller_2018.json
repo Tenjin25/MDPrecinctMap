@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "comptroller",
+    "year": 2018,
+    "district_lines_year": 2022,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2018_gen_2020_blocks.zip",
+    "bef_file": "data/MD-2022OFFICIALLYADOPTEDSENATE.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20181106__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1": [
+        "ALLEGANY",
+        "GARRETT"
+      ],
+      "29": [
+        "SAINTMARYS"
+      ],
+      "36": [
+        "KENT",
+        "QUEENANNES"
+      ],
+      "37": [
+        "DORCHESTER",
+        "TALBOT"
+      ],
+      "38": [
+        "SOMERSET",
+        "WORCESTER"
+      ]
+    },
+    "allocated_components": {
+      "1": [
+        "WASHINGTON"
+      ],
+      "10": [
+        "BALTIMORE"
+      ],
+      "11": [
+        "BALTIMORE"
+      ],
+      "12": [
+        "ANNEARUNDEL",
+        "HOWARD"
+      ],
+      "13": [
+        "HOWARD"
+      ],
+      "14": [
+        "MONTGOMERY"
+      ],
+      "15": [
+        "MONTGOMERY"
+      ],
+      "16": [
+        "MONTGOMERY"
+      ],
+      "17": [
+        "MONTGOMERY"
+      ],
+      "18": [
+        "MONTGOMERY"
+      ],
+      "19": [
+        "MONTGOMERY"
+      ],
+      "2": [
+        "FREDERICK",
+        "WASHINGTON"
+      ],
+      "20": [
+        "MONTGOMERY"
+      ],
+      "21": [
+        "ANNEARUNDEL",
+        "PRINCEGEORGES"
+      ],
+      "22": [
+        "PRINCEGEORGES"
+      ],
+      "23": [
+        "PRINCEGEORGES"
+      ],
+      "24": [
+        "PRINCEGEORGES"
+      ],
+      "25": [
+        "PRINCEGEORGES"
+      ],
+      "26": [
+        "PRINCEGEORGES"
+      ],
+      "27": [
+        "CALVERT",
+        "CHARLES",
+        "PRINCEGEORGES"
+      ],
+      "28": [
+        "CHARLES"
+      ],
+      "29": [
+        "CALVERT"
+      ],
+      "3": [
+        "FREDERICK"
+      ],
+      "30": [
+        "ANNEARUNDEL"
+      ],
+      "31": [
+        "ANNEARUNDEL"
+      ],
+      "32": [
+        "ANNEARUNDEL"
+      ],
+      "33": [
+        "ANNEARUNDEL"
+      ],
+      "34": [
+        "HARFORD"
+      ],
+      "35": [
+        "CECIL",
+        "HARFORD"
+      ],
+      "36": [
+        "CAROLINE",
+        "CECIL"
+      ],
+      "37": [
+        "CAROLINE",
+        "WICOMICO"
+      ],
+      "38": [
+        "WICOMICO"
+      ],
+      "39": [
+        "MONTGOMERY"
+      ],
+      "4": [
+        "FREDERICK"
+      ],
+      "40": [
+        "BALTIMORECITY"
+      ],
+      "41": [
+        "BALTIMORECITY"
+      ],
+      "42": [
+        "BALTIMORE",
+        "CARROLL"
+      ],
+      "43": [
+        "BALTIMORE",
+        "BALTIMORECITY"
+      ],
+      "44": [
+        "BALTIMORE"
+      ],
+      "45": [
+        "BALTIMORECITY"
+      ],
+      "46": [
+        "BALTIMORECITY"
+      ],
+      "47": [
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "CARROLL",
+        "FREDERICK"
+      ],
+      "6": [
+        "BALTIMORE"
+      ],
+      "7": [
+        "BALTIMORE",
+        "HARFORD"
+      ],
+      "8": [
+        "BALTIMORE"
+      ],
+      "9": [
+        "HOWARD",
+        "MONTGOMERY"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 45896,
+        "dem_votes": 20727,
+        "rep_votes": 25133,
+        "other_votes": 36,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 9.599965138574168
+      },
+      "2": {
+        "total_votes": 40379,
+        "dem_votes": 20638,
+        "rep_votes": 19710,
+        "other_votes": 31,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -2.2982243245251244
+      },
+      "3": {
+        "total_votes": 40994,
+        "dem_votes": 28541,
+        "rep_votes": 12403,
+        "other_votes": 50,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.366736595599356
+      },
+      "4": {
+        "total_votes": 56027,
+        "dem_votes": 29836,
+        "rep_votes": 26140,
+        "other_votes": 51,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -6.5968193906509365
+      },
+      "5": {
+        "total_votes": 56484,
+        "dem_votes": 29162,
+        "rep_votes": 27282,
+        "other_votes": 40,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -3.328376177324552
+      },
+      "6": {
+        "total_votes": 40125,
+        "dem_votes": 24717,
+        "rep_votes": 15354,
+        "other_votes": 54,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -23.334579439252337
+      },
+      "7": {
+        "total_votes": 55353,
+        "dem_votes": 31677,
+        "rep_votes": 23630,
+        "other_votes": 46,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -14.537604104565244
+      },
+      "8": {
+        "total_votes": 45573,
+        "dem_votes": 33189,
+        "rep_votes": 12311,
+        "other_votes": 73,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -45.812213371952694
+      },
+      "9": {
+        "total_votes": 52259,
+        "dem_votes": 33934,
+        "rep_votes": 18266,
+        "other_votes": 59,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -29.981438603876843
+      },
+      "10": {
+        "total_votes": 42756,
+        "dem_votes": 35594,
+        "rep_votes": 7111,
+        "other_votes": 51,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -66.61755075311068
+      },
+      "11": {
+        "total_votes": 51291,
+        "dem_votes": 39030,
+        "rep_votes": 12192,
+        "other_votes": 69,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -52.32496929285839
+      },
+      "12": {
+        "total_votes": 49619,
+        "dem_votes": 36997,
+        "rep_votes": 12537,
+        "other_votes": 85,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -49.29563272133659
+      },
+      "13": {
+        "total_votes": 56227,
+        "dem_votes": 43153,
+        "rep_votes": 12994,
+        "other_votes": 80,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -53.63793195439913
+      },
+      "14": {
+        "total_votes": 52828,
+        "dem_votes": 39633,
+        "rep_votes": 13127,
+        "other_votes": 68,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -50.17415007193156
+      },
+      "15": {
+        "total_votes": 52406,
+        "dem_votes": 38039,
+        "rep_votes": 14313,
+        "other_votes": 54,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -45.27344197229325
+      },
+      "16": {
+        "total_votes": 60213,
+        "dem_votes": 48020,
+        "rep_votes": 12077,
+        "other_votes": 116,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -59.693089532160826
+      },
+      "17": {
+        "total_votes": 43239,
+        "dem_votes": 34608,
+        "rep_votes": 8570,
+        "other_votes": 61,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.21878396817688
+      },
+      "18": {
+        "total_votes": 50350,
+        "dem_votes": 42177,
+        "rep_votes": 8062,
+        "other_votes": 111,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -67.75571002979146
+      },
+      "19": {
+        "total_votes": 48719,
+        "dem_votes": 38397,
+        "rep_votes": 10249,
+        "other_votes": 73,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -57.77622693405037
+      },
+      "20": {
+        "total_votes": 43968,
+        "dem_votes": 39538,
+        "rep_votes": 4358,
+        "other_votes": 72,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.0127365356623
+      },
+      "21": {
+        "total_votes": 36372,
+        "dem_votes": 29593,
+        "rep_votes": 6733,
+        "other_votes": 46,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -62.85054437479379
+      },
+      "22": {
+        "total_votes": 38463,
+        "dem_votes": 34678,
+        "rep_votes": 3734,
+        "other_votes": 51,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.45134284897173
+      },
+      "23": {
+        "total_votes": 52974,
+        "dem_votes": 45620,
+        "rep_votes": 7286,
+        "other_votes": 68,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -72.36380110997848
+      },
+      "24": {
+        "total_votes": 48855,
+        "dem_votes": 46142,
+        "rep_votes": 2638,
+        "other_votes": 75,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -89.04718043189028
+      },
+      "25": {
+        "total_votes": 49029,
+        "dem_votes": 46659,
+        "rep_votes": 2308,
+        "other_votes": 62,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -90.45870811152584
+      },
+      "26": {
+        "total_votes": 48443,
+        "dem_votes": 45028,
+        "rep_votes": 3356,
+        "other_votes": 59,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -86.02274838469954
+      },
+      "27": {
+        "total_votes": 54873,
+        "dem_votes": 36630,
+        "rep_votes": 18183,
+        "other_votes": 60,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.617626154939586
+      },
+      "28": {
+        "total_votes": 50946,
+        "dem_votes": 37617,
+        "rep_votes": 13278,
+        "other_votes": 51,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -47.77411376751855
+      },
+      "29": {
+        "total_votes": 47611,
+        "dem_votes": 24353,
+        "rep_votes": 23212,
+        "other_votes": 46,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -2.3965050093465794
+      },
+      "30": {
+        "total_votes": 50482,
+        "dem_votes": 32454,
+        "rep_votes": 17956,
+        "other_votes": 72,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -28.71914741888198
+      },
+      "31": {
+        "total_votes": 55294,
+        "dem_votes": 31251,
+        "rep_votes": 23975,
+        "other_votes": 68,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -13.158751401598726
+      },
+      "32": {
+        "total_votes": 42899,
+        "dem_votes": 30889,
+        "rep_votes": 11948,
+        "other_votes": 62,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -44.1525443483531
+      },
+      "33": {
+        "total_votes": 56805,
+        "dem_votes": 36013,
+        "rep_votes": 20711,
+        "other_votes": 81,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.93776956253851
+      },
+      "34": {
+        "total_votes": 47153,
+        "dem_votes": 29790,
+        "rep_votes": 17299,
+        "other_votes": 64,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.490361164719108
+      },
+      "35": {
+        "total_votes": 58546,
+        "dem_votes": 28518,
+        "rep_votes": 29963,
+        "other_votes": 65,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.468144706726335
+      },
+      "36": {
+        "total_votes": 50901,
+        "dem_votes": 28842,
+        "rep_votes": 22019,
+        "other_votes": 40,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -13.404451778943438
+      },
+      "37": {
+        "total_votes": 50966,
+        "dem_votes": 33995,
+        "rep_votes": 16938,
+        "other_votes": 33,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.467409645646114
+      },
+      "38": {
+        "total_votes": 49238,
+        "dem_votes": 26899,
+        "rep_votes": 22290,
+        "other_votes": 49,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -9.360656403590722
+      },
+      "39": {
+        "total_votes": 43910,
+        "dem_votes": 34720,
+        "rep_votes": 9145,
+        "other_votes": 45,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -58.24413573217946
+      },
+      "40": {
+        "total_votes": 38382,
+        "dem_votes": 35424,
+        "rep_votes": 2840,
+        "other_votes": 118,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -84.89396071074982
+      },
+      "41": {
+        "total_votes": 37740,
+        "dem_votes": 34133,
+        "rep_votes": 3510,
+        "other_votes": 97,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -81.1420243773185
+      },
+      "42": {
+        "total_votes": 58339,
+        "dem_votes": 34923,
+        "rep_votes": 23363,
+        "other_votes": 53,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -19.81521795025626
+      },
+      "43": {
+        "total_votes": 44031,
+        "dem_votes": 38802,
+        "rep_votes": 5056,
+        "other_votes": 173,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -76.64145715518612
+      },
+      "44": {
+        "total_votes": 44990,
+        "dem_votes": 36531,
+        "rep_votes": 8393,
+        "other_votes": 66,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -62.54278728606357
+      },
+      "45": {
+        "total_votes": 38229,
+        "dem_votes": 35058,
+        "rep_votes": 3106,
+        "other_votes": 65,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -83.58052787151115
+      },
+      "46": {
+        "total_votes": 37621,
+        "dem_votes": 29969,
+        "rep_votes": 7538,
+        "other_votes": 114,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -59.62361447064139
+      },
+      "47": {
+        "total_votes": 30440,
+        "dem_votes": 28126,
+        "rep_votes": 2274,
+        "other_votes": 40,
+        "dem_candidate": "Peter Franchot",
+        "rep_candidate": "Anjali Reed Phukan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -84.92772667542707
+      }
+    }
+  }
+}

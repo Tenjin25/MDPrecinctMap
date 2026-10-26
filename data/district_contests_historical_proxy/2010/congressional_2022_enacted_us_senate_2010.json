@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2010,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2012,
+    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1833860.0,
+      "direct_geographic_votes": 1501823.0,
+      "unmatched_geographic_votes": 10502.0,
+      "pseudo_votes": 321535.0,
+      "aliased_geographic_votes": 16840.0,
+      "imputed_votes": 332037.0,
+      "allocated_votes": 1833860,
+      "matched_precinct_keys": 1858,
+      "unmatched_precinct_keys": 30,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 81.89409224259214,
+      "direct_geographic_vote_coverage_pct": 99.30557254558379
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 198744,
+        "dem_votes": 99637,
+        "rep_votes": 93883,
+        "other_votes": 5224,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -2.8951817413355876
+      },
+      "3": {
+        "total_votes": 262252,
+        "dem_votes": 141414,
+        "rep_votes": 114965,
+        "other_votes": 5873,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -10.085337766728184
+      },
+      "5": {
+        "total_votes": 229119,
+        "dem_votes": 146058,
+        "rep_votes": 79129,
+        "other_votes": 3932,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -29.21145780140451
+      },
+      "7": {
+        "total_votes": 209640,
+        "dem_votes": 170877,
+        "rep_votes": 34728,
+        "other_votes": 4035,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -64.94419004006869
+      },
+      "2": {
+        "total_votes": 268277,
+        "dem_votes": 144463,
+        "rep_votes": 117634,
+        "other_votes": 6180,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -10.000484573780085
+      },
+      "1": {
+        "total_votes": 268570,
+        "dem_votes": 122837,
+        "rep_votes": 139522,
+        "other_votes": 6211,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 6.21253304538854
+      },
+      "8": {
+        "total_votes": 227827,
+        "dem_votes": 163674,
+        "rep_votes": 60199,
+        "other_votes": 3954,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -45.41823401089423
+      },
+      "4": {
+        "total_votes": 169431,
+        "dem_votes": 151791,
+        "rep_votes": 15816,
+        "other_votes": 1824,
+        "dem_candidate": "Barbara A. Mikulski",
+        "rep_candidate": "Eric Wargotz",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.25390867078633
+      }
+    }
+  }
+}

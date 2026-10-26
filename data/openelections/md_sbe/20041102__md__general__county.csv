@@ -1,0 +1,863 @@
+county,precinct,office,district,party,candidate,votes,winner
+Allegany,,Board of Education,,NON,C. Fred Sloan,12975,TRUE
+Allegany,,Board of Education,,NON,Jeffery T. Metz,15429,TRUE
+Allegany,,Board of Education,,NON,Judie Thelen,9401,
+Allegany,,Board of Education,,NON,Kimi-Scott McGreevy,11529,
+Allegany,,Board of Education,,NON,Other Write-Ins,61,
+Allegany,,Council - City of Cumberland,001,NON,Deborah Smith,1768,
+Allegany,,Council - City of Cumberland,001,NON,"Edward C. Hedrick, Jr.",4015,TRUE
+Allegany,,Council - City of Cumberland,001,NON,James F. Combs,3347,
+Allegany,,Council - City of Cumberland,001,NON,Terance J. Rephann,3927,TRUE
+Allegany,,Judge of the Circuit Court,04,BOT,Other Write-Ins,116,
+Allegany,,Judge of the Circuit Court,04,BOT,W. Timothy Finan,24040,TRUE
+Allegany,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",19179,TRUE
+Allegany,,President,,BOT,Other Write-Ins,9,
+Allegany,,President,,CON,Michael Anthony Peroutka,55,
+Allegany,,President,,DEM,John F. Kerry,10576,TRUE
+Allegany,,President,,DEM,John Joseph Kennedy,0,
+Allegany,,President,,GRN,David Cobb,25,
+Allegany,,President,,IND,Joe Schriner,0,
+Allegany,,President,,IND,Lawson Mitchell Bone,0,
+Allegany,,President,,IND,"Robert Abraham Boyle, II",0,
+Allegany,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Allegany,,President,,LIB,Michael Badnarik,43,
+Allegany,,President,,POP,Ralph Nader,167,
+Allegany,,President,,REP,George W. Bush,18980,
+Allegany,,U.S. House,06,BOT,Other Write-Ins,7,
+Allegany,,U.S. House,06,DEM,Kenneth T. Bosley,7793,
+Allegany,,U.S. House,06,GRN,Gregory J. Hemingway,608,
+Allegany,,U.S. House,06,REP,Roscoe G. Bartlett,19179,TRUE
+Allegany,,U.S. Senate,,BOT,Other Write-Ins,8,
+Allegany,,U.S. Senate,,CON,Thomas Trump,162,
+Allegany,,U.S. Senate,,DEM,Barbara A. Mikulski,15238,TRUE
+Allegany,,U.S. Senate,,GRN,Maria Allwine,271,
+Allegany,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Allegany,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Allegany,,U.S. Senate,,REP,E. J. Pipkin,12882,
+Allegany,,U.S. Senate,,REP,Ray Bly,0,
+Anne Arundel,,Judge of the Circuit Court,05,BOT,David S. Bruce,85563,
+Anne Arundel,,Judge of the Circuit Court,05,BOT,Michele D. Jaklitsch,90486,TRUE
+Anne Arundel,,Judge of the Circuit Court,05,BOT,Other Write-Ins,1082,
+Anne Arundel,,Judge of the Circuit Court,05,BOT,Paul F. Harris,88350,TRUE
+Anne Arundel,,Judge of the Circuit Court,05,BOT,Paul Goetzke,93405,TRUE
+Anne Arundel,,Judge of the Circuit Court,05,BOT,Rodney C. Warren,80785,
+Anne Arundel,,Judge of the Circuit Court,05,BOT,Stephen P. Beatty,53163,
+Anne Arundel,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",153414,TRUE
+Anne Arundel,,President,,BOT,Other Write-Ins,280,
+Anne Arundel,,President,,CON,Michael Anthony Peroutka,510,
+Anne Arundel,,President,,DEM,John F. Kerry,103324,TRUE
+Anne Arundel,,President,,DEM,John Joseph Kennedy,0,
+Anne Arundel,,President,,GRN,David Cobb,343,
+Anne Arundel,,President,,IND,Joe Schriner,0,
+Anne Arundel,,President,,IND,Lawson Mitchell Bone,0,
+Anne Arundel,,President,,IND,"Robert Abraham Boyle, II",0,
+Anne Arundel,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Anne Arundel,,President,,LIB,Michael Badnarik,718,
+Anne Arundel,,President,,POP,Ralph Nader,1261,
+Anne Arundel,,President,,REP,George W. Bush,133231,
+Anne Arundel,,U.S. House,01,BOT,Other Write-Ins,100,
+Anne Arundel,,U.S. House,01,DEM,Kostas Alexakis,14391,
+Anne Arundel,,U.S. House,01,REP,Wayne T. Gilchrest,41476,TRUE
+Anne Arundel,,U.S. House,02,BOT,Other Write-Ins,33,
+Anne Arundel,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,23569,TRUE
+Anne Arundel,,U.S. House,02,GRN,Keith Salkowski,893,
+Anne Arundel,,U.S. House,02,REP,Jane Brooks,14199,
+Anne Arundel,,U.S. House,03,BOT,Other Write-Ins,91,
+Anne Arundel,,U.S. House,03,DEM,Benjamin L. Cardin,52959,TRUE
+Anne Arundel,,U.S. House,03,GRN,Patsy Allen,2769,
+Anne Arundel,,U.S. House,03,REP,Robert P. Duckworth,50858,
+Anne Arundel,,U.S. House,05,BOT,Other Write-Ins,12,
+Anne Arundel,,U.S. House,05,CON,Steve Krukar,169,
+Anne Arundel,,U.S. House,05,DEM,Steny H. Hoyer,13372,TRUE
+Anne Arundel,,U.S. House,05,GRN,Bob S. Auerbach,505,
+Anne Arundel,,U.S. House,05,REP,Brad Jewitt,11972,
+Anne Arundel,,U.S. Senate,,BOT,Other Write-Ins,120,
+Anne Arundel,,U.S. Senate,,CON,Thomas Trump,967,
+Anne Arundel,,U.S. Senate,,DEM,Barbara A. Mikulski,129166,TRUE
+Anne Arundel,,U.S. Senate,,GRN,Maria Allwine,2458,
+Anne Arundel,,U.S. Senate,,LIB,"Robert Gemmill, II",14,
+Anne Arundel,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",2,
+Anne Arundel,,U.S. Senate,,REP,E. J. Pipkin,102522,
+Anne Arundel,,U.S. Senate,,REP,Ray Bly,2,
+Baltimore,,Judge of the Circuit Court,03,BOT,Dana Mark Levitz,176677,TRUE
+Baltimore,,Judge of the Circuit Court,03,BOT,"John Grason Turnbull, II",183316,TRUE
+Baltimore,,Judge of the Circuit Court,03,BOT,Other Write-Ins,2373,
+Baltimore,,Judge of the Circuit Court,03,BOT,Susan Souder,186780,TRUE
+Baltimore,,Judge of the Circuit Court,03,BOT,Vicki Ballou-Watts,188212,TRUE
+Baltimore,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",239067,TRUE
+Baltimore,,President,,BOT,Other Write-Ins,333,
+Baltimore,,President,,CON,Michael Anthony Peroutka,667,
+Baltimore,,President,,DEM,John F. Kerry,182474,TRUE
+Baltimore,,President,,DEM,John Joseph Kennedy,0,
+Baltimore,,President,,GRN,David Cobb,664,
+Baltimore,,President,,IND,Joe Schriner,1,
+Baltimore,,President,,IND,Lawson Mitchell Bone,0,
+Baltimore,,President,,IND,"Robert Abraham Boyle, II",0,
+Baltimore,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Baltimore,,President,,LIB,Michael Badnarik,1219,
+Baltimore,,President,,POP,Ralph Nader,2070,
+Baltimore,,President,,REP,George W. Bush,166051,
+Baltimore,,U.S. House,01,BOT,Other Write-Ins,40,
+Baltimore,,U.S. House,01,DEM,Kostas Alexakis,8628,
+Baltimore,,U.S. House,01,REP,Wayne T. Gilchrest,25512,TRUE
+Baltimore,,U.S. House,02,BOT,Other Write-Ins,123,
+Baltimore,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,96723,TRUE
+Baltimore,,U.S. House,02,GRN,Keith Salkowski,3980,
+Baltimore,,U.S. House,02,REP,Jane Brooks,46236,
+Baltimore,,U.S. House,03,BOT,Other Write-Ins,78,
+Baltimore,,U.S. House,03,DEM,Benjamin L. Cardin,59842,TRUE
+Baltimore,,U.S. House,03,GRN,Patsy Allen,1995,
+Baltimore,,U.S. House,03,REP,Robert P. Duckworth,23795,
+Baltimore,,U.S. House,06,BOT,Other Write-Ins,8,
+Baltimore,,U.S. House,06,DEM,Kenneth T. Bosley,4813,
+Baltimore,,U.S. House,06,GRN,Gregory J. Hemingway,806,
+Baltimore,,U.S. House,06,REP,Roscoe G. Bartlett,11255,TRUE
+Baltimore,,U.S. House,07,BOT,Other Write-Ins,40,
+Baltimore,,U.S. House,07,DEM,Elijah E. Cummings,38901,TRUE
+Baltimore,,U.S. House,07,GRN,Virginia T. Rodino,969,
+Baltimore,,U.S. House,07,REP,Tony Salazar,13173,
+Baltimore,,U.S. Senate,,BOT,Other Write-Ins,206,
+Baltimore,,U.S. Senate,,CON,Thomas Trump,1288,
+Baltimore,,U.S. Senate,,DEM,Barbara A. Mikulski,217688,TRUE
+Baltimore,,U.S. Senate,,GRN,Maria Allwine,3781,
+Baltimore,,U.S. Senate,,LIB,"Robert Gemmill, II",6,
+Baltimore,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",4,
+Baltimore,,U.S. Senate,,REP,E. J. Pipkin,124092,
+Baltimore,,U.S. Senate,,REP,Ray Bly,5,
+Baltimore City,,Comptroller,,BOT,Other Write-Ins,1144,
+Baltimore City,,Comptroller,,DEM,Joan M. Pratt,165778,TRUE
+Baltimore City,,Judge of the Circuit Court,08,BOT,Althea M. Handy,102256,TRUE
+Baltimore City,,Judge of the Circuit Court,08,BOT,Edward R. K. Hargadon,87302,TRUE
+Baltimore City,,Judge of the Circuit Court,08,BOT,John N. Prevas,89333,TRUE
+Baltimore City,,Judge of the Circuit Court,08,BOT,Other Write-Ins,1440,
+Baltimore City,,Judge of the Circuit Court,08,BOT,Sylvester B. Cox,95601,TRUE
+Baltimore City,,Judge of the Circuit Court,08,BOT,W. Michel Pierson,89468,TRUE
+Baltimore City,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",129199,TRUE
+Baltimore City,,Mayor,,BOT,Other Write-Ins,772,
+Baltimore City,,Mayor,,DEM,Charles U. Smith,4,
+Baltimore City,,Mayor,,DEM,Frank M. Conaway,926,
+Baltimore City,,Mayor,,DEM,Martin O'Malley,173030,TRUE
+Baltimore City,,Mayor,,REP,Elbert R. Henderson,24445,
+Baltimore City,,Member of the City Council,001,BOT,Other Write-Ins,11,
+Baltimore City,,Member of the City Council,001,DEM,James B. Kraft,8285,TRUE
+Baltimore City,,Member of the City Council,001,GRN,Matt Clark,1882,
+Baltimore City,,Member of the City Council,001,REP,Roberto L. Marsili,2673,
+Baltimore City,,Member of the City Council,002,BOT,Other Write-Ins,25,
+Baltimore City,,Member of the City Council,002,DEM,"Nicholas C. D'Adamo, Jr.",10482,TRUE
+Baltimore City,,Member of the City Council,002,LIB,Lorenzo Gaztanaga,525,
+Baltimore City,,Member of the City Council,002,REP,Will Bauer,1277,
+Baltimore City,,Member of the City Council,003,BOT,Other Write-Ins,27,
+Baltimore City,,Member of the City Council,003,DEM,Robert W. Curran,11252,TRUE
+Baltimore City,,Member of the City Council,003,GRN,Bill Barry,1707,
+Baltimore City,,Member of the City Council,003,REP,Carlos M. Torres,2320,
+Baltimore City,,Member of the City Council,004,BOT,Other Write-Ins,11,
+Baltimore City,,Member of the City Council,004,DEM,"Kenneth N. Harris, Sr.",12223,TRUE
+Baltimore City,,Member of the City Council,004,GRN,David G. S. Greene,1601,
+Baltimore City,,Member of the City Council,004,REP,Armand F. Girard,1419,
+Baltimore City,,Member of the City Council,005,BOT,Other Write-Ins,25,
+Baltimore City,,Member of the City Council,005,DEM,Rochelle Rikki Spector,13484,TRUE
+Baltimore City,,Member of the City Council,005,GRN,Terrence T. Fitzgerald,2649,
+Baltimore City,,Member of the City Council,005,REP,Elliott Cahan,1741,
+Baltimore City,,Member of the City Council,006,BOT,Other Write-Ins,31,
+Baltimore City,,Member of the City Council,006,DEM,Stephanie Rawlings-Blake,11325,TRUE
+Baltimore City,,Member of the City Council,006,REP,Melvin A. Bilal,3257,
+Baltimore City,,Member of the City Council,007,BOT,Other Write-Ins,41,
+Baltimore City,,Member of the City Council,007,DEM,Belinda K. Conaway,11388,TRUE
+Baltimore City,,Member of the City Council,007,REP,Owen B. Hanratty,1151,
+Baltimore City,,Member of the City Council,008,BOT,Other Write-Ins,20,
+Baltimore City,,Member of the City Council,008,DEM,Helen L. Holton,8930,TRUE
+Baltimore City,,Member of the City Council,008,IND,"Jacquiline Jackie"" Johnson""",5613,
+Baltimore City,,Member of the City Council,009,BOT,Other Write-Ins,56,
+Baltimore City,,Member of the City Council,009,DEM,Agnes Welch,9148,TRUE
+Baltimore City,,Member of the City Council,010,BOT,Other Write-Ins,33,
+Baltimore City,,Member of the City Council,010,DEM,Edward L. Reisinger,8474,TRUE
+Baltimore City,,Member of the City Council,010,REP,"Joe Collins, Jr.",3598,
+Baltimore City,,Member of the City Council,011,BOT,Other Write-Ins,49,
+Baltimore City,,Member of the City Council,011,DEM,"Keiffer J. Mitchell, Jr.",12450,TRUE
+Baltimore City,,Member of the City Council,011,REP,James Carlos Quigley,1416,
+Baltimore City,,Member of the City Council,012,BOT,Other Write-Ins,17,
+Baltimore City,,Member of the City Council,012,DEM,"Bernard C. Jack"" Young""",8313,TRUE
+Baltimore City,,Member of the City Council,012,GRN,Paul H. Dibos,743,
+Baltimore City,,Member of the City Council,012,REP,Dale Warren Hargrave,475,
+Baltimore City,,Member of the City Council,013,BOT,Other Write-Ins,16,
+Baltimore City,,Member of the City Council,013,DEM,Paula Johnson Branch,8107,TRUE
+Baltimore City,,Member of the City Council,013,GRN,Glenn Lowell Ross,1243,
+Baltimore City,,Member of the City Council,013,REP,Joe DiMatteo,794,
+Baltimore City,,Member of the City Council,014,BOT,Other Write-Ins,12,
+Baltimore City,,Member of the City Council,014,DEM,Mary Pat Clarke,13000,TRUE
+Baltimore City,,Member of the City Council,014,GRN,Myles B. Hoenig,1643,
+Baltimore City,,President,,BOT,Other Write-Ins,182,
+Baltimore City,,President,,CON,Michael Anthony Peroutka,262,
+Baltimore City,,President,,DEM,John F. Kerry,175022,TRUE
+Baltimore City,,President,,DEM,John Joseph Kennedy,0,
+Baltimore City,,President,,GRN,David Cobb,462,
+Baltimore City,,President,,IND,Joe Schriner,0,
+Baltimore City,,President,,IND,Lawson Mitchell Bone,0,
+Baltimore City,,President,,IND,"Robert Abraham Boyle, II",0,
+Baltimore City,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Baltimore City,,President,,LIB,Michael Badnarik,432,
+Baltimore City,,President,,POP,Ralph Nader,973,
+Baltimore City,,President,,REP,George W. Bush,36230,
+Baltimore City,,President of the City Council,,BOT,Other Write-Ins,639,
+Baltimore City,,President of the City Council,,DEM,Sheila Dixon,155049,TRUE
+Baltimore City,,President of the City Council,,GRN,Joan L. Floyd,29743,
+Baltimore City,,U.S. House,02,BOT,Other Write-Ins,38,
+Baltimore City,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,25170,TRUE
+Baltimore City,,U.S. House,02,GRN,Keith Salkowski,880,
+Baltimore City,,U.S. House,02,REP,Jane Brooks,3091,
+Baltimore City,,U.S. House,03,BOT,Other Write-Ins,42,
+Baltimore City,,U.S. House,03,DEM,Benjamin L. Cardin,45348,TRUE
+Baltimore City,,U.S. House,03,GRN,Patsy Allen,2153,
+Baltimore City,,U.S. House,03,REP,Robert P. Duckworth,10524,
+Baltimore City,,U.S. House,07,BOT,Other Write-Ins,57,
+Baltimore City,,U.S. House,07,DEM,Elijah E. Cummings,93379,TRUE
+Baltimore City,,U.S. House,07,GRN,Virginia T. Rodino,1832,
+Baltimore City,,U.S. House,07,REP,Tony Salazar,4888,
+Baltimore City,,U.S. Senate,,BOT,Other Write-Ins,114,
+Baltimore City,,U.S. Senate,,CON,Thomas Trump,611,
+Baltimore City,,U.S. Senate,,DEM,Barbara A. Mikulski,172427,TRUE
+Baltimore City,,U.S. Senate,,GRN,Maria Allwine,3045,
+Baltimore City,,U.S. Senate,,LIB,"Robert Gemmill, II",6,
+Baltimore City,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",6,
+Baltimore City,,U.S. Senate,,REP,E. J. Pipkin,23759,
+Baltimore City,,U.S. Senate,,REP,Ray Bly,4,
+Calvert,,Board of Education,001,NON,Frank Theodore Parish,16122,TRUE
+Calvert,,Board of Education,001,NON,Jeffrey D. Borgholthaus,13659,
+Calvert,,Board of Education,001,NON,Other Write-Ins,141,
+Calvert,,Board of Education,002,NON,Other Write-Ins,213,
+Calvert,,Board of Education,002,NON,Robert L. Gray,28710,TRUE
+Calvert,,Board of Education,003,NON,James Louis Parent,14693,
+Calvert,,Board of Education,003,NON,Mary Garvey,16448,TRUE
+Calvert,,Board of Education,003,NON,Other Write-Ins,61,
+Calvert,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",26990,TRUE
+Calvert,,President,,BOT,Other Write-Ins,33,
+Calvert,,President,,CON,Michael Anthony Peroutka,44,
+Calvert,,President,,DEM,John F. Kerry,15967,TRUE
+Calvert,,President,,DEM,John Joseph Kennedy,0,
+Calvert,,President,,GRN,David Cobb,49,
+Calvert,,President,,IND,Joe Schriner,0,
+Calvert,,President,,IND,Lawson Mitchell Bone,0,
+Calvert,,President,,IND,"Robert Abraham Boyle, II",0,
+Calvert,,President,,IND,"Theodis (Ted) Brown, Sr.",1,
+Calvert,,President,,LIB,Michael Badnarik,70,
+Calvert,,President,,POP,Ralph Nader,170,
+Calvert,,President,,REP,George W. Bush,23017,
+Calvert,,U.S. House,05,BOT,Other Write-Ins,15,
+Calvert,,U.S. House,05,CON,Steve Krukar,178,
+Calvert,,U.S. House,05,DEM,Steny H. Hoyer,21243,TRUE
+Calvert,,U.S. House,05,GRN,Bob S. Auerbach,431,
+Calvert,,U.S. House,05,REP,Brad Jewitt,16347,
+Calvert,,U.S. Senate,,BOT,Other Write-Ins,12,
+Calvert,,U.S. Senate,,CON,Thomas Trump,155,
+Calvert,,U.S. Senate,,DEM,Barbara A. Mikulski,19543,TRUE
+Calvert,,U.S. Senate,,GRN,Maria Allwine,374,
+Calvert,,U.S. Senate,,LIB,"Robert Gemmill, II",2,
+Calvert,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Calvert,,U.S. Senate,,REP,E. J. Pipkin,18422,
+Calvert,,U.S. Senate,,REP,Ray Bly,5,
+Caroline,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",8343,TRUE
+Caroline,,President,,BOT,Other Write-Ins,8,
+Caroline,,President,,CON,Michael Anthony Peroutka,24,
+Caroline,,President,,DEM,John F. Kerry,3810,TRUE
+Caroline,,President,,DEM,John Joseph Kennedy,0,
+Caroline,,President,,GRN,David Cobb,19,
+Caroline,,President,,IND,Joe Schriner,0,
+Caroline,,President,,IND,Lawson Mitchell Bone,0,
+Caroline,,President,,IND,"Robert Abraham Boyle, II",0,
+Caroline,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Caroline,,President,,LIB,Michael Badnarik,33,
+Caroline,,President,,POP,Ralph Nader,66,
+Caroline,,President,,REP,George W. Bush,7396,
+Caroline,,U.S. House,01,BOT,Other Write-Ins,18,
+Caroline,,U.S. House,01,DEM,Kostas Alexakis,2167,
+Caroline,,U.S. House,01,REP,Wayne T. Gilchrest,8588,TRUE
+Caroline,,U.S. Senate,,BOT,Other Write-Ins,2,
+Caroline,,U.S. Senate,,CON,Thomas Trump,61,
+Caroline,,U.S. Senate,,DEM,Barbara A. Mikulski,5543,TRUE
+Caroline,,U.S. Senate,,GRN,Maria Allwine,84,
+Caroline,,U.S. Senate,,LIB,"Robert Gemmill, II",4,
+Caroline,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Caroline,,U.S. Senate,,REP,E. J. Pipkin,5439,
+Caroline,,U.S. Senate,,REP,Ray Bly,1,
+Carroll,,Board of Education,,NON,Cynthia L. Foley,38131,TRUE
+Carroll,,Board of Education,,NON,David Stysley,11117,
+Carroll,,Board of Education,,NON,Gary G. Weishaar,19248,
+Carroll,,Board of Education,,NON,Other Write-Ins,474,
+Carroll,,Board of Education,,NON,Thomas G. Hiltz,35133,TRUE
+Carroll,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",54438,TRUE
+Carroll,,President,,BOT,Other Write-Ins,82,
+Carroll,,President,,CON,Michael Anthony Peroutka,164,
+Carroll,,President,,DEM,John F. Kerry,22974,TRUE
+Carroll,,President,,DEM,John Joseph Kennedy,0,
+Carroll,,President,,GRN,David Cobb,112,
+Carroll,,President,,IND,Joe Schriner,0,
+Carroll,,President,,IND,Lawson Mitchell Bone,0,
+Carroll,,President,,IND,"Robert Abraham Boyle, II",0,
+Carroll,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Carroll,,President,,LIB,Michael Badnarik,307,
+Carroll,,President,,POP,Ralph Nader,435,
+Carroll,,President,,REP,George W. Bush,55275,
+Carroll,,U.S. House,06,BOT,Other Write-Ins,75,
+Carroll,,U.S. House,06,DEM,Kenneth T. Bosley,18507,
+Carroll,,U.S. House,06,GRN,Gregory J. Hemingway,2321,
+Carroll,,U.S. House,06,REP,Roscoe G. Bartlett,54418,TRUE
+Carroll,,U.S. Senate,,BOT,Other Write-Ins,33,
+Carroll,,U.S. Senate,,CON,Thomas Trump,334,
+Carroll,,U.S. Senate,,DEM,Barbara A. Mikulski,32391,TRUE
+Carroll,,U.S. Senate,,GRN,Maria Allwine,692,
+Carroll,,U.S. Senate,,LIB,"Robert Gemmill, II",1,
+Carroll,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Carroll,,U.S. Senate,,REP,E. J. Pipkin,44704,
+Carroll,,U.S. Senate,,REP,Ray Bly,1,
+Cecil,,County Commissioner,001,BOT,Other Write-Ins,51,
+Cecil,,County Commissioner,001,DEM,William Clark Manlove,19061,TRUE
+Cecil,,County Commissioner,001,REP,Jim Mullin,16228,
+Cecil,,County Commissioner,005,BOT,Other Write-Ins,23,
+Cecil,,County Commissioner,005,DEM,Mark H. Guns,18170,TRUE
+Cecil,,County Commissioner,005,REP,"Thomas G. McWilliams, Jr.",17354,
+Cecil,,Judge of the Circuit Court,02,BOT,Other Write-Ins,243,
+Cecil,,Judge of the Circuit Court,02,BOT,Richard Eli Jackson,28921,TRUE
+Cecil,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",26278,TRUE
+Cecil,,President,,BOT,Other Write-Ins,19,
+Cecil,,President,,CON,Michael Anthony Peroutka,79,
+Cecil,,President,,DEM,John F. Kerry,14680,TRUE
+Cecil,,President,,DEM,John Joseph Kennedy,0,
+Cecil,,President,,GRN,David Cobb,43,
+Cecil,,President,,IND,Joe Schriner,0,
+Cecil,,President,,IND,Lawson Mitchell Bone,0,
+Cecil,,President,,IND,"Robert Abraham Boyle, II",0,
+Cecil,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Cecil,,President,,LIB,Michael Badnarik,118,
+Cecil,,President,,POP,Ralph Nader,179,
+Cecil,,President,,REP,George W. Bush,22556,
+Cecil,,U.S. House,01,BOT,Other Write-Ins,58,
+Cecil,,U.S. House,01,DEM,Kostas Alexakis,9513,
+Cecil,,U.S. House,01,REP,Wayne T. Gilchrest,25798,TRUE
+Cecil,,U.S. Senate,,BOT,Other Write-Ins,17,
+Cecil,,U.S. Senate,,CON,Thomas Trump,181,
+Cecil,,U.S. Senate,,DEM,Barbara A. Mikulski,17371,TRUE
+Cecil,,U.S. Senate,,GRN,Maria Allwine,310,
+Cecil,,U.S. Senate,,LIB,"Robert Gemmill, II",8,
+Cecil,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Cecil,,U.S. Senate,,REP,E. J. Pipkin,18843,
+Cecil,,U.S. Senate,,REP,Ray Bly,6,
+Charles,,Judge of the Circuit Court,07,BOT,Amy J. Bragunier,46560,TRUE
+Charles,,Judge of the Circuit Court,07,BOT,Other Write-Ins,489,
+Charles,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",42318,TRUE
+Charles,,President,,BOT,Other Write-Ins,37,
+Charles,,President,,CON,Michael Anthony Peroutka,63,
+Charles,,President,,DEM,John F. Kerry,29354,TRUE
+Charles,,President,,DEM,John Joseph Kennedy,0,
+Charles,,President,,GRN,David Cobb,55,
+Charles,,President,,IND,Joe Schriner,0,
+Charles,,President,,IND,Lawson Mitchell Bone,0,
+Charles,,President,,IND,"Robert Abraham Boyle, II",0,
+Charles,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Charles,,President,,LIB,Michael Badnarik,78,
+Charles,,President,,POP,Ralph Nader,212,
+Charles,,President,,REP,George W. Bush,28442,
+Charles,,U.S. House,05,BOT,Other Write-Ins,55,
+Charles,,U.S. House,05,CON,Steve Krukar,329,
+Charles,,U.S. House,05,DEM,Steny H. Hoyer,36653,TRUE
+Charles,,U.S. House,05,GRN,Bob S. Auerbach,537,
+Charles,,U.S. House,05,REP,Brad Jewitt,18867,
+Charles,,U.S. Senate,,BOT,Other Write-Ins,56,
+Charles,,U.S. Senate,,CON,Thomas Trump,327,
+Charles,,U.S. Senate,,DEM,Barbara A. Mikulski,34305,TRUE
+Charles,,U.S. Senate,,GRN,Maria Allwine,491,
+Charles,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Charles,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Charles,,U.S. Senate,,REP,E. J. Pipkin,21547,
+Charles,,U.S. Senate,,REP,Ray Bly,0,
+Dorchester,,Board of Education,001,NON,Eleanor B. Polley,479,
+Dorchester,,Board of Education,001,NON,Mark M. Malkus,2179,TRUE
+Dorchester,,Board of Education,001,NON,Other Write-Ins,3,
+Dorchester,,Board of Education,003,NON,Gary Rosenthal,2214,TRUE
+Dorchester,,Board of Education,003,NON,Other Write-Ins,18,
+Dorchester,,Board of Education,005,NON,Other Write-Ins,4,
+Dorchester,,Board of Education,005,NON,"Philip L. Bramble, Jr.",1658,TRUE
+Dorchester,,Board of Education,005,NON,Robert E. Miller,624,
+Dorchester,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",9051,TRUE
+Dorchester,,President,,BOT,Other Write-Ins,8,
+Dorchester,,President,,CON,Michael Anthony Peroutka,21,
+Dorchester,,President,,DEM,John F. Kerry,5411,TRUE
+Dorchester,,President,,DEM,John Joseph Kennedy,0,
+Dorchester,,President,,GRN,David Cobb,22,
+Dorchester,,President,,IND,Joe Schriner,0,
+Dorchester,,President,,IND,Lawson Mitchell Bone,0,
+Dorchester,,President,,IND,"Robert Abraham Boyle, II",0,
+Dorchester,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Dorchester,,President,,LIB,Michael Badnarik,24,
+Dorchester,,President,,POP,Ralph Nader,52,
+Dorchester,,President,,REP,George W. Bush,7801,
+Dorchester,,U.S. House,01,BOT,Other Write-Ins,20,
+Dorchester,,U.S. House,01,DEM,Kostas Alexakis,3007,
+Dorchester,,U.S. House,01,REP,Wayne T. Gilchrest,9327,TRUE
+Dorchester,,U.S. Senate,,BOT,Other Write-Ins,5,
+Dorchester,,U.S. Senate,,CON,Thomas Trump,42,
+Dorchester,,U.S. Senate,,DEM,Barbara A. Mikulski,7571,TRUE
+Dorchester,,U.S. Senate,,GRN,Maria Allwine,82,
+Dorchester,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Dorchester,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Dorchester,,U.S. Senate,,REP,E. J. Pipkin,5284,
+Dorchester,,U.S. Senate,,REP,Ray Bly,0,
+Frederick,,Board of Education,,NON,Barbara Craig,61967,TRUE
+Frederick,,Board of Education,,NON,Donna J. Crook,59011,TRUE
+Frederick,,Board of Education,,NON,Katie Groth,58408,TRUE
+Frederick,,Board of Education,,NON,Other Write-Ins,1330,
+Frederick,,Board of Education,,NON,Stanley Charles Mazaleski,272,
+Frederick,,Judge of the Circuit Court,06,BOT,Other Write-Ins,510,
+Frederick,,Judge of the Circuit Court,06,BOT,Theresa M. Adams,79071,TRUE
+Frederick,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",70585,TRUE
+Frederick,,President,,BOT,Other Write-Ins,122,
+Frederick,,President,,CON,Michael Anthony Peroutka,124,
+Frederick,,President,,DEM,John F. Kerry,39503,TRUE
+Frederick,,President,,DEM,John Joseph Kennedy,1,
+Frederick,,President,,GRN,David Cobb,137,
+Frederick,,President,,IND,Joe Schriner,2,
+Frederick,,President,,IND,Lawson Mitchell Bone,0,
+Frederick,,President,,IND,"Robert Abraham Boyle, II",0,
+Frederick,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Frederick,,President,,LIB,Michael Badnarik,272,
+Frederick,,President,,POP,Ralph Nader,499,
+Frederick,,President,,REP,George W. Bush,59934,
+Frederick,,U.S. House,06,BOT,Other Write-Ins,163,
+Frederick,,U.S. House,06,DEM,Kenneth T. Bosley,32215,
+Frederick,,U.S. House,06,GRN,Gregory J. Hemingway,3259,
+Frederick,,U.S. House,06,REP,Roscoe G. Bartlett,59864,TRUE
+Frederick,,U.S. Senate,,BOT,Other Write-Ins,59,
+Frederick,,U.S. Senate,,CON,Thomas Trump,376,
+Frederick,,U.S. Senate,,DEM,Barbara A. Mikulski,49336,TRUE
+Frederick,,U.S. Senate,,GRN,Maria Allwine,1081,
+Frederick,,U.S. Senate,,LIB,"Robert Gemmill, II",19,
+Frederick,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",2,
+Frederick,,U.S. Senate,,REP,E. J. Pipkin,47081,
+Frederick,,U.S. Senate,,REP,Ray Bly,11,
+Garrett,,Board of Education At Large,,NON,Charlotte A. Sebold,8749,TRUE
+Garrett,,Board of Education At Large,,NON,James M. Raley,8396,TRUE
+Garrett,,Board of Education At Large,,NON,Other Write-Ins,95,
+Garrett,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",8260,TRUE
+Garrett,,President,,BOT,Other Write-Ins,6,
+Garrett,,President,,CON,Michael Anthony Peroutka,19,
+Garrett,,President,,DEM,John F. Kerry,3291,TRUE
+Garrett,,President,,DEM,John Joseph Kennedy,1,
+Garrett,,President,,GRN,David Cobb,15,
+Garrett,,President,,IND,Joe Schriner,0,
+Garrett,,President,,IND,Lawson Mitchell Bone,0,
+Garrett,,President,,IND,"Robert Abraham Boyle, II",0,
+Garrett,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Garrett,,President,,LIB,Michael Badnarik,23,
+Garrett,,President,,POP,Ralph Nader,44,
+Garrett,,President,,REP,George W. Bush,9085,
+Garrett,,U.S. House,06,BOT,Other Write-Ins,9,
+Garrett,,U.S. House,06,DEM,Kenneth T. Bosley,2504,
+Garrett,,U.S. House,06,GRN,Gregory J. Hemingway,217,
+Garrett,,U.S. House,06,REP,Roscoe G. Bartlett,9119,TRUE
+Garrett,,U.S. Senate,,BOT,Other Write-Ins,2,
+Garrett,,U.S. Senate,,CON,Thomas Trump,67,
+Garrett,,U.S. Senate,,DEM,Barbara A. Mikulski,4540,TRUE
+Garrett,,U.S. Senate,,GRN,Maria Allwine,73,
+Garrett,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Garrett,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",2,
+Garrett,,U.S. Senate,,REP,E. J. Pipkin,7330,
+Garrett,,U.S. Senate,,REP,Ray Bly,0,
+Harford,,Judge of the Circuit Court,03,BOT,"Maurice Whiteford Baldwin, Jr.",89225,TRUE
+Harford,,Judge of the Circuit Court,03,BOT,Other Write-Ins,756,
+Harford,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",81490,TRUE
+Harford,,President,,BOT,Other Write-Ins,89,
+Harford,,President,,CON,Michael Anthony Peroutka,213,
+Harford,,President,,DEM,John F. Kerry,39685,TRUE
+Harford,,President,,DEM,John Joseph Kennedy,1,
+Harford,,President,,GRN,David Cobb,171,
+Harford,,President,,IND,Joe Schriner,1,
+Harford,,President,,IND,Lawson Mitchell Bone,0,
+Harford,,President,,IND,"Robert Abraham Boyle, II",1,
+Harford,,President,,IND,"Theodis (Ted) Brown, Sr.",1,
+Harford,,President,,LIB,Michael Badnarik,403,
+Harford,,President,,POP,Ralph Nader,598,
+Harford,,President,,REP,George W. Bush,71565,
+Harford,,U.S. House,01,BOT,Other Write-Ins,84,
+Harford,,U.S. House,01,DEM,Kostas Alexakis,14058,
+Harford,,U.S. House,01,REP,Wayne T. Gilchrest,45179,TRUE
+Harford,,U.S. House,02,BOT,Other Write-Ins,30,
+Harford,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,19289,TRUE
+Harford,,U.S. House,02,GRN,Keith Salkowski,755,
+Harford,,U.S. House,02,REP,Jane Brooks,12286,
+Harford,,U.S. House,06,BOT,Other Write-Ins,13,
+Harford,,U.S. House,06,DEM,Kenneth T. Bosley,3971,
+Harford,,U.S. House,06,GRN,Gregory J. Hemingway,458,
+Harford,,U.S. House,06,REP,Roscoe G. Bartlett,10401,TRUE
+Harford,,U.S. Senate,,BOT,Other Write-Ins,38,
+Harford,,U.S. Senate,,CON,Thomas Trump,333,
+Harford,,U.S. Senate,,DEM,Barbara A. Mikulski,53444,TRUE
+Harford,,U.S. Senate,,GRN,Maria Allwine,890,
+Harford,,U.S. Senate,,LIB,"Robert Gemmill, II",21,
+Harford,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",1,
+Harford,,U.S. Senate,,REP,E. J. Pipkin,56465,
+Harford,,U.S. Senate,,REP,Ray Bly,4,
+Howard,,Board of Education,,NON,Diane B. Mikulis,72510,TRUE
+Howard,,Board of Education,,NON,Frank J. Aquino,54758,
+Howard,,Board of Education,,NON,Mary Kay Sigaty,57987,TRUE
+Howard,,Board of Education,,NON,Other Write-Ins,731,
+Howard,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",92284,TRUE
+Howard,,President,,BOT,Other Write-Ins,161,
+Howard,,President,,CON,Michael Anthony Peroutka,175,
+Howard,,President,,DEM,John F. Kerry,72257,TRUE
+Howard,,President,,DEM,John Joseph Kennedy,1,
+Howard,,President,,GRN,David Cobb,240,
+Howard,,President,,IND,Joe Schriner,1,
+Howard,,President,,IND,Lawson Mitchell Bone,0,
+Howard,,President,,IND,"Robert Abraham Boyle, II",0,
+Howard,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Howard,,President,,LIB,Michael Badnarik,456,
+Howard,,President,,POP,Ralph Nader,795,
+Howard,,President,,REP,George W. Bush,59724,
+Howard,,U.S. House,03,BOT,Other Write-Ins,39,
+Howard,,U.S. House,03,DEM,Benjamin L. Cardin,23917,TRUE
+Howard,,U.S. House,03,GRN,Patsy Allen,978,
+Howard,,U.S. House,03,REP,Robert P. Duckworth,11831,
+Howard,,U.S. House,07,BOT,Other Write-Ins,68,
+Howard,,U.S. House,07,DEM,Elijah E. Cummings,46909,TRUE
+Howard,,U.S. House,07,GRN,Virginia T. Rodino,1926,
+Howard,,U.S. House,07,REP,Tony Salazar,42041,
+Howard,,U.S. Senate,,BOT,Other Write-Ins,77,
+Howard,,U.S. Senate,,CON,Thomas Trump,507,
+Howard,,U.S. Senate,,DEM,Barbara A. Mikulski,82479,TRUE
+Howard,,U.S. Senate,,GRN,Maria Allwine,1538,
+Howard,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Howard,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",5,
+Howard,,U.S. Senate,,REP,E. J. Pipkin,46610,
+Howard,,U.S. Senate,,REP,Ray Bly,14,
+Kent,,Board of Education,,NON,"Allan T. Hanifee, Sr.",4971,TRUE
+Kent,,Board of Education,,NON,Other Write-Ins,226,
+Kent,,Board of Education,,NON,Sarah Johnson Brown,5270,TRUE
+Kent,,Board of Education,,NON,Tracye Smith Landon,1467,
+Kent,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",6000,TRUE
+Kent,,President,,BOT,Other Write-Ins,10,
+Kent,,President,,CON,Michael Anthony Peroutka,12,
+Kent,,President,,DEM,John F. Kerry,4278,TRUE
+Kent,,President,,DEM,John Joseph Kennedy,0,
+Kent,,President,,GRN,David Cobb,16,
+Kent,,President,,IND,Joe Schriner,0,
+Kent,,President,,IND,Lawson Mitchell Bone,0,
+Kent,,President,,IND,"Robert Abraham Boyle, II",0,
+Kent,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Kent,,President,,LIB,Michael Badnarik,19,
+Kent,,President,,POP,Ralph Nader,50,
+Kent,,President,,REP,George W. Bush,4900,
+Kent,,U.S. House,01,BOT,Other Write-Ins,22,
+Kent,,U.S. House,01,DEM,Kostas Alexakis,1782,
+Kent,,U.S. House,01,REP,Wayne T. Gilchrest,6997,TRUE
+Kent,,U.S. Senate,,BOT,Other Write-Ins,7,
+Kent,,U.S. Senate,,CON,Thomas Trump,29,
+Kent,,U.S. Senate,,DEM,Barbara A. Mikulski,5117,TRUE
+Kent,,U.S. Senate,,GRN,Maria Allwine,73,
+Kent,,U.S. Senate,,LIB,"Robert Gemmill, II",1,
+Kent,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Kent,,U.S. Senate,,REP,E. J. Pipkin,3860,
+Kent,,U.S. Senate,,REP,Ray Bly,1,
+Montgomery,,Board of Education,002,NON,Other Write-Ins,743,
+Montgomery,,Board of Education,002,NON,Stephen N. Abrams,152918,TRUE
+Montgomery,,Board of Education,002,NON,Walter Lange,135154,
+Montgomery,,Board of Education,004,NON,Other Write-Ins,652,
+Montgomery,,Board of Education,004,NON,Sheldon Fishman,118462,
+Montgomery,,Board of Education,004,NON,Valerie Ervin,174336,TRUE
+Montgomery,,Board of Education At Large,,NON,Other Write-Ins,937,
+Montgomery,,Board of Education At Large,,NON,Sharon W. Cox,210508,TRUE
+Montgomery,,Board of Education At Large,,NON,Tommy Le,89037,
+Montgomery,,Judge of the Circuit Court,06,BOT,Daniel Patrick Connell,119932,
+Montgomery,,Judge of the Circuit Court,06,BOT,David A. Boynton,222047,TRUE
+Montgomery,,Judge of the Circuit Court,06,BOT,Dennis Michael McHugh,221419,TRUE
+Montgomery,,Judge of the Circuit Court,06,BOT,Katherine Savage,242631,TRUE
+Montgomery,,Judge of the Circuit Court,06,BOT,Marielsa A. Bernard,236364,TRUE
+Montgomery,,Judge of the Circuit Court,06,BOT,Other Write-Ins,2270,
+Montgomery,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",236628,TRUE
+Montgomery,,President,,BOT,Other Write-Ins,641,
+Montgomery,,President,,CON,Michael Anthony Peroutka,374,
+Montgomery,,President,,DEM,John F. Kerry,273936,TRUE
+Montgomery,,President,,DEM,John Joseph Kennedy,0,
+Montgomery,,President,,GRN,David Cobb,608,
+Montgomery,,President,,IND,Joe Schriner,16,
+Montgomery,,President,,IND,Lawson Mitchell Bone,2,
+Montgomery,,President,,IND,"Robert Abraham Boyle, II",0,
+Montgomery,,President,,IND,"Theodis (Ted) Brown, Sr.",2,
+Montgomery,,President,,LIB,Michael Badnarik,1041,
+Montgomery,,President,,POP,Ralph Nader,2271,
+Montgomery,,President,,REP,George W. Bush,136334,
+Montgomery,,U.S. House,04,BOT,Other Write-Ins,155,
+Montgomery,,U.S. House,04,DEM,Albert R. Wynn,65275,TRUE
+Montgomery,,U.S. House,04,GRN,Theresa Mitchell Dudley,5049,
+Montgomery,,U.S. House,04,IND,John B. Kimble,3,
+Montgomery,,U.S. House,04,REP,John McKinnis,39039,
+Montgomery,,U.S. House,06,BOT,Other Write-Ins,28,
+Montgomery,,U.S. House,06,DEM,Kenneth T. Bosley,3443,
+Montgomery,,U.S. House,06,GRN,Gregory J. Hemingway,289,
+Montgomery,,U.S. House,06,REP,Roscoe G. Bartlett,5520,TRUE
+Montgomery,,U.S. House,08,BOT,Other Write-Ins,459,
+Montgomery,,U.S. House,08,DEM,Chris Van Hollen,204938,TRUE
+Montgomery,,U.S. House,08,DEM,Lih Young,78,
+Montgomery,,U.S. House,08,REP,Chuck Floyd,71092,
+Montgomery,,U.S. Senate,,BOT,Other Write-Ins,267,
+Montgomery,,U.S. Senate,,CON,Thomas Trump,1444,
+Montgomery,,U.S. Senate,,DEM,Barbara A. Mikulski,291839,TRUE
+Montgomery,,U.S. Senate,,GRN,Maria Allwine,4702,
+Montgomery,,U.S. Senate,,LIB,"Robert Gemmill, II",91,
+Montgomery,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",21,
+Montgomery,,U.S. Senate,,REP,E. J. Pipkin,106101,
+Montgomery,,U.S. Senate,,REP,Ray Bly,45,
+Prince George's,,County Council,002,BOT,Other Write-Ins,71,
+Prince George's,,County Council,002,DEM,Will Campos,16308,TRUE
+Prince George's,,County Council,002,REP,Tommy S. Priestley,2119,
+Prince George's,,Judge of the Circuit Court,07,BOT,Cathy H. Serrette,192655,TRUE
+Prince George's,,Judge of the Circuit Court,07,BOT,"Graydon S. McKee, III",188233,TRUE
+Prince George's,,Judge of the Circuit Court,07,BOT,Other Write-Ins,1282,
+Prince George's,,Judge of the Circuit Court,07,BOT,William D. Missouri,188502,TRUE
+Prince George's,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",228046,TRUE
+Prince George's,,President,,BOT,Other Write-Ins,265,
+Prince George's,,President,,CON,Michael Anthony Peroutka,322,
+Prince George's,,President,,DEM,John F. Kerry,260532,TRUE
+Prince George's,,President,,DEM,John Joseph Kennedy,3,
+Prince George's,,President,,GRN,David Cobb,373,
+Prince George's,,President,,IND,Joe Schriner,5,
+Prince George's,,President,,IND,Lawson Mitchell Bone,0,
+Prince George's,,President,,IND,"Robert Abraham Boyle, II",0,
+Prince George's,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Prince George's,,President,,LIB,Michael Badnarik,390,
+Prince George's,,President,,POP,Ralph Nader,1052,
+Prince George's,,President,,REP,George W. Bush,55532,
+Prince George's,,U.S. House,04,BOT,Other Write-Ins,98,
+Prince George's,,U.S. House,04,DEM,Albert R. Wynn,131534,TRUE
+Prince George's,,U.S. House,04,GRN,Theresa Mitchell Dudley,6836,
+Prince George's,,U.S. House,04,IND,John B. Kimble,3,
+Prince George's,,U.S. House,04,REP,John McKinnis,13868,
+Prince George's,,U.S. House,05,BOT,Other Write-Ins,112,
+Prince George's,,U.S. House,05,CON,Steve Krukar,907,
+Prince George's,,U.S. House,05,DEM,Steny H. Hoyer,111485,TRUE
+Prince George's,,U.S. House,05,GRN,Bob S. Auerbach,2388,
+Prince George's,,U.S. House,05,REP,Brad Jewitt,25947,
+Prince George's,,U.S. House,08,BOT,Other Write-Ins,24,
+Prince George's,,U.S. House,08,DEM,Chris Van Hollen,10191,TRUE
+Prince George's,,U.S. House,08,DEM,Lih Young,1,
+Prince George's,,U.S. House,08,REP,Chuck Floyd,897,
+Prince George's,,U.S. Senate,,BOT,Other Write-Ins,149,
+Prince George's,,U.S. Senate,,CON,Thomas Trump,1253,
+Prince George's,,U.S. Senate,,DEM,Barbara A. Mikulski,264088,TRUE
+Prince George's,,U.S. Senate,,GRN,Maria Allwine,3270,
+Prince George's,,U.S. Senate,,LIB,"Robert Gemmill, II",15,
+Prince George's,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",4,
+Prince George's,,U.S. Senate,,REP,E. J. Pipkin,39863,
+Prince George's,,U.S. Senate,,REP,Ray Bly,7,
+Queen Anne's,,Judge of the Circuit Court,02,BOT,Other Write-Ins,110,
+Queen Anne's,,Judge of the Circuit Court,02,BOT,Thomas G. Ross,17165,TRUE
+Queen Anne's,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",15796,TRUE
+Queen Anne's,,President,,BOT,Other Write-Ins,13,
+Queen Anne's,,President,,CON,Michael Anthony Peroutka,45,
+Queen Anne's,,President,,DEM,John F. Kerry,7070,TRUE
+Queen Anne's,,President,,DEM,John Joseph Kennedy,0,
+Queen Anne's,,President,,GRN,David Cobb,23,
+Queen Anne's,,President,,IND,Joe Schriner,0,
+Queen Anne's,,President,,IND,Lawson Mitchell Bone,0,
+Queen Anne's,,President,,IND,"Robert Abraham Boyle, II",0,
+Queen Anne's,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Queen Anne's,,President,,LIB,Michael Badnarik,47,
+Queen Anne's,,President,,POP,Ralph Nader,107,
+Queen Anne's,,President,,REP,George W. Bush,14489,
+Queen Anne's,,U.S. House,01,BOT,Other Write-Ins,17,
+Queen Anne's,,U.S. House,01,DEM,Kostas Alexakis,4113,
+Queen Anne's,,U.S. House,01,REP,Wayne T. Gilchrest,16658,TRUE
+Queen Anne's,,U.S. Senate,,BOT,Other Write-Ins,6,
+Queen Anne's,,U.S. Senate,,CON,Thomas Trump,90,
+Queen Anne's,,U.S. Senate,,DEM,Barbara A. Mikulski,9332,TRUE
+Queen Anne's,,U.S. Senate,,GRN,Maria Allwine,146,
+Queen Anne's,,U.S. Senate,,LIB,"Robert Gemmill, II",4,
+Queen Anne's,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Queen Anne's,,U.S. Senate,,REP,E. J. Pipkin,11964,
+Queen Anne's,,U.S. Senate,,REP,Ray Bly,0,
+Somerset,,Board of Education,001,NON,Ernest R. Satchell,281,
+Somerset,,Board of Education,001,NON,Other Write-Ins,5,
+Somerset,,Board of Education,001,NON,William McKinley Miles,359,TRUE
+Somerset,,Board of Education,002,NON,Other Write-Ins,17,
+Somerset,,Board of Education,002,NON,Richard F. Scott,1395,TRUE
+Somerset,,Board of Education,003,NON,"Jack A. Willing, Jr.",1925,TRUE
+Somerset,,Board of Education,003,NON,Other Write-Ins,14,
+Somerset,,Board of Education,004,NON,Jack Paul,1771,TRUE
+Somerset,,Board of Education,004,NON,Other Write-Ins,27,
+Somerset,,Board of Education,005,NON,"James Jamie"" Byrd""",1649,TRUE
+Somerset,,Board of Education,005,NON,Other Write-Ins,13,
+Somerset,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",6036,TRUE
+Somerset,,President,,BOT,Other Write-Ins,3,
+Somerset,,President,,CON,Michael Anthony Peroutka,15,
+Somerset,,President,,DEM,John F. Kerry,4034,TRUE
+Somerset,,President,,DEM,John Joseph Kennedy,0,
+Somerset,,President,,GRN,David Cobb,14,
+Somerset,,President,,IND,Joe Schriner,0,
+Somerset,,President,,IND,Lawson Mitchell Bone,0,
+Somerset,,President,,IND,"Robert Abraham Boyle, II",0,
+Somerset,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Somerset,,President,,LIB,Michael Badnarik,13,
+Somerset,,President,,POP,Ralph Nader,31,
+Somerset,,President,,REP,George W. Bush,4884,
+Somerset,,U.S. House,01,BOT,Other Write-Ins,13,
+Somerset,,U.S. House,01,DEM,Kostas Alexakis,2321,
+Somerset,,U.S. House,01,REP,Wayne T. Gilchrest,5956,TRUE
+Somerset,,U.S. Senate,,BOT,Other Write-Ins,4,
+Somerset,,U.S. Senate,,CON,Thomas Trump,38,
+Somerset,,U.S. Senate,,DEM,Barbara A. Mikulski,5157,TRUE
+Somerset,,U.S. Senate,,GRN,Maria Allwine,51,
+Somerset,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Somerset,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Somerset,,U.S. Senate,,REP,E. J. Pipkin,3501,
+Somerset,,U.S. Senate,,REP,Ray Bly,0,
+St. Mary's,,Board of Education,002,NON,Cathy Allen,21732,TRUE
+St. Mary's,,Board of Education,002,NON,Clare Whitbeck,8998,
+St. Mary's,,Board of Education,002,NON,Other Write-Ins,135,
+St. Mary's,,Board of Education,004,NON,Mary M. Washington,29113,TRUE
+St. Mary's,,Board of Education,004,NON,Other Write-Ins,345,
+St. Mary's,,Board of Education At Large,,NON,Gary Kessler,17460,TRUE
+St. Mary's,,Board of Education At Large,,NON,Other Write-Ins,123,
+St. Mary's,,Board of Education At Large,,NON,Pat Woodburn,14193,
+St. Mary's,,Judge of the Circuit Court,07,BOT,Karen Abrams,30545,TRUE
+St. Mary's,,Judge of the Circuit Court,07,BOT,Other Write-Ins,469,
+St. Mary's,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",26189,TRUE
+St. Mary's,,President,,BOT,Other Write-Ins,33,
+St. Mary's,,President,,CON,Michael Anthony Peroutka,57,
+St. Mary's,,President,,DEM,John F. Kerry,13776,TRUE
+St. Mary's,,President,,DEM,John Joseph Kennedy,0,
+St. Mary's,,President,,GRN,David Cobb,65,
+St. Mary's,,President,,IND,Joe Schriner,0,
+St. Mary's,,President,,IND,Lawson Mitchell Bone,0,
+St. Mary's,,President,,IND,"Robert Abraham Boyle, II",0,
+St. Mary's,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+St. Mary's,,President,,LIB,Michael Badnarik,94,
+St. Mary's,,President,,POP,Ralph Nader,166,
+St. Mary's,,President,,REP,George W. Bush,23725,
+St. Mary's,,U.S. House,05,BOT,Other Write-Ins,12,
+St. Mary's,,U.S. House,05,CON,Steve Krukar,266,
+St. Mary's,,U.S. House,05,DEM,Steny H. Hoyer,22114,TRUE
+St. Mary's,,U.S. House,05,GRN,Bob S. Auerbach,363,
+St. Mary's,,U.S. House,05,REP,Brad Jewitt,14056,
+St. Mary's,,U.S. Senate,,BOT,Other Write-Ins,19,
+St. Mary's,,U.S. Senate,,CON,Thomas Trump,238,
+St. Mary's,,U.S. Senate,,DEM,Barbara A. Mikulski,18440,TRUE
+St. Mary's,,U.S. Senate,,GRN,Maria Allwine,368,
+St. Mary's,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+St. Mary's,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+St. Mary's,,U.S. Senate,,REP,E. J. Pipkin,17802,
+St. Mary's,,U.S. Senate,,REP,Ray Bly,0,
+Talbot,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",13479,TRUE
+Talbot,,President,,BOT,Other Write-Ins,12,
+Talbot,,President,,CON,Michael Anthony Peroutka,21,
+Talbot,,President,,DEM,John F. Kerry,7367,TRUE
+Talbot,,President,,DEM,John Joseph Kennedy,0,
+Talbot,,President,,GRN,David Cobb,30,
+Talbot,,President,,IND,Joe Schriner,0,
+Talbot,,President,,IND,Lawson Mitchell Bone,0,
+Talbot,,President,,IND,"Robert Abraham Boyle, II",0,
+Talbot,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Talbot,,President,,LIB,Michael Badnarik,46,
+Talbot,,President,,POP,Ralph Nader,100,
+Talbot,,President,,REP,George W. Bush,11288,
+Talbot,,U.S. House,01,BOT,Other Write-Ins,35,
+Talbot,,U.S. House,01,DEM,Kostas Alexakis,3773,
+Talbot,,U.S. House,01,REP,Wayne T. Gilchrest,14324,TRUE
+Talbot,,U.S. Senate,,BOT,Other Write-Ins,10,
+Talbot,,U.S. Senate,,CON,Thomas Trump,60,
+Talbot,,U.S. Senate,,DEM,Barbara A. Mikulski,9855,TRUE
+Talbot,,U.S. Senate,,GRN,Maria Allwine,147,
+Talbot,,U.S. Senate,,LIB,"Robert Gemmill, II",1,
+Talbot,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Talbot,,U.S. Senate,,REP,E. J. Pipkin,8501,
+Talbot,,U.S. Senate,,REP,Ray Bly,1,
+Washington,,Board of Education,,NON,Barry C. Harbaugh,13451,
+Washington,,Board of Education,,NON,Bernadette M. Wagner,23041,TRUE
+Washington,,Board of Education,,NON,Other Write-Ins,260,
+Washington,,Board of Education,,NON,Roxanne R. Ober,24003,TRUE
+Washington,,Board of Education,,NON,Teresa Spruill,13657,
+Washington,,Board of Education,,NON,Thomas Berry,17685,
+Washington,,Board of Education,,NON,Tom Janus,502,
+Washington,,Board of Education,,NON,W. Edward Forrest,21547,TRUE
+Washington,,Board of Education,,NON,Wayne D. Ridenour,25085,TRUE
+Washington,,Board of Education,,NON,William H. Staley,18291,
+Washington,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",37597,TRUE
+Washington,,President,,BOT,Other Write-Ins,43,
+Washington,,President,,CON,Michael Anthony Peroutka,88,
+Washington,,President,,DEM,John F. Kerry,20387,TRUE
+Washington,,President,,DEM,John Joseph Kennedy,0,
+Washington,,President,,GRN,David Cobb,75,
+Washington,,President,,IND,Joe Schriner,1,
+Washington,,President,,IND,Lawson Mitchell Bone,0,
+Washington,,President,,IND,"Robert Abraham Boyle, II",0,
+Washington,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Washington,,President,,LIB,Michael Badnarik,126,
+Washington,,President,,POP,Ralph Nader,267,
+Washington,,President,,REP,George W. Bush,36917,
+Washington,,U.S. House,06,BOT,Other Write-Ins,46,
+Washington,,U.S. House,06,DEM,Kenneth T. Bosley,16862,
+Washington,,U.S. House,06,GRN,Gregory J. Hemingway,1366,
+Washington,,U.S. House,06,REP,Roscoe G. Bartlett,36320,TRUE
+Washington,,U.S. Senate,,BOT,Other Write-Ins,14,
+Washington,,U.S. Senate,,CON,Thomas Trump,256,
+Washington,,U.S. Senate,,DEM,Barbara A. Mikulski,26431,TRUE
+Washington,,U.S. Senate,,GRN,Maria Allwine,496,
+Washington,,U.S. Senate,,LIB,"Robert Gemmill, II",11,
+Washington,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Washington,,U.S. Senate,,REP,E. J. Pipkin,29181,
+Washington,,U.S. Senate,,REP,Ray Bly,2,
+Wicomico,,Judge of the Circuit Court,01,BOT,Other Write-Ins,303,
+Wicomico,,Judge of the Circuit Court,01,BOT,"W. Newton Jackson, III",29057,TRUE
+Wicomico,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",26541,TRUE
+Wicomico,,President,,BOT,Other Write-Ins,37,
+Wicomico,,President,,CON,Michael Anthony Peroutka,35,
+Wicomico,,President,,DEM,John F. Kerry,15137,TRUE
+Wicomico,,President,,DEM,John Joseph Kennedy,0,
+Wicomico,,President,,GRN,David Cobb,49,
+Wicomico,,President,,IND,Joe Schriner,0,
+Wicomico,,President,,IND,Lawson Mitchell Bone,0,
+Wicomico,,President,,IND,"Robert Abraham Boyle, II",0,
+Wicomico,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Wicomico,,President,,LIB,Michael Badnarik,71,
+Wicomico,,President,,POP,Ralph Nader,176,
+Wicomico,,President,,REP,George W. Bush,21998,
+Wicomico,,U.S. House,01,BOT,Other Write-Ins,72,
+Wicomico,,U.S. House,01,DEM,Kostas Alexakis,8613,
+Wicomico,,U.S. House,01,REP,Wayne T. Gilchrest,26908,TRUE
+Wicomico,,U.S. Senate,,BOT,Other Write-Ins,22,
+Wicomico,,U.S. Senate,,CON,Thomas Trump,121,
+Wicomico,,U.S. Senate,,DEM,Barbara A. Mikulski,19866,TRUE
+Wicomico,,U.S. Senate,,GRN,Maria Allwine,251,
+Wicomico,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Wicomico,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Wicomico,,U.S. Senate,,REP,E. J. Pipkin,16348,
+Wicomico,,U.S. Senate,,REP,Ray Bly,0,
+Worcester,,Board of Education,002,NON,Garry Lee Mumford,1977,TRUE
+Worcester,,Board of Education,002,NON,Other Write-Ins,10,
+Worcester,,Board of Education,003,NON,Frank W. Nanna,1528,
+Worcester,,Board of Education,003,NON,Other Write-Ins,5,
+Worcester,,Board of Education,003,NON,Sara D. Thompson,2132,TRUE
+Worcester,,Board of Education,005,NON,Jonathan C. Cook,2703,TRUE
+Worcester,,Board of Education,005,NON,Other Write-Ins,15,
+Worcester,,Board of Education,005,NON,Teddi Stanchie,1133,
+Worcester,,"Judge, Court of Special Appeals At Large",,BOT,"Joseph F. Murphy, Jr.",18997,TRUE
+Worcester,,President,,BOT,Other Write-Ins,14,
+Worcester,,President,,CON,Michael Anthony Peroutka,32,
+Worcester,,President,,DEM,John F. Kerry,9648,TRUE
+Worcester,,President,,DEM,John Joseph Kennedy,0,
+Worcester,,President,,GRN,David Cobb,22,
+Worcester,,President,,IND,Joe Schriner,0,
+Worcester,,President,,IND,Lawson Mitchell Bone,0,
+Worcester,,President,,IND,"Robert Abraham Boyle, II",0,
+Worcester,,President,,IND,"Theodis (Ted) Brown, Sr.",0,
+Worcester,,President,,LIB,Michael Badnarik,51,
+Worcester,,President,,POP,Ralph Nader,113,
+Worcester,,President,,REP,George W. Bush,15349,
+Worcester,,U.S. House,01,BOT,Other Write-Ins,26,
+Worcester,,U.S. House,01,DEM,Kostas Alexakis,5506,
+Worcester,,U.S. House,01,REP,Wayne T. Gilchrest,18426,TRUE
+Worcester,,U.S. Senate,,BOT,Other Write-Ins,5,
+Worcester,,U.S. Senate,,CON,Thomas Trump,69,
+Worcester,,U.S. Senate,,DEM,Barbara A. Mikulski,13524,TRUE
+Worcester,,U.S. Senate,,GRN,Maria Allwine,142,
+Worcester,,U.S. Senate,,LIB,"Robert Gemmill, II",0,
+Worcester,,U.S. Senate,,REP,"Dennard A. Gayle-El, Sr.",0,
+Worcester,,U.S. Senate,,REP,E. J. Pipkin,10954,
+Worcester,,U.S. Senate,,REP,Ray Bly,0,

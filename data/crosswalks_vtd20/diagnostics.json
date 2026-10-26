@@ -1,0 +1,57 @@
+{
+  "status": "provisional",
+  "canonical_geometry": "2020 Census VTD (VTD20)",
+  "block_assignment": {
+    "vtd20": {
+      "blocks": 83827,
+      "assigned": 83827,
+      "nearest_fallback": 1135,
+      "missing_county": 0
+    },
+    "vtd10": {
+      "blocks": 145835,
+      "assigned": 145835,
+      "nearest_fallback": 1803,
+      "missing_county": 0
+    },
+    "vtd00": {
+      "blocks": 79128,
+      "assigned": 79128,
+      "nearest_fallback": 1287,
+      "missing_county": 0
+    },
+    "current2024": {
+      "blocks": 83827,
+      "assigned": 83827,
+      "nearest_fallback": 1881,
+      "missing_county": 0
+    }
+  },
+  "outputs": {
+    "vtd00": {
+      "file": "data\\crosswalks_vtd20\\vtd00_to_vtd20.csv",
+      "rows": 3703,
+      "source_precincts": 1668,
+      "split_sources": 1031,
+      "bad_weight_sums": 0
+    },
+    "vtd10": {
+      "file": "data\\crosswalks_vtd20\\vtd10_to_vtd20.csv",
+      "rows": 3170,
+      "source_precincts": 1849,
+      "split_sources": 806,
+      "bad_weight_sums": 0
+    },
+    "current2024": {
+      "file": "data\\crosswalks_vtd20\\precinct2024_to_vtd20.csv",
+      "rows": 3138,
+      "source_precincts": 2014,
+      "split_sources": 775,
+      "bad_weight_sums": 0
+    }
+  },
+  "notes": [
+    "Weights use Census block land area because block population counts are not stored with these TIGER shapefiles.",
+    "NHGIS population/housing relationship weights are used between Census block vintages, with area fallback."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "us_house",
+    "year": 2022,
+    "district_lines_year": 2022,
+    "source": "direct_maryland_sbe_reported_district_returns",
+    "generated_at_utc": "2026-10-26T03:05:08.940031+00:00",
+    "match_coverage_pct": 100.0,
+    "input_file": "data/openelections/md_sbe/20221108__md__general__precinct.csv",
+    "office": "U.S. House",
+    "source_rows": 6731,
+    "allocation_method": "reported_sbe_district_no_geographic_reallocation",
+    "multi_member_note": null
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 293358,
+        "dem_votes": 126511,
+        "rep_votes": 159673,
+        "other_votes": 7174,
+        "dem_candidate": "Heather R. Mizeur",
+        "rep_candidate": "Andy Harris",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.304276685824147
+      },
+      "2": {
+        "total_votes": 268434,
+        "dem_votes": 158998,
+        "rep_votes": 109075,
+        "other_votes": 361,
+        "dem_candidate": "C.A. Dutch Ruppersberger",
+        "rep_candidate": "Nicolee Ambrose",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -18.59786763226715
+      },
+      "3": {
+        "total_votes": 291602,
+        "dem_votes": 175514,
+        "rep_votes": 115801,
+        "other_votes": 287,
+        "dem_candidate": "John Sarbanes",
+        "rep_candidate": "Yuripzy Morgan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -20.47756874095514
+      },
+      "4": {
+        "total_votes": 160009,
+        "dem_votes": 144168,
+        "rep_votes": 15441,
+        "other_votes": 400,
+        "dem_candidate": "Glenn F. Ivey",
+        "rep_candidate": "Jeff Warner",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.4498496959546
+      },
+      "5": {
+        "total_votes": 276920,
+        "dem_votes": 182478,
+        "rep_votes": 94000,
+        "other_votes": 442,
+        "dem_candidate": "Steny Hoyer",
+        "rep_candidate": "Chris Palombi",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -31.950743897154414
+      },
+      "6": {
+        "total_votes": 256398,
+        "dem_votes": 140295,
+        "rep_votes": 115771,
+        "other_votes": 332,
+        "dem_candidate": "David J. Trone",
+        "rep_candidate": "Neil C. Parrott",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -9.564817198262077
+      },
+      "7": {
+        "total_votes": 184801,
+        "dem_votes": 151640,
+        "rep_votes": 32737,
+        "other_votes": 424,
+        "dem_candidate": "Kweisi Mfume",
+        "rep_candidate": "Scott M. Collier",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -64.34110205031358
+      },
+      "8": {
+        "total_votes": 264206,
+        "dem_votes": 211842,
+        "rep_votes": 47965,
+        "other_votes": 4399,
+        "dem_candidate": "Jamie Raskin",
+        "rep_candidate": "Gregory Thomas Coll",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -62.026221963165106
+      }
+    }
+  }
+}

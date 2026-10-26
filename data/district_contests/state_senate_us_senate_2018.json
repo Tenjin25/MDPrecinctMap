@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "us_senate",
+    "year": 2018,
+    "district_lines_year": 2022,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2018_gen_2020_blocks.zip",
+    "bef_file": "data/MD-2022OFFICIALLYADOPTEDSENATE.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20181106__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1": [
+        "ALLEGANY",
+        "GARRETT"
+      ],
+      "29": [
+        "SAINTMARYS"
+      ],
+      "36": [
+        "KENT",
+        "QUEENANNES"
+      ],
+      "37": [
+        "DORCHESTER",
+        "TALBOT"
+      ],
+      "38": [
+        "SOMERSET",
+        "WORCESTER"
+      ]
+    },
+    "allocated_components": {
+      "1": [
+        "WASHINGTON"
+      ],
+      "10": [
+        "BALTIMORE"
+      ],
+      "11": [
+        "BALTIMORE"
+      ],
+      "12": [
+        "ANNEARUNDEL",
+        "HOWARD"
+      ],
+      "13": [
+        "HOWARD"
+      ],
+      "14": [
+        "MONTGOMERY"
+      ],
+      "15": [
+        "MONTGOMERY"
+      ],
+      "16": [
+        "MONTGOMERY"
+      ],
+      "17": [
+        "MONTGOMERY"
+      ],
+      "18": [
+        "MONTGOMERY"
+      ],
+      "19": [
+        "MONTGOMERY"
+      ],
+      "2": [
+        "FREDERICK",
+        "WASHINGTON"
+      ],
+      "20": [
+        "MONTGOMERY"
+      ],
+      "21": [
+        "ANNEARUNDEL",
+        "PRINCEGEORGES"
+      ],
+      "22": [
+        "PRINCEGEORGES"
+      ],
+      "23": [
+        "PRINCEGEORGES"
+      ],
+      "24": [
+        "PRINCEGEORGES"
+      ],
+      "25": [
+        "PRINCEGEORGES"
+      ],
+      "26": [
+        "PRINCEGEORGES"
+      ],
+      "27": [
+        "CALVERT",
+        "CHARLES",
+        "PRINCEGEORGES"
+      ],
+      "28": [
+        "CHARLES"
+      ],
+      "29": [
+        "CALVERT"
+      ],
+      "3": [
+        "FREDERICK"
+      ],
+      "30": [
+        "ANNEARUNDEL"
+      ],
+      "31": [
+        "ANNEARUNDEL"
+      ],
+      "32": [
+        "ANNEARUNDEL"
+      ],
+      "33": [
+        "ANNEARUNDEL"
+      ],
+      "34": [
+        "HARFORD"
+      ],
+      "35": [
+        "CECIL",
+        "HARFORD"
+      ],
+      "36": [
+        "CAROLINE",
+        "CECIL"
+      ],
+      "37": [
+        "CAROLINE",
+        "WICOMICO"
+      ],
+      "38": [
+        "WICOMICO"
+      ],
+      "39": [
+        "MONTGOMERY"
+      ],
+      "4": [
+        "FREDERICK"
+      ],
+      "40": [
+        "BALTIMORECITY"
+      ],
+      "41": [
+        "BALTIMORECITY"
+      ],
+      "42": [
+        "BALTIMORE",
+        "CARROLL"
+      ],
+      "43": [
+        "BALTIMORE",
+        "BALTIMORECITY"
+      ],
+      "44": [
+        "BALTIMORE"
+      ],
+      "45": [
+        "BALTIMORECITY"
+      ],
+      "46": [
+        "BALTIMORECITY"
+      ],
+      "47": [
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "CARROLL",
+        "FREDERICK"
+      ],
+      "6": [
+        "BALTIMORE"
+      ],
+      "7": [
+        "BALTIMORE",
+        "HARFORD"
+      ],
+      "8": [
+        "BALTIMORE"
+      ],
+      "9": [
+        "HOWARD",
+        "MONTGOMERY"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 47773,
+        "dem_votes": 15492,
+        "rep_votes": 30494,
+        "other_votes": 1787,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.402675151236053
+      },
+      "2": {
+        "total_votes": 41957,
+        "dem_votes": 17565,
+        "rep_votes": 22567,
+        "other_votes": 1825,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.921729389613175
+      },
+      "3": {
+        "total_votes": 42107,
+        "dem_votes": 27113,
+        "rep_votes": 13203,
+        "other_votes": 1791,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.03488731089843
+      },
+      "4": {
+        "total_votes": 57715,
+        "dem_votes": 25578,
+        "rep_votes": 29621,
+        "other_votes": 2516,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 7.005111322879667
+      },
+      "5": {
+        "total_votes": 57985,
+        "dem_votes": 21009,
+        "rep_votes": 32388,
+        "other_votes": 4588,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 19.62404070018108
+      },
+      "6": {
+        "total_votes": 41073,
+        "dem_votes": 19006,
+        "rep_votes": 19074,
+        "other_votes": 2993,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 0.16555888296447788
+      },
+      "7": {
+        "total_votes": 56698,
+        "dem_votes": 23007,
+        "rep_votes": 29548,
+        "other_votes": 4143,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.536562136230554
+      },
+      "8": {
+        "total_votes": 46768,
+        "dem_votes": 29052,
+        "rep_votes": 14798,
+        "other_votes": 2918,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -30.478104686965445
+      },
+      "9": {
+        "total_votes": 53723,
+        "dem_votes": 30892,
+        "rep_votes": 19427,
+        "other_votes": 3404,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.340952664594308
+      },
+      "10": {
+        "total_votes": 43891,
+        "dem_votes": 33379,
+        "rep_votes": 8084,
+        "other_votes": 2428,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -57.63140507165478
+      },
+      "11": {
+        "total_votes": 52988,
+        "dem_votes": 35656,
+        "rep_votes": 14010,
+        "other_votes": 3322,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -40.85075866233864
+      },
+      "12": {
+        "total_votes": 50778,
+        "dem_votes": 34291,
+        "rep_votes": 13374,
+        "other_votes": 3113,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -41.19303635432668
+      },
+      "13": {
+        "total_votes": 57918,
+        "dem_votes": 42029,
+        "rep_votes": 12708,
+        "other_votes": 3181,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -50.625021582236954
+      },
+      "14": {
+        "total_votes": 53288,
+        "dem_votes": 38268,
+        "rep_votes": 12801,
+        "other_votes": 2219,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -47.79124756042636
+      },
+      "15": {
+        "total_votes": 53160,
+        "dem_votes": 37543,
+        "rep_votes": 12906,
+        "other_votes": 2711,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -46.34499623777276
+      },
+      "16": {
+        "total_votes": 61505,
+        "dem_votes": 47833,
+        "rep_votes": 10513,
+        "other_votes": 3159,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.677993659052106
+      },
+      "17": {
+        "total_votes": 43864,
+        "dem_votes": 34142,
+        "rep_votes": 7697,
+        "other_votes": 2025,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.28861936895859
+      },
+      "18": {
+        "total_votes": 51157,
+        "dem_votes": 41879,
+        "rep_votes": 7263,
+        "other_votes": 2015,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -67.66620403854799
+      },
+      "19": {
+        "total_votes": 49318,
+        "dem_votes": 37718,
+        "rep_votes": 9775,
+        "other_votes": 1825,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -56.65882639198669
+      },
+      "20": {
+        "total_votes": 44628,
+        "dem_votes": 39590,
+        "rep_votes": 3647,
+        "other_votes": 1391,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.53912342027428
+      },
+      "21": {
+        "total_votes": 36879,
+        "dem_votes": 29039,
+        "rep_votes": 6317,
+        "other_votes": 1523,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -61.612299682746276
+      },
+      "22": {
+        "total_votes": 39108,
+        "dem_votes": 34891,
+        "rep_votes": 3184,
+        "other_votes": 1033,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -81.07548327707886
+      },
+      "23": {
+        "total_votes": 53699,
+        "dem_votes": 45242,
+        "rep_votes": 6952,
+        "other_votes": 1505,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -71.30486601240247
+      },
+      "24": {
+        "total_votes": 49893,
+        "dem_votes": 47088,
+        "rep_votes": 1915,
+        "other_votes": 890,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -90.53975507586235
+      },
+      "25": {
+        "total_votes": 49881,
+        "dem_votes": 47306,
+        "rep_votes": 1751,
+        "other_votes": 824,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -91.32735911469297
+      },
+      "26": {
+        "total_votes": 48975,
+        "dem_votes": 45318,
+        "rep_votes": 2715,
+        "other_votes": 942,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -86.98928024502297
+      },
+      "27": {
+        "total_votes": 56413,
+        "dem_votes": 34535,
+        "rep_votes": 19976,
+        "other_votes": 1902,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -25.807881162143474
+      },
+      "28": {
+        "total_votes": 52270,
+        "dem_votes": 35884,
+        "rep_votes": 14946,
+        "other_votes": 1440,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -40.05739429883298
+      },
+      "29": {
+        "total_votes": 49003,
+        "dem_votes": 21101,
+        "rep_votes": 25507,
+        "other_votes": 2395,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 8.991286247780748
+      },
+      "30": {
+        "total_votes": 51798,
+        "dem_votes": 28743,
+        "rep_votes": 20414,
+        "other_votes": 2641,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -16.079771419745935
+      },
+      "31": {
+        "total_votes": 56151,
+        "dem_votes": 23821,
+        "rep_votes": 28595,
+        "other_votes": 3735,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 8.502074762693452
+      },
+      "32": {
+        "total_votes": 44027,
+        "dem_votes": 28369,
+        "rep_votes": 13257,
+        "other_votes": 2401,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -34.324391850455406
+      },
+      "33": {
+        "total_votes": 58209,
+        "dem_votes": 31238,
+        "rep_votes": 23548,
+        "other_votes": 3423,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -13.211015478706042
+      },
+      "34": {
+        "total_votes": 48396,
+        "dem_votes": 25231,
+        "rep_votes": 20014,
+        "other_votes": 3151,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -10.77981651376147
+      },
+      "35": {
+        "total_votes": 59954,
+        "dem_votes": 19696,
+        "rep_votes": 36302,
+        "other_votes": 3956,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 27.697901724655573
+      },
+      "36": {
+        "total_votes": 51984,
+        "dem_votes": 21623,
+        "rep_votes": 27479,
+        "other_votes": 2882,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.265004616805172
+      },
+      "37": {
+        "total_votes": 51999,
+        "dem_votes": 25462,
+        "rep_votes": 24163,
+        "other_votes": 2374,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -2.4981249639416143
+      },
+      "38": {
+        "total_votes": 50633,
+        "dem_votes": 22371,
+        "rep_votes": 26017,
+        "other_votes": 2245,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 7.200837398534553
+      },
+      "39": {
+        "total_votes": 44380,
+        "dem_votes": 34249,
+        "rep_votes": 8309,
+        "other_votes": 1822,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -58.44975214060387
+      },
+      "40": {
+        "total_votes": 39367,
+        "dem_votes": 35581,
+        "rep_votes": 2260,
+        "other_votes": 1526,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -84.6419590011939
+      },
+      "41": {
+        "total_votes": 38720,
+        "dem_votes": 34220,
+        "rep_votes": 3136,
+        "other_votes": 1364,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -80.27892561983471
+      },
+      "42": {
+        "total_votes": 59464,
+        "dem_votes": 25307,
+        "rep_votes": 29747,
+        "other_votes": 4410,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 7.46670254271492
+      },
+      "43": {
+        "total_votes": 45238,
+        "dem_votes": 37841,
+        "rep_votes": 5269,
+        "other_votes": 2128,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -72.0014147398205
+      },
+      "44": {
+        "total_votes": 46233,
+        "dem_votes": 33575,
+        "rep_votes": 10112,
+        "other_votes": 2546,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -50.74946466809421
+      },
+      "45": {
+        "total_votes": 38906,
+        "dem_votes": 34560,
+        "rep_votes": 2910,
+        "other_votes": 1436,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -81.34992032077315
+      },
+      "46": {
+        "total_votes": 38625,
+        "dem_votes": 29880,
+        "rep_votes": 6393,
+        "other_votes": 2352,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.80776699029127
+      },
+      "47": {
+        "total_votes": 31390,
+        "dem_votes": 28765,
+        "rep_votes": 1931,
+        "other_votes": 694,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Tony Campbell",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -85.48582351067219
+      }
+    }
+  }
+}

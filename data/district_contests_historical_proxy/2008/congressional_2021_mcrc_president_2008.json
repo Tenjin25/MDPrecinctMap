@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "president",
+    "year": 2008,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T03:24:28.745444+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2631597.0,
+      "direct_geographic_votes": 2170548.0,
+      "aliased_geographic_votes": 41808.0,
+      "pseudo_votes": 194322.0,
+      "unmatched_geographic_votes": 266727.0,
+      "imputed_votes": 461049.0,
+      "allocated_votes": 2631597,
+      "matched_precinct_keys": 1626,
+      "unmatched_precinct_keys": 228,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 82.48025818542885,
+      "direct_geographic_vote_coverage_pct": 89.05634366249193
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 333057,
+        "dem_votes": 141442,
+        "rep_votes": 184878,
+        "other_votes": 6737,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 13.041611495930125
+      },
+      "7": {
+        "total_votes": 313088,
+        "dem_votes": 247020,
+        "rep_votes": 61637,
+        "other_votes": 4431,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -59.21114830335241
+      },
+      "3": {
+        "total_votes": 349728,
+        "dem_votes": 185243,
+        "rep_votes": 158113,
+        "other_votes": 6372,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -7.757457223899716
+      },
+      "2": {
+        "total_votes": 339900,
+        "dem_votes": 199075,
+        "rep_votes": 133880,
+        "other_votes": 6945,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -19.180641365107384
+      },
+      "1": {
+        "total_votes": 360639,
+        "dem_votes": 147493,
+        "rep_votes": 205958,
+        "other_votes": 7188,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 16.21150236108685
+      },
+      "5": {
+        "total_votes": 332330,
+        "dem_votes": 247234,
+        "rep_votes": 82313,
+        "other_votes": 2783,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -49.62567327656245
+      },
+      "8": {
+        "total_votes": 325778,
+        "dem_votes": 229629,
+        "rep_votes": 91465,
+        "other_votes": 4684,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -42.410475845514426
+      },
+      "4": {
+        "total_votes": 277077,
+        "dem_votes": 232331,
+        "rep_votes": 41618,
+        "other_votes": 3128,
+        "dem_candidate": "Barack Obama",
+        "rep_candidate": "John McCain",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -68.83032514427397
+      }
+    }
+  }
+}

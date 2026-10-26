@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2006,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T03:24:28.745444+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1781405.0,
+      "direct_geographic_votes": 1458386.0,
+      "aliased_geographic_votes": 29737.0,
+      "pseudo_votes": 185242.0,
+      "unmatched_geographic_votes": 137777.0,
+      "imputed_votes": 323019.0,
+      "allocated_votes": 1781405,
+      "matched_precinct_keys": 1630,
+      "unmatched_precinct_keys": 187,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 81.86717787364468,
+      "direct_geographic_vote_coverage_pct": 91.36823745444545
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 192213,
+        "dem_votes": 83588,
+        "rep_votes": 105736,
+        "other_votes": 2889,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.522633744855968
+      },
+      "3": {
+        "total_votes": 258008,
+        "dem_votes": 123391,
+        "rep_votes": 130261,
+        "other_votes": 4356,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.6627081330811446
+      },
+      "5": {
+        "total_votes": 199071,
+        "dem_votes": 103946,
+        "rep_votes": 92302,
+        "other_votes": 2823,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -5.849169391825027
+      },
+      "7": {
+        "total_votes": 206844,
+        "dem_votes": 143167,
+        "rep_votes": 59297,
+        "other_votes": 4380,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -40.5474657229603
+      },
+      "2": {
+        "total_votes": 259718,
+        "dem_votes": 124170,
+        "rep_votes": 130664,
+        "other_votes": 4884,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.5004042846471943
+      },
+      "1": {
+        "total_votes": 257769,
+        "dem_votes": 94702,
+        "rep_votes": 158625,
+        "other_votes": 4442,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 24.798559950963845
+      },
+      "8": {
+        "total_votes": 250781,
+        "dem_votes": 172601,
+        "rep_votes": 75198,
+        "other_votes": 2982,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -38.83986426403914
+      },
+      "4": {
+        "total_votes": 157001,
+        "dem_votes": 120107,
+        "rep_votes": 35269,
+        "other_votes": 1625,
+        "dem_candidate": "Benjamin L. Cardin",
+        "rep_candidate": "Michael S. Steele",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -54.03659849300323
+      }
+    }
+  }
+}

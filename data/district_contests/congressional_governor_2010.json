@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "governor",
+    "year": 2010,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2012,
+    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1857880.0,
+      "direct_geographic_votes": 1523820.0,
+      "unmatched_geographic_votes": 9340.0,
+      "pseudo_votes": 324720.0,
+      "aliased_geographic_votes": 17270.0,
+      "imputed_votes": 334060.0,
+      "allocated_votes": 1857880,
+      "matched_precinct_keys": 1857,
+      "unmatched_precinct_keys": 30,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 82.01929080457295,
+      "direct_geographic_vote_coverage_pct": 99.39080069920948
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 201663,
+        "dem_votes": 90886,
+        "rep_votes": 105334,
+        "other_votes": 5443,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 7.164427782984484
+      },
+      "3": {
+        "total_votes": 265388,
+        "dem_votes": 123776,
+        "rep_votes": 135969,
+        "other_votes": 5643,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 4.594405172803593
+      },
+      "5": {
+        "total_votes": 231738,
+        "dem_votes": 138391,
+        "rep_votes": 89399,
+        "other_votes": 3948,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.141116260604647
+      },
+      "7": {
+        "total_votes": 213144,
+        "dem_votes": 161084,
+        "rep_votes": 47817,
+        "other_votes": 4243,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -53.14106894869196
+      },
+      "2": {
+        "total_votes": 271956,
+        "dem_votes": 122873,
+        "rep_votes": 143120,
+        "other_votes": 5963,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 7.444954330847637
+      },
+      "1": {
+        "total_votes": 271918,
+        "dem_votes": 96382,
+        "rep_votes": 168968,
+        "other_votes": 6568,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 26.694076890827382
+      },
+      "8": {
+        "total_votes": 230534,
+        "dem_votes": 160008,
+        "rep_votes": 67475,
+        "other_votes": 3051,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -40.13854789315242
+      },
+      "4": {
+        "total_votes": 171539,
+        "dem_votes": 151880,
+        "rep_votes": 18237,
+        "other_votes": 1422,
+        "dem_candidate": "Martin O'Malley",
+        "rep_candidate": "Robert L. Ehrlich, Jr.",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -77.90823078133835
+      }
+    }
+  }
+}

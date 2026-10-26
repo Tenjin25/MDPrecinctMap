@@ -1,0 +1,1048 @@
+{
+  "meta": {
+    "scope": "state_house",
+    "contest_type": "us_senate",
+    "year": 2024,
+    "district_lines_year": 2022,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2024_gen_2020_blocks.zip",
+    "bef_file": "data/MD-2022OFFICIALLYADOPTEDHOUSE.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20241105__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1A": [
+        "GARRETT"
+      ],
+      "36": [
+        "KENT",
+        "QUEENANNES"
+      ],
+      "37B": [
+        "TALBOT"
+      ],
+      "38A": [
+        "SOMERSET"
+      ]
+    },
+    "allocated_components": {
+      "10": [
+        "BALTIMORE"
+      ],
+      "11A": [
+        "BALTIMORE"
+      ],
+      "11B": [
+        "BALTIMORE"
+      ],
+      "12A": [
+        "HOWARD"
+      ],
+      "12B": [
+        "ANNEARUNDEL"
+      ],
+      "13": [
+        "HOWARD"
+      ],
+      "14": [
+        "MONTGOMERY"
+      ],
+      "15": [
+        "MONTGOMERY"
+      ],
+      "16": [
+        "MONTGOMERY"
+      ],
+      "17": [
+        "MONTGOMERY"
+      ],
+      "18": [
+        "MONTGOMERY"
+      ],
+      "19": [
+        "MONTGOMERY"
+      ],
+      "1A": [
+        "ALLEGANY"
+      ],
+      "1B": [
+        "ALLEGANY"
+      ],
+      "1C": [
+        "ALLEGANY",
+        "WASHINGTON"
+      ],
+      "20": [
+        "MONTGOMERY"
+      ],
+      "21": [
+        "ANNEARUNDEL",
+        "PRINCEGEORGES"
+      ],
+      "22": [
+        "PRINCEGEORGES"
+      ],
+      "23": [
+        "PRINCEGEORGES"
+      ],
+      "24": [
+        "PRINCEGEORGES"
+      ],
+      "25": [
+        "PRINCEGEORGES"
+      ],
+      "26": [
+        "PRINCEGEORGES"
+      ],
+      "27A": [
+        "CHARLES",
+        "PRINCEGEORGES"
+      ],
+      "27B": [
+        "CALVERT",
+        "PRINCEGEORGES"
+      ],
+      "27C": [
+        "CALVERT"
+      ],
+      "28": [
+        "CHARLES"
+      ],
+      "29A": [
+        "SAINTMARYS"
+      ],
+      "29B": [
+        "SAINTMARYS"
+      ],
+      "29C": [
+        "CALVERT",
+        "SAINTMARYS"
+      ],
+      "2A": [
+        "FREDERICK",
+        "WASHINGTON"
+      ],
+      "2B": [
+        "WASHINGTON"
+      ],
+      "3": [
+        "FREDERICK"
+      ],
+      "30A": [
+        "ANNEARUNDEL"
+      ],
+      "30B": [
+        "ANNEARUNDEL"
+      ],
+      "31": [
+        "ANNEARUNDEL"
+      ],
+      "32": [
+        "ANNEARUNDEL"
+      ],
+      "33A": [
+        "ANNEARUNDEL"
+      ],
+      "33B": [
+        "ANNEARUNDEL"
+      ],
+      "33C": [
+        "ANNEARUNDEL"
+      ],
+      "34A": [
+        "HARFORD"
+      ],
+      "34B": [
+        "HARFORD"
+      ],
+      "35A": [
+        "CECIL",
+        "HARFORD"
+      ],
+      "35B": [
+        "CECIL"
+      ],
+      "36": [
+        "CAROLINE",
+        "CECIL"
+      ],
+      "37A": [
+        "DORCHESTER",
+        "WICOMICO"
+      ],
+      "37B": [
+        "CAROLINE",
+        "DORCHESTER",
+        "WICOMICO"
+      ],
+      "38A": [
+        "WICOMICO",
+        "WORCESTER"
+      ],
+      "38B": [
+        "WICOMICO"
+      ],
+      "38C": [
+        "WICOMICO",
+        "WORCESTER"
+      ],
+      "39": [
+        "MONTGOMERY"
+      ],
+      "4": [
+        "FREDERICK"
+      ],
+      "40": [
+        "BALTIMORECITY"
+      ],
+      "41": [
+        "BALTIMORECITY"
+      ],
+      "42A": [
+        "BALTIMORE"
+      ],
+      "42B": [
+        "BALTIMORE"
+      ],
+      "42C": [
+        "CARROLL"
+      ],
+      "43A": [
+        "BALTIMORECITY"
+      ],
+      "43B": [
+        "BALTIMORE"
+      ],
+      "44A": [
+        "BALTIMORE"
+      ],
+      "44B": [
+        "BALTIMORE"
+      ],
+      "45": [
+        "BALTIMORECITY"
+      ],
+      "46": [
+        "BALTIMORECITY"
+      ],
+      "47A": [
+        "PRINCEGEORGES"
+      ],
+      "47B": [
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "CARROLL",
+        "FREDERICK"
+      ],
+      "6": [
+        "BALTIMORE"
+      ],
+      "7A": [
+        "BALTIMORE"
+      ],
+      "7B": [
+        "HARFORD"
+      ],
+      "8": [
+        "BALTIMORE"
+      ],
+      "9A": [
+        "HOWARD",
+        "MONTGOMERY"
+      ],
+      "9B": [
+        "HOWARD"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1A": {
+        "total_votes": 22215,
+        "dem_votes": 3955,
+        "rep_votes": 16745,
+        "other_votes": 1515,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 57.57371145622328
+      },
+      "1B": {
+        "total_votes": 21486,
+        "dem_votes": 5454,
+        "rep_votes": 14501,
+        "other_votes": 1531,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 42.10648794563902
+      },
+      "1C": {
+        "total_votes": 21866,
+        "dem_votes": 4378,
+        "rep_votes": 16088,
+        "other_votes": 1400,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 53.55346199579255
+      },
+      "2A": {
+        "total_votes": 45943,
+        "dem_votes": 12580,
+        "rep_votes": 31152,
+        "other_votes": 2211,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 40.42400365670505
+      },
+      "2B": {
+        "total_votes": 14948,
+        "dem_votes": 6721,
+        "rep_votes": 7514,
+        "other_votes": 713,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 5.305057532780305
+      },
+      "3": {
+        "total_votes": 65104,
+        "dem_votes": 35648,
+        "rep_votes": 27729,
+        "other_votes": 1727,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -12.163615138854755
+      },
+      "4": {
+        "total_votes": 79889,
+        "dem_votes": 28125,
+        "rep_votes": 49233,
+        "other_votes": 2531,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 26.421660053323986
+      },
+      "5": {
+        "total_votes": 77851,
+        "dem_votes": 21176,
+        "rep_votes": 53910,
+        "other_votes": 2765,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 42.046987193484995
+      },
+      "6": {
+        "total_votes": 50108,
+        "dem_votes": 16542,
+        "rep_votes": 31348,
+        "other_votes": 2218,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 29.548175939969667
+      },
+      "7A": {
+        "total_votes": 47677,
+        "dem_votes": 16230,
+        "rep_votes": 30019,
+        "other_votes": 1428,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 28.92170228831512
+      },
+      "7B": {
+        "total_votes": 27764,
+        "dem_votes": 7007,
+        "rep_votes": 19748,
+        "other_votes": 1009,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 45.890361619363205
+      },
+      "8": {
+        "total_votes": 55663,
+        "dem_votes": 29255,
+        "rep_votes": 24806,
+        "other_votes": 1602,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -7.9927420369006335
+      },
+      "9A": {
+        "total_votes": 49906,
+        "dem_votes": 21780,
+        "rep_votes": 27156,
+        "other_votes": 970,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 10.77225183344688
+      },
+      "9B": {
+        "total_votes": 23992,
+        "dem_votes": 12921,
+        "rep_votes": 10625,
+        "other_votes": 446,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -9.569856618872958
+      },
+      "10": {
+        "total_votes": 61844,
+        "dem_votes": 42487,
+        "rep_votes": 18170,
+        "other_votes": 1187,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.31990168811849
+      },
+      "11A": {
+        "total_votes": 19379,
+        "dem_votes": 13710,
+        "rep_votes": 5362,
+        "other_votes": 307,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -43.077558181536716
+      },
+      "11B": {
+        "total_votes": 48550,
+        "dem_votes": 24202,
+        "rep_votes": 23661,
+        "other_votes": 687,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -1.114315139031926
+      },
+      "12A": {
+        "total_votes": 47805,
+        "dem_votes": 29875,
+        "rep_votes": 17049,
+        "other_votes": 881,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.829829515741032
+      },
+      "12B": {
+        "total_votes": 17536,
+        "dem_votes": 8232,
+        "rep_votes": 8636,
+        "other_votes": 668,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.303832116788321
+      },
+      "13": {
+        "total_votes": 68401,
+        "dem_votes": 42492,
+        "rep_votes": 24647,
+        "other_votes": 1262,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.088799871346914
+      },
+      "14": {
+        "total_votes": 70408,
+        "dem_votes": 42496,
+        "rep_votes": 26862,
+        "other_votes": 1050,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -22.204863083740484
+      },
+      "15": {
+        "total_votes": 70994,
+        "dem_votes": 41718,
+        "rep_votes": 28250,
+        "other_votes": 1026,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -18.97061723525932
+      },
+      "16": {
+        "total_votes": 75395,
+        "dem_votes": 52291,
+        "rep_votes": 22408,
+        "other_votes": 696,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.63525432721003
+      },
+      "17": {
+        "total_votes": 59020,
+        "dem_votes": 39074,
+        "rep_votes": 19047,
+        "other_votes": 899,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.93256523212471
+      },
+      "18": {
+        "total_votes": 61171,
+        "dem_votes": 43497,
+        "rep_votes": 16888,
+        "other_votes": 786,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -43.49937061679554
+      },
+      "19": {
+        "total_votes": 60499,
+        "dem_votes": 38273,
+        "rep_votes": 21351,
+        "other_votes": 875,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -27.970710259673716
+      },
+      "20": {
+        "total_votes": 55876,
+        "dem_votes": 44410,
+        "rep_votes": 10804,
+        "other_votes": 662,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.14389004223638
+      },
+      "21": {
+        "total_votes": 53423,
+        "dem_votes": 36604,
+        "rep_votes": 15898,
+        "other_votes": 921,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -38.75858712539543
+      },
+      "22": {
+        "total_votes": 44779,
+        "dem_votes": 35509,
+        "rep_votes": 8624,
+        "other_votes": 646,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.03930413810045
+      },
+      "23": {
+        "total_votes": 74735,
+        "dem_votes": 59585,
+        "rep_votes": 14256,
+        "other_votes": 894,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -60.65297384090454
+      },
+      "24": {
+        "total_votes": 61553,
+        "dem_votes": 53650,
+        "rep_votes": 7250,
+        "other_votes": 653,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -75.38219095738631
+      },
+      "25": {
+        "total_votes": 64626,
+        "dem_votes": 57612,
+        "rep_votes": 6342,
+        "other_votes": 672,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -79.33339522792684
+      },
+      "26": {
+        "total_votes": 61000,
+        "dem_votes": 52370,
+        "rep_votes": 7878,
+        "other_votes": 752,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -72.9377049180328
+      },
+      "27A": {
+        "total_votes": 24037,
+        "dem_votes": 17811,
+        "rep_votes": 5799,
+        "other_votes": 427,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -49.97295835586804
+      },
+      "27B": {
+        "total_votes": 26961,
+        "dem_votes": 14726,
+        "rep_votes": 11632,
+        "other_votes": 603,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -11.475835466043545
+      },
+      "27C": {
+        "total_votes": 26992,
+        "dem_votes": 8830,
+        "rep_votes": 17293,
+        "other_votes": 869,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.353734439834025
+      },
+      "28": {
+        "total_votes": 76687,
+        "dem_votes": 47798,
+        "rep_votes": 27260,
+        "other_votes": 1629,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.781592708020916
+      },
+      "29A": {
+        "total_votes": 25238,
+        "dem_votes": 5978,
+        "rep_votes": 18184,
+        "other_votes": 1076,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 48.36357873048577
+      },
+      "29B": {
+        "total_votes": 18949,
+        "dem_votes": 8528,
+        "rep_votes": 9587,
+        "other_votes": 834,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 5.588685418755608
+      },
+      "29C": {
+        "total_votes": 26071,
+        "dem_votes": 8382,
+        "rep_votes": 16528,
+        "other_votes": 1161,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.24544513060489
+      },
+      "30A": {
+        "total_votes": 46263,
+        "dem_votes": 23802,
+        "rep_votes": 21696,
+        "other_votes": 765,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -4.552233966668828
+      },
+      "30B": {
+        "total_votes": 25213,
+        "dem_votes": 8515,
+        "rep_votes": 16062,
+        "other_votes": 636,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 29.932971086344345
+      },
+      "31": {
+        "total_votes": 74219,
+        "dem_votes": 24231,
+        "rep_votes": 47610,
+        "other_votes": 2378,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.500020210458242
+      },
+      "32": {
+        "total_votes": 58416,
+        "dem_votes": 32055,
+        "rep_votes": 24699,
+        "other_votes": 1662,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -12.592440427280197
+      },
+      "33A": {
+        "total_votes": 21794,
+        "dem_votes": 11946,
+        "rep_votes": 9313,
+        "other_votes": 535,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -12.081306781683033
+      },
+      "33B": {
+        "total_votes": 27886,
+        "dem_votes": 10916,
+        "rep_votes": 16400,
+        "other_votes": 570,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 19.665782112888188
+      },
+      "33C": {
+        "total_votes": 27128,
+        "dem_votes": 11242,
+        "rep_votes": 15280,
+        "other_votes": 606,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 14.884989678560897
+      },
+      "34A": {
+        "total_votes": 42432,
+        "dem_votes": 20525,
+        "rep_votes": 20329,
+        "other_votes": 1578,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -0.46191553544494723
+      },
+      "34B": {
+        "total_votes": 26616,
+        "dem_votes": 8632,
+        "rep_votes": 17072,
+        "other_votes": 912,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.7102494740006
+      },
+      "35A": {
+        "total_votes": 55196,
+        "dem_votes": 12320,
+        "rep_votes": 40556,
+        "other_votes": 2320,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 51.15588086093196
+      },
+      "35B": {
+        "total_votes": 23577,
+        "dem_votes": 5266,
+        "rep_votes": 16951,
+        "other_votes": 1360,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 49.561012851507826
+      },
+      "36": {
+        "total_votes": 74629,
+        "dem_votes": 21477,
+        "rep_votes": 49986,
+        "other_votes": 3166,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 38.200967452330865
+      },
+      "37A": {
+        "total_votes": 16136,
+        "dem_votes": 8586,
+        "rep_votes": 6950,
+        "other_votes": 600,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -10.13882002974715
+      },
+      "37B": {
+        "total_votes": 52548,
+        "dem_votes": 16245,
+        "rep_votes": 34322,
+        "other_votes": 1981,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 34.40092867473548
+      },
+      "38A": {
+        "total_votes": 23088,
+        "dem_votes": 7573,
+        "rep_votes": 14245,
+        "other_votes": 1270,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 28.8981288981289
+      },
+      "38B": {
+        "total_votes": 18667,
+        "dem_votes": 7843,
+        "rep_votes": 10061,
+        "other_votes": 763,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.88193067980929
+      },
+      "38C": {
+        "total_votes": 28188,
+        "dem_votes": 6370,
+        "rep_votes": 20606,
+        "other_votes": 1212,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 50.50376046544629
+      },
+      "39": {
+        "total_votes": 55172,
+        "dem_votes": 34616,
+        "rep_votes": 19463,
+        "other_votes": 1093,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -27.46501848763866
+      },
+      "40": {
+        "total_votes": 43520,
+        "dem_votes": 36966,
+        "rep_votes": 5740,
+        "other_votes": 814,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -71.75091911764706
+      },
+      "41": {
+        "total_votes": 52899,
+        "dem_votes": 40632,
+        "rep_votes": 11536,
+        "other_votes": 731,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -55.00293011210042
+      },
+      "42A": {
+        "total_votes": 28179,
+        "dem_votes": 8742,
+        "rep_votes": 18671,
+        "other_votes": 766,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 35.23545902977395
+      },
+      "42B": {
+        "total_votes": 20780,
+        "dem_votes": 10114,
+        "rep_votes": 10251,
+        "other_votes": 415,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 0.6592877767083735
+      },
+      "42C": {
+        "total_votes": 26364,
+        "dem_votes": 5730,
+        "rep_votes": 19591,
+        "other_votes": 1043,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 52.57548171749355
+      },
+      "43A": {
+        "total_votes": 36398,
+        "dem_votes": 31889,
+        "rep_votes": 3956,
+        "other_votes": 553,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -76.74322764987087
+      },
+      "43B": {
+        "total_votes": 18152,
+        "dem_votes": 11937,
+        "rep_votes": 5915,
+        "other_votes": 300,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.17540766857647
+      },
+      "44A": {
+        "total_votes": 16990,
+        "dem_votes": 8650,
+        "rep_votes": 7843,
+        "other_votes": 497,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -4.749852854620365
+      },
+      "44B": {
+        "total_votes": 43801,
+        "dem_votes": 30716,
+        "rep_votes": 12131,
+        "other_votes": 954,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -42.43053811556814
+      },
+      "45": {
+        "total_votes": 46665,
+        "dem_votes": 38586,
+        "rep_votes": 7142,
+        "other_votes": 937,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -67.38240651451838
+      },
+      "46": {
+        "total_votes": 50555,
+        "dem_votes": 35856,
+        "rep_votes": 13714,
+        "other_votes": 985,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -43.79784393235091
+      },
+      "47A": {
+        "total_votes": 26115,
+        "dem_votes": 21368,
+        "rep_votes": 4351,
+        "other_votes": 396,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -65.16178441508711
+      },
+      "47B": {
+        "total_votes": 7451,
+        "dem_votes": 5654,
+        "rep_votes": 1662,
+        "other_votes": 135,
+        "dem_candidate": "Angela Alsobrooks",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -53.57670111394444
+      }
+    }
+  }
+}

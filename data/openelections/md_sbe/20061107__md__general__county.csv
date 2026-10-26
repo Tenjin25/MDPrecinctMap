@@ -1,0 +1,2226 @@
+county,precinct,office,district,party,candidate,votes,winner
+Allegany,,Attorney General,,BOT,Other Write-Ins,12,
+Allegany,,Attorney General,,DEM,Douglas F. Gansler,8823,TRUE
+Allegany,,Attorney General,,REP,Scott L. Rolle,10962,
+Allegany,,Board of Education,,NON,Ernest W. Kaylor,8454,
+Allegany,,Board of Education,,NON,Jane M. Dawson,14276,TRUE
+Allegany,,Board of Education,,NON,Karen A. Treber,10529,TRUE
+Allegany,,Board of Education,,NON,Other Write-Ins,55,
+Allegany,,Board of Education,,NON,Tom Striplin,12535,TRUE
+Allegany,,Clerk Circuit Court,,BOT,Other Write-Ins,43,
+Allegany,,Clerk Circuit Court,,REP,Dawne D. Lindsey,18006,TRUE
+Allegany,,Comptroller,,BOT,Other Write-Ins,32,
+Allegany,,Comptroller,,DEM,Peter Franchot,8667,TRUE
+Allegany,,Comptroller,,GRN,Bob Auerbach,1,
+Allegany,,Comptroller,,REP,Anne M. McCarthy,11487,
+Allegany,,County Commissioner,,BOT,Other Write-Ins,85,
+Allegany,,County Commissioner,,DEM,James Jim Stakem,10468,TRUE
+Allegany,,County Commissioner,,DEM,Judy Lipski,7413,
+Allegany,,County Commissioner,,DEM,Rick Atkinson,6567,
+Allegany,,County Commissioner,,REP,Barbara B. Roque,8413,
+Allegany,,County Commissioner,,REP,Dale R. Lewis,10064,TRUE
+Allegany,,County Commissioner,,REP,Mike Wade,2017,
+Allegany,,County Commissioner,,REP,Robert M. Hutcheson,9699,TRUE
+Allegany,,Cumberland Council,CU,NON,Carol J Cauley,1641,
+Allegany,,Cumberland Council,CU,NON,Floyd Pete Elliott,2722,TRUE
+Allegany,,Cumberland Council,CU,NON,"Harold L Hendershot, Jr.",2866,TRUE
+Allegany,,Cumberland Council,CU,NON,James F. Combs,2635,
+Allegany,,Governor,,BOT,Other Write-Ins,8,
+Allegany,,Governor,,DEM,Charles Ulysses Smith,0,
+Allegany,,Governor,,DEM,Martin O'Malley,9033,TRUE
+Allegany,,Governor,,DEM,Ralph Jaffe,0,
+Allegany,,Governor,,GRN,Ed Boyd,215,
+Allegany,,Governor,,POP,Christopher A. Driscoll,75,
+Allegany,,Governor,,REP,John J. Simmins,0,
+Allegany,,Governor,,REP,"Robert L. Ehrlich, Jr.",12424,
+Allegany,,House of Delegates,01A,BOT,Other Write-Ins,6,
+Allegany,,House of Delegates,01A,DEM,Bill Aiken,771,
+Allegany,,House of Delegates,01A,REP,Wendell R. Beitzel,1856,TRUE
+Allegany,,House of Delegates,01B,BOT,Other Write-Ins,20,
+Allegany,,House of Delegates,01B,DEM,Kevin Kelly,6489,TRUE
+Allegany,,House of Delegates,01B,REP,Mark A. Fisher,5151,
+Allegany,,House of Delegates,01C,BOT,Other Write-Ins,9,
+Allegany,,House of Delegates,01C,DEM,Brian K. Grim,3688,
+Allegany,,House of Delegates,01C,REP,"LeRoy Myers, Jr.",3189,TRUE
+Allegany,,Judge Orphans Court,,BOT,Other Write-Ins,42,
+Allegany,,Judge Orphans Court,,DEM,Don Madden,12101,TRUE
+Allegany,,Judge Orphans Court,,REP,Billie J. Gilpin,12878,TRUE
+Allegany,,Judge Orphans Court,,REP,Donna F. May,12629,TRUE
+Allegany,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,14962,TRUE
+Allegany,,Mayor of Cumberland,CU,NON,Frank K. Nethken,909,
+Allegany,,Mayor of Cumberland,CU,NON,Lee N Fiedler,3969,TRUE
+Allegany,,Mayor of Cumberland,CU,NON,William A. Taccino,854,
+Allegany,,Register of Wills,,BOT,Other Write-Ins,63,
+Allegany,,Register of Wills,,REP,Rebecca Drew,17818,TRUE
+Allegany,,Sheriff,,BOT,Other Write-Ins,35,
+Allegany,,Sheriff,,DEM,David A. Goad,13144,TRUE
+Allegany,,Sheriff,,REP,Don Raley,7984,
+Allegany,,State Senator,01,BOT,Other Write-Ins,11,
+Allegany,,State Senator,01,DEM,Thomas Conlon,6291,
+Allegany,,State Senator,01,REP,George C. Edwards,14816,TRUE
+Allegany,,State's Attorney,,BOT,Other Write-Ins,129,
+Allegany,,State's Attorney,,REP,Michael O. Twigg,17136,TRUE
+Allegany,,U.S. House,06,BOT,Other Write-Ins,6,
+Allegany,,U.S. House,06,DEM,Andrew Duck,8432,
+Allegany,,U.S. House,06,GRN,Robert E. Kozak,356,
+Allegany,,U.S. House,06,REP,Roscoe G. Bartlett,12621,TRUE
+Allegany,,U.S. Senate,,BOT,Other Write-Ins,2,
+Allegany,,U.S. Senate,,DEM,Benjamin L. Cardin,8396,TRUE
+Allegany,,U.S. Senate,,DEM,Lih Young,0,
+Allegany,,U.S. Senate,,GRN,Kevin Zeese,309,
+Allegany,,U.S. Senate,,REP,Michael S. Steele,12892,
+Anne Arundel,,Appellate Judge,05,BOT,"Clayton Greene, Jr.",11800,TRUE
+Anne Arundel,,Appellate Judge,5,BOT,"Clayton Greene, Jr.",119271,TRUE
+Anne Arundel,,Attorney General,,BOT,Other Write-Ins,158,
+Anne Arundel,,Attorney General,,DEM,Douglas F. Gansler,90637,TRUE
+Anne Arundel,,Attorney General,,REP,Scott L. Rolle,88622,
+Anne Arundel,,Clerk Circuit Court,,BOT,Other Write-Ins,1380,
+Anne Arundel,,Clerk Circuit Court,,REP,Robert P. Duckworth,144151,TRUE
+Anne Arundel,,Comptroller,,BOT,Other Write-Ins,473,
+Anne Arundel,,Comptroller,,DEM,Peter Franchot,90799,TRUE
+Anne Arundel,,Comptroller,,GRN,Bob Auerbach,18,
+Anne Arundel,,Comptroller,,REP,Anne M. McCarthy,90767,
+Anne Arundel,,County Council,001,BOT,Other Write-Ins,1,
+Anne Arundel,,County Council,001,DEM,Daryl Jones,656,TRUE
+Anne Arundel,,County Council,001,REP,John Edward Lindner,1024,
+Anne Arundel,,County Council,002,BOT,Other Write-Ins,28,
+Anne Arundel,,County Council,002,REP,Ed Middlebrooks,1454,TRUE
+Anne Arundel,,County Council,003,BOT,Other Write-Ins,25,
+Anne Arundel,,County Council,003,REP,"Ron Dillon, Jr.",1869,TRUE
+Anne Arundel,,County Council,004,BOT,Other Write-Ins,8,
+Anne Arundel,,County Council,004,DEM,Jamie Benoit,1213,TRUE
+Anne Arundel,,County Council,004,REP,Sid Saab,944,
+Anne Arundel,,County Council,005,BOT,Other Write-Ins,4,
+Anne Arundel,,County Council,005,DEM,A. J. (Tito) Baca,789,
+Anne Arundel,,County Council,005,REP,Cathleen M. Vitale,2658,TRUE
+Anne Arundel,,County Council,006,BOT,Other Write-Ins,2,
+Anne Arundel,,County Council,006,DEM,Joshua J. Cohen,1782,TRUE
+Anne Arundel,,County Council,006,REP,Rene Swafford,1735,
+Anne Arundel,,County Council,007,BOT,Other Write-Ins,2,
+Anne Arundel,,County Council,007,DEM,Eric Lipsetts,766,
+Anne Arundel,,County Council,007,GRN,Robb Tufts,179,
+Anne Arundel,,County Council,007,REP,Edward R. Reilly,1855,TRUE
+Anne Arundel,,County Council,1,BOT,Other Write-Ins,17,
+Anne Arundel,,County Council,1,DEM,Daryl Jones,10306,TRUE
+Anne Arundel,,County Council,1,REP,John Edward Lindner,7772,
+Anne Arundel,,County Council,2,BOT,Other Write-Ins,251,
+Anne Arundel,,County Council,2,REP,Ed Middlebrooks,14944,TRUE
+Anne Arundel,,County Council,3,BOT,Other Write-Ins,201,
+Anne Arundel,,County Council,3,REP,"Ron Dillon, Jr.",18654,TRUE
+Anne Arundel,,County Council,4,BOT,Other Write-Ins,20,
+Anne Arundel,,County Council,4,DEM,Jamie Benoit,12494,TRUE
+Anne Arundel,,County Council,4,REP,Sid Saab,7719,
+Anne Arundel,,County Council,5,BOT,Other Write-Ins,29,
+Anne Arundel,,County Council,5,DEM,A. J. (Tito) Baca,7893,
+Anne Arundel,,County Council,5,REP,Cathleen M. Vitale,21973,TRUE
+Anne Arundel,,County Council,6,BOT,Other Write-Ins,15,
+Anne Arundel,,County Council,6,DEM,Joshua J. Cohen,14837,TRUE
+Anne Arundel,,County Council,6,REP,Rene Swafford,9638,
+Anne Arundel,,County Council,7,BOT,Other Write-Ins,9,
+Anne Arundel,,County Council,7,DEM,Eric Lipsetts,9168,
+Anne Arundel,,County Council,7,GRN,Robb Tufts,2196,
+Anne Arundel,,County Council,7,REP,Edward R. Reilly,15399,TRUE
+Anne Arundel,,County Executive,,BOT,Other Write-Ins,176,
+Anne Arundel,,County Executive,,DEM,"George F. Johnson, IV",89740,
+Anne Arundel,,County Executive,,REP,John R. Leopold,93668,TRUE
+Anne Arundel,,Governor,,BOT,Other Write-Ins,143,
+Anne Arundel,,Governor,,DEM,Charles Ulysses Smith,2,
+Anne Arundel,,Governor,,DEM,Martin O'Malley,78909,TRUE
+Anne Arundel,,Governor,,DEM,Ralph Jaffe,0,
+Anne Arundel,,Governor,,GRN,Ed Boyd,1591,
+Anne Arundel,,Governor,,POP,Christopher A. Driscoll,358,
+Anne Arundel,,Governor,,REP,John J. Simmins,23,
+Anne Arundel,,Governor,,REP,"Robert L. Ehrlich, Jr.",106897,
+Anne Arundel,,House of Delegates,21,BOT,Other Write-Ins,58,
+Anne Arundel,,House of Delegates,21,DEM,Barbara A. Frush,4075,TRUE
+Anne Arundel,,House of Delegates,21,DEM,Ben Barnes,4160,TRUE
+Anne Arundel,,House of Delegates,21,DEM,Joseline Pena-Melnyk,3949,TRUE
+Anne Arundel,,House of Delegates,21,REP,Neil B. Sood,2388,
+Anne Arundel,,House of Delegates,30,BOT,Other Write-Ins,80,
+Anne Arundel,,House of Delegates,30,CON,David Whitney,2225,
+Anne Arundel,,House of Delegates,30,DEM,Barbara Samorajczyk,21758,
+Anne Arundel,,House of Delegates,30,DEM,Michael E. Busch,22479,TRUE
+Anne Arundel,,House of Delegates,30,DEM,Virginia P. Clagett,22360,TRUE
+Anne Arundel,,House of Delegates,30,REP,Andy Smarick,20594,
+Anne Arundel,,House of Delegates,30,REP,Ron Elfenbein,20457,
+Anne Arundel,,House of Delegates,30,REP,Ron George,21811,TRUE
+Anne Arundel,,House of Delegates,31,BOT,Other Write-Ins,60,
+Anne Arundel,,House of Delegates,31,DEM,Craig A. Reynolds,14452,
+Anne Arundel,,House of Delegates,31,DEM,Joan Cadden,17529,
+Anne Arundel,,House of Delegates,31,DEM,Thomas J. Fleckenstein,16651,
+Anne Arundel,,House of Delegates,31,REP,"Don Dwyer, Jr.",17557,TRUE
+Anne Arundel,,House of Delegates,31,REP,Nicholaus R. Kipke,18147,TRUE
+Anne Arundel,,House of Delegates,31,REP,Steve Schuh,19048,TRUE
+Anne Arundel,,House of Delegates,32,BOT,Other Write-Ins,75,
+Anne Arundel,,House of Delegates,32,DEM,Mary Ann Love,17697,TRUE
+Anne Arundel,,House of Delegates,32,DEM,Pamela Beidle,17964,TRUE
+Anne Arundel,,House of Delegates,32,DEM,Theodore Sophocleus,17661,TRUE
+Anne Arundel,,House of Delegates,32,REP,Mark S. Chang,16569,
+Anne Arundel,,House of Delegates,32,REP,"Terry R. Gilleland, Jr.",13632,
+Anne Arundel,,House of Delegates,32,REP,Wayne Charles Smith,13153,
+Anne Arundel,,House of Delegates,33A,BOT,Other Write-Ins,73,
+Anne Arundel,,House of Delegates,33A,DEM,Patricia Weathersbee,15226,
+Anne Arundel,,House of Delegates,33A,DEM,Paul G. Rudolph,13461,
+Anne Arundel,,House of Delegates,33A,REP,James King,18542,TRUE
+Anne Arundel,,House of Delegates,33A,REP,Tony McConkey,16655,TRUE
+Anne Arundel,,House of Delegates,33B,BOT,Other Write-Ins,7,
+Anne Arundel,,House of Delegates,33B,DEM,Mike Shay,7568,
+Anne Arundel,,House of Delegates,33B,REP,Bob Costa,10484,TRUE
+Anne Arundel,,Judge Circuit Court,05,BOT,Other Write-Ins,144,
+Anne Arundel,,Judge Circuit Court,05,BOT,"William Creagh Mulford, II",12636,TRUE
+Anne Arundel,,Judge Circuit Court,5,BOT,Other Write-Ins,801,
+Anne Arundel,,Judge Circuit Court,5,BOT,"William Creagh Mulford, II",124016,TRUE
+Anne Arundel,,Judge Orphans Court,,BOT,Other Write-Ins,242,
+Anne Arundel,,Judge Orphans Court,,DEM,Alex Carter Gudger,67231,
+Anne Arundel,,Judge Orphans Court,,DEM,Brian J. Metzbower,67847,
+Anne Arundel,,Judge Orphans Court,,DEM,Walter D. Dow,66868,
+Anne Arundel,,Judge Orphans Court,,REP,Gail J. Schaffer,85208,TRUE
+Anne Arundel,,Judge Orphans Court,,REP,Gordon H. Witherspoon,82059,TRUE
+Anne Arundel,,Judge Orphans Court,,REP,Nancy C. Phelps,91632,TRUE
+Anne Arundel,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,129917,TRUE
+Anne Arundel,,Judge Spec Appeals,05,BOT,Timothy E. Meredith,11556,TRUE
+Anne Arundel,,Judge Spec Appeals,5,BOT,Timothy E. Meredith,116212,TRUE
+Anne Arundel,,Register of Wills,,BOT,Other Write-Ins,132,
+Anne Arundel,,Register of Wills,,DEM,Jacqueline Boone Allsup,78894,
+Anne Arundel,,Register of Wills,,REP,Lauren M. Parker,92051,TRUE
+Anne Arundel,,Sheriff,,BOT,Other Write-Ins,199,
+Anne Arundel,,Sheriff,,DEM,Ronald S. Bateman,90886,TRUE
+Anne Arundel,,Sheriff,,REP,"John E. Moran, IV",83746,
+Anne Arundel,,State Senator,21,BOT,Other Write-Ins,11,
+Anne Arundel,,State Senator,21,DEM,Jim Rosapepe,3942,TRUE
+Anne Arundel,,State Senator,21,REP,John Giannetti,2619,
+Anne Arundel,,State Senator,30,BOT,Other Write-Ins,29,
+Anne Arundel,,State Senator,30,DEM,John C. Astle,24999,TRUE
+Anne Arundel,,State Senator,30,REP,Herb McMillan,22216,
+Anne Arundel,,State Senator,31,BOT,Other Write-Ins,28,
+Anne Arundel,,State Senator,31,DEM,Walter J. Shandrowsky,18857,
+Anne Arundel,,State Senator,31,REP,Bryan W. Simonaire,19516,TRUE
+Anne Arundel,,State Senator,32,BOT,Other Write-Ins,30,
+Anne Arundel,,State Senator,32,DEM,"James Ed DeGrange, Sr.",21672,TRUE
+Anne Arundel,,State Senator,32,REP,Jon Vandenheuvel,13939,
+Anne Arundel,,State Senator,33,BOT,Other Write-Ins,29,
+Anne Arundel,,State Senator,33,DEM,Scott Hymes,23689,
+Anne Arundel,,State Senator,33,REP,Janet Greenip,30269,TRUE
+Anne Arundel,,State's Attorney,,BOT,Other Write-Ins,110,
+Anne Arundel,,State's Attorney,,DEM,Frank R. Weathersbee,94980,TRUE
+Anne Arundel,,State's Attorney,,REP,Dave Fischer,83818,
+Anne Arundel,,U.S. House,01,BOT,Other Write-Ins,11,
+Anne Arundel,,U.S. House,01,DEM,Jim Corwin,1293,
+Anne Arundel,,U.S. House,01,REP,Wayne T. Gilchrest,3582,TRUE
+Anne Arundel,,U.S. House,02,BOT,Other Write-Ins,5,
+Anne Arundel,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,1237,TRUE
+Anne Arundel,,U.S. House,02,REP,Jimmy Mathis,1178,
+Anne Arundel,,U.S. House,03,BOT,Other Write-Ins,7,
+Anne Arundel,,U.S. House,03,DEM,John P. Sarbanes,4105,TRUE
+Anne Arundel,,U.S. House,03,LIB,"Charles Curtis McPeek, Sr.",131,
+Anne Arundel,,U.S. House,03,REP,John White,4609,
+Anne Arundel,,U.S. House,05,BOT,Other Write-Ins,46,
+Anne Arundel,,U.S. House,05,DEM,Steny H. Hoyer,1017,TRUE
+Anne Arundel,,U.S. House,05,GRN,Steve Warner,563,
+Anne Arundel,,U.S. House,1,BOT,Other Write-Ins,44,
+Anne Arundel,,U.S. House,1,DEM,Jim Corwin,14108,
+Anne Arundel,,U.S. House,1,REP,Wayne T. Gilchrest,28213,TRUE
+Anne Arundel,,U.S. House,2,BOT,Other Write-Ins,35,
+Anne Arundel,,U.S. House,2,DEM,C. A. Dutch Ruppersberger,17548,TRUE
+Anne Arundel,,U.S. House,2,REP,Jimmy Mathis,9798,
+Anne Arundel,,U.S. House,3,BOT,Other Write-Ins,41,
+Anne Arundel,,U.S. House,3,DEM,John P. Sarbanes,43065,TRUE
+Anne Arundel,,U.S. House,3,LIB,"Charles Curtis McPeek, Sr.",1552,
+Anne Arundel,,U.S. House,3,REP,John White,31562,
+Anne Arundel,,U.S. House,5,BOT,Other Write-Ins,138,
+Anne Arundel,,U.S. House,5,CON,Peter Kuhnert,98,
+Anne Arundel,,U.S. House,5,DEM,Steny H. Hoyer,11864,TRUE
+Anne Arundel,,U.S. House,5,GRN,Steve Warner,4891,
+Anne Arundel,,U.S. Senate,,BOT,Other Write-Ins,69,
+Anne Arundel,,U.S. Senate,,DEM,Benjamin L. Cardin,82687,TRUE
+Anne Arundel,,U.S. Senate,,DEM,Lih Young,9,
+Anne Arundel,,U.S. Senate,,GRN,Kevin Zeese,3331,
+Anne Arundel,,U.S. Senate,,REP,Michael S. Steele,101110,
+Baltimore,,Attorney General,,BOT,Other Write-Ins,311,
+Baltimore,,Attorney General,,DEM,Douglas F. Gansler,154605,TRUE
+Baltimore,,Attorney General,,REP,Scott L. Rolle,115658,
+Baltimore,,Clerk Circuit Court,,BOT,Other Write-Ins,117,
+Baltimore,,Clerk Circuit Court,,DEM,Suzanne Mensh,161324,TRUE
+Baltimore,,Clerk Circuit Court,,REP,J. Michael Collins,98136,
+Baltimore,,Comptroller,,BOT,Other Write-Ins,774,
+Baltimore,,Comptroller,,DEM,Peter Franchot,154925,TRUE
+Baltimore,,Comptroller,,GRN,Bob Auerbach,26,
+Baltimore,,Comptroller,,REP,Anne M. McCarthy,118332,
+Baltimore,,County Council,001,BOT,Other Write-Ins,36,
+Baltimore,,County Council,001,DEM,S. G. Samuel Moxley,22302,TRUE
+Baltimore,,County Council,001,REP,George Kapusinski,12272,
+Baltimore,,County Council,002,BOT,Other Write-Ins,30,
+Baltimore,,County Council,002,DEM,Kevin Kamenetz,29938,TRUE
+Baltimore,,County Council,002,REP,Lisa Marquardt,12925,
+Baltimore,,County Council,003,BOT,Other Write-Ins,499,
+Baltimore,,County Council,003,REP,T. Bryan McIntire,38656,TRUE
+Baltimore,,County Council,004,BOT,Other Write-Ins,191,
+Baltimore,,County Council,004,DEM,Kenneth N. Oliver,30976,TRUE
+Baltimore,,County Council,005,BOT,Other Write-Ins,30,
+Baltimore,,County Council,005,DEM,Vince Gardina,23318,TRUE
+Baltimore,,County Council,005,REP,Wayne Skinner,19174,
+Baltimore,,County Council,006,BOT,Other Write-Ins,19,
+Baltimore,,County Council,006,DEM,Joseph Bartenfelder,22339,TRUE
+Baltimore,,County Council,006,REP,Tim Knepp,11229,
+Baltimore,,County Council,007,BOT,Other Write-Ins,41,
+Baltimore,,County Council,007,DEM,"John Johnny O Olszewski, Sr.",21042,TRUE
+Baltimore,,County Council,007,REP,Ray Krul,9481,
+Baltimore,,County Executive,,BOT,Other Write-Ins,199,
+Baltimore,,County Executive,,DEM,"James Jim T. Smith, Jr.",180063,TRUE
+Baltimore,,County Executive,,REP,"Clarence William Bell, Jr.",91514,
+Baltimore,,Governor,,BOT,Other Write-Ins,225,
+Baltimore,,Governor,,DEM,Charles Ulysses Smith,0,
+Baltimore,,Governor,,DEM,Martin O'Malley,135567,TRUE
+Baltimore,,Governor,,DEM,Ralph Jaffe,6,
+Baltimore,,Governor,,GRN,Ed Boyd,2583,
+Baltimore,,Governor,,POP,Christopher A. Driscoll,540,
+Baltimore,,Governor,,REP,John J. Simmins,37,
+Baltimore,,Governor,,REP,"Robert L. Ehrlich, Jr.",143970,
+Baltimore,,House of Delegates,05B,BOT,Other Write-Ins,172,
+Baltimore,,House of Delegates,05B,REP,Wade Kach,15321,TRUE
+Baltimore,,House of Delegates,06,BOT,Other Write-Ins,106,
+Baltimore,,House of Delegates,06,DEM,"John Olszewski, Jr.",18769,TRUE
+Baltimore,,House of Delegates,06,DEM,Joseph Sonny Minnick,17379,TRUE
+Baltimore,,House of Delegates,06,DEM,"Mike Weir, Jr.",17117,TRUE
+Baltimore,,House of Delegates,06,REP,Paul M. Blitz,8765,
+Baltimore,,House of Delegates,06,REP,Richard W. Metzgar,8915,
+Baltimore,,House of Delegates,06,REP,Steve Dishon,10961,
+Baltimore,,House of Delegates,07,BOT,Other Write-Ins,66,
+Baltimore,,House of Delegates,07,DEM,Jack Sturgill,11598,
+Baltimore,,House of Delegates,07,DEM,Linda W. Hart,12898,
+Baltimore,,House of Delegates,07,DEM,Rebecca L. Nelson,9839,
+Baltimore,,House of Delegates,07,GRN,Kim Fell,1635,
+Baltimore,,House of Delegates,07,REP,J. B. Jennings,15287,TRUE
+Baltimore,,House of Delegates,07,REP,Pat McDonough,16518,TRUE
+Baltimore,,House of Delegates,07,REP,Rick Impallaria,14976,TRUE
+Baltimore,,House of Delegates,08,BOT,Other Write-Ins,74,
+Baltimore,,House of Delegates,08,DEM,Eric M. Bromwell,20116,TRUE
+Baltimore,,House of Delegates,08,DEM,Ruth Baisden,18261,
+Baltimore,,House of Delegates,08,DEM,Todd Schuler,18356,TRUE
+Baltimore,,House of Delegates,08,REP,John Cluster,18057,
+Baltimore,,House of Delegates,08,REP,"Joseph C. Boteler, III",19586,TRUE
+Baltimore,,House of Delegates,08,REP,Melissa Redmer Mullahey,18160,
+Baltimore,,House of Delegates,10,BOT,Other Write-Ins,370,
+Baltimore,,House of Delegates,10,DEM,Adrienne A. Jones,27064,TRUE
+Baltimore,,House of Delegates,10,DEM,Emmett C. Burns,29140,TRUE
+Baltimore,,House of Delegates,10,DEM,Shirley Nathan-Pulliam,28544,TRUE
+Baltimore,,House of Delegates,11,BOT,Other Write-Ins,181,
+Baltimore,,House of Delegates,11,DEM,Dan K. Morhaim,31185,TRUE
+Baltimore,,House of Delegates,11,DEM,Dana Stein,30481,TRUE
+Baltimore,,House of Delegates,11,DEM,Jon S. Cardin,32747,TRUE
+Baltimore,,House of Delegates,11,GRN,Dave Goldsmith,5435,
+Baltimore,,House of Delegates,11,REP,Patrick Abbondandolo,12822,
+Baltimore,,House of Delegates,11,REP,Patrick V. Dyer,13904,
+Baltimore,,House of Delegates,12A,BOT,Other Write-Ins,22,
+Baltimore,,House of Delegates,12A,DEM,"James E. Malone, Jr.",12129,TRUE
+Baltimore,,House of Delegates,12A,DEM,"Steven J. DeBoy, Sr.",11175,TRUE
+Baltimore,,House of Delegates,12A,REP,Albert L. Nalley,7358,
+Baltimore,,House of Delegates,12A,REP,Joe Hooe,9045,
+Baltimore,,House of Delegates,42,BOT,Other Write-Ins,88,
+Baltimore,,House of Delegates,42,DEM,Andrew Belt,18006,
+Baltimore,,House of Delegates,42,DEM,Stephen W. Lafferty,21117,TRUE
+Baltimore,,House of Delegates,42,DEM,Tracy Miller,19168,
+Baltimore,,House of Delegates,42,REP,Dilip Paliath,19490,
+Baltimore,,House of Delegates,42,REP,Susan Aumann,22054,TRUE
+Baltimore,,House of Delegates,42,REP,William J. Frank,20522,TRUE
+Baltimore,,Judge Circuit Court,03,BOT,Judith C. Ensor,187958,TRUE
+Baltimore,,Judge Circuit Court,03,BOT,Mickey Norman,153262,TRUE
+Baltimore,,Judge Circuit Court,03,BOT,Other Write-Ins,1514,
+Baltimore,,Judge Circuit Court,03,BOT,"Robert E. Cahill, Jr.",192475,TRUE
+Baltimore,,Judge Circuit Court,03,BOT,Timothy J. Martin,170135,TRUE
+Baltimore,,Judge Orphans Court,,BOT,Other Write-Ins,291,
+Baltimore,,Judge Orphans Court,,DEM,Colleen A. Cavanaugh,148397,TRUE
+Baltimore,,Judge Orphans Court,,DEM,Theresa A. Lawler,142078,TRUE
+Baltimore,,Judge Orphans Court,,DEM,William R. Evans,126207,TRUE
+Baltimore,,Judge Orphans Court,,REP,Gloria B. Murphy,100154,
+Baltimore,,Judge Orphans Court,,REP,John R. Danza,86451,
+Baltimore,,Judge Orphans Court,,REP,Robert Joseph Banks,95046,
+Baltimore,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,203840,TRUE
+Baltimore,,Judge Spec Appeals,02,BOT,James R. Eyler,194969,TRUE
+Baltimore,,Register of Wills,,BOT,Other Write-Ins,1163,
+Baltimore,,Register of Wills,,DEM,Grace G. Connolly,215867,TRUE
+Baltimore,,Sheriff,,BOT,Other Write-Ins,463,
+Baltimore,,Sheriff,,DEM,R. Jay Fisher,152389,TRUE
+Baltimore,,Sheriff,,REP,Tim Caldwell,100841,
+Baltimore,,State Senator,05,BOT,Other Write-Ins,203,
+Baltimore,,State Senator,05,REP,Larry E. Haines,15114,TRUE
+Baltimore,,State Senator,06,BOT,Other Write-Ins,20,
+Baltimore,,State Senator,06,DEM,"Norman R. Stone, Jr.",21012,TRUE
+Baltimore,,State Senator,06,REP,Bill Kush Kushnerick,9028,
+Baltimore,,State Senator,07,BOT,Other Write-Ins,29,
+Baltimore,,State Senator,07,DEM,Patricia A. Foerster,13210,
+Baltimore,,State Senator,07,REP,Andy Harris,16716,TRUE
+Baltimore,,State Senator,08,BOT,Other Write-Ins,37,
+Baltimore,,State Senator,08,DEM,Katherine Klausmeier,24299,TRUE
+Baltimore,,State Senator,08,REP,Craig Borne,17401,
+Baltimore,,State Senator,10,BOT,Other Write-Ins,245,
+Baltimore,,State Senator,10,DEM,Delores G. Kelley,33526,TRUE
+Baltimore,,State Senator,11,BOT,Other Write-Ins,46,
+Baltimore,,State Senator,11,DEM,Bobby A. Zirkin,34782,TRUE
+Baltimore,,State Senator,11,REP,Jeffrey S. Yablon,14312,
+Baltimore,,State Senator,12,BOT,Other Write-Ins,14,
+Baltimore,,State Senator,12,DEM,Edward J. Kasemeyer,11794,TRUE
+Baltimore,,State Senator,12,REP,"Richard I. Martel, Jr.",9410,
+Baltimore,,State Senator,42,BOT,Other Write-Ins,30,
+Baltimore,,State Senator,42,DEM,Jim Brochin,24588,TRUE
+Baltimore,,State Senator,42,REP,Douglas B. Riley,19084,
+Baltimore,,State's Attorney,,BOT,Other Write-Ins,170,
+Baltimore,,State's Attorney,,DEM,Scott D. Shellenberger,145230,TRUE
+Baltimore,,State's Attorney,,REP,Steve Bailey,122536,
+Baltimore,,U.S. House,01,BOT,Other Write-Ins,26,
+Baltimore,,U.S. House,01,DEM,Jim Corwin,8949,
+Baltimore,,U.S. House,01,REP,Wayne T. Gilchrest,20880,TRUE
+Baltimore,,U.S. House,02,BOT,Other Write-Ins,126,
+Baltimore,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,80367,TRUE
+Baltimore,,U.S. House,02,REP,Jimmy Mathis,36958,
+Baltimore,,U.S. House,03,BOT,Other Write-Ins,83,
+Baltimore,,U.S. House,03,DEM,John P. Sarbanes,46314,TRUE
+Baltimore,,U.S. House,03,LIB,"Charles Curtis McPeek, Sr.",1365,
+Baltimore,,U.S. House,03,REP,John White,23152,
+Baltimore,,U.S. House,06,BOT,Other Write-Ins,10,
+Baltimore,,U.S. House,06,DEM,Andrew Duck,4673,
+Baltimore,,U.S. House,06,GRN,Robert E. Kozak,558,
+Baltimore,,U.S. House,06,REP,Roscoe G. Bartlett,9507,TRUE
+Baltimore,,U.S. House,07,BOT,Other Write-Ins,658,
+Baltimore,,U.S. House,07,DEM,Elijah Cummings,34603,TRUE
+Baltimore,,U.S. Senate,,BOT,Other Write-Ins,140,
+Baltimore,,U.S. Senate,,DEM,Benjamin L. Cardin,145262,TRUE
+Baltimore,,U.S. Senate,,DEM,Lih Young,0,
+Baltimore,,U.S. Senate,,GRN,Kevin Zeese,5117,
+Baltimore,,U.S. Senate,,REP,Michael S. Steele,131291,
+Baltimore City,,Attorney General,,BOT,Other Write-Ins,312,
+Baltimore City,,Attorney General,,DEM,Douglas F. Gansler,118301,TRUE
+Baltimore City,,Attorney General,,REP,Scott L. Rolle,24811,
+Baltimore City,,Clerk Circuit Court,,BOT,Other Write-Ins,565,
+Baltimore City,,Clerk Circuit Court,,DEM,Frank M. Conaway,126957,TRUE
+Baltimore City,,Comptroller,,BOT,Other Write-Ins,386,
+Baltimore City,,Comptroller,,DEM,Peter Franchot,117042,TRUE
+Baltimore City,,Comptroller,,GRN,Bob Auerbach,1,
+Baltimore City,,Comptroller,,REP,Anne M. McCarthy,28499,
+Baltimore City,,Governor,,BOT,Other Write-Ins,243,
+Baltimore City,,Governor,,DEM,Charles Ulysses Smith,1,
+Baltimore City,,Governor,,DEM,Martin O'Malley,115136,TRUE
+Baltimore City,,Governor,,DEM,Ralph Jaffe,0,
+Baltimore City,,Governor,,GRN,Ed Boyd,2520,
+Baltimore City,,Governor,,POP,Christopher A. Driscoll,476,
+Baltimore City,,Governor,,REP,John J. Simmins,0,
+Baltimore City,,Governor,,REP,"Robert L. Ehrlich, Jr.",34554,
+Baltimore City,,House of Delegates,40,BOT,Other Write-Ins,177,
+Baltimore City,,House of Delegates,40,DEM,Barbara Robinson,16032,TRUE
+Baltimore City,,House of Delegates,40,DEM,"Frank M. Conaway, Jr.",16432,TRUE
+Baltimore City,,House of Delegates,40,DEM,Shawn Z. Tarrant,13921,TRUE
+Baltimore City,,House of Delegates,40,GRN,Jan E. Danforth,4135,
+Baltimore City,,House of Delegates,41,BOT,Other Write-Ins,129,
+Baltimore City,,House of Delegates,41,DEM,Jill P. Carter,24189,TRUE
+Baltimore City,,House of Delegates,41,DEM,Nathaniel T. Oaks,20570,TRUE
+Baltimore City,,House of Delegates,41,DEM,S. I. Sandy Rosenberg,21751,TRUE
+Baltimore City,,House of Delegates,41,REP,Tony Asa,5166,
+Baltimore City,,House of Delegates,43,BOT,Other Write-Ins,85,
+Baltimore City,,House of Delegates,43,DEM,Ann Marie Doory,21219,TRUE
+Baltimore City,,House of Delegates,43,DEM,Curt Anderson,22315,TRUE
+Baltimore City,,House of Delegates,43,DEM,Maggie McIntosh,22093,TRUE
+Baltimore City,,House of Delegates,43,GRN,Brandy Baker,2267,
+Baltimore City,,House of Delegates,43,GRN,David G. S. Greene,2619,
+Baltimore City,,House of Delegates,43,GRN,Richard J. Ochs,1772,
+Baltimore City,,House of Delegates,43,REP,Armand F. Girard,3425,
+Baltimore City,,House of Delegates,44,BOT,Other Write-Ins,129,
+Baltimore City,,House of Delegates,44,DEM,Keith E. Haynes,12565,TRUE
+Baltimore City,,House of Delegates,44,DEM,Melvin L. Stukes,13173,TRUE
+Baltimore City,,House of Delegates,44,DEM,Ruth M. Kirk,12894,TRUE
+Baltimore City,,House of Delegates,45,BOT,Other Write-Ins,111,
+Baltimore City,,House of Delegates,45,DEM,Cheryl Glenn,16911,TRUE
+Baltimore City,,House of Delegates,45,DEM,Hattie N. Harrison,16084,TRUE
+Baltimore City,,House of Delegates,45,DEM,Talmadge Branch,16014,TRUE
+Baltimore City,,House of Delegates,45,POP,Ronald M. Owens-Bey,2727,
+Baltimore City,,House of Delegates,46,BOT,Other Write-Ins,154,
+Baltimore City,,House of Delegates,46,DEM,Brian K. McHale,15542,TRUE
+Baltimore City,,House of Delegates,46,DEM,Carolyn Krysiak,15856,TRUE
+Baltimore City,,House of Delegates,46,DEM,Peter A. Hammen,15883,TRUE
+Baltimore City,,House of Delegates,46,REP,Peter Kimos,6219,
+Baltimore City,,Judge Circuit Court,08,BOT,Barry G. Williams,90245,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Gale Elizabeth Rasin,96048,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,John C. Themelis,84998,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Other Write-Ins,744,
+Baltimore City,,Judge Orphans Court,,BOT,Other Write-Ins,778,
+Baltimore City,,Judge Orphans Court,,DEM,Joyce M. Baylor-Thompson,109046,TRUE
+Baltimore City,,Judge Orphans Court,,DEM,Karen Chaya Friedman,104997,TRUE
+Baltimore City,,Judge Orphans Court,,DEM,Lewyn Scott Garrett,96432,TRUE
+Baltimore City,,Judge Orphans Court,,DEM,Ramona Baker-Moore,5,
+Baltimore City,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,110513,TRUE
+Baltimore City,,Register of Wills,,BOT,Other Write-Ins,472,
+Baltimore City,,Register of Wills,,DEM,Mary W. Conaway,127213,TRUE
+Baltimore City,,Sheriff,,BOT,Other Write-Ins,634,
+Baltimore City,,Sheriff,,DEM,John W. Anderson,120047,TRUE
+Baltimore City,,State Senator,40,BOT,Other Write-Ins,52,
+Baltimore City,,State Senator,40,DEM,Catherine E. Pugh,20112,TRUE
+Baltimore City,,State Senator,40,REP,Stephen George,2160,
+Baltimore City,,State Senator,41,BOT,Other Write-Ins,193,
+Baltimore City,,State Senator,41,DEM,Lisa Gladden,27472,TRUE
+Baltimore City,,State Senator,43,BOT,Other Write-Ins,60,
+Baltimore City,,State Senator,43,DEM,Joan Carter Conway,24686,TRUE
+Baltimore City,,State Senator,43,GRN,Maria Allwine,3095,
+Baltimore City,,State Senator,44,BOT,Other Write-Ins,26,
+Baltimore City,,State Senator,44,DEM,Verna Jones,15982,TRUE
+Baltimore City,,State Senator,44,REP,Sameerah S. Muhammad,1757,
+Baltimore City,,State Senator,45,BOT,Other Write-Ins,23,
+Baltimore City,,State Senator,45,DEM,Nathaniel J. McFadden,19838,TRUE
+Baltimore City,,State Senator,45,REP,Leonard J. Wolff,3112,
+Baltimore City,,State Senator,46,BOT,Other Write-Ins,36,
+Baltimore City,,State Senator,46,DEM,George W. Della,16623,TRUE
+Baltimore City,,State Senator,46,REP,Keith Losoya,6112,
+Baltimore City,,State's Attorney,,BOT,Other Write-Ins,1711,
+Baltimore City,,State's Attorney,,DEM,Patricia Coats Jessamy,121554,TRUE
+Baltimore City,,U.S. House,02,BOT,Other Write-Ins,28,
+Baltimore City,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,20498,TRUE
+Baltimore City,,U.S. House,02,REP,Jimmy Mathis,2909,
+Baltimore City,,U.S. House,03,BOT,Other Write-Ins,78,
+Baltimore City,,U.S. House,03,DEM,John P. Sarbanes,37687,TRUE
+Baltimore City,,U.S. House,03,LIB,"Charles Curtis McPeek, Sr.",1244,
+Baltimore City,,U.S. House,03,REP,John White,10786,
+Baltimore City,,U.S. House,07,BOT,Other Write-Ins,313,
+Baltimore City,,U.S. House,07,DEM,Elijah Cummings,72080,TRUE
+Baltimore City,,U.S. Senate,,BOT,Other Write-Ins,119,
+Baltimore City,,U.S. Senate,,DEM,Benjamin L. Cardin,112805,TRUE
+Baltimore City,,U.S. Senate,,DEM,Lih Young,1,
+Baltimore City,,U.S. Senate,,GRN,Kevin Zeese,3228,
+Baltimore City,,U.S. Senate,,REP,Michael S. Steele,35185,
+Calvert,,Appellate Judge,05,BOT,"Clayton Greene, Jr.",20645,TRUE
+Calvert,,Attorney General,,BOT,Other Write-Ins,9,
+Calvert,,Attorney General,,DEM,Douglas F. Gansler,14160,TRUE
+Calvert,,Attorney General,,REP,Scott L. Rolle,14229,
+Calvert,,Board of Ed at Large,,NON,Eugene M. Karol,13742,TRUE
+Calvert,,Board of Ed at Large,,NON,Joan Jones,13677,
+Calvert,,Board of Ed at Large,,NON,Other Write-Ins,83,
+Calvert,,Board of Ed at Large,,NON,William Bill Phalen,16163,TRUE
+Calvert,,Clerk Circuit Court,,BOT,Other Write-Ins,3,
+Calvert,,Clerk Circuit Court,,DEM,Kathy P. Smith,17689,TRUE
+Calvert,,Clerk Circuit Court,,REP,Doris W. Davis,10479,
+Calvert,,Comptroller,,BOT,Other Write-Ins,32,
+Calvert,,Comptroller,,DEM,Peter Franchot,13059,TRUE
+Calvert,,Comptroller,,GRN,Bob Auerbach,29,
+Calvert,,Comptroller,,REP,Anne M. McCarthy,15459,
+Calvert,,County Commissioner,,BOT,Other Write-Ins,127,
+Calvert,,County Commissioner,,DEM,Barbara A. Stinnett,12729,TRUE
+Calvert,,County Commissioner,,DEM,Dixie C. Miller,11681,
+Calvert,,County Commissioner,,DEM,E. Lloyd Robertson,7690,
+Calvert,,County Commissioner,,DEM,Mark Frazer,12715,
+Calvert,,County Commissioner,,DEM,Wilson H. Parran,15902,TRUE
+Calvert,,County Commissioner,,IND,Doug Parran,6490,
+Calvert,,County Commissioner,,REP,Cal Steuart,11038,
+Calvert,,County Commissioner,,REP,Jerry Clark,12726,TRUE
+Calvert,,County Commissioner,,REP,Linda L. Kelley,14052,TRUE
+Calvert,,County Commissioner,,REP,Mike Benton,10557,
+Calvert,,County Commissioner,,REP,Susan Shaw,14114,TRUE
+Calvert,,Governor,,BOT,Other Write-Ins,7,
+Calvert,,Governor,,DEM,Charles Ulysses Smith,0,
+Calvert,,Governor,,DEM,Martin O'Malley,12519,TRUE
+Calvert,,Governor,,DEM,Ralph Jaffe,0,
+Calvert,,Governor,,GRN,Ed Boyd,238,
+Calvert,,Governor,,POP,Christopher A. Driscoll,62,
+Calvert,,Governor,,REP,John J. Simmins,12,
+Calvert,,Governor,,REP,"Robert L. Ehrlich, Jr.",17163,
+Calvert,,House of Delegates,27A,BOT,Other Write-Ins,6,
+Calvert,,House of Delegates,27A,DEM,"James E. Proctor, Jr.",1918,TRUE
+Calvert,,House of Delegates,27A,DEM,"Joseph F. Vallario, Jr.",2192,TRUE
+Calvert,,House of Delegates,27A,REP,Antoinette Toni Jarboe-Duley,2160,
+Calvert,,House of Delegates,27A,REP,Kenneth S. Brown,2340,
+Calvert,,House of Delegates,27B,BOT,Other Write-Ins,9,
+Calvert,,House of Delegates,27B,DEM,Sue Kullen,8236,TRUE
+Calvert,,House of Delegates,27B,REP,David Hale,6250,
+Calvert,,House of Delegates,29C,BOT,Other Write-Ins,7,
+Calvert,,House of Delegates,29C,DEM,Norma Powers,4010,
+Calvert,,House of Delegates,29C,REP,Anthony J. O'Donnell,6000,TRUE
+Calvert,,Judge Orphans Court,,BOT,Other Write-Ins,21,
+Calvert,,Judge Orphans Court,,DEM,Barbara Bowen Elliott,13642,TRUE
+Calvert,,Judge Orphans Court,,DEM,Jessie Jo Bowen,14807,TRUE
+Calvert,,Judge Orphans Court,,DEM,Rose Crunkleton,11022,
+Calvert,,Judge Orphans Court,,REP,Barbara A. Burton,10557,
+Calvert,,Judge Orphans Court,,REP,Diane Tracy,11503,
+Calvert,,Judge Orphans Court,,REP,Leslie Downs,11613,TRUE
+Calvert,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,20783,TRUE
+Calvert,,Judge Spec Appeals,05,BOT,Timothy E. Meredith,20481,TRUE
+Calvert,,Register of Wills,,BOT,Other Write-Ins,11,
+Calvert,,Register of Wills,,DEM,Margaret H. Phipps,18960,TRUE
+Calvert,,Register of Wills,,REP,Weldon L. Fossett,9261,
+Calvert,,Sheriff,,BOT,Other Write-Ins,31,
+Calvert,,Sheriff,,DEM,Joey McKenny,12640,
+Calvert,,Sheriff,,REP,Mike Evans,16782,TRUE
+Calvert,,State Senator,27,BOT,Other Write-Ins,8,
+Calvert,,State Senator,27,DEM,"Thomas V. Mike Miller, Jr.",10872,TRUE
+Calvert,,State Senator,27,REP,Ron Miller,8463,
+Calvert,,State Senator,29,BOT,Other Write-Ins,11,
+Calvert,,State Senator,29,DEM,Roy Dyson,5607,TRUE
+Calvert,,State Senator,29,REP,Thomas F. McKay,4527,
+Calvert,,State's Attorney,,BOT,Other Write-Ins,3,
+Calvert,,State's Attorney,,DEM,Greg Wells,13598,
+Calvert,,State's Attorney,,REP,Laura L. Martin,15447,TRUE
+Calvert,,Treasurer,,BOT,Other Write-Ins,8,
+Calvert,,Treasurer,,DEM,Grace Mary Gracie Brady,12894,
+Calvert,,Treasurer,,REP,Nova Tracy-Soper,15999,TRUE
+Calvert,,U.S. House,05,BOT,Other Write-Ins,189,
+Calvert,,U.S. House,05,CON,Peter Kuhnert,88,
+Calvert,,U.S. House,05,DEM,Steny H. Hoyer,20516,TRUE
+Calvert,,U.S. House,05,GRN,Steve Warner,6252,
+Calvert,,U.S. Senate,,BOT,Other Write-Ins,8,
+Calvert,,U.S. Senate,,DEM,Benjamin L. Cardin,12687,TRUE
+Calvert,,U.S. Senate,,DEM,Lih Young,2,
+Calvert,,U.S. Senate,,GRN,Kevin Zeese,481,
+Calvert,,U.S. Senate,,REP,Michael S. Steele,16703,
+Caroline,,Attorney General,,BOT,Other Write-Ins,10,
+Caroline,,Attorney General,,DEM,Douglas F. Gansler,3556,TRUE
+Caroline,,Attorney General,,REP,Scott L. Rolle,5138,
+Caroline,,Clerk Circuit Court,,BOT,Other Write-Ins,40,
+Caroline,,Clerk Circuit Court,,REP,Dale Minner,7922,TRUE
+Caroline,,Comptroller,,BOT,Other Write-Ins,21,
+Caroline,,Comptroller,,DEM,Peter Franchot,3486,TRUE
+Caroline,,Comptroller,,GRN,Bob Auerbach,1,
+Caroline,,Comptroller,,REP,Anne M. McCarthy,5357,
+Caroline,,County Commissioner,,BOT,Other Write-Ins,26,
+Caroline,,County Commissioner,,DEM,James Brown,2653,
+Caroline,,County Commissioner,,DEM,Jim Phelps,3666,
+Caroline,,County Commissioner,,DEM,Marty Gangemi,4045,
+Caroline,,County Commissioner,,REP,Jeff Ghrist,4311,TRUE
+Caroline,,County Commissioner,,REP,John W. Cole,4576,TRUE
+Caroline,,County Commissioner,,REP,Roger L. Layton,4581,TRUE
+Caroline,,Governor,,BOT,Other Write-Ins,5,
+Caroline,,Governor,,DEM,Charles Ulysses Smith,1,
+Caroline,,Governor,,DEM,Martin O'Malley,3042,TRUE
+Caroline,,Governor,,DEM,Ralph Jaffe,0,
+Caroline,,Governor,,GRN,Ed Boyd,102,
+Caroline,,Governor,,POP,Christopher A. Driscoll,23,
+Caroline,,Governor,,REP,John J. Simmins,5,
+Caroline,,Governor,,REP,"Robert L. Ehrlich, Jr.",6164,
+Caroline,,House of Delegates,36,BOT,Other Write-Ins,11,
+Caroline,,House of Delegates,36,DEM,Joan O. Horsey,1214,
+Caroline,,House of Delegates,36,DEM,Mark Guns,842,
+Caroline,,House of Delegates,36,DEM,Wheeler R. Baker,1348,
+Caroline,,House of Delegates,36,GRN,Joseph Sanchez,1679,
+Caroline,,House of Delegates,36,REP,Mary Roe Walkup,1648,TRUE
+Caroline,,House of Delegates,36,REP,"Michael D. Smigiel, Sr.",1471,TRUE
+Caroline,,House of Delegates,36,REP,Richard A. Sossi,1970,TRUE
+Caroline,,House of Delegates,37B,BOT,Other Write-Ins,13,
+Caroline,,House of Delegates,37B,DEM,James A. Adkins,1291,
+Caroline,,House of Delegates,37B,DEM,Tim Quinn,1353,
+Caroline,,House of Delegates,37B,REP,Adelaide Addie Eckardt,3203,TRUE
+Caroline,,House of Delegates,37B,REP,Jeannie Haddaway,2983,TRUE
+Caroline,,Judge Orphans Court,,BOT,Other Write-Ins,43,
+Caroline,,Judge Orphans Court,,DEM,Beverly S. Blades,5890,TRUE
+Caroline,,Judge Orphans Court,,REP,Joseph Steelman,5789,TRUE
+Caroline,,Judge Orphans Court,,REP,Robert Taylor,5407,TRUE
+Caroline,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,6541,TRUE
+Caroline,,Register of Wills,,BOT,Other Write-Ins,6,
+Caroline,,Register of Wills,,DEM,"Charles O. Davis, Jr.",4908,TRUE
+Caroline,,Register of Wills,,REP,Gene A. Robbins,3845,
+Caroline,,Sheriff,,BOT,Other Write-Ins,12,
+Caroline,,Sheriff,,DEM,Philip L. Brown,5524,TRUE
+Caroline,,Sheriff,,REP,Chuck Briggs,3416,
+Caroline,,State Senator,36,BOT,Other Write-Ins,6,
+Caroline,,State Senator,36,DEM,Harry E. Sampson,1415,
+Caroline,,State Senator,36,REP,E. J. Pipkin,2632,TRUE
+Caroline,,State Senator,37,BOT,Other Write-Ins,4,
+Caroline,,State Senator,37,DEM,Hilary Spence,1595,
+Caroline,,State Senator,37,IND,Moonyene Jackson-Amis,237,
+Caroline,,State Senator,37,REP,Richard F. Colburn,3142,TRUE
+Caroline,,State's Attorney,,BOT,Other Write-Ins,53,
+Caroline,,State's Attorney,,REP,Jonathan G. Newell,7370,TRUE
+Caroline,,Treasurer,,BOT,Other Write-Ins,6,
+Caroline,,Treasurer,,DEM,Dorsey L. Wooters,5852,TRUE
+Caroline,,Treasurer,,REP,Hugh Smith,3221,
+Caroline,,U.S. House,01,BOT,Other Write-Ins,15,
+Caroline,,U.S. House,01,DEM,Jim Corwin,2687,
+Caroline,,U.S. House,01,REP,Wayne T. Gilchrest,6420,TRUE
+Caroline,,U.S. Senate,,BOT,Other Write-Ins,1,
+Caroline,,U.S. Senate,,DEM,Benjamin L. Cardin,2950,TRUE
+Caroline,,U.S. Senate,,DEM,Lih Young,0,
+Caroline,,U.S. Senate,,GRN,Kevin Zeese,198,
+Caroline,,U.S. Senate,,REP,Michael S. Steele,6127,
+Carroll,,Attorney General,,BOT,Other Write-Ins,47,
+Carroll,,Attorney General,,DEM,Douglas F. Gansler,20503,TRUE
+Carroll,,Attorney General,,REP,Scott L. Rolle,38886,
+Carroll,,Board of Education,,NON,Barbara Shreeve,22352,TRUE
+Carroll,,Board of Education,,NON,Dave Roush,20142,
+Carroll,,Board of Education,,NON,Eric M. Weber,12119,
+Carroll,,Board of Education,,NON,Gary Bauer,27509,TRUE
+Carroll,,Board of Education,,NON,George E. Maloney,15036,
+Carroll,,Board of Education,,NON,Other Write-Ins,211,
+Carroll,,Board of Education,,NON,Patricia W. Gadberry,22562,TRUE
+Carroll,,Clerk Circuit Court,,BOT,Other Write-Ins,42,
+Carroll,,Clerk Circuit Court,,DEM,"Nimrod Davis, Jr.",16496,
+Carroll,,Clerk Circuit Court,,REP,"Donald Sealing, II",39214,TRUE
+Carroll,,Comptroller,,BOT,Other Write-Ins,168,
+Carroll,,Comptroller,,DEM,Peter Franchot,20968,TRUE
+Carroll,,Comptroller,,GRN,Bob Auerbach,1,
+Carroll,,Comptroller,,REP,Anne M. McCarthy,39007,
+Carroll,,County Commissioner,,BOT,Other Write-Ins,616,
+Carroll,,County Commissioner,,DEM,Dennis E. Beard,27825,
+Carroll,,County Commissioner,,DEM,Richard F. Solomon,11773,
+Carroll,,County Commissioner,,DEM,Vincent F. DiPietro,14587,
+Carroll,,County Commissioner,,REP,Dean L. Minnich,38273,TRUE
+Carroll,,County Commissioner,,REP,Julia Walsh Gouge,40016,TRUE
+Carroll,,County Commissioner,,REP,Michael D. Zimmer,29303,TRUE
+Carroll,,Governor,,BOT,Other Write-Ins,55,
+Carroll,,Governor,,DEM,Charles Ulysses Smith,0,
+Carroll,,Governor,,DEM,Martin O'Malley,18227,TRUE
+Carroll,,Governor,,DEM,Ralph Jaffe,0,
+Carroll,,Governor,,GRN,Ed Boyd,496,
+Carroll,,Governor,,POP,Christopher A. Driscoll,102,
+Carroll,,Governor,,REP,John J. Simmins,0,
+Carroll,,Governor,,REP,"Robert L. Ehrlich, Jr.",43921,
+Carroll,,House of Delegates,04B,BOT,Other Write-Ins,11,
+Carroll,,House of Delegates,04B,DEM,Timothy Schlauch,3628,
+Carroll,,House of Delegates,04B,REP,Donald B. Elliott,8831,TRUE
+Carroll,,House of Delegates,05A,BOT,Other Write-Ins,57,
+Carroll,,House of Delegates,05A,DEM,Ann Darrin,9489,
+Carroll,,House of Delegates,05A,DEM,Frank Henry Rammes,8192,
+Carroll,,House of Delegates,05A,REP,Nancy R. Stocksdale,20630,TRUE
+Carroll,,House of Delegates,05A,REP,Tanya Thornton Shewell,18785,TRUE
+Carroll,,House of Delegates,09B,BOT,Other Write-Ins,38,
+Carroll,,House of Delegates,09B,DEM,Anita Lombardi Riley,4621,
+Carroll,,House of Delegates,09B,REP,Susan Krebs,12059,TRUE
+Carroll,,Judge Circuit Court,05,BOT,J. Barry Hughes,39724,TRUE
+Carroll,,Judge Circuit Court,05,BOT,Other Write-Ins,257,
+Carroll,,Judge Circuit Court,05,BOT,Thomas F. Stansfield,38510,TRUE
+Carroll,,Judge Orphans Court,,BOT,Other Write-Ins,241,
+Carroll,,Judge Orphans Court,,REP,Dorothy V. Utz,43695,TRUE
+Carroll,,Judge Orphans Court,,REP,Herbert J. Reisig,39025,TRUE
+Carroll,,Judge Orphans Court,,REP,John D. Carbaugh,41044,TRUE
+Carroll,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,43610,TRUE
+Carroll,,Register of Wills,,BOT,Other Write-Ins,20,
+Carroll,,Register of Wills,,DEM,Valerie Schultz,17198,
+Carroll,,Register of Wills,,REP,Paul G. Zimmermann,38987,TRUE
+Carroll,,Sheriff,,BOT,Other Write-Ins,382,
+Carroll,,Sheriff,,REP,Ken Tregoning,49560,TRUE
+Carroll,,State Senator,04,BOT,Other Write-Ins,98,
+Carroll,,State Senator,04,REP,David R. Brinkley,10384,TRUE
+Carroll,,State Senator,05,BOT,Other Write-Ins,618,
+Carroll,,State Senator,05,REP,Larry E. Haines,23870,TRUE
+Carroll,,State Senator,09,BOT,Other Write-Ins,10,
+Carroll,,State Senator,09,DEM,Rich Corkran,5494,
+Carroll,,State Senator,09,REP,Allan H. Kittleman,10730,TRUE
+Carroll,,State's Attorney,,BOT,Other Write-Ins,382,
+Carroll,,State's Attorney,,REP,Jerry F. Barnes,49714,TRUE
+Carroll,,U.S. House,06,BOT,Other Write-Ins,28,
+Carroll,,U.S. House,06,DEM,Andrew Duck,19351,
+Carroll,,U.S. House,06,GRN,Robert E. Kozak,1823,
+Carroll,,U.S. House,06,REP,Roscoe G. Bartlett,39678,TRUE
+Carroll,,U.S. Senate,,BOT,Other Write-Ins,26,
+Carroll,,U.S. Senate,,DEM,Benjamin L. Cardin,18893,TRUE
+Carroll,,U.S. Senate,,DEM,Lih Young,0,
+Carroll,,U.S. Senate,,GRN,Kevin Zeese,1114,
+Carroll,,U.S. Senate,,REP,Michael S. Steele,42550,
+Cecil,,Attorney General,,BOT,Other Write-Ins,14,
+Cecil,,Attorney General,,DEM,Douglas F. Gansler,12534,TRUE
+Cecil,,Attorney General,,REP,Scott L. Rolle,14584,
+Cecil,,Board of Education,003,NON,Christine Sopa,13680,TRUE
+Cecil,,Board of Education,003,NON,Other Write-Ins,26,
+Cecil,,Board of Education,003,NON,Tony Wong,10294,
+Cecil,,Board of Education,004,NON,Donna Marie Zane,14555,TRUE
+Cecil,,Board of Education,004,NON,Other Write-Ins,23,
+Cecil,,Board of Education,004,NON,Thomas X. Dill,8295,
+Cecil,,Board of Education,005,NON,Kirsten A. Kammerer,14330,TRUE
+Cecil,,Board of Education,005,NON,Other Write-Ins,23,
+Cecil,,Board of Education,005,NON,"Thomas Grason McWilliams, Jr.",8672,
+Cecil,,Clerk Circuit Court,,BOT,Other Write-Ins,10,
+Cecil,,Clerk Circuit Court,,DEM,William L. Brueckman,15937,TRUE
+Cecil,,Clerk Circuit Court,,REP,Tina Sharp,11389,
+Cecil,,Comptroller,,BOT,Other Write-Ins,27,
+Cecil,,Comptroller,,DEM,Peter Franchot,12543,TRUE
+Cecil,,Comptroller,,GRN,Bob Auerbach,0,
+Cecil,,Comptroller,,REP,Anne M. McCarthy,14869,
+Cecil,,County Commissioner,002,BOT,Other Write-Ins,15,
+Cecil,,County Commissioner,002,DEM,Nelson K. Bolender,13363,
+Cecil,,County Commissioner,002,REP,Rebecca J. Demmler,14322,TRUE
+Cecil,,County Commissioner,003,BOT,Other Write-Ins,67,
+Cecil,,County Commissioner,003,DEM,Brian Lockhart,14694,TRUE
+Cecil,,County Commissioner,003,REP,Harry A. Hepbron,12846,
+Cecil,,County Commissioner,004,BOT,Other Write-Ins,14,
+Cecil,,County Commissioner,004,DEM,"Wayne L. Tome, Sr.",13981,TRUE
+Cecil,,County Commissioner,004,REP,Diana Broomell,13580,
+Cecil,,Governor,,BOT,Other Write-Ins,15,
+Cecil,,Governor,,DEM,Charles Ulysses Smith,0,
+Cecil,,Governor,,DEM,Martin O'Malley,11750,TRUE
+Cecil,,Governor,,DEM,Ralph Jaffe,0,
+Cecil,,Governor,,GRN,Ed Boyd,276,
+Cecil,,Governor,,POP,Christopher A. Driscoll,75,
+Cecil,,Governor,,REP,John J. Simmins,0,
+Cecil,,Governor,,REP,"Robert L. Ehrlich, Jr.",16559,
+Cecil,,House of Delegates,34A,BOT,Other Write-Ins,0,
+Cecil,,House of Delegates,34A,DEM,B. Daniel Riley,152,TRUE
+Cecil,,House of Delegates,34A,DEM,Mary-Dulany James,206,TRUE
+Cecil,,House of Delegates,34A,REP,Glen Glass,146,
+Cecil,,House of Delegates,34A,REP,Sheryl Davis Kohl,145,
+Cecil,,House of Delegates,34B,BOT,Other Write-Ins,6,
+Cecil,,House of Delegates,34B,DEM,David D. Rudolph,7716,TRUE
+Cecil,,House of Delegates,34B,REP,Ewing McDowell,6301,
+Cecil,,House of Delegates,36,BOT,Other Write-Ins,16,
+Cecil,,House of Delegates,36,DEM,Joan O. Horsey,4278,
+Cecil,,House of Delegates,36,DEM,Mark Guns,7371,
+Cecil,,House of Delegates,36,DEM,Wheeler R. Baker,4287,
+Cecil,,House of Delegates,36,GRN,Joseph Sanchez,722,
+Cecil,,House of Delegates,36,REP,Mary Roe Walkup,5054,TRUE
+Cecil,,House of Delegates,36,REP,"Michael D. Smigiel, Sr.",6893,TRUE
+Cecil,,House of Delegates,36,REP,Richard A. Sossi,4728,TRUE
+Cecil,,Judge Orphans Court,,BOT,Other Write-Ins,27,
+Cecil,,Judge Orphans Court,,DEM,Betty Hutton Eliason,11727,TRUE
+Cecil,,Judge Orphans Court,,DEM,Gary A. Brown,13735,TRUE
+Cecil,,Judge Orphans Court,,DEM,Joan C. Byerly,10646,
+Cecil,,Judge Orphans Court,,REP,Carolyn L. Crouch,12041,TRUE
+Cecil,,Judge Orphans Court,,REP,H. Orville Berwick,11548,
+Cecil,,Judge Orphans Court,,REP,Theresa M. Whitt,9536,
+Cecil,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,21463,TRUE
+Cecil,,Register of Wills,,BOT,Other Write-Ins,12,
+Cecil,,Register of Wills,,DEM,Allyn Lyn Price Nickle,16631,TRUE
+Cecil,,Register of Wills,,REP,Tim Zane,10532,
+Cecil,,Sheriff,,BOT,Other Write-Ins,21,
+Cecil,,Sheriff,,DEM,Chris Sutton,11031,
+Cecil,,Sheriff,,REP,"Barry A. Janney, Sr.",17081,TRUE
+Cecil,,State Senator,34,BOT,Other Write-Ins,4,
+Cecil,,State Senator,34,DEM,William B. Kilby,5990,
+Cecil,,State Senator,34,REP,Nancy Jacobs,8432,TRUE
+Cecil,,State Senator,36,BOT,Other Write-Ins,11,
+Cecil,,State Senator,36,DEM,Harry E. Sampson,5793,
+Cecil,,State Senator,36,REP,E. J. Pipkin,7736,TRUE
+Cecil,,State's Attorney,,BOT,Other Write-Ins,9,
+Cecil,,State's Attorney,,DEM,Christopher J. Eastridge,15101,TRUE
+Cecil,,State's Attorney,,REP,Will Davis,12550,
+Cecil,,Treasurer,,BOT,Other Write-Ins,10,
+Cecil,,Treasurer,,DEM,Pamela R. Howard,16927,TRUE
+Cecil,,Treasurer,,REP,Clifford I. Houston,10984,
+Cecil,,U.S. House,01,BOT,Other Write-Ins,17,
+Cecil,,U.S. House,01,DEM,Jim Corwin,9776,
+Cecil,,U.S. House,01,REP,Wayne T. Gilchrest,18278,TRUE
+Cecil,,U.S. Senate,,BOT,Other Write-Ins,10,
+Cecil,,U.S. Senate,,DEM,Benjamin L. Cardin,11600,TRUE
+Cecil,,U.S. Senate,,DEM,Lih Young,0,
+Cecil,,U.S. Senate,,GRN,Kevin Zeese,577,
+Cecil,,U.S. Senate,,REP,Michael S. Steele,16296,
+Charles,,Appellate Judge,05,BOT,"Clayton Greene, Jr.",28104,TRUE
+Charles,,Attorney General,,BOT,Other Write-Ins,30,
+Charles,,Attorney General,,DEM,Douglas F. Gansler,24288,TRUE
+Charles,,Attorney General,,REP,Scott L. Rolle,15171,
+Charles,,Board of Education,,NON,Charles E. Carrington,15660,TRUE
+Charles,,Board of Education,,NON,Collins A. Bailey,15349,TRUE
+Charles,,Board of Education,,NON,Donald M. Wade,16955,TRUE
+Charles,,Board of Education,,NON,Frank Plowden Jenkins,7597,
+Charles,,Board of Education,,NON,James F. Gesl,14984,
+Charles,,Board of Education,,NON,Jennifer S. Abell,16601,TRUE
+Charles,,Board of Education,,NON,Mark Crawford,11815,
+Charles,,Board of Education,,NON,Maura Cook,17942,TRUE
+Charles,,Board of Education,,NON,Michael Lukas,11454,
+Charles,,Board of Education,,NON,Other Write-Ins,319,
+Charles,,Board of Education,,NON,Pamela A. Pedersen,17167,TRUE
+Charles,,Board of Education,,NON,Roberta Bobbie Wise,19974,TRUE
+Charles,,Board of Education,,NON,Ronald Rip Stover,13371,
+Charles,,Board of Education,,NON,"Turner R. Coggins, Jr.",8192,
+Charles,,Clerk Circuit Court,,BOT,Other Write-Ins,153,
+Charles,,Clerk Circuit Court,,DEM,Sharon Sherri Hancock,32026,TRUE
+Charles,,Comptroller,,BOT,Other Write-Ins,43,
+Charles,,Comptroller,,DEM,Peter Franchot,22301,TRUE
+Charles,,Comptroller,,GRN,Bob Auerbach,6,
+Charles,,Comptroller,,REP,Anne M. McCarthy,17306,
+Charles,,County Commissioner,001,BOT,Other Write-Ins,42,
+Charles,,County Commissioner,001,DEM,Sam Graves,22258,TRUE
+Charles,,County Commissioner,001,REP,Candice Quinn Kelly,17831,
+Charles,,County Commissioner,002,BOT,Other Write-Ins,39,
+Charles,,County Commissioner,002,DEM,Edith J. Patterson,23031,TRUE
+Charles,,County Commissioner,002,REP,Kurt W. Wolfgang,16825,
+Charles,,County Commissioner,003,BOT,Other Write-Ins,43,
+Charles,,County Commissioner,003,DEM,"Reuben B. Collins, II",22905,TRUE
+Charles,,County Commissioner,003,REP,Jim Howard Thompson,495,
+Charles,,County Commissioner,003,REP,Joe Crawford,15483,
+Charles,,County Commissioner,004,BOT,Other Write-Ins,24,
+Charles,,County Commissioner,004,DEM,Gary V. Hodge,23028,TRUE
+Charles,,County Commissioner,004,REP,Bruce F. Wesbury,15714,
+Charles,,Governor,,BOT,Other Write-Ins,19,
+Charles,,Governor,,DEM,Charles Ulysses Smith,0,
+Charles,,Governor,,DEM,Martin O'Malley,21237,TRUE
+Charles,,Governor,,DEM,Ralph Jaffe,0,
+Charles,,Governor,,GRN,Ed Boyd,290,
+Charles,,Governor,,POP,Christopher A. Driscoll,81,
+Charles,,Governor,,REP,John J. Simmins,21,
+Charles,,Governor,,REP,"Robert L. Ehrlich, Jr.",19757,
+Charles,,House of Delegates,28,BOT,Other Write-Ins,135,
+Charles,,House of Delegates,28,DEM,Murray Levy,23436,TRUE
+Charles,,House of Delegates,28,DEM,Peter Murphy,21190,TRUE
+Charles,,House of Delegates,28,DEM,Sally Y. Jameson,24051,TRUE
+Charles,,House of Delegates,28,REP,James H. (Jim) Crawford,13343,
+Charles,,House of Delegates,28,REP,William Daniel Mayer,15978,
+Charles,,House of Delegates,29A,BOT,Other Write-Ins,2,
+Charles,,House of Delegates,29A,DEM,"John F. Wood, Jr.",553,TRUE
+Charles,,House of Delegates,29A,REP,Joe DiMarco,409,
+Charles,,Judge Circuit Court,07,BOT,Other Write-Ins,212,
+Charles,,Judge Circuit Court,07,BOT,Robert Christopher Nalley,31898,TRUE
+Charles,,Judge Orphans Court,,BOT,Other Write-Ins,165,
+Charles,,Judge Orphans Court,,DEM,J. Lorraine Berry,21534,TRUE
+Charles,,Judge Orphans Court,,DEM,Warren A. Bowie,23824,TRUE
+Charles,,Judge Orphans Court,,REP,Elizabeth L. Garner,19333,TRUE
+Charles,,Judge Orphans Court,,REP,Kevin B. Wedding,19231,
+Charles,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,28652,TRUE
+Charles,,Judge Spec Appeals,05,BOT,Timothy E. Meredith,28180,TRUE
+Charles,,Pres County Commission,,BOT,Other Write-Ins,39,
+Charles,,Pres County Commission,,DEM,Wayne Cooper,22935,TRUE
+Charles,,Pres County Commission,,REP,Al Smith,17575,
+Charles,,Register of Wills,,BOT,Other Write-Ins,247,
+Charles,,Register of Wills,,REP,Susie C. Bowles,29918,TRUE
+Charles,,Sheriff,,BOT,Other Write-Ins,18,
+Charles,,Sheriff,,DEM,Rex Wayne Coffey,22275,TRUE
+Charles,,Sheriff,,REP,Frederick E. Davis,18323,
+Charles,,State Senator,28,BOT,Other Write-Ins,16,
+Charles,,State Senator,28,DEM,Thomas McLain Middleton,25646,TRUE
+Charles,,State Senator,28,REP,Jay Bala,13631,
+Charles,,State Senator,29,BOT,Other Write-Ins,3,
+Charles,,State Senator,29,DEM,Roy Dyson,564,TRUE
+Charles,,State Senator,29,REP,Thomas F. McKay,421,
+Charles,,State's Attorney,,BOT,Other Write-Ins,306,
+Charles,,State's Attorney,,DEM,"Leonard C. Collins, Jr.",31682,TRUE
+Charles,,Treasurer,,BOT,Other Write-Ins,355,
+Charles,,Treasurer,,REP,"Jerome E. Peuler, Jr.",29208,TRUE
+Charles,,U.S. House,05,BOT,Other Write-Ins,218,
+Charles,,U.S. House,05,CON,Peter Kuhnert,95,
+Charles,,U.S. House,05,DEM,Steny H. Hoyer,30828,TRUE
+Charles,,U.S. House,05,GRN,Steve Warner,6592,
+Charles,,U.S. Senate,,BOT,Other Write-Ins,16,
+Charles,,U.S. Senate,,DEM,Benjamin L. Cardin,20938,TRUE
+Charles,,U.S. Senate,,DEM,Lih Young,6,
+Charles,,U.S. Senate,,GRN,Kevin Zeese,539,
+Charles,,U.S. Senate,,REP,Michael S. Steele,19743,
+Dorchester,,Attorney General,,BOT,Other Write-Ins,8,
+Dorchester,,Attorney General,,DEM,Douglas F. Gansler,4904,TRUE
+Dorchester,,Attorney General,,REP,Scott L. Rolle,4906,
+Dorchester,,Board of Education,002,NON,Lorraine T. Henry,1081,TRUE
+Dorchester,,Board of Education,002,NON,Other Write-Ins,0,
+Dorchester,,Board of Education,004,NON,Mary Lee Mabry,732,
+Dorchester,,Board of Education,004,NON,Michelle L. Jackson,1221,TRUE
+Dorchester,,Board of Education,004,NON,Other Write-Ins,0,
+Dorchester,,Clerk Circuit Court,,BOT,Other Write-Ins,1,
+Dorchester,,Clerk Circuit Court,,DEM,Michael L. Baker,6742,TRUE
+Dorchester,,Clerk Circuit Court,,REP,Daniel Cox,3629,
+Dorchester,,Comptroller,,BOT,Other Write-Ins,19,
+Dorchester,,Comptroller,,DEM,Peter Franchot,4645,TRUE
+Dorchester,,Comptroller,,GRN,Bob Auerbach,0,
+Dorchester,,Comptroller,,REP,Anne M. McCarthy,5389,
+Dorchester,,County Council,001,BOT,Other Write-Ins,5,
+Dorchester,,County Council,001,DEM,Jay Leonard Newcomb,1443,TRUE
+Dorchester,,County Council,001,REP,Karen Tolley,1286,
+Dorchester,,County Council,002,BOT,Other Write-Ins,3,
+Dorchester,,County Council,002,DEM,William Nichols,985,TRUE
+Dorchester,,County Council,002,REP,Howard Hoffman,210,
+Dorchester,,County Council,003,BOT,Other Write-Ins,9,
+Dorchester,,County Council,003,DEM,Ricky C. Travers,1719,TRUE
+Dorchester,,County Council,003,LIB,William Steven Brohawn,531,
+Dorchester,,County Council,004,BOT,Other Write-Ins,5,
+Dorchester,,County Council,004,DEM,"Glen A. Payne, Sr.",1089,
+Dorchester,,County Council,004,DEM,Parker Durham,27,
+Dorchester,,County Council,004,REP,Rick Price,1113,TRUE
+Dorchester,,County Council,005,BOT,Other Write-Ins,0,
+Dorchester,,County Council,005,DEM,Philip L. Bramble,973,
+Dorchester,,County Council,005,REP,Effie M. Elzey,1051,TRUE
+Dorchester,,Governor,,BOT,Other Write-Ins,5,
+Dorchester,,Governor,,DEM,Charles Ulysses Smith,0,
+Dorchester,,Governor,,DEM,Martin O'Malley,4126,TRUE
+Dorchester,,Governor,,DEM,Ralph Jaffe,0,
+Dorchester,,Governor,,GRN,Ed Boyd,80,
+Dorchester,,Governor,,POP,Christopher A. Driscoll,19,
+Dorchester,,Governor,,REP,John J. Simmins,0,
+Dorchester,,Governor,,REP,"Robert L. Ehrlich, Jr.",6529,
+Dorchester,,House of Delegates,37A,BOT,Other Write-Ins,18,
+Dorchester,,House of Delegates,37A,DEM,Rudolph C. Cane,1913,TRUE
+Dorchester,,House of Delegates,37B,BOT,Other Write-Ins,5,
+Dorchester,,House of Delegates,37B,DEM,James A. Adkins,3040,
+Dorchester,,House of Delegates,37B,DEM,Tim Quinn,2083,
+Dorchester,,House of Delegates,37B,REP,Adelaide Addie Eckardt,5073,TRUE
+Dorchester,,House of Delegates,37B,REP,Jeannie Haddaway,3960,TRUE
+Dorchester,,Judge Circuit Court,01,BOT,Brett W. Wilson,8734,TRUE
+Dorchester,,Judge Circuit Court,01,BOT,Other Write-Ins,19,
+Dorchester,,Judge Orphans Court,001,BOT,Other Write-Ins,12,
+Dorchester,,Judge Orphans Court,001,DEM,"George Robert Ames, Jr.",1985,TRUE
+Dorchester,,Judge Orphans Court,002,BOT,Other Write-Ins,7,
+Dorchester,,Judge Orphans Court,002,DEM,Calvin Travers,4159,TRUE
+Dorchester,,Judge Orphans Court,002,DEM,Carolyn I. Todd,4869,TRUE
+Dorchester,,Judge Orphans Court,002,REP,Bill Press,3766,
+Dorchester,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,7579,TRUE
+Dorchester,,Register of Wills,,BOT,Other Write-Ins,5,
+Dorchester,,Register of Wills,,DEM,Doris Keene Lewis,6188,TRUE
+Dorchester,,Register of Wills,,REP,Dottie Griffith,4121,
+Dorchester,,Sheriff,,BOT,Other Write-Ins,33,
+Dorchester,,Sheriff,,DEM,"James W. Phillips, Jr.",9366,TRUE
+Dorchester,,State Senator,37,BOT,Other Write-Ins,3,
+Dorchester,,State Senator,37,DEM,Hilary Spence,4224,
+Dorchester,,State Senator,37,IND,Moonyene Jackson-Amis,458,
+Dorchester,,State Senator,37,REP,Richard F. Colburn,5901,TRUE
+Dorchester,,State's Attorney,,BOT,Other Write-Ins,3,
+Dorchester,,State's Attorney,,DEM,Michelle Barnes,6014,TRUE
+Dorchester,,State's Attorney,,REP,Michael C. Maloney,4544,
+Dorchester,,U.S. House,01,BOT,Other Write-Ins,7,
+Dorchester,,U.S. House,01,DEM,Jim Corwin,3501,
+Dorchester,,U.S. House,01,REP,Wayne T. Gilchrest,6958,TRUE
+Dorchester,,U.S. Senate,,BOT,Other Write-Ins,5,
+Dorchester,,U.S. Senate,,DEM,Benjamin L. Cardin,4183,TRUE
+Dorchester,,U.S. Senate,,DEM,Lih Young,2,
+Dorchester,,U.S. Senate,,GRN,Kevin Zeese,134,
+Dorchester,,U.S. Senate,,REP,Michael S. Steele,6326,
+Frederick,,Attorney General,,BOT,Other Write-Ins,49,
+Frederick,,Attorney General,,DEM,Douglas F. Gansler,28188,TRUE
+Frederick,,Attorney General,,REP,Scott L. Rolle,43375,
+Frederick,,Board of Education,,NON,Angie L. Fish,20370,
+Frederick,,Board of Education,,NON,Bonnie Smith Borsa,35224,TRUE
+Frederick,,Board of Education,,NON,Daryl A. Boffman,26381,TRUE
+Frederick,,Board of Education,,NON,Jean Smith,30364,TRUE
+Frederick,,Board of Education,,NON,Jonathan Switzer,16060,
+Frederick,,Board of Education,,NON,Leslie Ann Mansfield,22186,
+Frederick,,Board of Education,,NON,Mike Schaden,31010,TRUE
+Frederick,,Board of Education,,NON,Other Write-Ins,361,
+Frederick,,Board of Education,,NON,Whitney McDyer Duck,18178,
+Frederick,,Clerk Circuit Court,,BOT,Other Write-Ins,23,
+Frederick,,Clerk Circuit Court,,DEM,Richard O. Gibbs,25729,
+Frederick,,Clerk Circuit Court,,REP,Sandra K. Dalton,43224,TRUE
+Frederick,,Comptroller,,BOT,Other Write-Ins,110,
+Frederick,,Comptroller,,DEM,Peter Franchot,30604,TRUE
+Frederick,,Comptroller,,GRN,Bob Auerbach,15,
+Frederick,,Comptroller,,REP,Anne M. McCarthy,38953,
+Frederick,,County Commissioner,,BOT,Other Write-Ins,473,
+Frederick,,County Commissioner,,DEM,Jan H. Gardner,44977,TRUE
+Frederick,,County Commissioner,,DEM,Kai John Hagen,37915,TRUE
+Frederick,,County Commissioner,,DEM,Richard M. Floyd,31698,
+Frederick,,County Commissioner,,DEM,Ron Wolf,21763,
+Frederick,,County Commissioner,,IND,Stan Mazaleski,89,
+Frederick,,County Commissioner,,REP,Charles A. Jenkins,35455,TRUE
+Frederick,,County Commissioner,,REP,David Gray,38734,TRUE
+Frederick,,County Commissioner,,REP,"John L. Lennie Thompson, Jr.",35444,TRUE
+Frederick,,County Commissioner,,REP,"John R. Lovell, Jr.",29631,
+Frederick,,County Commissioner,,REP,Mike Cady,29644,
+Frederick,,Governor,,BOT,Other Write-Ins,34,
+Frederick,,Governor,,DEM,Charles Ulysses Smith,1,
+Frederick,,Governor,,DEM,Martin O'Malley,28644,TRUE
+Frederick,,Governor,,DEM,Ralph Jaffe,0,
+Frederick,,Governor,,GRN,Ed Boyd,707,
+Frederick,,Governor,,POP,Christopher A. Driscoll,148,
+Frederick,,Governor,,REP,John J. Simmins,18,
+Frederick,,Governor,,REP,"Robert L. Ehrlich, Jr.",43536,
+Frederick,,House of Delegates,03A,BOT,Other Write-Ins,32,
+Frederick,,House of Delegates,03A,DEM,Galen Ronald Clagett,12422,TRUE
+Frederick,,House of Delegates,03A,DEM,Sue Hecht,13900,TRUE
+Frederick,,House of Delegates,03A,REP,Linda Naylor,9873,
+Frederick,,House of Delegates,03A,REP,Patrick N. Hogan,12163,
+Frederick,,House of Delegates,03B,BOT,Other Write-Ins,9,
+Frederick,,House of Delegates,03B,DEM,Paul Gilligan,6055,
+Frederick,,House of Delegates,03B,REP,"Richard B. Weldon, Jr.",9704,TRUE
+Frederick,,House of Delegates,04A,BOT,Other Write-Ins,140,
+Frederick,,House of Delegates,04A,DEM,Maggi Margaret Hays,10519,
+Frederick,,House of Delegates,04A,REP,Joseph R. Bartlett,16545,TRUE
+Frederick,,House of Delegates,04A,REP,Paul S. Stull,17765,TRUE
+Frederick,,House of Delegates,04B,BOT,Other Write-Ins,1,
+Frederick,,House of Delegates,04B,DEM,Timothy Schlauch,746,
+Frederick,,House of Delegates,04B,REP,Donald B. Elliott,1317,TRUE
+Frederick,,Judge Orphans Court,,BOT,Other Write-Ins,192,
+Frederick,,Judge Orphans Court,,DEM,Fern I. Hines,31007,
+Frederick,,Judge Orphans Court,,DEM,John H. Norman,26973,
+Frederick,,Judge Orphans Court,,REP,James S. Grimes,33852,TRUE
+Frederick,,Judge Orphans Court,,REP,John M. Tregoning,36716,TRUE
+Frederick,,Judge Orphans Court,,REP,Tim May,38701,TRUE
+Frederick,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,53230,TRUE
+Frederick,,Register of Wills,,BOT,Other Write-Ins,44,
+Frederick,,Register of Wills,,DEM,Sarah E. Finefrock,26164,
+Frederick,,Register of Wills,,REP,Virginia P. Fifer,41386,TRUE
+Frederick,,Sheriff,,BOT,Other Write-Ins,120,
+Frederick,,Sheriff,,DEM,"Charles I. Tobery, Jr.",28547,
+Frederick,,Sheriff,,REP,Chuck Jenkins,41710,TRUE
+Frederick,,State Senator,03,BOT,Other Write-Ins,104,
+Frederick,,State Senator,03,DEM,Candy O. Greenway,19836,
+Frederick,,State Senator,03,REP,Alex X. Mooney,21505,TRUE
+Frederick,,State Senator,04,BOT,Other Write-Ins,357,
+Frederick,,State Senator,04,REP,David R. Brinkley,23495,TRUE
+Frederick,,State's Attorney,,BOT,Other Write-Ins,38,
+Frederick,,State's Attorney,,DEM,William Bill Poffenbarger,33381,
+Frederick,,State's Attorney,,REP,Charlie Smith,36890,TRUE
+Frederick,,U.S. House,06,BOT,Other Write-Ins,54,
+Frederick,,U.S. House,06,DEM,Andrew Duck,32306,
+Frederick,,U.S. House,06,GRN,Robert E. Kozak,1789,
+Frederick,,U.S. House,06,REP,Roscoe G. Bartlett,37936,TRUE
+Frederick,,U.S. Senate,,BOT,Other Write-Ins,26,
+Frederick,,U.S. Senate,,DEM,Benjamin L. Cardin,29398,TRUE
+Frederick,,U.S. Senate,,DEM,Lih Young,6,
+Frederick,,U.S. Senate,,GRN,Kevin Zeese,1196,
+Frederick,,U.S. Senate,,REP,Michael S. Steele,42174,
+Garrett,,Attorney General,,BOT,Other Write-Ins,7,
+Garrett,,Attorney General,,DEM,Douglas F. Gansler,2875,TRUE
+Garrett,,Attorney General,,REP,Scott L. Rolle,6254,
+Garrett,,Board of Education,001,NON,Donald D. Forrester,7033,TRUE
+Garrett,,Board of Education,001,NON,Other Write-Ins,39,
+Garrett,,Board of Education,002,NON,Camilla Rawe,3648,
+Garrett,,Board of Education,002,NON,Other Write-Ins,12,
+Garrett,,Board of Education,002,NON,Thomas Carr,3910,TRUE
+Garrett,,Board of Education,003,NON,Bill Elliott,2335,
+Garrett,,Board of Education,003,NON,Other Write-Ins,9,
+Garrett,,Board of Education,003,NON,Rodney Durst,5661,TRUE
+Garrett,,Clerk Circuit Court,,BOT,Other Write-Ins,17,
+Garrett,,Clerk Circuit Court,,REP,David K. Martin,8649,TRUE
+Garrett,,Comptroller,,BOT,Other Write-Ins,16,
+Garrett,,Comptroller,,DEM,Peter Franchot,2816,TRUE
+Garrett,,Comptroller,,GRN,Bob Auerbach,0,
+Garrett,,Comptroller,,REP,Anne M. McCarthy,6425,
+Garrett,,County Commissioner,001,BOT,Other Write-Ins,117,
+Garrett,,County Commissioner,001,REP,Ernest J. Gregg,7782,TRUE
+Garrett,,County Commissioner,002,BOT,Other Write-Ins,12,
+Garrett,,County Commissioner,002,DEM,Walt Walters,3190,
+Garrett,,County Commissioner,002,REP,Frederick A. Holliday,6119,TRUE
+Garrett,,County Commissioner,003,BOT,Other Write-Ins,10,
+Garrett,,County Commissioner,003,DEM,Betty M. Pritt,3018,
+Garrett,,County Commissioner,003,REP,Denny Glotfelty,6710,TRUE
+Garrett,,Governor,,BOT,Other Write-Ins,6,
+Garrett,,Governor,,DEM,Charles Ulysses Smith,0,
+Garrett,,Governor,,DEM,Martin O'Malley,3108,TRUE
+Garrett,,Governor,,DEM,Ralph Jaffe,0,
+Garrett,,Governor,,GRN,Ed Boyd,90,
+Garrett,,Governor,,POP,Christopher A. Driscoll,29,
+Garrett,,Governor,,REP,John J. Simmins,2,
+Garrett,,Governor,,REP,"Robert L. Ehrlich, Jr.",6642,
+Garrett,,House of Delegates,01A,BOT,Other Write-Ins,18,
+Garrett,,House of Delegates,01A,DEM,Bill Aiken,4635,
+Garrett,,House of Delegates,01A,REP,Wendell R. Beitzel,5129,TRUE
+Garrett,,Judge Orphans Court,,BOT,Other Write-Ins,30,
+Garrett,,Judge Orphans Court,,REP,Clifford C. DeWitt,7302,TRUE
+Garrett,,Judge Orphans Court,,REP,James F. Margroff,6584,TRUE
+Garrett,,Judge Orphans Court,,REP,Wayne Wilt,6535,TRUE
+Garrett,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,6964,TRUE
+Garrett,,Register of Wills,,BOT,Other Write-Ins,12,
+Garrett,,Register of Wills,,REP,Joseph F. DiSimone,8646,TRUE
+Garrett,,Sheriff,,BOT,Other Write-Ins,71,
+Garrett,,Sheriff,,REP,Gary Berkebile,4733,TRUE
+Garrett,,Sheriff,,REP,Larry Gnegy,4598,
+Garrett,,State Senator,01,BOT,Other Write-Ins,5,
+Garrett,,State Senator,01,DEM,Thomas Conlon,2013,
+Garrett,,State Senator,01,REP,George C. Edwards,7806,TRUE
+Garrett,,State's Attorney,,BOT,Other Write-Ins,82,
+Garrett,,State's Attorney,,REP,Lisa Thayer Welch,7670,TRUE
+Garrett,,U.S. House,06,BOT,Other Write-Ins,3,
+Garrett,,U.S. House,06,DEM,Andrew Duck,3201,
+Garrett,,U.S. House,06,GRN,Robert E. Kozak,147,
+Garrett,,U.S. House,06,REP,Roscoe G. Bartlett,6464,TRUE
+Garrett,,U.S. Senate,,BOT,Other Write-Ins,1,
+Garrett,,U.S. Senate,,DEM,Benjamin L. Cardin,2686,TRUE
+Garrett,,U.S. Senate,,DEM,Lih Young,2,
+Garrett,,U.S. Senate,,GRN,Kevin Zeese,110,
+Garrett,,U.S. Senate,,REP,Michael S. Steele,6995,
+Harford,,Attorney General,,BOT,Other Write-Ins,79,
+Harford,,Attorney General,,DEM,Douglas F. Gansler,36885,TRUE
+Harford,,Attorney General,,REP,Scott L. Rolle,49742,
+Harford,,Clerk Circuit Court,,BOT,Other Write-Ins,42,
+Harford,,Clerk Circuit Court,,DEM,Gloria Barnhart,33373,
+Harford,,Clerk Circuit Court,,REP,James Reilly,51000,TRUE
+Harford,,Comptroller,,BOT,Other Write-Ins,176,
+Harford,,Comptroller,,DEM,Peter Franchot,36575,TRUE
+Harford,,Comptroller,,GRN,Bob Auerbach,8,
+Harford,,Comptroller,,REP,Anne M. McCarthy,51311,
+Harford,,County Council,A,BOT,Other Write-Ins,20,
+Harford,,County Council,A,DEM,Dion F. Guthrie,6095,TRUE
+Harford,,County Council,A,REP,Christopher J. Biggs,4653,
+Harford,,County Council,B,BOT,Other Write-Ins,10,
+Harford,,County Council,B,DEM,Val Twanmoh,7456,
+Harford,,County Council,B,GRN,Brian Bittner,574,
+Harford,,County Council,B,REP,Roni Chenowith,8166,TRUE
+Harford,,County Council,C,BOT,Other Write-Ins,22,
+Harford,,County Council,C,DEM,Joan Morrissey Ward,6328,
+Harford,,County Council,C,REP,James V. Jim McMahan,11034,TRUE
+Harford,,County Council,D,BOT,Other Write-Ins,20,
+Harford,,County Council,D,DEM,Stephen P. Smith,32,
+Harford,,County Council,D,DEM,Terence Cox,4274,
+Harford,,County Council,D,REP,Chad R. Shrodes,11400,TRUE
+Harford,,County Council,E,BOT,Other Write-Ins,8,
+Harford,,County Council,E,DEM,Leonard D. Wheeler,5515,
+Harford,,County Council,E,REP,Richard Slutzky,9314,TRUE
+Harford,,County Council,F,BOT,Other Write-Ins,13,
+Harford,,County Council,F,DEM,Mary Ann Lisanti,7433,TRUE
+Harford,,County Council,F,REP,"John P. Correri, Jr.",4877,
+Harford,,County Executive,,BOT,Other Write-Ins,99,
+Harford,,County Executive,,DEM,Ann C. Helton,42442,
+Harford,,County Executive,,REP,David R. Craig,46121,TRUE
+Harford,,Governor,,BOT,Other Write-Ins,44,
+Harford,,Governor,,DEM,Charles Ulysses Smith,1,
+Harford,,Governor,,DEM,Martin O'Malley,32490,TRUE
+Harford,,Governor,,DEM,Ralph Jaffe,0,
+Harford,,Governor,,GRN,Ed Boyd,752,
+Harford,,Governor,,POP,Christopher A. Driscoll,163,
+Harford,,Governor,,REP,John J. Simmins,5,
+Harford,,Governor,,REP,"Robert L. Ehrlich, Jr.",57882,
+Harford,,House of Delegates,07,BOT,Other Write-Ins,17,
+Harford,,House of Delegates,07,DEM,Jack Sturgill,3792,
+Harford,,House of Delegates,07,DEM,Linda W. Hart,4224,
+Harford,,House of Delegates,07,DEM,Rebecca L. Nelson,3642,
+Harford,,House of Delegates,07,GRN,Kim Fell,672,
+Harford,,House of Delegates,07,REP,J. B. Jennings,5902,TRUE
+Harford,,House of Delegates,07,REP,Pat McDonough,6666,TRUE
+Harford,,House of Delegates,07,REP,Rick Impallaria,6357,TRUE
+Harford,,House of Delegates,34A,BOT,Other Write-Ins,22,
+Harford,,House of Delegates,34A,DEM,B. Daniel Riley,10969,TRUE
+Harford,,House of Delegates,34A,DEM,Mary-Dulany James,12697,TRUE
+Harford,,House of Delegates,34A,REP,Glen Glass,8408,
+Harford,,House of Delegates,34A,REP,Sheryl Davis Kohl,7940,
+Harford,,House of Delegates,35A,BOT,Other Write-Ins,81,
+Harford,,House of Delegates,35A,DEM,Craig H. DeRan,13589,
+Harford,,House of Delegates,35A,REP,Barry Glassman,21766,TRUE
+Harford,,House of Delegates,35A,REP,Donna Stifler,18909,TRUE
+Harford,,House of Delegates,35B,BOT,Other Write-Ins,9,
+Harford,,House of Delegates,35B,DEM,David Carey,6536,
+Harford,,House of Delegates,35B,REP,Susan K. McComas,10922,TRUE
+Harford,,Judge Circuit Court,03,BOT,Other Write-Ins,461,
+Harford,,Judge Circuit Court,03,BOT,Stephen M. Waldron,71743,TRUE
+Harford,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,65602,TRUE
+Harford,,Judge Spec Appeals,02,BOT,James R. Eyler,64214,TRUE
+Harford,,Pres County Council,,BOT,Other Write-Ins,75,
+Harford,,Pres County Council,,DEM,"Charles J. White, Jr.",29591,
+Harford,,Pres County Council,,REP,Billy Boniface,57743,TRUE
+Harford,,Register of Wills,,BOT,Other Write-Ins,80,
+Harford,,Register of Wills,,DEM,Eric Roper,29206,
+Harford,,Register of Wills,,REP,Harry L. W. Hopkins,55336,TRUE
+Harford,,Sheriff,,BOT,Other Write-Ins,229,
+Harford,,Sheriff,,DEM,Jesse Bane,49729,TRUE
+Harford,,Sheriff,,REP,Norm Cochran,36799,
+Harford,,State Senator,07,BOT,Other Write-Ins,6,
+Harford,,State Senator,07,DEM,Patricia A. Foerster,4762,
+Harford,,State Senator,07,REP,Andy Harris,6737,TRUE
+Harford,,State Senator,34,BOT,Other Write-Ins,14,
+Harford,,State Senator,34,DEM,William B. Kilby,10118,
+Harford,,State Senator,34,REP,Nancy Jacobs,13169,TRUE
+Harford,,State Senator,35,BOT,Other Write-Ins,31,
+Harford,,State Senator,35,DEM,Stan Kollar,16803,
+Harford,,State Senator,35,REP,J. Robert Hooper,35760,TRUE
+Harford,,State's Attorney,,BOT,Other Write-Ins,596,
+Harford,,State's Attorney,,REP,Joseph I. Cassilly,73795,TRUE
+Harford,,U.S. House,01,BOT,Other Write-Ins,42,
+Harford,,U.S. House,01,DEM,Jim Corwin,14529,
+Harford,,U.S. House,01,REP,Wayne T. Gilchrest,35045,TRUE
+Harford,,U.S. House,02,BOT,Other Write-Ins,21,
+Harford,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,16168,TRUE
+Harford,,U.S. House,02,REP,Jimmy Mathis,9352,
+Harford,,U.S. House,06,BOT,Other Write-Ins,8,
+Harford,,U.S. House,06,DEM,Andrew Duck,3621,
+Harford,,U.S. House,06,GRN,Robert E. Kozak,487,
+Harford,,U.S. House,06,REP,Roscoe G. Bartlett,8565,TRUE
+Harford,,U.S. Senate,,BOT,Other Write-Ins,34,
+Harford,,U.S. Senate,,DEM,Benjamin L. Cardin,32590,TRUE
+Harford,,U.S. Senate,,DEM,Lih Young,3,
+Harford,,U.S. Senate,,GRN,Kevin Zeese,1664,
+Harford,,U.S. Senate,,REP,Michael S. Steele,56703,
+Howard,,Attorney General,,BOT,Other Write-Ins,117,
+Howard,,Attorney General,,DEM,Douglas F. Gansler,59278,TRUE
+Howard,,Attorney General,,REP,Scott L. Rolle,41934,
+Howard,,Board of Education,,NON,Allen Dyer,25909,
+Howard,,Board of Education,,NON,Di Zou,15777,
+Howard,,Board of Education,,NON,"Don Marston, Jr.",251,
+Howard,,Board of Education,,NON,Ellen Flynn Giles,36167,TRUE
+Howard,,Board of Education,,NON,Frank Aquino,45336,TRUE
+Howard,,Board of Education,,NON,Janet Siddiqui,35018,
+Howard,,Board of Education,,NON,Joshua M. Kaufman,33173,
+Howard,,Board of Education,,NON,Larry Cohen,38474,TRUE
+Howard,,Board of Education,,NON,Other Write-Ins,476,
+Howard,,Board of Education,,NON,Patricia S. Gordon,39287,TRUE
+Howard,,Board of Education,,NON,Roger J. Lerner,21000,
+Howard,,Board of Education,,NON,Sandra H. French,44687,TRUE
+Howard,,Clerk Circuit Court,,BOT,Other Write-Ins,41,
+Howard,,Clerk Circuit Court,,DEM,Leslie J. Cale,45593,
+Howard,,Clerk Circuit Court,,REP,Margaret D. Rappaport,52279,TRUE
+Howard,,Comptroller,,BOT,Other Write-Ins,212,
+Howard,,Comptroller,,DEM,Peter Franchot,56810,TRUE
+Howard,,Comptroller,,GRN,Bob Auerbach,23,
+Howard,,Comptroller,,REP,Anne M. McCarthy,44968,
+Howard,,County Council,001,BOT,Other Write-Ins,13,
+Howard,,County Council,001,DEM,Courtney Watson,11245,TRUE
+Howard,,County Council,001,REP,Tony Salazar,10257,
+Howard,,County Council,002,BOT,Other Write-Ins,9,
+Howard,,County Council,002,DEM,Calvin Ball,9907,TRUE
+Howard,,County Council,002,REP,Gina Gabrielle Ellrich,6638,
+Howard,,County Council,003,BOT,Other Write-Ins,10,
+Howard,,County Council,003,DEM,Jen Terrasa,9846,TRUE
+Howard,,County Council,003,REP,Donna Thewes,6037,
+Howard,,County Council,004,BOT,Other Write-Ins,28,
+Howard,,County Council,004,DEM,Mary Kay Sigaty,13798,TRUE
+Howard,,County Council,004,REP,Tom D`Asto,7576,
+Howard,,County Council,005,BOT,Other Write-Ins,28,
+Howard,,County Council,005,DEM,Don Dunn,9560,
+Howard,,County Council,005,REP,Greg Fox,15600,TRUE
+Howard,,County Executive,,BOT,Other Write-Ins,35,
+Howard,,County Executive,,DEM,Ken Ulman,54022,TRUE
+Howard,,County Executive,,OTH,C. Stephen Wallis,4701,
+Howard,,County Executive,,REP,Christopher J. Merdon,44910,
+Howard,,Governor,,BOT,Other Write-Ins,54,
+Howard,,Governor,,DEM,Charles Ulysses Smith,5,
+Howard,,Governor,,DEM,Martin O'Malley,52651,TRUE
+Howard,,Governor,,DEM,Ralph Jaffe,2,
+Howard,,Governor,,GRN,Ed Boyd,888,
+Howard,,Governor,,POP,Christopher A. Driscoll,157,
+Howard,,Governor,,REP,John J. Simmins,17,
+Howard,,Governor,,REP,"Robert L. Ehrlich, Jr.",51974,
+Howard,,House of Delegates,09A,BOT,Other Write-Ins,123,
+Howard,,House of Delegates,09A,DEM,David Leonard Osmundson,16162,
+Howard,,House of Delegates,09A,REP,Gail Bates,22862,TRUE
+Howard,,House of Delegates,09A,REP,Warren E. Miller,18533,TRUE
+Howard,,House of Delegates,12A,BOT,Other Write-Ins,6,
+Howard,,House of Delegates,12A,DEM,"James E. Malone, Jr.",3001,TRUE
+Howard,,House of Delegates,12A,DEM,"Steven J. DeBoy, Sr.",2754,TRUE
+Howard,,House of Delegates,12A,REP,Albert L. Nalley,1928,
+Howard,,House of Delegates,12A,REP,Joe Hooe,2096,
+Howard,,House of Delegates,12B,BOT,Other Write-Ins,7,
+Howard,,House of Delegates,12B,DEM,Elizabeth Bobo,11892,TRUE
+Howard,,House of Delegates,12B,REP,Christopher J. Feldwick,3885,
+Howard,,House of Delegates,13,BOT,Other Write-Ins,84,
+Howard,,House of Delegates,13,DEM,Frank S. Turner,24437,TRUE
+Howard,,House of Delegates,13,DEM,Guy Guzzone,26891,TRUE
+Howard,,House of Delegates,13,DEM,Shane Pendergrass,26633,TRUE
+Howard,,House of Delegates,13,REP,Loretta Gaffney,13466,
+Howard,,House of Delegates,13,REP,Mary Beth Tung,15216,
+Howard,,House of Delegates,13,REP,Rick Bowers,13665,
+Howard,,Judge Circuit Court,05,BOT,David Titman,39146,
+Howard,,Judge Circuit Court,05,BOT,Louis A. Becker,53024,TRUE
+Howard,,Judge Circuit Court,05,BOT,Other Write-Ins,325,
+Howard,,Judge Circuit Court,05,BOT,Richard S. Bernhardt,53687,TRUE
+Howard,,Judge Orphans Court,,BOT,Other Write-Ins,484,
+Howard,,Judge Orphans Court,,DEM,Jay Fred Cohen,53344,TRUE
+Howard,,Judge Orphans Court,,DEM,Sherae M. McNeal,57180,TRUE
+Howard,,Judge Orphans Court,,REP,"Charles M. Coles, Jr.",44356,
+Howard,,Judge Orphans Court,,REP,Joyce C. Pope,53184,TRUE
+Howard,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,74495,TRUE
+Howard,,Register of Wills,,BOT,Other Write-Ins,53,
+Howard,,Register of Wills,,DEM,Lawrence M. Blickman,46479,
+Howard,,Register of Wills,,REP,Kay K. Hartleb,48858,TRUE
+Howard,,Sheriff,,BOT,Other Write-Ins,553,
+Howard,,Sheriff,,DEM,James F. Fitzgerald,59561,TRUE
+Howard,,Sheriff,,REP,Charles Chuck Cave,2952,
+Howard,,Sheriff,,REP,Timothy Galt,33222,
+Howard,,State Senator,09,BOT,Other Write-Ins,23,
+Howard,,State Senator,09,DEM,Rich Corkran,14738,
+Howard,,State Senator,09,REP,Allan H. Kittleman,22587,TRUE
+Howard,,State Senator,12,BOT,Other Write-Ins,15,
+Howard,,State Senator,12,DEM,Edward J. Kasemeyer,14492,TRUE
+Howard,,State Senator,12,REP,"Richard I. Martel, Jr.",6474,
+Howard,,State Senator,13,BOT,Other Write-Ins,32,
+Howard,,State Senator,13,DEM,James N. Robey,24354,TRUE
+Howard,,State Senator,13,REP,Sandra B. Schrader,19021,
+Howard,,State's Attorney,,BOT,Other Write-Ins,874,
+Howard,,State's Attorney,,DEM,Tim McCrone,75807,TRUE
+Howard,,U.S. House,03,BOT,Other Write-Ins,20,
+Howard,,U.S. House,03,DEM,John P. Sarbanes,18971,TRUE
+Howard,,U.S. House,03,LIB,"Charles Curtis McPeek, Sr.",649,
+Howard,,U.S. House,03,REP,John White,9065,
+Howard,,U.S. House,07,BOT,Other Write-Ins,2176,
+Howard,,U.S. House,07,DEM,Elijah Cummings,52147,TRUE
+Howard,,U.S. Senate,,BOT,Other Write-Ins,44,
+Howard,,U.S. Senate,,DEM,Benjamin L. Cardin,56873,TRUE
+Howard,,U.S. Senate,,DEM,Lih Young,15,
+Howard,,U.S. Senate,,GRN,Kevin Zeese,1577,
+Howard,,U.S. Senate,,REP,Michael S. Steele,47015,
+Kent,,Attorney General,,BOT,Other Write-Ins,4,
+Kent,,Attorney General,,DEM,Douglas F. Gansler,3856,TRUE
+Kent,,Attorney General,,REP,Scott L. Rolle,3402,
+Kent,,Board of Education,,NON,Bryan Williams,3790,TRUE
+Kent,,Board of Education,,NON,Madhu Sidhu,3599,
+Kent,,Board of Education,,NON,Other Write-Ins,11,
+Kent,,Clerk Circuit Court,,BOT,Other Write-Ins,18,
+Kent,,Clerk Circuit Court,,DEM,Mark L. Mumford,6800,TRUE
+Kent,,Comptroller,,BOT,Other Write-Ins,8,
+Kent,,Comptroller,,DEM,Peter Franchot,3899,TRUE
+Kent,,Comptroller,,GRN,Bob Auerbach,1,
+Kent,,Comptroller,,REP,Anne M. McCarthy,3550,
+Kent,,County Commissioner,,BOT,Other Write-Ins,89,
+Kent,,County Commissioner,,DEM,Ronald H. Fithian,3834,TRUE
+Kent,,County Commissioner,,DEM,T. Edward Robinson,3511,
+Kent,,County Commissioner,,DEM,William W. Pickrum,4091,TRUE
+Kent,,County Commissioner,,REP,Roy W. Crow,3778,TRUE
+Kent,,County Commissioner,,REP,Sue E. Leager,2658,
+Kent,,County Commissioner,,REP,William P. Gale,1987,
+Kent,,Governor,,BOT,Other Write-Ins,3,
+Kent,,Governor,,DEM,Charles Ulysses Smith,0,
+Kent,,Governor,,DEM,Martin O'Malley,3484,TRUE
+Kent,,Governor,,DEM,Ralph Jaffe,0,
+Kent,,Governor,,GRN,Ed Boyd,69,
+Kent,,Governor,,POP,Christopher A. Driscoll,17,
+Kent,,Governor,,REP,John J. Simmins,0,
+Kent,,Governor,,REP,"Robert L. Ehrlich, Jr.",4369,
+Kent,,House of Delegates,36,BOT,Other Write-Ins,7,
+Kent,,House of Delegates,36,DEM,Joan O. Horsey,3314,
+Kent,,House of Delegates,36,DEM,Mark Guns,2637,
+Kent,,House of Delegates,36,DEM,Wheeler R. Baker,2603,
+Kent,,House of Delegates,36,GRN,Joseph Sanchez,475,
+Kent,,House of Delegates,36,REP,Mary Roe Walkup,4528,TRUE
+Kent,,House of Delegates,36,REP,"Michael D. Smigiel, Sr.",2497,TRUE
+Kent,,House of Delegates,36,REP,Richard A. Sossi,2843,TRUE
+Kent,,Judge Orphans Court,,BOT,Other Write-Ins,13,
+Kent,,Judge Orphans Court,,DEM,"Elroy G. Boyer, Jr.",4078,TRUE
+Kent,,Judge Orphans Court,,DEM,"William F. Shiflett, Jr.",3796,
+Kent,,Judge Orphans Court,,DEM,Willliam I. Blake,4196,TRUE
+Kent,,Judge Orphans Court,,REP,Harry T. Williams,4365,TRUE
+Kent,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,5104,TRUE
+Kent,,Register of Wills,,BOT,Other Write-Ins,18,
+Kent,,Register of Wills,,DEM,Nancy Lee Jewell,6570,TRUE
+Kent,,Sheriff,,BOT,Other Write-Ins,81,
+Kent,,Sheriff,,REP,John F. Price,6337,TRUE
+Kent,,State Senator,36,BOT,Other Write-Ins,5,
+Kent,,State Senator,36,DEM,Harry E. Sampson,2923,
+Kent,,State Senator,36,REP,E. J. Pipkin,4563,TRUE
+Kent,,State's Attorney,,BOT,Other Write-Ins,71,
+Kent,,State's Attorney,,DEM,"Robert H. Strong, Jr.",6153,TRUE
+Kent,,Treasurer,,BOT,Other Write-Ins,36,
+Kent,,Treasurer,,DEM,Donna B. Otwell,3878,TRUE
+Kent,,Treasurer,,REP,Chris Beck,2942,
+Kent,,U.S. House,01,BOT,Other Write-Ins,7,
+Kent,,U.S. House,01,DEM,Jim Corwin,2161,
+Kent,,U.S. House,01,REP,Wayne T. Gilchrest,5603,TRUE
+Kent,,U.S. Senate,,BOT,Other Write-Ins,1,
+Kent,,U.S. Senate,,DEM,Benjamin L. Cardin,3484,TRUE
+Kent,,U.S. Senate,,DEM,Lih Young,0,
+Kent,,U.S. Senate,,GRN,Kevin Zeese,134,
+Kent,,U.S. Senate,,REP,Michael S. Steele,4239,
+Montgomery,,Appellate Judge,07,BOT,Irma S. Raker,200359,TRUE
+Montgomery,,Attorney General,,BOT,Other Write-Ins,453,
+Montgomery,,Attorney General,,DEM,Douglas F. Gansler,220199,TRUE
+Montgomery,,Attorney General,,REP,Scott L. Rolle,77254,
+Montgomery,,Board of Ed at Large,,NON,Other Write-Ins,593,
+Montgomery,,Board of Ed at Large,,NON,Shirley Brandman,140904,TRUE
+Montgomery,,Board of Ed at Large,,NON,Tommy Le,83454,
+Montgomery,,Board of Education,001,NON,Judy Docca,144689,TRUE
+Montgomery,,Board of Education,001,NON,Michael Ibañez,61605,
+Montgomery,,Board of Education,001,NON,Other Write-Ins,487,
+Montgomery,,Board of Education,003,NON,Other Write-Ins,1289,
+Montgomery,,Board of Education,003,NON,Patricia B. O'Neill,201701,TRUE
+Montgomery,,Board of Education,005,NON,Nancy Navarro,136332,TRUE
+Montgomery,,Board of Education,005,NON,Other Write-Ins,485,
+Montgomery,,Board of Education,005,NON,Philip Kauffman,79177,
+Montgomery,,Clerk Circuit Court,,BOT,Other Write-Ins,128,
+Montgomery,,Clerk Circuit Court,,DEM,Loretta E. Knight,204056,TRUE
+Montgomery,,Clerk Circuit Court,,REP,Terry Bork,72930,
+Montgomery,,Comptroller,,BOT,Other Write-Ins,359,
+Montgomery,,Comptroller,,DEM,Peter Franchot,206713,TRUE
+Montgomery,,Comptroller,,GRN,Bob Auerbach,38,
+Montgomery,,Comptroller,,REP,Anne M. McCarthy,90674,
+Montgomery,,County Council,001,BOT,Other Write-Ins,33,
+Montgomery,,County Council,001,DEM,Roger Berliner,41518,TRUE
+Montgomery,,County Council,001,REP,Howard A. Denis,32615,
+Montgomery,,County Council,002,BOT,Other Write-Ins,56,
+Montgomery,,County Council,002,DEM,Mike Knapp,36196,TRUE
+Montgomery,,County Council,002,REP,Scott R. Dyer,19592,
+Montgomery,,County Council,003,BOT,Other Write-Ins,42,
+Montgomery,,County Council,003,DEM,Phil Andrews,36643,TRUE
+Montgomery,,County Council,003,REP,"Henry F. Marraffa, Jr.",14273,
+Montgomery,,County Council,004,BOT,Other Write-Ins,47,
+Montgomery,,County Council,004,DEM,Marilyn J. Praisner,43730,TRUE
+Montgomery,,County Council,004,REP,Mark D. Fennel,14880,
+Montgomery,,County Council,005,BOT,Other Write-Ins,75,
+Montgomery,,County Council,005,DEM,Valerie Ervin,40087,TRUE
+Montgomery,,County Council,005,REP,Dennis E. Walsh,9110,
+Montgomery,,County Council At Large,,BOT,Other Write-Ins,1119,
+Montgomery,,County Council At Large,,DEM,Duchy Trachtenberg,182998,TRUE
+Montgomery,,County Council At Large,,DEM,George L. Leventhal,191037,TRUE
+Montgomery,,County Council At Large,,DEM,Marc Elrich,185667,TRUE
+Montgomery,,County Council At Large,,DEM,Nancy Floreen,193269,TRUE
+Montgomery,,County Council At Large,,REP,Amber Gnemi,71121,
+Montgomery,,County Council At Large,,REP,Shelly Skolnick,73809,
+Montgomery,,County Council At Large,,REP,Steve Abrams,96586,
+Montgomery,,County Council At Large,,REP,Tom Reinheimer,76452,
+Montgomery,,County Executive,,BOT,Other Write-Ins,282,
+Montgomery,,County Executive,,DEM,Ike Leggett,201394,TRUE
+Montgomery,,County Executive,,IND,Robin Ficker,28063,
+Montgomery,,County Executive,,REP,Chuck Floyd,69010,
+Montgomery,,Governor,,BOT,Other Write-Ins,188,
+Montgomery,,Governor,,DEM,Charles Ulysses Smith,6,
+Montgomery,,Governor,,DEM,Martin O'Malley,190873,TRUE
+Montgomery,,Governor,,DEM,Ralph Jaffe,4,
+Montgomery,,Governor,,GRN,Ed Boyd,2038,
+Montgomery,,Governor,,POP,Christopher A. Driscoll,500,
+Montgomery,,Governor,,REP,John J. Simmins,51,
+Montgomery,,Governor,,REP,"Robert L. Ehrlich, Jr.",112071,
+Montgomery,,House of Delegates,14,BOT,Other Write-Ins,61,
+Montgomery,,House of Delegates,14,DEM,Anne R. Kaiser,24500,TRUE
+Montgomery,,House of Delegates,14,DEM,Herman Taylor,24273,TRUE
+Montgomery,,House of Delegates,14,DEM,Karen S. Montgomery,24478,TRUE
+Montgomery,,House of Delegates,14,REP,Jim Goldberg,12603,
+Montgomery,,House of Delegates,14,REP,John McKinnis,13471,
+Montgomery,,House of Delegates,14,REP,John R. Austin,12963,
+Montgomery,,House of Delegates,15,BOT,Other Write-Ins,55,
+Montgomery,,House of Delegates,15,DEM,Brian J. Feldman,25760,TRUE
+Montgomery,,House of Delegates,15,DEM,Craig L. Rice,20202,TRUE
+Montgomery,,House of Delegates,15,DEM,Kathleen Dumais,25781,TRUE
+Montgomery,,House of Delegates,15,REP,Brian Mezger,14112,
+Montgomery,,House of Delegates,15,REP,Chris Pilkerton,13174,
+Montgomery,,House of Delegates,15,REP,Jean B. Cryor,20050,
+Montgomery,,House of Delegates,16,BOT,Other Write-Ins,98,
+Montgomery,,House of Delegates,16,DEM,Marilyn R. Goldwater,33249,TRUE
+Montgomery,,House of Delegates,16,DEM,Susan C. Lee,33064,TRUE
+Montgomery,,House of Delegates,16,DEM,William A. Bronrott,33004,TRUE
+Montgomery,,House of Delegates,16,REP,Angela M. Markelonis,10924,
+Montgomery,,House of Delegates,16,REP,Mike Monroe,10433,
+Montgomery,,House of Delegates,16,REP,Robert F. Dyer,11504,
+Montgomery,,House of Delegates,17,BOT,Other Write-Ins,75,
+Montgomery,,House of Delegates,17,DEM,Jim Gilchrist,23524,TRUE
+Montgomery,,House of Delegates,17,DEM,Kumar P. Barve,21994,TRUE
+Montgomery,,House of Delegates,17,DEM,Luiz Simmons,22148,TRUE
+Montgomery,,House of Delegates,17,REP,Josephine J. Wang,8384,
+Montgomery,,House of Delegates,17,REP,Mary Haley,9016,
+Montgomery,,House of Delegates,17,REP,Paul N. Hnarakis,7535,
+Montgomery,,House of Delegates,18,BOT,Other Write-Ins,134,
+Montgomery,,House of Delegates,18,DEM,Ana Sol Gutierrez,26751,TRUE
+Montgomery,,House of Delegates,18,DEM,Jane Lawton,26994,TRUE
+Montgomery,,House of Delegates,18,DEM,Jeff Waldstreicher,26315,TRUE
+Montgomery,,House of Delegates,18,REP,Joan Pleiman,8137,
+Montgomery,,House of Delegates,18,REP,Lorri D. Simmons,7926,
+Montgomery,,House of Delegates,18,REP,Richard A. Fenati,8134,
+Montgomery,,House of Delegates,19,BOT,Other Write-Ins,141,
+Montgomery,,House of Delegates,19,DEM,Benjamin F. Kramer,24707,TRUE
+Montgomery,,House of Delegates,19,DEM,Henry B. Hank Heller,24928,TRUE
+Montgomery,,House of Delegates,19,DEM,Roger Manno,24598,TRUE
+Montgomery,,House of Delegates,19,REP,John R. Joaquin,10647,
+Montgomery,,House of Delegates,19,REP,Thomas Hardman,10474,
+Montgomery,,House of Delegates,19,REP,Tom Masser,10348,
+Montgomery,,House of Delegates,20,BOT,Other Write-Ins,266,
+Montgomery,,House of Delegates,20,DEM,Heather R. Mizeur,23233,TRUE
+Montgomery,,House of Delegates,20,DEM,Sheila Ellis Hixson,24124,TRUE
+Montgomery,,House of Delegates,20,DEM,Tom Hucker,22704,TRUE
+Montgomery,,House of Delegates,20,REP,John W. Wrightson,5032,
+Montgomery,,House of Delegates,39,BOT,Other Write-Ins,68,
+Montgomery,,House of Delegates,39,DEM,Charles Barkley,18253,TRUE
+Montgomery,,House of Delegates,39,DEM,Nancy J. King,18651,TRUE
+Montgomery,,House of Delegates,39,DEM,Saqib Ali,16455,TRUE
+Montgomery,,House of Delegates,39,REP,Bill Witham,8244,
+Montgomery,,House of Delegates,39,REP,David Nichols,9278,
+Montgomery,,House of Delegates,39,REP,Gary Scott,8363,
+Montgomery,,Judge Circuit Court,06,BOT,Michael J. Algeo,188827,TRUE
+Montgomery,,Judge Circuit Court,06,BOT,Other Write-Ins,1997,
+Montgomery,,Judge Circuit Court,06,BOT,Ronald B. Rubin,188466,TRUE
+Montgomery,,Judge Circuit Court,06,BOT,Terrence J. McGann,190031,TRUE
+Montgomery,,Judge Circuit Court,06,BOT,Thomas L. Craven,188508,TRUE
+Montgomery,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,198955,TRUE
+Montgomery,,Judge Spec Appeals,07,BOT,Patrick L. Woodward,198511,TRUE
+Montgomery,,Register of Wills,,BOT,Other Write-Ins,145,
+Montgomery,,Register of Wills,,DEM,Joseph M. Griffin,200421,TRUE
+Montgomery,,Register of Wills,,REP,Frank Enten,74001,
+Montgomery,,Sheriff,,BOT,Other Write-Ins,360,
+Montgomery,,Sheriff,,DEM,Raymond Michael Kight,201024,TRUE
+Montgomery,,Sheriff,,REP,Dave Stultz,77537,
+Montgomery,,State Senator,14,BOT,Other Write-Ins,53,
+Montgomery,,State Senator,14,DEM,Rona E. Kramer,26923,TRUE
+Montgomery,,State Senator,14,REP,Frank U. Hackenberg,12733,
+Montgomery,,State Senator,15,BOT,Other Write-Ins,25,
+Montgomery,,State Senator,15,DEM,Rob Garagiola,27788,TRUE
+Montgomery,,State Senator,15,REP,Bill Askinazi,14448,
+Montgomery,,State Senator,16,BOT,Other Write-Ins,28,
+Montgomery,,State Senator,16,DEM,Brian E. Frosh,35290,TRUE
+Montgomery,,State Senator,16,REP,"Robert F. Dyer, Jr.",11317,
+Montgomery,,State Senator,17,BOT,Other Write-Ins,392,
+Montgomery,,State Senator,17,DEM,Jennie M. Forehand,27588,TRUE
+Montgomery,,State Senator,18,BOT,Other Write-Ins,35,
+Montgomery,,State Senator,18,DEM,"Richard S. Madaleno, Jr.",28050,TRUE
+Montgomery,,State Senator,18,REP,David Stegmaier,8834,
+Montgomery,,State Senator,19,BOT,Other Write-Ins,45,
+Montgomery,,State Senator,19,DEM,Mike Lenett,25810,TRUE
+Montgomery,,State Senator,19,REP,Mike Ryman,11933,
+Montgomery,,State Senator,20,BOT,Other Write-Ins,349,
+Montgomery,,State Senator,20,DEM,Jamie Raskin,26251,TRUE
+Montgomery,,State Senator,39,BOT,Other Write-Ins,358,
+Montgomery,,State Senator,39,DEM,Patrick J. Hogan,23274,TRUE
+Montgomery,,State's Attorney,,BOT,Other Write-Ins,198,
+Montgomery,,State's Attorney,,DEM,John McCarthy,206797,TRUE
+Montgomery,,State's Attorney,,REP,James F. Shalleck,77628,
+Montgomery,,U.S. House,04,BOT,Other Write-Ins,711,
+Montgomery,,U.S. House,04,DEM,Albert R. Wynn,54529,TRUE
+Montgomery,,U.S. House,04,REP,Michael Moshe Starkman,24044,
+Montgomery,,U.S. House,06,BOT,Other Write-Ins,4,
+Montgomery,,U.S. House,06,DEM,Andrew Duck,3084,
+Montgomery,,U.S. House,06,GRN,Robert E. Kozak,167,
+Montgomery,,U.S. House,06,REP,Roscoe G. Bartlett,3633,TRUE
+Montgomery,,U.S. House,08,BOT,Other Write-Ins,187,
+Montgomery,,U.S. House,08,DEM,Chris Van Hollen,162298,TRUE
+Montgomery,,U.S. House,08,GRN,Gerard P. Giblin,3174,
+Montgomery,,U.S. House,08,REP,Jeffrey M. Stein,47759,
+Montgomery,,U.S. Senate,,BOT,Other Write-Ins,141,
+Montgomery,,U.S. Senate,,DEM,Benjamin L. Cardin,205264,TRUE
+Montgomery,,U.S. Senate,,DEM,Lih Young,11,
+Montgomery,,U.S. Senate,,GRN,Kevin Zeese,3578,
+Montgomery,,U.S. Senate,,REP,Michael S. Steele,96616,
+Prince George's,,Attorney General,,BOT,Other Write-Ins,219,
+Prince George's,,Attorney General,,DEM,Douglas F. Gansler,172930,TRUE
+Prince George's,,Attorney General,,REP,Scott L. Rolle,28347,
+Prince George's,,Board of Ed at Large,,NON,Alicia Darensbourg,51917,
+Prince George's,,Board of Ed at Large,,NON,Donna Hathaway Beck,113080,TRUE
+Prince George's,,Board of Ed at Large,,NON,Gloria Lawlah,67961,
+Prince George's,,Board of Ed at Large,,NON,Howard Stone,45622,
+Prince George's,,Board of Ed at Large,,NON,Jeana Jacobs,89711,TRUE
+Prince George's,,Board of Ed at Large,,NON,Ken E. Johnson,59718,
+Prince George's,,Board of Ed at Large,,NON,Nate Thomas,83469,TRUE
+Prince George's,,Board of Ed at Large,,NON,Other Write-Ins,1752,
+Prince George's,,Board of Ed at Large,,NON,Ron Watson,82921,TRUE
+Prince George's,,Board of Education,001,NON,Other Write-Ins,268,
+Prince George's,,Board of Education,001,NON,Robin Barnes Shell,41868,
+Prince George's,,Board of Education,001,NON,Rosalind Johnson,118940,TRUE
+Prince George's,,Board of Education,002,NON,Amber Waller,72501,
+Prince George's,,Board of Education,002,NON,Heather Iliff,84279,TRUE
+Prince George's,,Board of Education,002,NON,"Jacques Chevalier, II",191,
+Prince George's,,Board of Education,002,NON,Other Write-Ins,266,
+Prince George's,,Board of Education,003,NON,"Fred Price, Jr.",7,
+Prince George's,,Board of Education,003,NON,Judy Mickens-Murray,2209,
+Prince George's,,Board of Education,003,NON,Other Write-Ins,450,
+Prince George's,,Board of Education,003,NON,Pat Fletcher,80184,TRUE
+Prince George's,,Board of Education,003,NON,Regina L. Williams,73723,
+Prince George's,,Board of Education,004,NON,Linda T. Thomas,79460,TRUE
+Prince George's,,Board of Education,004,NON,Other Write-Ins,208,
+Prince George's,,Board of Education,004,NON,Steven Morris,78575,
+Prince George's,,Board of Education,005,NON,Katie Costello,56649,
+Prince George's,,Board of Education,005,NON,Other Write-Ins,712,
+Prince George's,,Board of Education,005,NON,"Owen Johnson, Jr.",103810,TRUE
+Prince George's,,Board of Education,005,NON,Tonya N. Jefferson,122,
+Prince George's,,Clerk Circuit Court,,BOT,Other Write-Ins,498,
+Prince George's,,Clerk Circuit Court,,DEM,Flora Ann Fortune,127,
+Prince George's,,Clerk Circuit Court,,DEM,Peggy Magee,178701,TRUE
+Prince George's,,Comptroller,,BOT,Other Write-Ins,210,
+Prince George's,,Comptroller,,DEM,Peter Franchot,167285,TRUE
+Prince George's,,Comptroller,,GRN,Bob Auerbach,28,
+Prince George's,,Comptroller,,REP,Anne M. McCarthy,34617,
+Prince George's,,County Council,001,BOT,Other Write-Ins,90,
+Prince George's,,County Council,001,DEM,Tom Dernoga,18923,TRUE
+Prince George's,,County Council,002,BOT,Other Write-Ins,74,
+Prince George's,,County Council,002,DEM,Anthony Cicoria,159,
+Prince George's,,County Council,002,DEM,Will Campos,10917,TRUE
+Prince George's,,County Council,003,BOT,Other Write-Ins,24,
+Prince George's,,County Council,003,DEM,Eric C. Olson,14806,TRUE
+Prince George's,,County Council,003,DEM,Melvin Johnson,2,
+Prince George's,,County Council,003,REP,Jim Wildoner,3216,
+Prince George's,,County Council,004,BOT,Other Write-Ins,418,
+Prince George's,,County Council,004,DEM,Ingrid M. Turner,22317,TRUE
+Prince George's,,County Council,005,BOT,Other Write-Ins,47,
+Prince George's,,County Council,005,DEM,David Harrington,17817,TRUE
+Prince George's,,County Council,005,REP,Francis Marshall,1631,
+Prince George's,,County Council,006,BOT,Other Write-Ins,192,
+Prince George's,,County Council,006,DEM,Samuel H. Dean,27364,TRUE
+Prince George's,,County Council,007,BOT,Other Write-Ins,49,
+Prince George's,,County Council,007,DEM,Camille Exum,16947,TRUE
+Prince George's,,County Council,008,BOT,Other Write-Ins,148,
+Prince George's,,County Council,008,DEM,Tony Knotts,23104,TRUE
+Prince George's,,County Council,009,BOT,Other Write-Ins,717,
+Prince George's,,County Council,009,DEM,Marilynn Bland,22083,TRUE
+Prince George's,,County Council,009,DEM,Robert E Green,520,
+Prince George's,,County Executive,,BOT,Other Write-Ins,4180,
+Prince George's,,County Executive,,DEM,Jack Johnson,169377,TRUE
+Prince George's,,Governor,,BOT,Other Write-Ins,111,
+Prince George's,,Governor,,DEM,Charles Ulysses Smith,18,
+Prince George's,,Governor,,DEM,Martin O'Malley,162899,TRUE
+Prince George's,,Governor,,DEM,Ralph Jaffe,0,
+Prince George's,,Governor,,GRN,Ed Boyd,1276,
+Prince George's,,Governor,,POP,Christopher A. Driscoll,285,
+Prince George's,,Governor,,REP,John J. Simmins,23,
+Prince George's,,Governor,,REP,"Robert L. Ehrlich, Jr.",42514,
+Prince George's,,House of Delegates,21,BOT,Other Write-Ins,148,
+Prince George's,,House of Delegates,21,DEM,Barbara A. Frush,14204,TRUE
+Prince George's,,House of Delegates,21,DEM,Ben Barnes,14293,TRUE
+Prince George's,,House of Delegates,21,DEM,Joseline Pena-Melnyk,14052,TRUE
+Prince George's,,House of Delegates,21,REP,Neil B. Sood,4961,
+Prince George's,,House of Delegates,22,BOT,Other Write-Ins,187,
+Prince George's,,House of Delegates,22,DEM,Anne Healey,17258,TRUE
+Prince George's,,House of Delegates,22,DEM,Justin David Ross,16818,TRUE
+Prince George's,,House of Delegates,22,DEM,Tawanna P. Gaines,17572,TRUE
+Prince George's,,House of Delegates,23A,BOT,Other Write-Ins,116,
+Prince George's,,House of Delegates,23A,CON,Steve Krukar,3479,
+Prince George's,,House of Delegates,23A,DEM,Gerron Levi,15959,TRUE
+Prince George's,,House of Delegates,23A,DEM,James W. Hubbard,17765,TRUE
+Prince George's,,House of Delegates,23B,BOT,Other Write-Ins,77,
+Prince George's,,House of Delegates,23B,DEM,"Marvin E. Holmes, Jr.",11951,TRUE
+Prince George's,,House of Delegates,24,BOT,Other Write-Ins,66,
+Prince George's,,House of Delegates,24,DEM,Carolyn J. B. Howard,19007,TRUE
+Prince George's,,House of Delegates,24,DEM,Joanne C. Benson,19081,TRUE
+Prince George's,,House of Delegates,24,DEM,Michael L. Vaughn,18806,TRUE
+Prince George's,,House of Delegates,25,BOT,Other Write-Ins,62,
+Prince George's,,House of Delegates,25,DEM,Aisha N. Braveboy,22632,TRUE
+Prince George's,,House of Delegates,25,DEM,Dereck E. Davis,21540,TRUE
+Prince George's,,House of Delegates,25,DEM,Melony Ghee Griffith,21584,TRUE
+Prince George's,,House of Delegates,25,GRN,David Kiasi,999,
+Prince George's,,House of Delegates,25,REP,"Patrick A. Schaeffer, Jr.",2541,
+Prince George's,,House of Delegates,26,BOT,Other Write-Ins,108,
+Prince George's,,House of Delegates,26,DEM,Jay Walker,22162,TRUE
+Prince George's,,House of Delegates,26,DEM,Kris Valderrama,22231,TRUE
+Prince George's,,House of Delegates,26,DEM,Veronica Turner,24891,TRUE
+Prince George's,,House of Delegates,26,REP,John Rowe,3587,
+Prince George's,,House of Delegates,27A,BOT,Other Write-Ins,42,
+Prince George's,,House of Delegates,27A,DEM,"James E. Proctor, Jr.",17911,TRUE
+Prince George's,,House of Delegates,27A,DEM,"Joseph F. Vallario, Jr.",16485,TRUE
+Prince George's,,House of Delegates,27A,REP,Antoinette Toni Jarboe-Duley,2788,
+Prince George's,,House of Delegates,27A,REP,Kenneth S. Brown,3347,
+Prince George's,,House of Delegates,47,BOT,Other Write-Ins,120,
+Prince George's,,House of Delegates,47,DEM,Doyle Niemann,11229,TRUE
+Prince George's,,House of Delegates,47,DEM,Jolene Ivey,12860,TRUE
+Prince George's,,House of Delegates,47,DEM,Victor Ramirez,12231,TRUE
+Prince George's,,Judge Orphans Court,,BOT,Other Write-Ins,475,
+Prince George's,,Judge Orphans Court,,DEM,Athena Malloy Groves,142041,TRUE
+Prince George's,,Judge Orphans Court,,DEM,Vicky L. Ivory-Orem,140463,TRUE
+Prince George's,,Judge Orphans Court,,DEM,Wendy Alise Cartwright,152193,TRUE
+Prince George's,,Judge Orphans Court,,REP,Carol D. Johnson,39140,
+Prince George's,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,158154,TRUE
+Prince George's,,Judge Spec Appeals,04,BOT,James P. Salmon,153707,TRUE
+Prince George's,,Register of Wills,,BOT,Other Write-Ins,1528,
+Prince George's,,Register of Wills,,DEM,Cereta A. Lee,173937,TRUE
+Prince George's,,Sheriff,,BOT,Other Write-Ins,646,
+Prince George's,,Sheriff,,DEM,Michael A. Jackson,178107,TRUE
+Prince George's,,State Senator,21,BOT,Other Write-Ins,19,
+Prince George's,,State Senator,21,DEM,Jim Rosapepe,14125,TRUE
+Prince George's,,State Senator,21,REP,John Giannetti,6044,
+Prince George's,,State Senator,22,BOT,Other Write-Ins,156,
+Prince George's,,State Senator,22,DEM,Paul G. Pinsky,20397,TRUE
+Prince George's,,State Senator,23,BOT,Other Write-Ins,353,
+Prince George's,,State Senator,23,DEM,Douglas J. J. Peters,33791,TRUE
+Prince George's,,State Senator,24,BOT,Other Write-Ins,66,
+Prince George's,,State Senator,24,DEM,Nathaniel Exum,22649,TRUE
+Prince George's,,State Senator,25,BOT,Other Write-Ins,79,
+Prince George's,,State Senator,25,DEM,Ulysses Currie,26333,TRUE
+Prince George's,,State Senator,26,BOT,Other Write-Ins,310,
+Prince George's,,State Senator,26,DEM,C. Anthony Muse,26361,TRUE
+Prince George's,,State Senator,27,BOT,Other Write-Ins,23,
+Prince George's,,State Senator,27,DEM,"Thomas V. Mike Miller, Jr.",18690,TRUE
+Prince George's,,State Senator,27,REP,Ron Miller,3947,
+Prince George's,,State Senator,47,BOT,Other Write-Ins,79,
+Prince George's,,State Senator,47,DEM,Gwendolyn Britt,14630,TRUE
+Prince George's,,State's Attorney,,BOT,Other Write-Ins,614,
+Prince George's,,State's Attorney,,DEM,Glenn F. Ivey,184257,TRUE
+Prince George's,,U.S. House,04,BOT,Other Write-Ins,503,
+Prince George's,,U.S. House,04,DEM,Albert R. Wynn,87368,TRUE
+Prince George's,,U.S. House,04,REP,Michael Moshe Starkman,8748,
+Prince George's,,U.S. House,05,BOT,Other Write-Ins,380,
+Prince George's,,U.S. House,05,CON,Peter Kuhnert,224,
+Prince George's,,U.S. House,05,DEM,Steny H. Hoyer,82384,TRUE
+Prince George's,,U.S. House,05,GRN,Steve Warner,10397,
+Prince George's,,U.S. House,08,BOT,Other Write-Ins,4,
+Prince George's,,U.S. House,08,DEM,Chris Van Hollen,6574,TRUE
+Prince George's,,U.S. House,08,GRN,Gerard P. Giblin,124,
+Prince George's,,U.S. House,08,REP,Jeffrey M. Stein,565,
+Prince George's,,U.S. Senate,,BOT,Other Write-Ins,122,
+Prince George's,,U.S. Senate,,DEM,Benjamin L. Cardin,154798,TRUE
+Prince George's,,U.S. Senate,,DEM,Lih Young,28,
+Prince George's,,U.S. Senate,,GRN,Kevin Zeese,1948,
+Prince George's,,U.S. Senate,,REP,Michael S. Steele,49484,
+Queen Anne's,,Attorney General,,BOT,Other Write-Ins,8,
+Queen Anne's,,Attorney General,,DEM,Douglas F. Gansler,7042,TRUE
+Queen Anne's,,Attorney General,,REP,Scott L. Rolle,10026,
+Queen Anne's,,Clerk Circuit Court,,BOT,Other Write-Ins,64,
+Queen Anne's,,Clerk Circuit Court,,REP,Scott MacGlashan,14691,TRUE
+Queen Anne's,,Comptroller,,BOT,Other Write-Ins,20,
+Queen Anne's,,Comptroller,,DEM,Peter Franchot,7094,TRUE
+Queen Anne's,,Comptroller,,GRN,Bob Auerbach,0,
+Queen Anne's,,Comptroller,,REP,Anne M. McCarthy,10250,
+Queen Anne's,,County Commissioner,001,BOT,Other Write-Ins,4,
+Queen Anne's,,County Commissioner,001,DEM,Courtney Billups,8865,TRUE
+Queen Anne's,,County Commissioner,001,REP,Joseph Cupani,8269,
+Queen Anne's,,County Commissioner,002,BOT,Other Write-Ins,12,
+Queen Anne's,,County Commissioner,002,DEM,Paul L. Gunther,8928,TRUE
+Queen Anne's,,County Commissioner,002,REP,Kurt A. Babe,8298,
+Queen Anne's,,County Commissioner,003,BOT,Other Write-Ins,11,
+Queen Anne's,,County Commissioner,003,DEM,"Gene M. Ransom, III",10824,TRUE
+Queen Anne's,,County Commissioner,003,REP,Robert W. Foley,6282,
+Queen Anne's,,County Commissioner,004,BOT,Other Write-Ins,28,
+Queen Anne's,,County Commissioner,004,DEM,Carol R. Fordonski,8880,TRUE
+Queen Anne's,,County Commissioner,004,REP,Benjamin Cassell,8029,
+Queen Anne's,,Governor,,BOT,Other Write-Ins,11,
+Queen Anne's,,Governor,,DEM,Charles Ulysses Smith,0,
+Queen Anne's,,Governor,,DEM,Martin O'Malley,5859,TRUE
+Queen Anne's,,Governor,,DEM,Ralph Jaffe,0,
+Queen Anne's,,Governor,,GRN,Ed Boyd,111,
+Queen Anne's,,Governor,,POP,Christopher A. Driscoll,24,
+Queen Anne's,,Governor,,REP,John J. Simmins,0,
+Queen Anne's,,Governor,,REP,"Robert L. Ehrlich, Jr.",12054,
+Queen Anne's,,House of Delegates,36,BOT,Other Write-Ins,7,
+Queen Anne's,,House of Delegates,36,DEM,Joan O. Horsey,4718,
+Queen Anne's,,House of Delegates,36,DEM,Mark Guns,4649,
+Queen Anne's,,House of Delegates,36,DEM,Wheeler R. Baker,8741,
+Queen Anne's,,House of Delegates,36,GRN,Joseph Sanchez,1300,
+Queen Anne's,,House of Delegates,36,REP,Mary Roe Walkup,8245,TRUE
+Queen Anne's,,House of Delegates,36,REP,"Michael D. Smigiel, Sr.",6942,TRUE
+Queen Anne's,,House of Delegates,36,REP,Richard A. Sossi,9959,TRUE
+Queen Anne's,,Judge Orphans Court,,BOT,Other Write-Ins,18,
+Queen Anne's,,Judge Orphans Court,,DEM,Jeffrie Zellmer,6922,
+Queen Anne's,,Judge Orphans Court,,REP,Joseph DiPietro,10045,TRUE
+Queen Anne's,,Judge Orphans Court,,REP,Penelope Ann Keating (P.A.),9708,TRUE
+Queen Anne's,,Judge Orphans Court,,REP,Robert Morris,9016,TRUE
+Queen Anne's,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,13539,TRUE
+Queen Anne's,,Pres County Commission,,BOT,Other Write-Ins,7,
+Queen Anne's,,Pres County Commission,,DEM,Jack Broderick,8430,
+Queen Anne's,,Pres County Commission,,REP,Eric Wargotz,8810,TRUE
+Queen Anne's,,Register of Wills,,BOT,Other Write-Ins,62,
+Queen Anne's,,Register of Wills,,DEM,Winsie A. Cannon,13968,TRUE
+Queen Anne's,,Sheriff,,BOT,Other Write-Ins,25,
+Queen Anne's,,Sheriff,,DEM,Charlie Rhodes,7670,
+Queen Anne's,,Sheriff,,REP,Gary Hofmann,9799,TRUE
+Queen Anne's,,State Senator,36,BOT,Other Write-Ins,12,
+Queen Anne's,,State Senator,36,DEM,Harry E. Sampson,5309,
+Queen Anne's,,State Senator,36,REP,E. J. Pipkin,12234,TRUE
+Queen Anne's,,State's Attorney,,BOT,Other Write-Ins,137,
+Queen Anne's,,State's Attorney,,DEM,"Frank M. Kratovil, Jr.",13894,TRUE
+Queen Anne's,,U.S. House,01,BOT,Other Write-Ins,17,
+Queen Anne's,,U.S. House,01,DEM,Jim Corwin,4749,
+Queen Anne's,,U.S. House,01,REP,Wayne T. Gilchrest,12900,TRUE
+Queen Anne's,,U.S. Senate,,BOT,Other Write-Ins,6,
+Queen Anne's,,U.S. Senate,,DEM,Benjamin L. Cardin,5935,TRUE
+Queen Anne's,,U.S. Senate,,DEM,Lih Young,0,
+Queen Anne's,,U.S. Senate,,GRN,Kevin Zeese,318,
+Queen Anne's,,U.S. Senate,,REP,Michael S. Steele,11710,
+Somerset,,Attorney General,,BOT,Other Write-Ins,2,
+Somerset,,Attorney General,,DEM,Douglas F. Gansler,3081,TRUE
+Somerset,,Attorney General,,REP,Scott L. Rolle,3103,
+Somerset,,Board of Education,001,NON,Other Write-Ins,0,
+Somerset,,Board of Education,001,NON,Ronald B. Hollis,138,
+Somerset,,Board of Education,001,NON,William McKinley Miles,218,TRUE
+Somerset,,Board of Education,003,NON,Bruce Leroy Parkinson,706,
+Somerset,,Board of Education,003,NON,Meg Cohen,755,TRUE
+Somerset,,Board of Education,003,NON,Other Write-Ins,3,
+Somerset,,Board of Education,005,NON,Mike Atkins,435,
+Somerset,,Board of Education,005,NON,Other Write-Ins,4,
+Somerset,,Board of Education,005,NON,Stan Pruitt,885,TRUE
+Somerset,,Clerk Circuit Court,,BOT,Other Write-Ins,27,
+Somerset,,Clerk Circuit Court,,REP,I. Theodore Phoebus,5450,TRUE
+Somerset,,Comptroller,,BOT,Other Write-Ins,4,
+Somerset,,Comptroller,,DEM,Peter Franchot,2844,TRUE
+Somerset,,Comptroller,,GRN,Bob Auerbach,0,
+Somerset,,Comptroller,,REP,Anne M. McCarthy,3453,
+Somerset,,County Commissioner,001,BOT,Other Write-Ins,3,
+Somerset,,County Commissioner,001,DEM,James N. Ring,313,TRUE
+Somerset,,County Commissioner,001,REP,Allen Muir,165,
+Somerset,,County Commissioner,002,BOT,Other Write-Ins,2,
+Somerset,,County Commissioner,002,DEM,Rex Simpkins,858,TRUE
+Somerset,,County Commissioner,002,REP,Charles F. Fisher,480,
+Somerset,,County Commissioner,003,BOT,Other Write-Ins,0,
+Somerset,,County Commissioner,003,DEM,Mike McCready,876,TRUE
+Somerset,,County Commissioner,003,REP,Wayne E. Bozman,846,
+Somerset,,County Commissioner,004,BOT,Other Write-Ins,18,
+Somerset,,County Commissioner,004,DEM,Sam Boston,1388,TRUE
+Somerset,,County Commissioner,005,BOT,Other Write-Ins,1,
+Somerset,,County Commissioner,005,DEM,Koly Ward,612,
+Somerset,,County Commissioner,005,REP,"Paul T. Ward, Jr.",807,TRUE
+Somerset,,Governor,,BOT,Other Write-Ins,3,
+Somerset,,Governor,,DEM,Charles Ulysses Smith,0,
+Somerset,,Governor,,DEM,Martin O'Malley,2691,TRUE
+Somerset,,Governor,,DEM,Ralph Jaffe,0,
+Somerset,,Governor,,GRN,Ed Boyd,44,
+Somerset,,Governor,,POP,Christopher A. Driscoll,18,
+Somerset,,Governor,,REP,John J. Simmins,0,
+Somerset,,Governor,,REP,"Robert L. Ehrlich, Jr.",3999,
+Somerset,,House of Delegates,38A,BOT,Other Write-Ins,6,
+Somerset,,House of Delegates,38A,DEM,Patrick M. Armstrong,2656,
+Somerset,,House of Delegates,38A,REP,D. Page Elmore,3966,TRUE
+Somerset,,Judge Orphans Court,,BOT,Other Write-Ins,17,
+Somerset,,Judge Orphans Court,,DEM,Betsy Simpkins Schrock,3894,TRUE
+Somerset,,Judge Orphans Court,,DEM,Donald L. Howard,3669,TRUE
+Somerset,,Judge Orphans Court,,REP,John R. Somers,4026,TRUE
+Somerset,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,4443,TRUE
+Somerset,,Register of Wills,,BOT,Other Write-Ins,17,
+Somerset,,Register of Wills,,DEM,Gary W. Miller,5424,TRUE
+Somerset,,Sheriff,,BOT,Other Write-Ins,43,
+Somerset,,Sheriff,,DEM,Robert N. Jones,5583,TRUE
+Somerset,,State Senator,38,BOT,Other Write-Ins,68,
+Somerset,,State Senator,38,REP,J. Lowell Stoltzfus,5092,TRUE
+Somerset,,State's Attorney,,BOT,Other Write-Ins,3,
+Somerset,,State's Attorney,,DEM,Kristy M. Hickman,4220,TRUE
+Somerset,,State's Attorney,,REP,"Jack A. Willing, Jr.",2415,
+Somerset,,Treasurer,,BOT,Other Write-Ins,21,
+Somerset,,Treasurer,,DEM,Charles L. Muir,5710,TRUE
+Somerset,,U.S. House,01,BOT,Other Write-Ins,2,
+Somerset,,U.S. House,01,DEM,Jim Corwin,2374,
+Somerset,,U.S. House,01,REP,Wayne T. Gilchrest,4226,TRUE
+Somerset,,U.S. Senate,,BOT,Other Write-Ins,3,
+Somerset,,U.S. Senate,,DEM,Benjamin L. Cardin,2651,TRUE
+Somerset,,U.S. Senate,,DEM,Lih Young,0,
+Somerset,,U.S. Senate,,GRN,Kevin Zeese,99,
+Somerset,,U.S. Senate,,REP,Michael S. Steele,3953,
+St. Mary's,,Appellate Judge,05,BOT,"Clayton Greene, Jr.",19875,TRUE
+St. Mary's,,Attorney General,,BOT,Other Write-Ins,27,
+St. Mary's,,Attorney General,,DEM,Douglas F. Gansler,13996,TRUE
+St. Mary's,,Attorney General,,REP,Scott L. Rolle,12849,
+St. Mary's,,Board of Education,001,NON,Other Write-Ins,147,
+St. Mary's,,Board of Education,001,NON,Sal Raspa,20358,TRUE
+St. Mary's,,Board of Education,003,NON,Bill Mattingly,15640,TRUE
+St. Mary's,,Board of Education,003,NON,Other Write-Ins,40,
+St. Mary's,,Board of Education,003,NON,Timothy P. Twigg,8321,
+St. Mary's,,Clerk Circuit Court,,BOT,Other Write-Ins,11,
+St. Mary's,,Clerk Circuit Court,,DEM,Joanie W. Williams,13839,TRUE
+St. Mary's,,Clerk Circuit Court,,REP,Sandra Bailey Redden,13046,
+St. Mary's,,Comptroller,,BOT,Other Write-Ins,32,
+St. Mary's,,Comptroller,,DEM,Peter Franchot,12105,TRUE
+St. Mary's,,Comptroller,,GRN,Bob Auerbach,6,
+St. Mary's,,Comptroller,,REP,Anne M. McCarthy,14915,
+St. Mary's,,County Commissioner,001,BOT,Other Write-Ins,23,
+St. Mary's,,County Commissioner,001,DEM,Elfreda Talbert Mathis,11364,
+St. Mary's,,County Commissioner,001,REP,Kenny Dement,16422,TRUE
+St. Mary's,,County Commissioner,002,BOT,Other Write-Ins,17,
+St. Mary's,,County Commissioner,002,DEM,"Thomas A. Mattingly, Sr.",17328,TRUE
+St. Mary's,,County Commissioner,002,REP,Ken Carkhuff,10236,
+St. Mary's,,County Commissioner,003,BOT,Other Write-Ins,22,
+St. Mary's,,County Commissioner,003,DEM,Joe St. Clair,12585,
+St. Mary's,,County Commissioner,003,REP,Larry Jarboe,15128,TRUE
+St. Mary's,,County Commissioner,004,BOT,Other Write-Ins,223,
+St. Mary's,,County Commissioner,004,DEM,Daniel H. Raley,22878,TRUE
+St. Mary's,,Governor,,BOT,Other Write-Ins,20,
+St. Mary's,,Governor,,DEM,Charles Ulysses Smith,1,
+St. Mary's,,Governor,,DEM,Martin O'Malley,11516,TRUE
+St. Mary's,,Governor,,DEM,Ralph Jaffe,1,
+St. Mary's,,Governor,,GRN,Ed Boyd,322,
+St. Mary's,,Governor,,POP,Christopher A. Driscoll,80,
+St. Mary's,,Governor,,REP,John J. Simmins,10,
+St. Mary's,,Governor,,REP,"Robert L. Ehrlich, Jr.",16683,
+St. Mary's,,House of Delegates,29A,BOT,Other Write-Ins,18,
+St. Mary's,,House of Delegates,29A,DEM,"John F. Wood, Jr.",8142,TRUE
+St. Mary's,,House of Delegates,29A,REP,Joe DiMarco,4204,
+St. Mary's,,House of Delegates,29B,BOT,Other Write-Ins,8,
+St. Mary's,,House of Delegates,29B,DEM,John Bohanan,8077,TRUE
+St. Mary's,,House of Delegates,29B,REP,Noel Temple Tim Wood,4528,
+St. Mary's,,House of Delegates,29C,BOT,Other Write-Ins,4,
+St. Mary's,,House of Delegates,29C,DEM,Norma Powers,1081,
+St. Mary's,,House of Delegates,29C,REP,Anthony J. O'Donnell,1739,TRUE
+St. Mary's,,Judge Circuit Court,07,BOT,Michael J. Stamm,22981,TRUE
+St. Mary's,,Judge Circuit Court,07,BOT,Other Write-Ins,195,
+St. Mary's,,Judge Orphans Court,,BOT,Other Write-Ins,103,
+St. Mary's,,Judge Orphans Court,,DEM,Jenks Mattingly,15623,TRUE
+St. Mary's,,Judge Orphans Court,,DEM,Linda R. Dean,14807,TRUE
+St. Mary's,,Judge Orphans Court,,DEM,Russ Cullins,12800,
+St. Mary's,,Judge Orphans Court,,REP,"Dalton Wood, Jr.",14439,TRUE
+St. Mary's,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,20080,TRUE
+St. Mary's,,Judge Spec Appeals,05,BOT,Timothy E. Meredith,19626,TRUE
+St. Mary's,,Pres County Commission,,BOT,Other Write-Ins,28,
+St. Mary's,,Pres County Commission,,DEM,Jack Russell,18541,TRUE
+St. Mary's,,Pres County Commission,,REP,"Joseph B. Bush, Sr.",9425,
+St. Mary's,,Register of Wills,,BOT,Other Write-Ins,103,
+St. Mary's,,Register of Wills,,DEM,Dianne B. McWilliams,22035,TRUE
+St. Mary's,,Sheriff,,BOT,Other Write-Ins,74,
+St. Mary's,,Sheriff,,DEM,David D. Zylak,12383,
+St. Mary's,,Sheriff,,REP,Tim Cameron,15546,TRUE
+St. Mary's,,State Senator,29,BOT,Other Write-Ins,48,
+St. Mary's,,State Senator,29,DEM,Roy Dyson,19087,TRUE
+St. Mary's,,State Senator,29,REP,Thomas F. McKay,9240,
+St. Mary's,,State's Attorney,,BOT,Other Write-Ins,311,
+St. Mary's,,State's Attorney,,REP,Richard D. Fritz,21374,TRUE
+St. Mary's,,Treasurer,,BOT,Other Write-Ins,125,
+St. Mary's,,Treasurer,,DEM,Jannette P. Norris,23716,TRUE
+St. Mary's,,U.S. House,05,BOT,Other Write-Ins,152,
+St. Mary's,,U.S. House,05,CON,Peter Kuhnert,127,
+St. Mary's,,U.S. House,05,DEM,Steny H. Hoyer,21505,TRUE
+St. Mary's,,U.S. House,05,GRN,Steve Warner,4769,
+St. Mary's,,U.S. Senate,,BOT,Other Write-Ins,7,
+St. Mary's,,U.S. Senate,,DEM,Benjamin L. Cardin,11614,TRUE
+St. Mary's,,U.S. Senate,,DEM,Lih Young,5,
+St. Mary's,,U.S. Senate,,GRN,Kevin Zeese,482,
+St. Mary's,,U.S. Senate,,REP,Michael S. Steele,16381,
+Talbot,,Attorney General,,BOT,Other Write-Ins,15,
+Talbot,,Attorney General,,DEM,Douglas F. Gansler,6410,TRUE
+Talbot,,Attorney General,,REP,Scott L. Rolle,8366,
+Talbot,,Board of Education,001,NON,Gloria Y. Farrare,591,TRUE
+Talbot,,Board of Education,001,NON,Other Write-Ins,2,
+Talbot,,Board of Education,001,NON,Steven P. Harris,496,
+Talbot,,Board of Education,003,NON,Mary Beth S. Goll,758,
+Talbot,,Board of Education,003,NON,Other Write-Ins,13,
+Talbot,,Board of Education,003,NON,Robert F. Burris,780,TRUE
+Talbot,,Board of Education,004,NON,Monica Dyott Heinsohn,1387,TRUE
+Talbot,,Board of Education,004,NON,Other Write-Ins,19,
+Talbot,,Board of Education,007,NON,"Daniel Greeley Higgins, Jr.",846,
+Talbot,,Board of Education,007,NON,Other Write-Ins,5,
+Talbot,,Board of Education,007,NON,Sandra E. Kleppinger,1152,TRUE
+Talbot,,Clerk Circuit Court,,BOT,Other Write-Ins,33,
+Talbot,,Clerk Circuit Court,,DEM,Mary Ann Shortall,13470,TRUE
+Talbot,,Comptroller,,BOT,Other Write-Ins,21,
+Talbot,,Comptroller,,DEM,Peter Franchot,6308,TRUE
+Talbot,,Comptroller,,GRN,Bob Auerbach,0,
+Talbot,,Comptroller,,REP,Anne M. McCarthy,8715,
+Talbot,,County Council,,BOT,Other Write-Ins,124,
+Talbot,,County Council,,DEM,Hope R. Harrington,7302,
+Talbot,,County Council,,DEM,"Levin (Buddy) F. Harrison, IV",7404,TRUE
+Talbot,,County Council,,DEM,Owen Wormser,4253,
+Talbot,,County Council,,DEM,Philip Carey Foster,7376,TRUE
+Talbot,,County Council,,DEM,Thomas G. Duncan,7660,TRUE
+Talbot,,County Council,,REP,Al Silverstein,6050,
+Talbot,,County Council,,REP,Corey W. Pack,6208,
+Talbot,,County Council,,REP,Dirck Bartlett,8027,TRUE
+Talbot,,County Council,,REP,John General,5711,
+Talbot,,County Council,,REP,"John R. Volatile, Sr.",0,
+Talbot,,County Council,,REP,Peter A. Carroll,7566,TRUE
+Talbot,,Governor,,BOT,Other Write-Ins,7,
+Talbot,,Governor,,DEM,Charles Ulysses Smith,0,
+Talbot,,Governor,,DEM,Martin O'Malley,5669,TRUE
+Talbot,,Governor,,DEM,Ralph Jaffe,0,
+Talbot,,Governor,,GRN,Ed Boyd,75,
+Talbot,,Governor,,POP,Christopher A. Driscoll,20,
+Talbot,,Governor,,REP,John J. Simmins,0,
+Talbot,,Governor,,REP,"Robert L. Ehrlich, Jr.",10062,
+Talbot,,House of Delegates,37B,BOT,Other Write-Ins,11,
+Talbot,,House of Delegates,37B,DEM,James A. Adkins,4105,
+Talbot,,House of Delegates,37B,DEM,Tim Quinn,5129,
+Talbot,,House of Delegates,37B,REP,Adelaide Addie Eckardt,9570,TRUE
+Talbot,,House of Delegates,37B,REP,Jeannie Haddaway,9833,TRUE
+Talbot,,Judge Circuit Court,02,BOT,Jo Ann Asparagus,5853,
+Talbot,,Judge Circuit Court,02,BOT,Other Write-Ins,6,
+Talbot,,Judge Circuit Court,02,BOT,"Sidney Sawyer Campen, Jr.",9074,TRUE
+Talbot,,Judge Orphans Court,,BOT,Other Write-Ins,28,
+Talbot,,Judge Orphans Court,,DEM,"Harvey E. Smith, Jr.",6487,
+Talbot,,Judge Orphans Court,,DEM,"Jacques T. Baker, Jr.",7104,TRUE
+Talbot,,Judge Orphans Court,,DEM,Ronald L. Frampton,6122,
+Talbot,,Judge Orphans Court,,REP,Carville Don Duncan,7279,TRUE
+Talbot,,Judge Orphans Court,,REP,Donald E. James,7110,TRUE
+Talbot,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,11566,TRUE
+Talbot,,Register of Wills,,BOT,Other Write-Ins,12,
+Talbot,,Register of Wills,,DEM,Alice W. Anderson,9952,TRUE
+Talbot,,Register of Wills,,IND,James Kennard Camper,3308,
+Talbot,,Sheriff,,BOT,Other Write-Ins,1541,
+Talbot,,Sheriff,,DEM,Karl Ethan Peoples,0,
+Talbot,,Sheriff,,REP,Dallas G. Pope,10801,TRUE
+Talbot,,State Senator,37,BOT,Other Write-Ins,13,
+Talbot,,State Senator,37,DEM,Hilary Spence,5557,
+Talbot,,State Senator,37,IND,Moonyene Jackson-Amis,1053,
+Talbot,,State Senator,37,REP,Richard F. Colburn,8904,TRUE
+Talbot,,State's Attorney,,BOT,Other Write-Ins,72,
+Talbot,,State's Attorney,,DEM,Scott G. Patterson,12452,TRUE
+Talbot,,U.S. House,01,BOT,Other Write-Ins,10,
+Talbot,,U.S. House,01,DEM,Jim Corwin,4463,
+Talbot,,U.S. House,01,REP,Wayne T. Gilchrest,11003,TRUE
+Talbot,,U.S. Senate,,BOT,Other Write-Ins,8,
+Talbot,,U.S. Senate,,DEM,Benjamin L. Cardin,5844,TRUE
+Talbot,,U.S. Senate,,DEM,Lih Young,0,
+Talbot,,U.S. Senate,,GRN,Kevin Zeese,200,
+Talbot,,U.S. Senate,,REP,Michael S. Steele,9686,
+Washington,,Attorney General,,BOT,Other Write-Ins,28,
+Washington,,Attorney General,,DEM,Douglas F. Gansler,15578,TRUE
+Washington,,Attorney General,,REP,Scott L. Rolle,23486,
+Washington,,Board of Education,,NON,Jacqueline Fischer,13735,
+Washington,,Board of Education,,NON,Other Write-Ins,169,
+Washington,,Board of Education,,NON,Paul W. Bailey,17700,TRUE
+Washington,,Board of Education,,NON,Ruth Anne Callaham,18697,TRUE
+Washington,,Board of Education,,NON,Virginia Powers,12117,
+Washington,,Board of Education,,NON,"Wayne M. Kretzer, Jr.",11537,
+Washington,,Board of Education,,NON,William H. Staley,16368,TRUE
+Washington,,Clerk Circuit Court,,BOT,Other Write-Ins,9,
+Washington,,Clerk Circuit Court,,DEM,Dennis Weaver,26413,TRUE
+Washington,,Clerk Circuit Court,,REP,Ernest E. Pletcher,12641,
+Washington,,Comptroller,,BOT,Other Write-Ins,35,
+Washington,,Comptroller,,DEM,Peter Franchot,15710,TRUE
+Washington,,Comptroller,,GRN,Bob Auerbach,4,
+Washington,,Comptroller,,REP,Anne M. McCarthy,23205,
+Washington,,County Commissioner,,BOT,Other Write-Ins,179,
+Washington,,County Commissioner,,DEM,Donna L. Brightman,16717,
+Washington,,County Commissioner,,DEM,J. Herbert Hardin,14474,
+Washington,,County Commissioner,,DEM,Kristin B. Aleshire,18557,TRUE
+Washington,,County Commissioner,,DEM,N. Linn Hendershot,14610,
+Washington,,County Commissioner,,DEM,Paul L. Swartz,16239,
+Washington,,County Commissioner,,REP,James F. Kercheval,19419,TRUE
+Washington,,County Commissioner,,REP,John F. Barr,23041,TRUE
+Washington,,County Commissioner,,REP,John Munson,16195,
+Washington,,County Commissioner,,REP,Terry Baker,20714,TRUE
+Washington,,County Commissioner,,REP,William Joseph Wivell,20105,TRUE
+Washington,,Governor,,BOT,Other Write-Ins,16,
+Washington,,Governor,,DEM,Charles Ulysses Smith,0,
+Washington,,Governor,,DEM,Martin O'Malley,15722,TRUE
+Washington,,Governor,,DEM,Ralph Jaffe,0,
+Washington,,Governor,,GRN,Ed Boyd,419,
+Washington,,Governor,,POP,Christopher A. Driscoll,133,
+Washington,,Governor,,REP,John J. Simmins,10,
+Washington,,Governor,,REP,"Robert L. Ehrlich, Jr.",25157,
+Washington,,House of Delegates,01C,BOT,Other Write-Ins,4,
+Washington,,House of Delegates,01C,DEM,Brian K. Grim,1081,
+Washington,,House of Delegates,01C,REP,"LeRoy Myers, Jr.",3209,TRUE
+Washington,,House of Delegates,02A,BOT,Other Write-Ins,94,
+Washington,,House of Delegates,02A,REP,Robert A. McKee,11676,TRUE
+Washington,,House of Delegates,02B,BOT,Other Write-Ins,101,
+Washington,,House of Delegates,02B,REP,Christopher B. Shank,9606,TRUE
+Washington,,House of Delegates,02C,BOT,Other Write-Ins,4,
+Washington,,House of Delegates,02C,DEM,John P. Donoghue,5099,TRUE
+Washington,,House of Delegates,02C,REP,Paul Muldowney,4078,
+Washington,,House of Delegates,03B,BOT,Other Write-Ins,0,
+Washington,,House of Delegates,03B,DEM,Paul Gilligan,262,
+Washington,,House of Delegates,03B,REP,"Richard B. Weldon, Jr.",353,TRUE
+Washington,,Judge Circuit Court,04,BOT,"M. Kenneth Long, Jr.",32516,TRUE
+Washington,,Judge Circuit Court,04,BOT,Other Write-Ins,116,
+Washington,,Judge Orphans Court,,BOT,Other Write-Ins,99,
+Washington,,Judge Orphans Court,,DEM,Joe Faith,14667,
+Washington,,Judge Orphans Court,,DEM,Samuel Sam Tubaugh,13442,
+Washington,,Judge Orphans Court,,REP,Gloria A. Bastian,19737,TRUE
+Washington,,Judge Orphans Court,,REP,John M. Shriver,20274,TRUE
+Washington,,Judge Orphans Court,,REP,Joseph W. Eichelberger,20349,TRUE
+Washington,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,28463,TRUE
+Washington,,Register of Wills,,BOT,Other Write-Ins,14,
+Washington,,Register of Wills,,DEM,"John R. Bloyer, II",21777,TRUE
+Washington,,Register of Wills,,REP,Kevin Miller,16151,
+Washington,,Sheriff,,BOT,Other Write-Ins,35,
+Washington,,Sheriff,,DEM,Douglas W. Mullendore,23697,TRUE
+Washington,,Sheriff,,REP,Rich Poffenberger,16396,
+Washington,,State Senator,01,BOT,Other Write-Ins,3,
+Washington,,State Senator,01,DEM,Thomas Conlon,1185,
+Washington,,State Senator,01,REP,George C. Edwards,2743,TRUE
+Washington,,State Senator,02,BOT,Other Write-Ins,320,
+Washington,,State Senator,02,REP,Donald F. Munson,28900,TRUE
+Washington,,State Senator,03,BOT,Other Write-Ins,0,
+Washington,,State Senator,03,DEM,Candy O. Greenway,275,
+Washington,,State Senator,03,REP,Alex X. Mooney,339,TRUE
+Washington,,State's Attorney,,BOT,Other Write-Ins,47,
+Washington,,State's Attorney,,DEM,Jerry Joyce,16405,
+Washington,,State's Attorney,,REP,"Charles P. Strong, Jr.",22898,TRUE
+Washington,,Treasurer,,BOT,Other Write-Ins,153,
+Washington,,Treasurer,,DEM,Todd L. Hershey,33017,TRUE
+Washington,,U.S. House,06,BOT,Other Write-Ins,15,
+Washington,,U.S. House,06,DEM,Andrew Duck,17362,
+Washington,,U.S. House,06,GRN,Robert E. Kozak,768,
+Washington,,U.S. House,06,REP,Roscoe G. Bartlett,22796,TRUE
+Washington,,U.S. Senate,,BOT,Other Write-Ins,7,
+Washington,,U.S. Senate,,DEM,Benjamin L. Cardin,15921,TRUE
+Washington,,U.S. Senate,,DEM,Lih Young,10,
+Washington,,U.S. Senate,,GRN,Kevin Zeese,582,
+Washington,,U.S. Senate,,REP,Michael S. Steele,24773,
+Wicomico,,Attorney General,,BOT,Other Write-Ins,19,
+Wicomico,,Attorney General,,DEM,Douglas F. Gansler,12264,TRUE
+Wicomico,,Attorney General,,REP,Scott L. Rolle,14172,
+Wicomico,,Clerk Circuit Court,,BOT,Other Write-Ins,5,
+Wicomico,,Clerk Circuit Court,,DEM,Mark S. Bowen,17197,TRUE
+Wicomico,,Clerk Circuit Court,,REP,James Gillespie,10044,
+Wicomico,,Comptroller,,BOT,Other Write-Ins,25,
+Wicomico,,Comptroller,,DEM,Peter Franchot,11421,TRUE
+Wicomico,,Comptroller,,GRN,Bob Auerbach,2,
+Wicomico,,Comptroller,,REP,Anne M. McCarthy,15484,
+Wicomico,,County Council,001,BOT,Other Write-Ins,23,
+Wicomico,,County Council,001,DEM,Sheree Sample-Hughes,3525,TRUE
+Wicomico,,County Council,002,BOT,Other Write-Ins,75,
+Wicomico,,County Council,002,REP,Stevie Prettyman,5874,TRUE
+Wicomico,,County Council,003,BOT,Other Write-Ins,5,
+Wicomico,,County Council,003,DEM,Michael A. Pretl,2318,
+Wicomico,,County Council,003,REP,Gail M. Bartkovich,4066,TRUE
+Wicomico,,County Council,004,BOT,Other Write-Ins,3,
+Wicomico,,County Council,004,DEM,David A. MacLeod,2141,TRUE
+Wicomico,,County Council,004,REP,Bryan Brushmiller,1662,
+Wicomico,,County Council,005,BOT,Other Write-Ins,3,
+Wicomico,,County Council,005,DEM,Ed Werkheiser,1908,
+Wicomico,,County Council,005,REP,Joe Holloway,2973,TRUE
+Wicomico,,County Council At Large,,BOT,Other Write-Ins,47,
+Wicomico,,County Council At Large,,DEM,Brenda Hughey-Jones,10216,
+Wicomico,,County Council At Large,,DEM,William R. McCain,12707,TRUE
+Wicomico,,County Council At Large,,REP,John T. Cannon,13598,TRUE
+Wicomico,,County Council At Large,,REP,Lucy Graf,46,
+Wicomico,,County Council At Large,,REP,"Melvin (M.J.) Caldwell, Jr.",12136,
+Wicomico,,County Executive,,BOT,Other Write-Ins,45,
+Wicomico,,County Executive,,DEM,"Richard M. Pollitt, Jr.",15155,TRUE
+Wicomico,,County Executive,,REP,"Charles J. Jannace, III",720,
+Wicomico,,County Executive,,REP,"Ronald G. Alessi, Sr.",11632,
+Wicomico,,Governor,,BOT,Other Write-Ins,20,
+Wicomico,,Governor,,DEM,Charles Ulysses Smith,2,
+Wicomico,,Governor,,DEM,Martin O'Malley,10214,TRUE
+Wicomico,,Governor,,DEM,Ralph Jaffe,0,
+Wicomico,,Governor,,GRN,Ed Boyd,229,
+Wicomico,,Governor,,POP,Christopher A. Driscoll,62,
+Wicomico,,Governor,,REP,John J. Simmins,4,
+Wicomico,,Governor,,REP,"Robert L. Ehrlich, Jr.",17678,
+Wicomico,,House of Delegates,37A,BOT,Other Write-Ins,77,
+Wicomico,,House of Delegates,37A,DEM,Rudolph C. Cane,5492,TRUE
+Wicomico,,House of Delegates,37B,BOT,Other Write-Ins,5,
+Wicomico,,House of Delegates,37B,DEM,James A. Adkins,1244,
+Wicomico,,House of Delegates,37B,DEM,Tim Quinn,1061,
+Wicomico,,House of Delegates,37B,REP,Adelaide Addie Eckardt,2230,TRUE
+Wicomico,,House of Delegates,37B,REP,Jeannie Haddaway,1987,TRUE
+Wicomico,,House of Delegates,38A,BOT,Other Write-Ins,6,
+Wicomico,,House of Delegates,38A,DEM,Patrick M. Armstrong,1996,
+Wicomico,,House of Delegates,38A,REP,D. Page Elmore,4064,TRUE
+Wicomico,,House of Delegates,38B,BOT,Other Write-Ins,7,
+Wicomico,,House of Delegates,38B,DEM,Jim Mathias,4674,TRUE
+Wicomico,,House of Delegates,38B,DEM,Norman H. Conway,5533,TRUE
+Wicomico,,House of Delegates,38B,REP,Bonnie Nelson Luna,5289,
+Wicomico,,House of Delegates,38B,REP,Michael J. James,4519,
+Wicomico,,Judge Orphans Court,,BOT,Other Write-Ins,48,
+Wicomico,,Judge Orphans Court,,DEM,Melissa Pollitt Bright,14288,TRUE
+Wicomico,,Judge Orphans Court,,DEM,Norma Lee Barkley,14361,TRUE
+Wicomico,,Judge Orphans Court,,DEM,Peter D. Evans,10476,
+Wicomico,,Judge Orphans Court,,REP,George W. Ossman,10721,
+Wicomico,,Judge Orphans Court,,REP,"William J. Smith, Jr.",12666,TRUE
+Wicomico,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,21430,TRUE
+Wicomico,,Register of Wills,,BOT,Other Write-Ins,89,
+Wicomico,,Register of Wills,,DEM,Karen A. Lemon,23031,TRUE
+Wicomico,,Sheriff,,BOT,Other Write-Ins,35,
+Wicomico,,Sheriff,,DEM,M. Kirk Daugherty,10622,
+Wicomico,,Sheriff,,REP,Mike Lewis,17114,TRUE
+Wicomico,,State Senator,37,BOT,Other Write-Ins,5,
+Wicomico,,State Senator,37,DEM,Hilary Spence,4854,
+Wicomico,,State Senator,37,IND,Moonyene Jackson-Amis,309,
+Wicomico,,State Senator,37,REP,Richard F. Colburn,5556,TRUE
+Wicomico,,State Senator,38,BOT,Other Write-Ins,161,
+Wicomico,,State Senator,38,REP,J. Lowell Stoltzfus,13449,TRUE
+Wicomico,,State's Attorney,,BOT,Other Write-Ins,154,
+Wicomico,,State's Attorney,,DEM,Davis R. Ruark,23197,TRUE
+Wicomico,,U.S. House,01,BOT,Other Write-Ins,22,
+Wicomico,,U.S. House,01,DEM,Jim Corwin,9061,
+Wicomico,,U.S. House,01,REP,Wayne T. Gilchrest,18586,TRUE
+Wicomico,,U.S. Senate,,BOT,Other Write-Ins,15,
+Wicomico,,U.S. Senate,,DEM,Benjamin L. Cardin,10571,TRUE
+Wicomico,,U.S. Senate,,DEM,Lih Young,2,
+Wicomico,,U.S. Senate,,GRN,Kevin Zeese,405,
+Wicomico,,U.S. Senate,,REP,Michael S. Steele,17074,
+Worcester,,Attorney General,,BOT,Other Write-Ins,10,
+Worcester,,Attorney General,,DEM,Douglas F. Gansler,8671,TRUE
+Worcester,,Attorney General,,REP,Scott L. Rolle,10301,
+Worcester,,Board of Education,001,NON,Doug Dryden,1642,TRUE
+Worcester,,Board of Education,001,NON,Other Write-Ins,1,
+Worcester,,Board of Education,004,NON,Donnie Shockley,1887,TRUE
+Worcester,,Board of Education,004,NON,Other Write-Ins,8,
+Worcester,,Board of Education,006,NON,Bob Hulburd,2571,TRUE
+Worcester,,Board of Education,006,NON,Other Write-Ins,14,
+Worcester,,Board of Education,007,NON,Other Write-Ins,6,
+Worcester,,Board of Education,007,NON,"Robert A. Rothermel, Jr.",2336,TRUE
+Worcester,,Clerk Circuit Court,,BOT,Other Write-Ins,56,
+Worcester,,Clerk Circuit Court,,DEM,Stephen V. Hales,15960,TRUE
+Worcester,,Comptroller,,BOT,Other Write-Ins,36,
+Worcester,,Comptroller,,DEM,Peter Franchot,8165,TRUE
+Worcester,,Comptroller,,GRN,Bob Auerbach,0,
+Worcester,,Comptroller,,REP,Anne M. McCarthy,11035,
+Worcester,,County Commissioner,001,BOT,Other Write-Ins,2,
+Worcester,,County Commissioner,001,DEM,"Robert L. Cowger, Jr.",1312,TRUE
+Worcester,,County Commissioner,001,REP,Randolph L. Beauchamp,643,
+Worcester,,County Commissioner,002,BOT,Other Write-Ins,1,
+Worcester,,County Commissioner,002,DEM,James L. Purnell,1270,TRUE
+Worcester,,County Commissioner,002,REP,Dennis Klingenberg,560,
+Worcester,,County Commissioner,003,BOT,Other Write-Ins,5,
+Worcester,,County Commissioner,003,DEM,Kathy Phillips,1407,
+Worcester,,County Commissioner,003,REP,Bud Church,2055,TRUE
+Worcester,,County Commissioner,004,BOT,Other Write-Ins,5,
+Worcester,,County Commissioner,004,DEM,Virgil L. Shockley,1419,TRUE
+Worcester,,County Commissioner,004,REP,Ted Elder,862,
+Worcester,,County Commissioner,005,BOT,Other Write-Ins,103,
+Worcester,,County Commissioner,005,REP,Judy Boggs,2946,TRUE
+Worcester,,County Commissioner,006,BOT,Other Write-Ins,18,
+Worcester,,County Commissioner,006,DEM,Arlene C. Page,1164,
+Worcester,,County Commissioner,006,REP,Linda C. Busick,1470,TRUE
+Worcester,,County Commissioner,006,REP,Tom A. Cetola,590,
+Worcester,,County Commissioner,007,BOT,Other Write-Ins,7,
+Worcester,,County Commissioner,007,DEM,Ellie Diegelmann,1131,
+Worcester,,County Commissioner,007,REP,Louise L. Gulyas,2061,TRUE
+Worcester,,Governor,,BOT,Other Write-Ins,3,
+Worcester,,Governor,,DEM,Charles Ulysses Smith,0,
+Worcester,,Governor,,DEM,Martin O'Malley,7008,TRUE
+Worcester,,Governor,,DEM,Ralph Jaffe,0,
+Worcester,,Governor,,GRN,Ed Boyd,143,
+Worcester,,Governor,,POP,Christopher A. Driscoll,34,
+Worcester,,Governor,,REP,John J. Simmins,0,
+Worcester,,Governor,,REP,"Robert L. Ehrlich, Jr.",13075,
+Worcester,,House of Delegates,38B,BOT,Other Write-Ins,17,
+Worcester,,House of Delegates,38B,DEM,Jim Mathias,10408,TRUE
+Worcester,,House of Delegates,38B,DEM,Norman H. Conway,8690,TRUE
+Worcester,,House of Delegates,38B,REP,Bonnie Nelson Luna,8180,
+Worcester,,House of Delegates,38B,REP,Michael J. James,9450,
+Worcester,,Judge Circuit Court,01,BOT,Other Write-Ins,61,
+Worcester,,Judge Circuit Court,01,BOT,Richard R. Bloxom,13931,TRUE
+Worcester,,Judge Circuit Court,01,BOT,"Thomas C. Groton, III",13542,TRUE
+Worcester,,Judge Orphans Court,,BOT,Other Write-Ins,32,
+Worcester,,Judge Orphans Court,,DEM,Bill Shockley,11911,TRUE
+Worcester,,Judge Orphans Court,,DEM,Dale Smack,9909,TRUE
+Worcester,,Judge Orphans Court,,DEM,Ken Tyler,8179,
+Worcester,,Judge Orphans Court,,REP,George Coleburn,8017,
+Worcester,,Judge Orphans Court,,REP,Linda M. Hess,8284,TRUE
+Worcester,,Judge Spec Appeal at Lg,,BOT,Ellen L. Hollander,15310,TRUE
+Worcester,,Register of Wills,,BOT,Other Write-Ins,42,
+Worcester,,Register of Wills,,DEM,Charlotte Kerbin Cathell,15801,TRUE
+Worcester,,Sheriff,,BOT,Other Write-Ins,13,
+Worcester,,Sheriff,,DEM,Chuck Martin,11937,TRUE
+Worcester,,Sheriff,,REP,Ron Haslam,7526,
+Worcester,,State Senator,38,BOT,Other Write-Ins,118,
+Worcester,,State Senator,38,REP,J. Lowell Stoltzfus,15416,TRUE
+Worcester,,State's Attorney,,BOT,Other Write-Ins,7,
+Worcester,,State's Attorney,,DEM,Joel Jacob Todd,9857,TRUE
+Worcester,,State's Attorney,,REP,Beau Oglesby,9843,
+Worcester,,U.S. House,01,BOT,Other Write-Ins,12,
+Worcester,,U.S. House,01,DEM,Jim Corwin,6166,
+Worcester,,U.S. House,01,REP,Wayne T. Gilchrest,13659,TRUE
+Worcester,,U.S. Senate,,BOT,Other Write-Ins,0,
+Worcester,,U.S. Senate,,DEM,Benjamin L. Cardin,7537,TRUE
+Worcester,,U.S. Senate,,DEM,Lih Young,3,
+Worcester,,U.S. Senate,,GRN,Kevin Zeese,249,
+Worcester,,U.S. Senate,,REP,Michael S. Steele,12326,

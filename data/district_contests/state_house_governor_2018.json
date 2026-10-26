@@ -1,0 +1,1048 @@
+{
+  "meta": {
+    "scope": "state_house",
+    "contest_type": "governor",
+    "year": 2018,
+    "district_lines_year": 2022,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2018_gen_2020_blocks.zip",
+    "bef_file": "data/MD-2022OFFICIALLYADOPTEDHOUSE.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20181106__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1A": [
+        "GARRETT"
+      ],
+      "36": [
+        "KENT",
+        "QUEENANNES"
+      ],
+      "37B": [
+        "TALBOT"
+      ],
+      "38A": [
+        "SOMERSET"
+      ]
+    },
+    "allocated_components": {
+      "10": [
+        "BALTIMORE"
+      ],
+      "11A": [
+        "BALTIMORE"
+      ],
+      "11B": [
+        "BALTIMORE"
+      ],
+      "12A": [
+        "HOWARD"
+      ],
+      "12B": [
+        "ANNEARUNDEL"
+      ],
+      "13": [
+        "HOWARD"
+      ],
+      "14": [
+        "MONTGOMERY"
+      ],
+      "15": [
+        "MONTGOMERY"
+      ],
+      "16": [
+        "MONTGOMERY"
+      ],
+      "17": [
+        "MONTGOMERY"
+      ],
+      "18": [
+        "MONTGOMERY"
+      ],
+      "19": [
+        "MONTGOMERY"
+      ],
+      "1A": [
+        "ALLEGANY"
+      ],
+      "1B": [
+        "ALLEGANY"
+      ],
+      "1C": [
+        "ALLEGANY",
+        "WASHINGTON"
+      ],
+      "20": [
+        "MONTGOMERY"
+      ],
+      "21": [
+        "ANNEARUNDEL",
+        "PRINCEGEORGES"
+      ],
+      "22": [
+        "PRINCEGEORGES"
+      ],
+      "23": [
+        "PRINCEGEORGES"
+      ],
+      "24": [
+        "PRINCEGEORGES"
+      ],
+      "25": [
+        "PRINCEGEORGES"
+      ],
+      "26": [
+        "PRINCEGEORGES"
+      ],
+      "27A": [
+        "CHARLES",
+        "PRINCEGEORGES"
+      ],
+      "27B": [
+        "CALVERT",
+        "PRINCEGEORGES"
+      ],
+      "27C": [
+        "CALVERT"
+      ],
+      "28": [
+        "CHARLES"
+      ],
+      "29A": [
+        "SAINTMARYS"
+      ],
+      "29B": [
+        "SAINTMARYS"
+      ],
+      "29C": [
+        "CALVERT",
+        "SAINTMARYS"
+      ],
+      "2A": [
+        "FREDERICK",
+        "WASHINGTON"
+      ],
+      "2B": [
+        "WASHINGTON"
+      ],
+      "3": [
+        "FREDERICK"
+      ],
+      "30A": [
+        "ANNEARUNDEL"
+      ],
+      "30B": [
+        "ANNEARUNDEL"
+      ],
+      "31": [
+        "ANNEARUNDEL"
+      ],
+      "32": [
+        "ANNEARUNDEL"
+      ],
+      "33A": [
+        "ANNEARUNDEL"
+      ],
+      "33B": [
+        "ANNEARUNDEL"
+      ],
+      "33C": [
+        "ANNEARUNDEL"
+      ],
+      "34A": [
+        "HARFORD"
+      ],
+      "34B": [
+        "HARFORD"
+      ],
+      "35A": [
+        "CECIL",
+        "HARFORD"
+      ],
+      "35B": [
+        "CECIL"
+      ],
+      "36": [
+        "CAROLINE",
+        "CECIL"
+      ],
+      "37A": [
+        "DORCHESTER",
+        "WICOMICO"
+      ],
+      "37B": [
+        "CAROLINE",
+        "DORCHESTER",
+        "WICOMICO"
+      ],
+      "38A": [
+        "WICOMICO",
+        "WORCESTER"
+      ],
+      "38B": [
+        "WICOMICO"
+      ],
+      "38C": [
+        "WICOMICO",
+        "WORCESTER"
+      ],
+      "39": [
+        "MONTGOMERY"
+      ],
+      "4": [
+        "FREDERICK"
+      ],
+      "40": [
+        "BALTIMORECITY"
+      ],
+      "41": [
+        "BALTIMORECITY"
+      ],
+      "42A": [
+        "BALTIMORE"
+      ],
+      "42B": [
+        "BALTIMORE"
+      ],
+      "42C": [
+        "CARROLL"
+      ],
+      "43A": [
+        "BALTIMORECITY"
+      ],
+      "43B": [
+        "BALTIMORE"
+      ],
+      "44A": [
+        "BALTIMORE"
+      ],
+      "44B": [
+        "BALTIMORE"
+      ],
+      "45": [
+        "BALTIMORECITY"
+      ],
+      "46": [
+        "BALTIMORECITY"
+      ],
+      "47A": [
+        "PRINCEGEORGES"
+      ],
+      "47B": [
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "CARROLL",
+        "FREDERICK"
+      ],
+      "6": [
+        "BALTIMORE"
+      ],
+      "7A": [
+        "BALTIMORE"
+      ],
+      "7B": [
+        "HARFORD"
+      ],
+      "8": [
+        "BALTIMORE"
+      ],
+      "9A": [
+        "HOWARD",
+        "MONTGOMERY"
+      ],
+      "9B": [
+        "HOWARD"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1A": {
+        "total_votes": 15865,
+        "dem_votes": 2176,
+        "rep_votes": 13497,
+        "other_votes": 192,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 71.35833595965963
+      },
+      "1B": {
+        "total_votes": 16361,
+        "dem_votes": 2984,
+        "rep_votes": 13130,
+        "other_votes": 247,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 62.013324368926106
+      },
+      "1C": {
+        "total_votes": 15895,
+        "dem_votes": 2185,
+        "rep_votes": 13489,
+        "other_votes": 221,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 71.11670336583832
+      },
+      "2A": {
+        "total_votes": 32214,
+        "dem_votes": 6094,
+        "rep_votes": 25671,
+        "other_votes": 449,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 60.771714161544665
+      },
+      "2B": {
+        "total_votes": 9793,
+        "dem_votes": 3627,
+        "rep_votes": 5951,
+        "other_votes": 215,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 23.731236597569694
+      },
+      "3": {
+        "total_votes": 42061,
+        "dem_votes": 18316,
+        "rep_votes": 23155,
+        "other_votes": 590,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.504719336202182
+      },
+      "4": {
+        "total_votes": 57958,
+        "dem_votes": 13837,
+        "rep_votes": 43486,
+        "other_votes": 635,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 51.15600952413817
+      },
+      "5": {
+        "total_votes": 58363,
+        "dem_votes": 9637,
+        "rep_votes": 48074,
+        "other_votes": 652,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 65.8585062453952
+      },
+      "6": {
+        "total_votes": 41502,
+        "dem_votes": 9942,
+        "rep_votes": 31088,
+        "other_votes": 472,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 50.951761360898274
+      },
+      "7A": {
+        "total_votes": 36776,
+        "dem_votes": 7548,
+        "rep_votes": 28901,
+        "other_votes": 327,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 58.062323254296274
+      },
+      "7B": {
+        "total_votes": 20477,
+        "dem_votes": 3227,
+        "rep_votes": 17049,
+        "other_votes": 201,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 67.50012208819652
+      },
+      "8": {
+        "total_votes": 46892,
+        "dem_votes": 18583,
+        "rep_votes": 27791,
+        "other_votes": 518,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 19.636611788791264
+      },
+      "9A": {
+        "total_votes": 38263,
+        "dem_votes": 10814,
+        "rep_votes": 27028,
+        "other_votes": 421,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 42.37514047513263
+      },
+      "9B": {
+        "total_votes": 15712,
+        "dem_votes": 6057,
+        "rep_votes": 9475,
+        "other_votes": 180,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 21.7540733197556
+      },
+      "10": {
+        "total_votes": 43689,
+        "dem_votes": 24694,
+        "rep_votes": 18531,
+        "other_votes": 464,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -14.106525670077136
+      },
+      "11A": {
+        "total_votes": 13068,
+        "dem_votes": 7291,
+        "rep_votes": 5671,
+        "other_votes": 106,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -12.396694214876034
+      },
+      "11B": {
+        "total_votes": 39110,
+        "dem_votes": 13297,
+        "rep_votes": 25496,
+        "other_votes": 317,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.19151112247507
+      },
+      "12A": {
+        "total_votes": 37412,
+        "dem_votes": 17641,
+        "rep_votes": 19281,
+        "other_votes": 490,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 4.383620228803593
+      },
+      "12B": {
+        "total_votes": 13296,
+        "dem_votes": 5007,
+        "rep_votes": 8115,
+        "other_votes": 174,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 23.375451263537904
+      },
+      "13": {
+        "total_votes": 57849,
+        "dem_votes": 28880,
+        "rep_votes": 28324,
+        "other_votes": 645,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -0.9611229234731802
+      },
+      "14": {
+        "total_votes": 53749,
+        "dem_votes": 26279,
+        "rep_votes": 26973,
+        "other_votes": 497,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 1.2911868127779123
+      },
+      "15": {
+        "total_votes": 53645,
+        "dem_votes": 24369,
+        "rep_votes": 28754,
+        "other_votes": 522,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 8.174107558952372
+      },
+      "16": {
+        "total_votes": 61069,
+        "dem_votes": 31050,
+        "rep_votes": 29455,
+        "other_votes": 564,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -2.6117997674761333
+      },
+      "17": {
+        "total_votes": 43941,
+        "dem_votes": 24132,
+        "rep_votes": 19296,
+        "other_votes": 513,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -11.005666689424455
+      },
+      "18": {
+        "total_votes": 51151,
+        "dem_votes": 30874,
+        "rep_votes": 19665,
+        "other_votes": 612,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.91355007722234
+      },
+      "19": {
+        "total_votes": 49536,
+        "dem_votes": 26406,
+        "rep_votes": 22626,
+        "other_votes": 504,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -7.630813953488372
+      },
+      "20": {
+        "total_votes": 44767,
+        "dem_votes": 32906,
+        "rep_votes": 11334,
+        "other_votes": 527,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -48.18728080952487
+      },
+      "21": {
+        "total_votes": 37482,
+        "dem_votes": 21499,
+        "rep_votes": 15541,
+        "other_votes": 442,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -15.895629902353129
+      },
+      "22": {
+        "total_votes": 39217,
+        "dem_votes": 27893,
+        "rep_votes": 10903,
+        "other_votes": 421,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -43.323048677869295
+      },
+      "23": {
+        "total_votes": 54597,
+        "dem_votes": 33288,
+        "rep_votes": 20814,
+        "other_votes": 495,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -22.8474091983076
+      },
+      "24": {
+        "total_votes": 49502,
+        "dem_votes": 37770,
+        "rep_votes": 11243,
+        "other_votes": 489,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -53.5877338289362
+      },
+      "25": {
+        "total_votes": 49462,
+        "dem_votes": 37925,
+        "rep_votes": 11078,
+        "other_votes": 459,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -54.27803162023371
+      },
+      "26": {
+        "total_votes": 48712,
+        "dem_votes": 35817,
+        "rep_votes": 12413,
+        "other_votes": 482,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -48.04565610116603
+      },
+      "27A": {
+        "total_votes": 18093,
+        "dem_votes": 10945,
+        "rep_votes": 7006,
+        "other_votes": 142,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.770850605206434
+      },
+      "27B": {
+        "total_votes": 19951,
+        "dem_votes": 7843,
+        "rep_votes": 11926,
+        "other_votes": 182,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 20.4651395920004
+      },
+      "27C": {
+        "total_votes": 18521,
+        "dem_votes": 4084,
+        "rep_votes": 14260,
+        "other_votes": 177,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 54.94303763295718
+      },
+      "28": {
+        "total_votes": 52218,
+        "dem_votes": 25511,
+        "rep_votes": 26290,
+        "other_votes": 417,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 1.4918227431154008
+      },
+      "29A": {
+        "total_votes": 17030,
+        "dem_votes": 2723,
+        "rep_votes": 14138,
+        "other_votes": 169,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 67.0287727539636
+      },
+      "29B": {
+        "total_votes": 13547,
+        "dem_votes": 4611,
+        "rep_votes": 8661,
+        "other_votes": 275,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 29.895917915405622
+      },
+      "29C": {
+        "total_votes": 18686,
+        "dem_votes": 4292,
+        "rep_votes": 14070,
+        "other_votes": 324,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 52.3279460558707
+      },
+      "30A": {
+        "total_votes": 33571,
+        "dem_votes": 11215,
+        "rep_votes": 21935,
+        "other_votes": 421,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 31.93232254028775
+      },
+      "30B": {
+        "total_votes": 18117,
+        "dem_votes": 3675,
+        "rep_votes": 14252,
+        "other_votes": 190,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 58.381630512778045
+      },
+      "31": {
+        "total_votes": 56642,
+        "dem_votes": 11506,
+        "rep_votes": 44567,
+        "other_votes": 569,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 58.368348575262175
+      },
+      "32": {
+        "total_votes": 44061,
+        "dem_votes": 19448,
+        "rep_votes": 24065,
+        "other_votes": 548,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 10.478654592496765
+      },
+      "33A": {
+        "total_votes": 15305,
+        "dem_votes": 6389,
+        "rep_votes": 8701,
+        "other_votes": 215,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 15.106174452793205
+      },
+      "33B": {
+        "total_votes": 20092,
+        "dem_votes": 4786,
+        "rep_votes": 15113,
+        "other_votes": 193,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 51.39856659366912
+      },
+      "33C": {
+        "total_votes": 22865,
+        "dem_votes": 5638,
+        "rep_votes": 17014,
+        "other_votes": 213,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 49.75289744150449
+      },
+      "34A": {
+        "total_votes": 29154,
+        "dem_votes": 11187,
+        "rep_votes": 17535,
+        "other_votes": 432,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 21.774027577690884
+      },
+      "34B": {
+        "total_votes": 19183,
+        "dem_votes": 3995,
+        "rep_votes": 14943,
+        "other_votes": 245,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 57.071365271333995
+      },
+      "35A": {
+        "total_votes": 44043,
+        "dem_votes": 5855,
+        "rep_votes": 37726,
+        "other_votes": 462,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 72.36337215902641
+      },
+      "35B": {
+        "total_votes": 16197,
+        "dem_votes": 2717,
+        "rep_votes": 13252,
+        "other_votes": 228,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 65.04290918071248
+      },
+      "36": {
+        "total_votes": 52520,
+        "dem_votes": 10487,
+        "rep_votes": 41427,
+        "other_votes": 606,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 58.91089108910891
+      },
+      "37A": {
+        "total_votes": 11408,
+        "dem_votes": 5578,
+        "rep_votes": 5698,
+        "other_votes": 132,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 1.0518934081346423
+      },
+      "37B": {
+        "total_votes": 40719,
+        "dem_votes": 7726,
+        "rep_votes": 32618,
+        "other_votes": 375,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 61.13116726835138
+      },
+      "38A": {
+        "total_votes": 17756,
+        "dem_votes": 5338,
+        "rep_votes": 12179,
+        "other_votes": 239,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 38.52782158143726
+      },
+      "38B": {
+        "total_votes": 12579,
+        "dem_votes": 4284,
+        "rep_votes": 8097,
+        "other_votes": 198,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 30.312425471023136
+      },
+      "38C": {
+        "total_votes": 20200,
+        "dem_votes": 3604,
+        "rep_votes": 16384,
+        "other_votes": 212,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 63.26732673267327
+      },
+      "39": {
+        "total_votes": 44717,
+        "dem_votes": 25767,
+        "rep_votes": 18381,
+        "other_votes": 569,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -16.51720822058725
+      },
+      "40": {
+        "total_votes": 39222,
+        "dem_votes": 28896,
+        "rep_votes": 9717,
+        "other_votes": 609,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -48.89857732905003
+      },
+      "41": {
+        "total_votes": 38692,
+        "dem_votes": 25342,
+        "rep_votes": 12847,
+        "other_votes": 503,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -32.29349736379613
+      },
+      "42A": {
+        "total_votes": 22866,
+        "dem_votes": 4101,
+        "rep_votes": 18517,
+        "other_votes": 248,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 63.045569841686344
+      },
+      "42B": {
+        "total_votes": 18160,
+        "dem_votes": 5831,
+        "rep_votes": 12132,
+        "other_votes": 197,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 34.697136563876654
+      },
+      "42C": {
+        "total_votes": 18759,
+        "dem_votes": 2540,
+        "rep_votes": 16013,
+        "other_votes": 206,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 71.82152566767951
+      },
+      "43A": {
+        "total_votes": 28708,
+        "dem_votes": 21530,
+        "rep_votes": 6733,
+        "other_votes": 445,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -51.54312386791139
+      },
+      "43B": {
+        "total_votes": 16208,
+        "dem_votes": 7335,
+        "rep_votes": 8692,
+        "other_votes": 181,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 8.372408687068114
+      },
+      "44A": {
+        "total_votes": 14207,
+        "dem_votes": 5516,
+        "rep_votes": 8502,
+        "other_votes": 189,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 21.01780812275639
+      },
+      "44B": {
+        "total_votes": 31798,
+        "dem_votes": 18635,
+        "rep_votes": 12801,
+        "other_votes": 362,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -18.347065853198313
+      },
+      "45": {
+        "total_votes": 38915,
+        "dem_votes": 27151,
+        "rep_votes": 11191,
+        "other_votes": 573,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -41.01246306051651
+      },
+      "46": {
+        "total_votes": 39154,
+        "dem_votes": 20690,
+        "rep_votes": 17872,
+        "other_votes": 592,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -7.197221228993206
+      },
+      "47A": {
+        "total_votes": 24090,
+        "dem_votes": 18445,
+        "rep_votes": 5374,
+        "other_votes": 271,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -54.25902864259029
+      },
+      "47B": {
+        "total_votes": 7172,
+        "dem_votes": 5378,
+        "rep_votes": 1717,
+        "other_votes": 77,
+        "dem_candidate": "Ben Jealous",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -51.0457334076966
+      }
+    }
+  }
+}

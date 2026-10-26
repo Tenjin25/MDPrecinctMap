@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "president",
+    "year": 2016,
+    "district_lines_year": 2021,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2016_gen_2020_blocks.zip",
+    "bef_file": "data/MCRC-2021-Final-Congressional-BEF.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20161108__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1": [
+        "CAROLINE",
+        "CECIL",
+        "DORCHESTER",
+        "HARFORD",
+        "KENT",
+        "QUEENANNES",
+        "SOMERSET",
+        "TALBOT",
+        "WICOMICO",
+        "WORCESTER"
+      ],
+      "3": [
+        "HOWARD"
+      ],
+      "5": [
+        "CHARLES",
+        "SAINTMARYS"
+      ],
+      "6": [
+        "ALLEGANY",
+        "CARROLL",
+        "FREDERICK",
+        "GARRETT",
+        "WASHINGTON"
+      ],
+      "7": [
+        "BALTIMORECITY"
+      ]
+    },
+    "allocated_components": {
+      "1": [
+        "BALTIMORE"
+      ],
+      "2": [
+        "BALTIMORE"
+      ],
+      "3": [
+        "ANNEARUNDEL",
+        "CALVERT"
+      ],
+      "4": [
+        "MONTGOMERY",
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "CALVERT",
+        "PRINCEGEORGES"
+      ],
+      "6": [
+        "MONTGOMERY"
+      ],
+      "7": [
+        "ANNEARUNDEL",
+        "BALTIMORE"
+      ],
+      "8": [
+        "MONTGOMERY"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 380942,
+        "dem_votes": 136418,
+        "rep_votes": 222084,
+        "other_votes": 22440,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 22.487937796304948
+      },
+      "2": {
+        "total_votes": 344949,
+        "dem_votes": 201196,
+        "rep_votes": 124063,
+        "other_votes": 19690,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -22.36069679865719
+      },
+      "3": {
+        "total_votes": 371791,
+        "dem_votes": 202464,
+        "rep_votes": 141775,
+        "other_votes": 27552,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -16.323418264562616
+      },
+      "4": {
+        "total_votes": 296199,
+        "dem_votes": 251190,
+        "rep_votes": 32048,
+        "other_votes": 12961,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -73.98471973234211
+      },
+      "5": {
+        "total_votes": 344988,
+        "dem_votes": 243601,
+        "rep_votes": 87173,
+        "other_votes": 14214,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -45.34302642410751
+      },
+      "6": {
+        "total_votes": 366162,
+        "dem_votes": 137063,
+        "rep_votes": 203859,
+        "other_votes": 25240,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 18.2421988081778
+      },
+      "7": {
+        "total_votes": 315089,
+        "dem_votes": 237739,
+        "rep_votes": 61264,
+        "other_votes": 16086,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -56.007985045495076
+      },
+      "8": {
+        "total_votes": 361326,
+        "dem_votes": 268335,
+        "rep_votes": 71162,
+        "other_votes": 21829,
+        "dem_candidate": "Hillary Clinton",
+        "rep_candidate": "Donald Trump",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -54.56928092636566
+      }
+    }
+  }
+}

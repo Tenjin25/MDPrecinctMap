@@ -1,0 +1,293 @@
+{
+  "generated_at_utc": "2026-10-26T03:23:42.804436+00:00",
+  "files": [
+    {
+      "contest_type": "attorney_general",
+      "year": 2006,
+      "file": "attorney_general_2006.json",
+      "rows": 24,
+      "precinct_rows": 1967,
+      "county_only": false,
+      "total_votes": 1711090
+    },
+    {
+      "contest_type": "attorney_general",
+      "year": 2010,
+      "file": "attorney_general_2010.json",
+      "rows": 24,
+      "precinct_rows": 1993,
+      "county_only": false,
+      "total_votes": 1374995
+    },
+    {
+      "contest_type": "attorney_general",
+      "year": 2014,
+      "file": "attorney_general_2014.json",
+      "rows": 24,
+      "precinct_rows": 1996,
+      "county_only": false,
+      "total_votes": 1677269
+    },
+    {
+      "contest_type": "attorney_general",
+      "year": 2018,
+      "file": "attorney_general_2018.json",
+      "rows": 24,
+      "precinct_rows": 1999,
+      "county_only": false,
+      "total_votes": 2275788
+    },
+    {
+      "contest_type": "attorney_general",
+      "year": 2022,
+      "file": "attorney_general_2022.json",
+      "rows": 24,
+      "precinct_rows": 1913,
+      "county_only": false,
+      "total_votes": 1982290
+    },
+    {
+      "contest_type": "comptroller",
+      "year": 2006,
+      "file": "comptroller_2006.json",
+      "rows": 24,
+      "precinct_rows": 1967,
+      "county_only": false,
+      "total_votes": 1724258
+    },
+    {
+      "contest_type": "comptroller",
+      "year": 2010,
+      "file": "comptroller_2010.json",
+      "rows": 24,
+      "precinct_rows": 1996,
+      "county_only": false,
+      "total_votes": 1781096
+    },
+    {
+      "contest_type": "comptroller",
+      "year": 2014,
+      "file": "comptroller_2014.json",
+      "rows": 24,
+      "precinct_rows": 1996,
+      "county_only": false,
+      "total_votes": 1693912
+    },
+    {
+      "contest_type": "comptroller",
+      "year": 2018,
+      "file": "comptroller_2018.json",
+      "rows": 24,
+      "precinct_rows": 1998,
+      "county_only": false,
+      "total_votes": 2248238
+    },
+    {
+      "contest_type": "comptroller",
+      "year": 2022,
+      "file": "comptroller_2022.json",
+      "rows": 24,
+      "precinct_rows": 1913,
+      "county_only": false,
+      "total_votes": 1986710
+    },
+    {
+      "contest_type": "governor",
+      "year": 2002,
+      "file": "governor_2002.json",
+      "rows": 24,
+      "precinct_rows": 0,
+      "county_only": true,
+      "total_votes": 1706179
+    },
+    {
+      "contest_type": "governor",
+      "year": 2006,
+      "file": "governor_2006.json",
+      "rows": 24,
+      "precinct_rows": 1968,
+      "county_only": false,
+      "total_votes": 1788577
+    },
+    {
+      "contest_type": "governor",
+      "year": 2010,
+      "file": "governor_2010.json",
+      "rows": 24,
+      "precinct_rows": 1995,
+      "county_only": false,
+      "total_votes": 1857880
+    },
+    {
+      "contest_type": "governor",
+      "year": 2014,
+      "file": "governor_2014.json",
+      "rows": 24,
+      "precinct_rows": 1996,
+      "county_only": false,
+      "total_votes": 1733177
+    },
+    {
+      "contest_type": "governor",
+      "year": 2018,
+      "file": "governor_2018.json",
+      "rows": 24,
+      "precinct_rows": 1996,
+      "county_only": false,
+      "total_votes": 2304512
+    },
+    {
+      "contest_type": "governor",
+      "year": 2022,
+      "file": "governor_2022.json",
+      "rows": 24,
+      "precinct_rows": 1913,
+      "county_only": false,
+      "total_votes": 2005223
+    },
+    {
+      "contest_type": "president",
+      "year": 2000,
+      "file": "president_2000.json",
+      "rows": 24,
+      "precinct_rows": 1959,
+      "county_only": false,
+      "total_votes": 2046755
+    },
+    {
+      "contest_type": "president",
+      "year": 2004,
+      "file": "president_2004.json",
+      "rows": 24,
+      "precinct_rows": 1966,
+      "county_only": false,
+      "total_votes": 2386678
+    },
+    {
+      "contest_type": "president",
+      "year": 2008,
+      "file": "president_2008.json",
+      "rows": 24,
+      "precinct_rows": 1972,
+      "county_only": false,
+      "total_votes": 2631597
+    },
+    {
+      "contest_type": "president",
+      "year": 2012,
+      "file": "president_2012.json",
+      "rows": 24,
+      "precinct_rows": 2000,
+      "county_only": false,
+      "total_votes": 2707329
+    },
+    {
+      "contest_type": "president",
+      "year": 2016,
+      "file": "president_2016.json",
+      "rows": 24,
+      "precinct_rows": 1998,
+      "county_only": false,
+      "total_votes": 2781446
+    },
+    {
+      "contest_type": "president",
+      "year": 2020,
+      "file": "president_2020.json",
+      "rows": 24,
+      "precinct_rows": 1961,
+      "county_only": false,
+      "total_votes": 3037031
+    },
+    {
+      "contest_type": "president",
+      "year": 2024,
+      "file": "president_2024.json",
+      "rows": 24,
+      "precinct_rows": 2002,
+      "county_only": false,
+      "total_votes": 3038334
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2000,
+      "file": "us_senate_2000.json",
+      "rows": 24,
+      "precinct_rows": 1960,
+      "county_only": false,
+      "total_votes": 1968996
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2004,
+      "file": "us_senate_2004.json",
+      "rows": 24,
+      "precinct_rows": 1966,
+      "county_only": false,
+      "total_votes": 2323183
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2006,
+      "file": "us_senate_2006.json",
+      "rows": 24,
+      "precinct_rows": 1968,
+      "county_only": false,
+      "total_votes": 1781405
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2010,
+      "file": "us_senate_2010.json",
+      "rows": 24,
+      "precinct_rows": 1993,
+      "county_only": false,
+      "total_votes": 1833860
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2012,
+      "file": "us_senate_2012.json",
+      "rows": 24,
+      "precinct_rows": 1999,
+      "county_only": false,
+      "total_votes": 2633234
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2016,
+      "file": "us_senate_2016.json",
+      "rows": 24,
+      "precinct_rows": 1997,
+      "county_only": false,
+      "total_votes": 2726170
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2018,
+      "file": "us_senate_2018.json",
+      "rows": 24,
+      "precinct_rows": 1998,
+      "county_only": false,
+      "total_votes": 2299889
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2022,
+      "file": "us_senate_2022.json",
+      "rows": 24,
+      "precinct_rows": 1913,
+      "county_only": false,
+      "total_votes": 2002336
+    },
+    {
+      "contest_type": "us_senate",
+      "year": 2024,
+      "file": "us_senate_2024.json",
+      "rows": 24,
+      "precinct_rows": 2002,
+      "county_only": false,
+      "total_votes": 3021378
+    }
+  ]
+}

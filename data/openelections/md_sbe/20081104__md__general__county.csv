@@ -1,0 +1,963 @@
+county,precinct,office,district,party,candidate,votes,winner
+Allegany,,Board of Education,,NON,Fred Sloan,15458,TRUE
+Allegany,,Board of Education,,NON,Jeff Metz,18532,TRUE
+Allegany,,Board of Education,,NON,Other Write-Ins,167,
+Allegany,,Board of Education,,NON,Tim Iman,8469,
+Allegany,,Cumberland Council,CU,NON,Brian K. Grim,4921,TRUE
+Allegany,,Cumberland Council,CU,NON,David Franklin Kauffman,3257,
+Allegany,,Cumberland Council,CU,NON,Mary Beth Pirolozzi,4666,TRUE
+Allegany,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,19180,TRUE
+Allegany,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,17769,TRUE
+Allegany,,President,,BOT,Other Write-Ins,75,
+Allegany,,President,,CON,Chuck Baldwin,63,
+Allegany,,President,,DEM,Barack Obama,10693,TRUE
+Allegany,,President,,GRN,Cynthia McKinney,82,
+Allegany,,President,,IND,Ralph Nader,294,
+Allegany,,President,,LIB,Bob Barr,128,
+Allegany,,President,,REP,John McCain,18405,
+Allegany,,President,,UNF,Alan Keyes,0,
+Allegany,,President,,UNF,Blaine Taylor,0,
+Allegany,,President,,UNF,Brian Moore,2,
+Allegany,,President,,UNF,Charles Jay,0,
+Allegany,,President,,UNF,David Jon Sponheim,0,
+Allegany,,President,,UNF,Donald K. Allen,0,
+Allegany,,President,,UNF,Frank Moore,0,
+Allegany,,President,,UNF,James D. Criveau,0,
+Allegany,,President,,UNF,Joe Schriner,0,
+Allegany,,President,,UNF,Jose M. Aparicio,0,
+Allegany,,President,,UNF,Keith Russell Judd,0,
+Allegany,,President,,UNF,Lawson Mitchell Bone,0,
+Allegany,,President,,UNF,Lynne A. Starr,0,
+Allegany,,President,,UNF,Monroe Lee,0,
+Allegany,,President,,UNF,RaeDeen R. Heupel,0,
+Allegany,,President,,UNF,Ronald G. Hobbs,0,
+Allegany,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Allegany,,U.S. House,06,BOT,Other Write-Ins,14,
+Allegany,,U.S. House,06,DEM,Jennifer P. Dougherty,10478,
+Allegany,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",610,
+Allegany,,U.S. House,06,REP,Roscoe Bartlett,17088,TRUE
+Anne Arundel,,Board of Ed At Large,,NON,Tricia Johnson,162273,TRUE
+Anne Arundel,,Board of Education,32,NON,Teresa Milio Birge,158928,TRUE
+Anne Arundel,,Judge Circuit Court,05,BOT,Michael Wachs,181968,TRUE
+Anne Arundel,,Judge Circuit Court,05,BOT,Other Write-Ins,1941,
+Anne Arundel,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,167629,TRUE
+Anne Arundel,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,162354,TRUE
+Anne Arundel,,President,,BOT,Other Write-Ins,1011,
+Anne Arundel,,President,,CON,Chuck Baldwin,452,
+Anne Arundel,,President,,DEM,Barack Obama,125015,TRUE
+Anne Arundel,,President,,GRN,Cynthia McKinney,472,
+Anne Arundel,,President,,IND,Ralph Nader,1760,
+Anne Arundel,,President,,LIB,Bob Barr,1217,
+Anne Arundel,,President,,REP,John McCain,129682,
+Anne Arundel,,President,,UNF,Alan Keyes,9,
+Anne Arundel,,President,,UNF,Blaine Taylor,0,
+Anne Arundel,,President,,UNF,Brian Moore,0,
+Anne Arundel,,President,,UNF,Charles Jay,0,
+Anne Arundel,,President,,UNF,David Jon Sponheim,0,
+Anne Arundel,,President,,UNF,Donald K. Allen,1,
+Anne Arundel,,President,,UNF,Frank Moore,0,
+Anne Arundel,,President,,UNF,James D. Criveau,0,
+Anne Arundel,,President,,UNF,Joe Schriner,0,
+Anne Arundel,,President,,UNF,Jose M. Aparicio,0,
+Anne Arundel,,President,,UNF,Keith Russell Judd,0,
+Anne Arundel,,President,,UNF,Lawson Mitchell Bone,0,
+Anne Arundel,,President,,UNF,Lynne A. Starr,0,
+Anne Arundel,,President,,UNF,Monroe Lee,0,
+Anne Arundel,,President,,UNF,RaeDeen R. Heupel,0,
+Anne Arundel,,President,,UNF,Ronald G. Hobbs,0,
+Anne Arundel,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Anne Arundel,,U.S. House,01,BOT,Other Write-Ins,67,
+Anne Arundel,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",27768,TRUE
+Anne Arundel,,U.S. House,01,LIB,Richard James Davis,1509,
+Anne Arundel,,U.S. House,01,REP,Andy Harris,30682,
+Anne Arundel,,U.S. House,02,BOT,Other Write-Ins,84,
+Anne Arundel,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,27718,TRUE
+Anne Arundel,,U.S. House,02,LIB,Lorenzo Gaztanaga,1344,
+Anne Arundel,,U.S. House,02,REP,Richard Pryce Matthews,14219,
+Anne Arundel,,U.S. House,03,BOT,Other Write-Ins,288,
+Anne Arundel,,U.S. House,03,DEM,John P. Sarbanes,68110,TRUE
+Anne Arundel,,U.S. House,03,REP,Thomas E. Pinkston Harris,41236,
+Anne Arundel,,U.S. House,05,BOT,Other Write-Ins,27,
+Anne Arundel,,U.S. House,05,DEM,Steny H. Hoyer,14859,TRUE
+Anne Arundel,,U.S. House,05,LIB,Darlene H. Nicholas,950,
+Anne Arundel,,U.S. House,05,REP,Collins Bailey,11927,
+Baltimore,,Appellate Judge,02,BOT,"Joseph F. Murphy, Jr.",250590,TRUE
+Baltimore,,Judge Circuit Court,03,BOT,Other Write-Ins,2426,
+Baltimore,,Judge Circuit Court,03,BOT,Pat Stringer,197991,TRUE
+Baltimore,,Judge Circuit Court,03,BOT,"Thomas J. Bollinger, Sr.",242688,TRUE
+Baltimore,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,248211,TRUE
+Baltimore,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,236292,TRUE
+Baltimore,,President,,BOT,Other Write-Ins,1951,
+Baltimore,,President,,CON,Chuck Baldwin,612,
+Baltimore,,President,,DEM,Barack Obama,214151,TRUE
+Baltimore,,President,,GRN,Cynthia McKinney,912,
+Baltimore,,President,,IND,Ralph Nader,2685,
+Baltimore,,President,,LIB,Bob Barr,1893,
+Baltimore,,President,,REP,John McCain,158714,
+Baltimore,,President,,UNF,Alan Keyes,6,
+Baltimore,,President,,UNF,Blaine Taylor,9,
+Baltimore,,President,,UNF,Brian Moore,2,
+Baltimore,,President,,UNF,Charles Jay,0,
+Baltimore,,President,,UNF,David Jon Sponheim,0,
+Baltimore,,President,,UNF,Donald K. Allen,1,
+Baltimore,,President,,UNF,Frank Moore,1,
+Baltimore,,President,,UNF,James D. Criveau,0,
+Baltimore,,President,,UNF,Joe Schriner,1,
+Baltimore,,President,,UNF,Jose M. Aparicio,0,
+Baltimore,,President,,UNF,Keith Russell Judd,0,
+Baltimore,,President,,UNF,Lawson Mitchell Bone,0,
+Baltimore,,President,,UNF,Lynne A. Starr,0,
+Baltimore,,President,,UNF,Monroe Lee,0,
+Baltimore,,President,,UNF,RaeDeen R. Heupel,0,
+Baltimore,,President,,UNF,Ronald G. Hobbs,0,
+Baltimore,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Baltimore,,U.S. House,01,BOT,Other Write-Ins,27,
+Baltimore,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",15158,TRUE
+Baltimore,,U.S. House,01,LIB,Richard James Davis,917,
+Baltimore,,U.S. House,01,REP,Andy Harris,21157,
+Baltimore,,U.S. House,02,BOT,Other Write-Ins,215,
+Baltimore,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,111207,TRUE
+Baltimore,,U.S. House,02,LIB,Lorenzo Gaztanaga,5051,
+Baltimore,,U.S. House,02,REP,Richard Pryce Matthews,40457,
+Baltimore,,U.S. House,03,BOT,Other Write-Ins,203,
+Baltimore,,U.S. House,03,DEM,John P. Sarbanes,59469,TRUE
+Baltimore,,U.S. House,03,REP,Thomas E. Pinkston Harris,24032,
+Baltimore,,U.S. House,06,BOT,Other Write-Ins,17,
+Baltimore,,U.S. House,06,DEM,Jennifer P. Dougherty,6128,
+Baltimore,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",666,
+Baltimore,,U.S. House,06,REP,Roscoe Bartlett,11110,TRUE
+Baltimore,,U.S. House,07,BOT,Other Write-Ins,42,
+Baltimore,,U.S. House,07,DEM,Elijah Cummings,47383,TRUE
+Baltimore,,U.S. House,07,LIB,Ronald M. Owens-Bey,1004,
+Baltimore,,U.S. House,07,REP,Michael T. Hargadon,11416,
+Baltimore,,U.S. House,07,UNF,Charles U. Smith,3,
+Baltimore,,U.S. House,07,UNF,Ray Bly,1,
+Baltimore City,,Judge Circuit Court,08,BOT,Charles G. Bernstein,97500,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Emanuel Brown,107006,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,"George Levi Russell, III",93334,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,John Addison Howard,87522,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Other Write-Ins,2138,
+Baltimore City,,Judge Circuit Court,08,BOT,Pamela Janice White,102079,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Robert B. Kershaw,84873,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Timothy James Doory,86830,TRUE
+Baltimore City,,Judge Circuit Court,08,BOT,Yvette Michelle Bryant,114279,TRUE
+Baltimore City,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,157049,TRUE
+Baltimore City,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,138327,TRUE
+Baltimore City,,President,,BOT,Other Write-Ins,525,
+Baltimore City,,President,,CON,Chuck Baldwin,197,
+Baltimore City,,President,,DEM,Barack Obama,214385,TRUE
+Baltimore City,,President,,GRN,Cynthia McKinney,578,
+Baltimore City,,President,,IND,Ralph Nader,906,
+Baltimore City,,President,,LIB,Bob Barr,675,
+Baltimore City,,President,,REP,John McCain,28681,
+Baltimore City,,President,,UNF,Alan Keyes,16,
+Baltimore City,,President,,UNF,Blaine Taylor,0,
+Baltimore City,,President,,UNF,Brian Moore,1,
+Baltimore City,,President,,UNF,Charles Jay,0,
+Baltimore City,,President,,UNF,David Jon Sponheim,0,
+Baltimore City,,President,,UNF,Donald K. Allen,4,
+Baltimore City,,President,,UNF,Frank Moore,0,
+Baltimore City,,President,,UNF,James D. Criveau,0,
+Baltimore City,,President,,UNF,Joe Schriner,0,
+Baltimore City,,President,,UNF,Jose M. Aparicio,0,
+Baltimore City,,President,,UNF,Keith Russell Judd,0,
+Baltimore City,,President,,UNF,Lawson Mitchell Bone,0,
+Baltimore City,,President,,UNF,Lynne A. Starr,0,
+Baltimore City,,President,,UNF,Monroe Lee,0,
+Baltimore City,,President,,UNF,RaeDeen R. Heupel,0,
+Baltimore City,,President,,UNF,Ronald G. Hobbs,0,
+Baltimore City,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Baltimore City,,U.S. House,02,BOT,Other Write-Ins,50,
+Baltimore City,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,34810,TRUE
+Baltimore City,,U.S. House,02,LIB,Lorenzo Gaztanaga,1144,
+Baltimore City,,U.S. House,02,REP,Richard Pryce Matthews,2680,
+Baltimore City,,U.S. House,03,BOT,Other Write-Ins,191,
+Baltimore City,,U.S. House,03,DEM,John P. Sarbanes,49145,TRUE
+Baltimore City,,U.S. House,03,REP,Thomas E. Pinkston Harris,11751,
+Baltimore City,,U.S. House,07,BOT,Other Write-Ins,98,
+Baltimore City,,U.S. House,07,DEM,Elijah Cummings,122697,TRUE
+Baltimore City,,U.S. House,07,LIB,Ronald M. Owens-Bey,1852,
+Baltimore City,,U.S. House,07,REP,Michael T. Hargadon,4250,
+Baltimore City,,U.S. House,07,UNF,Charles U. Smith,2,
+Baltimore City,,U.S. House,07,UNF,Ray Bly,1,
+Calvert,,Board of Education,001,NON,Other Write-Ins,103,
+Calvert,,Board of Education,001,NON,Patrick E. Flaherty,11472,
+Calvert,,Board of Education,001,NON,William Bill Chambers,21876,TRUE
+Calvert,,Board of Education,002,NON,Other Write-Ins,114,
+Calvert,,Board of Education,002,NON,Rane Franklin,11154,
+Calvert,,Board of Education,002,NON,Tracy H. McGuire,21507,TRUE
+Calvert,,Board of Education,003,NON,Matt Swanson,12552,
+Calvert,,Board of Education,003,NON,Other Write-Ins,91,
+Calvert,,Board of Education,003,NON,Rose Crunkleton,20122,TRUE
+Calvert,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,29963,TRUE
+Calvert,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,28608,TRUE
+Calvert,,President,,BOT,Other Write-Ins,130,
+Calvert,,President,,CON,Chuck Baldwin,51,
+Calvert,,President,,DEM,Barack Obama,20299,TRUE
+Calvert,,President,,GRN,Cynthia McKinney,69,
+Calvert,,President,,IND,Ralph Nader,296,
+Calvert,,President,,LIB,Bob Barr,117,
+Calvert,,President,,REP,John McCain,23095,
+Calvert,,President,,UNF,Alan Keyes,0,
+Calvert,,President,,UNF,Blaine Taylor,0,
+Calvert,,President,,UNF,Brian Moore,0,
+Calvert,,President,,UNF,Charles Jay,0,
+Calvert,,President,,UNF,David Jon Sponheim,0,
+Calvert,,President,,UNF,Donald K. Allen,0,
+Calvert,,President,,UNF,Frank Moore,0,
+Calvert,,President,,UNF,James D. Criveau,0,
+Calvert,,President,,UNF,Joe Schriner,0,
+Calvert,,President,,UNF,Jose M. Aparicio,0,
+Calvert,,President,,UNF,Keith Russell Judd,0,
+Calvert,,President,,UNF,Lawson Mitchell Bone,0,
+Calvert,,President,,UNF,Lynne A. Starr,0,
+Calvert,,President,,UNF,Monroe Lee,0,
+Calvert,,President,,UNF,RaeDeen R. Heupel,0,
+Calvert,,President,,UNF,Ronald G. Hobbs,0,
+Calvert,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Calvert,,U.S. House,05,BOT,Other Write-Ins,42,
+Calvert,,U.S. House,05,DEM,Steny H. Hoyer,25553,TRUE
+Calvert,,U.S. House,05,LIB,Darlene H. Nicholas,1033,
+Calvert,,U.S. House,05,REP,Collins Bailey,15658,
+Caroline,,Appellate Judge,01,BOT,Sally D. Adkins,9063,TRUE
+Caroline,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,8722,TRUE
+Caroline,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,8350,TRUE
+Caroline,,President,,BOT,Other Write-Ins,37,
+Caroline,,President,,CON,Chuck Baldwin,36,
+Caroline,,President,,DEM,Barack Obama,4971,TRUE
+Caroline,,President,,GRN,Cynthia McKinney,20,
+Caroline,,President,,IND,Ralph Nader,92,
+Caroline,,President,,LIB,Bob Barr,44,
+Caroline,,President,,REP,John McCain,8015,
+Caroline,,President,,UNF,Alan Keyes,4,
+Caroline,,President,,UNF,Blaine Taylor,0,
+Caroline,,President,,UNF,Brian Moore,0,
+Caroline,,President,,UNF,Charles Jay,0,
+Caroline,,President,,UNF,David Jon Sponheim,0,
+Caroline,,President,,UNF,Donald K. Allen,0,
+Caroline,,President,,UNF,Frank Moore,0,
+Caroline,,President,,UNF,James D. Criveau,0,
+Caroline,,President,,UNF,Joe Schriner,0,
+Caroline,,President,,UNF,Jose M. Aparicio,0,
+Caroline,,President,,UNF,Keith Russell Judd,0,
+Caroline,,President,,UNF,Lawson Mitchell Bone,0,
+Caroline,,President,,UNF,Lynne A. Starr,0,
+Caroline,,President,,UNF,Monroe Lee,0,
+Caroline,,President,,UNF,RaeDeen R. Heupel,0,
+Caroline,,President,,UNF,Ronald G. Hobbs,0,
+Caroline,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Caroline,,U.S. House,01,BOT,Other Write-Ins,18,
+Caroline,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",6702,TRUE
+Caroline,,U.S. House,01,LIB,Richard James Davis,398,
+Caroline,,U.S. House,01,REP,Andy Harris,5782,
+Carroll,,Board of Education,,NON,Cynthia L. Foley,33955,TRUE
+Carroll,,Board of Education,,NON,Jeffrey Morse,31980,
+Carroll,,Board of Education,,NON,Jennifer Seidel,42006,TRUE
+Carroll,,Board of Education,,NON,Other Write-Ins,5703,
+Carroll,,Board of Education,,NON,Virginia Harrison,5077,
+Carroll,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,55719,TRUE
+Carroll,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,53099,TRUE
+Carroll,,President,,BOT,Other Write-Ins,626,
+Carroll,,President,,CON,Chuck Baldwin,268,
+Carroll,,President,,DEM,Barack Obama,28060,TRUE
+Carroll,,President,,GRN,Cynthia McKinney,156,
+Carroll,,President,,IND,Ralph Nader,627,
+Carroll,,President,,LIB,Bob Barr,513,
+Carroll,,President,,REP,John McCain,54503,
+Carroll,,President,,UNF,Alan Keyes,2,
+Carroll,,President,,UNF,Blaine Taylor,1,
+Carroll,,President,,UNF,Brian Moore,0,
+Carroll,,President,,UNF,Charles Jay,1,
+Carroll,,President,,UNF,David Jon Sponheim,0,
+Carroll,,President,,UNF,Donald K. Allen,0,
+Carroll,,President,,UNF,Frank Moore,0,
+Carroll,,President,,UNF,James D. Criveau,0,
+Carroll,,President,,UNF,Joe Schriner,1,
+Carroll,,President,,UNF,Jose M. Aparicio,0,
+Carroll,,President,,UNF,Keith Russell Judd,0,
+Carroll,,President,,UNF,Lawson Mitchell Bone,0,
+Carroll,,President,,UNF,Lynne A. Starr,0,
+Carroll,,President,,UNF,Monroe Lee,0,
+Carroll,,President,,UNF,RaeDeen R. Heupel,1,
+Carroll,,President,,UNF,Ronald G. Hobbs,0,
+Carroll,,President,,UNF,"Theodis (Ted) Brown, Sr.",1,
+Carroll,,U.S. House,06,BOT,Other Write-Ins,96,
+Carroll,,U.S. House,06,DEM,Jennifer P. Dougherty,26162,
+Carroll,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",2484,
+Carroll,,U.S. House,06,REP,Roscoe Bartlett,51006,TRUE
+Cecil,,Appellate Judge,01,BOT,Sally D. Adkins,28212,TRUE
+Cecil,,Board of Education,001,NON,Chris Loller,19697,TRUE
+Cecil,,Board of Education,001,NON,Jonathan Christopher Quinn,12409,
+Cecil,,Board of Education,001,NON,Other Write-Ins,106,
+Cecil,,Board of Education,002,NON,Jeffrey Doucette,9779,
+Cecil,,Board of Education,002,NON,Lauren Connon Camphausen,20746,TRUE
+Cecil,,Board of Education,002,NON,Other Write-Ins,107,
+Cecil,,County Commissioner,001,BOT,Other Write-Ins,161,
+Cecil,,County Commissioner,001,DEM,Pamela Husfelt Bailey,16564,
+Cecil,,County Commissioner,001,REP,Jim Mullin,22138,TRUE
+Cecil,,County Commissioner,005,BOT,Other Write-Ins,193,
+Cecil,,County Commissioner,005,DEM,Sharon Weygand,19178,
+Cecil,,County Commissioner,005,REP,Robert Hodge,19451,TRUE
+Cecil,,County Commissioner,005,REP,"Thomas G McWilliams, Jr.",537,
+Cecil,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,27864,TRUE
+Cecil,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,27213,TRUE
+Cecil,,President,,BOT,Other Write-Ins,124,
+Cecil,,President,,CON,Chuck Baldwin,101,
+Cecil,,President,,DEM,Barack Obama,17665,TRUE
+Cecil,,President,,GRN,Cynthia McKinney,87,
+Cecil,,President,,IND,Ralph Nader,414,
+Cecil,,President,,LIB,Bob Barr,247,
+Cecil,,President,,REP,John McCain,23855,
+Cecil,,President,,UNF,Alan Keyes,0,
+Cecil,,President,,UNF,Blaine Taylor,0,
+Cecil,,President,,UNF,Brian Moore,0,
+Cecil,,President,,UNF,Charles Jay,0,
+Cecil,,President,,UNF,David Jon Sponheim,0,
+Cecil,,President,,UNF,Donald K. Allen,0,
+Cecil,,President,,UNF,Frank Moore,1,
+Cecil,,President,,UNF,James D. Criveau,0,
+Cecil,,President,,UNF,Joe Schriner,0,
+Cecil,,President,,UNF,Jose M. Aparicio,0,
+Cecil,,President,,UNF,Keith Russell Judd,0,
+Cecil,,President,,UNF,Lawson Mitchell Bone,0,
+Cecil,,President,,UNF,Lynne A. Starr,0,
+Cecil,,President,,UNF,Monroe Lee,0,
+Cecil,,President,,UNF,RaeDeen R. Heupel,0,
+Cecil,,President,,UNF,Ronald G. Hobbs,0,
+Cecil,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Cecil,,U.S. House,01,BOT,Other Write-Ins,35,
+Cecil,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",20089,TRUE
+Cecil,,U.S. House,01,LIB,Richard James Davis,1283,
+Cecil,,U.S. House,01,REP,Andy Harris,19242,
+Charles,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,49750,TRUE
+Charles,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,46215,TRUE
+Charles,,President,,BOT,Other Write-Ins,155,
+Charles,,President,,CON,Chuck Baldwin,66,
+Charles,,President,,DEM,Barack Obama,43635,TRUE
+Charles,,President,,GRN,Cynthia McKinney,73,
+Charles,,President,,IND,Ralph Nader,323,
+Charles,,President,,LIB,Bob Barr,137,
+Charles,,President,,REP,John McCain,25732,
+Charles,,President,,UNF,Alan Keyes,5,
+Charles,,President,,UNF,Blaine Taylor,0,
+Charles,,President,,UNF,Brian Moore,0,
+Charles,,President,,UNF,Charles Jay,0,
+Charles,,President,,UNF,David Jon Sponheim,0,
+Charles,,President,,UNF,Donald K. Allen,0,
+Charles,,President,,UNF,Frank Moore,0,
+Charles,,President,,UNF,James D. Criveau,0,
+Charles,,President,,UNF,Joe Schriner,0,
+Charles,,President,,UNF,Jose M. Aparicio,0,
+Charles,,President,,UNF,Keith Russell Judd,0,
+Charles,,President,,UNF,Lawson Mitchell Bone,0,
+Charles,,President,,UNF,Lynne A. Starr,1,
+Charles,,President,,UNF,Monroe Lee,0,
+Charles,,President,,UNF,RaeDeen R. Heupel,0,
+Charles,,President,,UNF,Ronald G. Hobbs,0,
+Charles,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Charles,,U.S. House,05,BOT,Other Write-Ins,52,
+Charles,,U.S. House,05,DEM,Steny H. Hoyer,48194,TRUE
+Charles,,U.S. House,05,LIB,Darlene H. Nicholas,1270,
+Charles,,U.S. House,05,REP,Collins Bailey,18606,
+Dorchester,,Appellate Judge,01,BOT,Sally D. Adkins,10160,TRUE
+Dorchester,,Board of Education,001,NON,Glenn L. Bramble,1591,TRUE
+Dorchester,,Board of Education,001,NON,Other Write-Ins,22,
+Dorchester,,Board of Education,001,NON,Troi Lynn Bramble Jones,1231,
+Dorchester,,Board of Education,003,NON,"James M. Bishop, Jr.",2555,TRUE
+Dorchester,,Board of Education,003,NON,Other Write-Ins,12,
+Dorchester,,Board of Education,005,NON,Other Write-Ins,51,
+Dorchester,,Board of Education,005,NON,Philip L. Bramble,2146,TRUE
+Dorchester,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,9674,TRUE
+Dorchester,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,9088,TRUE
+Dorchester,,President,,BOT,Other Write-Ins,31,
+Dorchester,,President,,CON,Chuck Baldwin,13,
+Dorchester,,President,,DEM,Barack Obama,6912,TRUE
+Dorchester,,President,,GRN,Cynthia McKinney,31,
+Dorchester,,President,,IND,Ralph Nader,84,
+Dorchester,,President,,LIB,Bob Barr,35,
+Dorchester,,President,,REP,John McCain,8168,
+Dorchester,,President,,UNF,Alan Keyes,0,
+Dorchester,,President,,UNF,Blaine Taylor,0,
+Dorchester,,President,,UNF,Brian Moore,0,
+Dorchester,,President,,UNF,Charles Jay,0,
+Dorchester,,President,,UNF,David Jon Sponheim,0,
+Dorchester,,President,,UNF,Donald K. Allen,0,
+Dorchester,,President,,UNF,Frank Moore,0,
+Dorchester,,President,,UNF,James D. Criveau,0,
+Dorchester,,President,,UNF,Joe Schriner,0,
+Dorchester,,President,,UNF,Jose M. Aparicio,0,
+Dorchester,,President,,UNF,Keith Russell Judd,0,
+Dorchester,,President,,UNF,Lawson Mitchell Bone,0,
+Dorchester,,President,,UNF,Lynne A. Starr,0,
+Dorchester,,President,,UNF,Monroe Lee,0,
+Dorchester,,President,,UNF,RaeDeen R. Heupel,0,
+Dorchester,,President,,UNF,Ronald G. Hobbs,0,
+Dorchester,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Dorchester,,U.S. House,01,BOT,Other Write-Ins,10,
+Dorchester,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",8344,TRUE
+Dorchester,,U.S. House,01,LIB,Richard James Davis,428,
+Dorchester,,U.S. House,01,REP,Andy Harris,5961,
+Frederick,,Board of Education,,NON,Angie L. Fish,52612,TRUE
+Frederick,,Board of Education,,NON,Donna J. Crook,46593,TRUE
+Frederick,,Board of Education,,NON,Joe Chmelik,28966,
+Frederick,,Board of Education,,NON,"John L Mills, Jr.",97,
+Frederick,,Board of Education,,NON,Kathryn B. Katie Groth,48730,TRUE
+Frederick,,Board of Education,,NON,Other Write-Ins,993,
+Frederick,,Board of Education,,NON,Ron Bird,39100,
+Frederick,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,76933,TRUE
+Frederick,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,72710,TRUE
+Frederick,,President,,BOT,Other Write-Ins,354,
+Frederick,,President,,CON,Chuck Baldwin,219,
+Frederick,,President,,DEM,Barack Obama,54013,TRUE
+Frederick,,President,,GRN,Cynthia McKinney,193,
+Frederick,,President,,IND,Ralph Nader,714,
+Frederick,,President,,LIB,Bob Barr,509,
+Frederick,,President,,REP,John McCain,55170,
+Frederick,,President,,UNF,Alan Keyes,7,
+Frederick,,President,,UNF,Blaine Taylor,0,
+Frederick,,President,,UNF,Brian Moore,3,
+Frederick,,President,,UNF,Charles Jay,0,
+Frederick,,President,,UNF,David Jon Sponheim,0,
+Frederick,,President,,UNF,Donald K. Allen,2,
+Frederick,,President,,UNF,Frank Moore,0,
+Frederick,,President,,UNF,James D. Criveau,0,
+Frederick,,President,,UNF,Joe Schriner,0,
+Frederick,,President,,UNF,Jose M. Aparicio,1,
+Frederick,,President,,UNF,Keith Russell Judd,0,
+Frederick,,President,,UNF,Lawson Mitchell Bone,0,
+Frederick,,President,,UNF,Lynne A. Starr,1,
+Frederick,,President,,UNF,Monroe Lee,0,
+Frederick,,President,,UNF,RaeDeen R. Heupel,0,
+Frederick,,President,,UNF,Ronald G. Hobbs,0,
+Frederick,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Frederick,,U.S. House,06,BOT,Other Write-Ins,142,
+Frederick,,U.S. House,06,DEM,Jennifer P. Dougherty,47797,
+Frederick,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",3837,
+Frederick,,U.S. House,06,REP,Roscoe Bartlett,55789,TRUE
+Garrett,,Board of Ed at Large,,NON,Charlotte Sebold,8957,TRUE
+Garrett,,Board of Ed at Large,,NON,James M. Raley,8665,TRUE
+Garrett,,Board of Ed at Large,,NON,Other Write-Ins,116,
+Garrett,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,8331,TRUE
+Garrett,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,7901,TRUE
+Garrett,,President,,BOT,Other Write-Ins,38,
+Garrett,,President,,CON,Chuck Baldwin,36,
+Garrett,,President,,DEM,Barack Obama,3736,TRUE
+Garrett,,President,,GRN,Cynthia McKinney,17,
+Garrett,,President,,IND,Ralph Nader,105,
+Garrett,,President,,LIB,Bob Barr,37,
+Garrett,,President,,REP,John McCain,8903,
+Garrett,,President,,UNF,Alan Keyes,0,
+Garrett,,President,,UNF,Blaine Taylor,0,
+Garrett,,President,,UNF,Brian Moore,0,
+Garrett,,President,,UNF,Charles Jay,0,
+Garrett,,President,,UNF,David Jon Sponheim,0,
+Garrett,,President,,UNF,Donald K. Allen,0,
+Garrett,,President,,UNF,Frank Moore,0,
+Garrett,,President,,UNF,James D. Criveau,0,
+Garrett,,President,,UNF,Joe Schriner,0,
+Garrett,,President,,UNF,Jose M. Aparicio,0,
+Garrett,,President,,UNF,Keith Russell Judd,0,
+Garrett,,President,,UNF,Lawson Mitchell Bone,0,
+Garrett,,President,,UNF,Lynne A. Starr,0,
+Garrett,,President,,UNF,Monroe Lee,0,
+Garrett,,President,,UNF,RaeDeen R. Heupel,0,
+Garrett,,President,,UNF,Ronald G. Hobbs,0,
+Garrett,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Garrett,,U.S. House,06,BOT,Other Write-Ins,2,
+Garrett,,U.S. House,06,DEM,Jennifer P. Dougherty,3663,
+Garrett,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",254,
+Garrett,,U.S. House,06,REP,Roscoe Bartlett,8445,TRUE
+Harford,,Appellate Judge,02,BOT,"Joseph F. Murphy, Jr.",83197,TRUE
+Harford,,Judge Circuit Court,03,BOT,Angela M. Eaves,92949,TRUE
+Harford,,Judge Circuit Court,03,BOT,Other Write-Ins,1259,
+Harford,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,83617,TRUE
+Harford,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,80629,TRUE
+Harford,,President,,BOT,Other Write-Ins,694,
+Harford,,President,,CON,Chuck Baldwin,278,
+Harford,,President,,DEM,Barack Obama,48552,TRUE
+Harford,,President,,GRN,Cynthia McKinney,227,
+Harford,,President,,IND,Ralph Nader,954,
+Harford,,President,,LIB,Bob Barr,833,
+Harford,,President,,REP,John McCain,71751,
+Harford,,President,,UNF,Alan Keyes,3,
+Harford,,President,,UNF,Blaine Taylor,0,
+Harford,,President,,UNF,Brian Moore,0,
+Harford,,President,,UNF,Charles Jay,0,
+Harford,,President,,UNF,David Jon Sponheim,0,
+Harford,,President,,UNF,Donald K. Allen,0,
+Harford,,President,,UNF,Frank Moore,0,
+Harford,,President,,UNF,James D. Criveau,0,
+Harford,,President,,UNF,Joe Schriner,1,
+Harford,,President,,UNF,Jose M. Aparicio,0,
+Harford,,President,,UNF,Keith Russell Judd,0,
+Harford,,President,,UNF,Lawson Mitchell Bone,0,
+Harford,,President,,UNF,Lynne A. Starr,1,
+Harford,,President,,UNF,Monroe Lee,0,
+Harford,,President,,UNF,RaeDeen R. Heupel,1,
+Harford,,President,,UNF,Ronald G. Hobbs,0,
+Harford,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Harford,,U.S. House,01,BOT,Other Write-Ins,54,
+Harford,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",26276,TRUE
+Harford,,U.S. House,01,LIB,Richard James Davis,1832,
+Harford,,U.S. House,01,REP,Andy Harris,36605,
+Harford,,U.S. House,02,BOT,Other Write-Ins,59,
+Harford,,U.S. House,02,DEM,C. A. Dutch Ruppersberger,24843,TRUE
+Harford,,U.S. House,02,LIB,Lorenzo Gaztanaga,1247,
+Harford,,U.S. House,02,REP,Richard Pryce Matthews,11205,
+Harford,,U.S. House,06,BOT,Other Write-Ins,23,
+Harford,,U.S. House,06,DEM,Jennifer P. Dougherty,5008,
+Harford,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",685,
+Harford,,U.S. House,06,REP,Roscoe Bartlett,10186,TRUE
+Howard,,Board of Education,,NON,Allen Dyer,54148,TRUE
+Howard,,Board of Education,,NON,Betsy Grater,34686,
+Howard,,Board of Education,,NON,Di Zou,22406,
+Howard,,Board of Education,,NON,Diane Butler,53459,
+Howard,,Board of Education,,NON,Ellen Flynn Giles,57266,TRUE
+Howard,,Board of Education,,NON,Janet Siddiqui,62126,TRUE
+Howard,,Board of Education,,NON,Other Write-Ins,1110,
+Howard,,Judge Circuit Court,05,BOT,Other Write-Ins,903,
+Howard,,Judge Circuit Court,05,BOT,Tim McCrone,103895,TRUE
+Howard,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,97563,TRUE
+Howard,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,93987,TRUE
+Howard,,President,,BOT,Other Write-Ins,588,
+Howard,,President,,CON,Chuck Baldwin,260,
+Howard,,President,,DEM,Barack Obama,87120,TRUE
+Howard,,President,,GRN,Cynthia McKinney,253,
+Howard,,President,,IND,Ralph Nader,848,
+Howard,,President,,LIB,Bob Barr,752,
+Howard,,President,,REP,John McCain,55393,
+Howard,,President,,UNF,Alan Keyes,15,
+Howard,,President,,UNF,Blaine Taylor,0,
+Howard,,President,,UNF,Brian Moore,1,
+Howard,,President,,UNF,Charles Jay,0,
+Howard,,President,,UNF,David Jon Sponheim,0,
+Howard,,President,,UNF,Donald K. Allen,3,
+Howard,,President,,UNF,Frank Moore,0,
+Howard,,President,,UNF,James D. Criveau,0,
+Howard,,President,,UNF,Joe Schriner,0,
+Howard,,President,,UNF,Jose M. Aparicio,0,
+Howard,,President,,UNF,Keith Russell Judd,0,
+Howard,,President,,UNF,Lawson Mitchell Bone,0,
+Howard,,President,,UNF,Lynne A. Starr,0,
+Howard,,President,,UNF,Monroe Lee,0,
+Howard,,President,,UNF,RaeDeen R. Heupel,0,
+Howard,,President,,UNF,Ronald G. Hobbs,0,
+Howard,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Howard,,U.S. House,03,BOT,Other Write-Ins,84,
+Howard,,U.S. House,03,DEM,John P. Sarbanes,26987,TRUE
+Howard,,U.S. House,03,REP,Thomas E. Pinkston Harris,10952,
+Howard,,U.S. House,07,BOT,Other Write-Ins,119,
+Howard,,U.S. House,07,DEM,Elijah Cummings,57299,TRUE
+Howard,,U.S. House,07,LIB,Ronald M. Owens-Bey,2358,
+Howard,,U.S. House,07,REP,Michael T. Hargadon,37481,
+Howard,,U.S. House,07,UNF,Charles U. Smith,3,
+Howard,,U.S. House,07,UNF,Ray Bly,11,
+Kent,,Appellate Judge,01,BOT,Sally D. Adkins,6703,TRUE
+Kent,,Board of Education,,NON,Chic Prince,4382,TRUE
+Kent,,Board of Education,,NON,"David Stanley Jones (Guru), Sr.",128,
+Kent,,Board of Education,,NON,Madhu Sidhu,1861,
+Kent,,Board of Education,,NON,Michael Harvey,5730,TRUE
+Kent,,Board of Education,,NON,Other Write-Ins,170,
+Kent,,Judge Circuit Court,02,BOT,J. Frederick Price,8301,TRUE
+Kent,,Judge Circuit Court,02,BOT,Other Write-Ins,56,
+Kent,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,6527,TRUE
+Kent,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,6228,TRUE
+Kent,,President,,BOT,Other Write-Ins,19,
+Kent,,President,,CON,Chuck Baldwin,15,
+Kent,,President,,DEM,Barack Obama,4953,TRUE
+Kent,,President,,GRN,Cynthia McKinney,18,
+Kent,,President,,IND,Ralph Nader,69,
+Kent,,President,,LIB,Bob Barr,41,
+Kent,,President,,REP,John McCain,4905,
+Kent,,President,,UNF,Alan Keyes,0,
+Kent,,President,,UNF,Blaine Taylor,0,
+Kent,,President,,UNF,Brian Moore,0,
+Kent,,President,,UNF,Charles Jay,0,
+Kent,,President,,UNF,David Jon Sponheim,0,
+Kent,,President,,UNF,Donald K. Allen,0,
+Kent,,President,,UNF,Frank Moore,0,
+Kent,,President,,UNF,James D. Criveau,0,
+Kent,,President,,UNF,Joe Schriner,0,
+Kent,,President,,UNF,Jose M. Aparicio,0,
+Kent,,President,,UNF,Keith Russell Judd,0,
+Kent,,President,,UNF,Lawson Mitchell Bone,0,
+Kent,,President,,UNF,Lynne A. Starr,0,
+Kent,,President,,UNF,Monroe Lee,0,
+Kent,,President,,UNF,RaeDeen R. Heupel,0,
+Kent,,President,,UNF,Ronald G. Hobbs,0,
+Kent,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Kent,,U.S. House,01,BOT,Other Write-Ins,12,
+Kent,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",6406,TRUE
+Kent,,U.S. House,01,LIB,Richard James Davis,175,
+Kent,,U.S. House,01,REP,Andy Harris,3182,
+Montgomery,,Board of Ed at Large,,NON,Other Write-Ins,1436,
+Montgomery,,Board of Ed at Large,,NON,Phil Kauffman,222842,TRUE
+Montgomery,,Board of Ed at Large,,NON,Tommy Le,107724,
+Montgomery,,Board of Education,002,NON,Laura V. Berthiaume,168694,TRUE
+Montgomery,,Board of Education,002,NON,Other Write-Ins,1330,
+Montgomery,,Board of Education,002,NON,Stephen N. Abrams,159510,
+Montgomery,,Board of Education,004,NON,Christopher S. Barclay,294250,TRUE
+Montgomery,,Board of Education,004,NON,Other Write-Ins,2547,
+Montgomery,,Judge Circuit Court,06,BOT,Mary Beth McCormick,273406,TRUE
+Montgomery,,Judge Circuit Court,06,BOT,Other Write-Ins,2821,
+Montgomery,,Judge Circuit Court,06,BOT,Robert Alan Greenberg,269195,TRUE
+Montgomery,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,295885,TRUE
+Montgomery,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,283994,TRUE
+Montgomery,,President,,BOT,Other Write-Ins,1539,
+Montgomery,,President,,CON,Chuck Baldwin,448,
+Montgomery,,President,,DEM,Barack Obama,314444,TRUE
+Montgomery,,President,,GRN,Cynthia McKinney,744,
+Montgomery,,President,,IND,Ralph Nader,2121,
+Montgomery,,President,,LIB,Bob Barr,1335,
+Montgomery,,President,,REP,John McCain,118608,
+Montgomery,,President,,UNF,Alan Keyes,16,
+Montgomery,,President,,UNF,Blaine Taylor,1,
+Montgomery,,President,,UNF,Brian Moore,1,
+Montgomery,,President,,UNF,Charles Jay,0,
+Montgomery,,President,,UNF,David Jon Sponheim,0,
+Montgomery,,President,,UNF,Donald K. Allen,1,
+Montgomery,,President,,UNF,Frank Moore,0,
+Montgomery,,President,,UNF,James D. Criveau,0,
+Montgomery,,President,,UNF,Joe Schriner,2,
+Montgomery,,President,,UNF,Jose M. Aparicio,0,
+Montgomery,,President,,UNF,Keith Russell Judd,0,
+Montgomery,,President,,UNF,Lawson Mitchell Bone,0,
+Montgomery,,President,,UNF,Lynne A. Starr,1,
+Montgomery,,President,,UNF,Monroe Lee,0,
+Montgomery,,President,,UNF,RaeDeen R. Heupel,0,
+Montgomery,,President,,UNF,Ronald G. Hobbs,0,
+Montgomery,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Montgomery,,U.S. House,04,BOT,Other Write-Ins,260,
+Montgomery,,U.S. House,04,DEM,Donna Edwards,83019,TRUE
+Montgomery,,U.S. House,04,LIB,Thibeaux Lincecum,2354,
+Montgomery,,U.S. House,04,REP,Peter James,31161,
+Montgomery,,U.S. House,04,UNF,Bobby Broadus,36,
+Montgomery,,U.S. House,04,UNF,"Darryn O`Shea Jackson, Sr.",14,
+Montgomery,,U.S. House,04,UNF,Steve Schulin,70,
+Montgomery,,U.S. House,06,BOT,Other Write-Ins,11,
+Montgomery,,U.S. House,06,DEM,Jennifer P. Dougherty,4694,
+Montgomery,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",201,
+Montgomery,,U.S. House,06,REP,Roscoe Bartlett,5024,TRUE
+Montgomery,,U.S. House,08,BOT,Other Write-Ins,306,
+Montgomery,,U.S. House,08,DEM,Chris Van Hollen,218111,TRUE
+Montgomery,,U.S. House,08,GRN,Gordon Clark,6370,
+Montgomery,,U.S. House,08,LIB,Ian Thomas,2464,
+Montgomery,,U.S. House,08,REP,Steve Hudson,65626,
+Montgomery,,U.S. House,08,UNF,Deborah A. Vollmer,187,
+Montgomery,,U.S. House,08,UNF,Lih Young,28,
+Prince George's,,Board of Ed At Large,,NON,Amber Waller,264747,TRUE
+Prince George's,,Judge Circuit Court,07,BOT,Albert W. Northrop,165689,TRUE
+Prince George's,,Judge Circuit Court,07,BOT,Andre Michael Chapdelaine,182481,TRUE
+Prince George's,,Judge Circuit Court,07,BOT,Crystal Dixon Mittelstaedt,183233,TRUE
+Prince George's,,Judge Circuit Court,07,BOT,"Larnzell Martin, Jr.",172184,TRUE
+Prince George's,,Judge Circuit Court,07,BOT,Nicholas Elias Rattal,146198,TRUE
+Prince George's,,Judge Circuit Court,07,BOT,Other Write-Ins,2225,
+Prince George's,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,246517,TRUE
+Prince George's,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,249888,TRUE
+Prince George's,,President,,BOT,Other Write-Ins,529,
+Prince George's,,President,,CON,Chuck Baldwin,303,
+Prince George's,,President,,DEM,Barack Obama,332396,TRUE
+Prince George's,,President,,GRN,Cynthia McKinney,460,
+Prince George's,,President,,IND,Ralph Nader,964,
+Prince George's,,President,,LIB,Bob Barr,516,
+Prince George's,,President,,REP,John McCain,38833,
+Prince George's,,President,,UNF,Alan Keyes,19,
+Prince George's,,President,,UNF,Blaine Taylor,1,
+Prince George's,,President,,UNF,Brian Moore,0,
+Prince George's,,President,,UNF,Charles Jay,0,
+Prince George's,,President,,UNF,David Jon Sponheim,0,
+Prince George's,,President,,UNF,Donald K. Allen,2,
+Prince George's,,President,,UNF,Frank Moore,0,
+Prince George's,,President,,UNF,James D. Criveau,0,
+Prince George's,,President,,UNF,Joe Schriner,3,
+Prince George's,,President,,UNF,Jose M. Aparicio,0,
+Prince George's,,President,,UNF,Keith Russell Judd,0,
+Prince George's,,President,,UNF,Lawson Mitchell Bone,0,
+Prince George's,,President,,UNF,Lynne A. Starr,0,
+Prince George's,,President,,UNF,Monroe Lee,0,
+Prince George's,,President,,UNF,RaeDeen R. Heupel,0,
+Prince George's,,President,,UNF,Ronald G. Hobbs,0,
+Prince George's,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Prince George's,,U.S. House,04,BOT,Other Write-Ins,193,
+Prince George's,,U.S. House,04,DEM,Donna Edwards,175685,TRUE
+Prince George's,,U.S. House,04,LIB,Thibeaux Lincecum,1030,
+Prince George's,,U.S. House,04,REP,Peter James,7578,
+Prince George's,,U.S. House,04,UNF,Bobby Broadus,12,
+Prince George's,,U.S. House,04,UNF,"Darryn O`Shea Jackson, Sr.",14,
+Prince George's,,U.S. House,04,UNF,Steve Schulin,5,
+Prince George's,,U.S. House,05,BOT,Other Write-Ins,221,
+Prince George's,,U.S. House,05,DEM,Steny H. Hoyer,138614,TRUE
+Prince George's,,U.S. House,05,LIB,Darlene H. Nicholas,3609,
+Prince George's,,U.S. House,05,REP,Collins Bailey,21054,
+Prince George's,,U.S. House,08,BOT,Other Write-Ins,11,
+Prince George's,,U.S. House,08,DEM,Chris Van Hollen,11629,TRUE
+Prince George's,,U.S. House,08,GRN,Gordon Clark,458,
+Prince George's,,U.S. House,08,LIB,Ian Thomas,98,
+Prince George's,,U.S. House,08,REP,Steve Hudson,725,
+Prince George's,,U.S. House,08,UNF,Deborah A. Vollmer,1,
+Prince George's,,U.S. House,08,UNF,Lih Young,0,
+Queen Anne's,,Appellate Judge,01,BOT,Sally D. Adkins,16110,TRUE
+Queen Anne's,,Board of Ed at Large,,NON,Faye C. Lister,11384,TRUE
+Queen Anne's,,Board of Ed at Large,,NON,Mark Cascia,6845,
+Queen Anne's,,Board of Ed at Large,,NON,Other Write-Ins,52,
+Queen Anne's,,Board of Education,001,NON,Cindy Todd,11160,TRUE
+Queen Anne's,,Board of Education,001,NON,"H. Joseph Joe Gannon, Jr.",8471,
+Queen Anne's,,Board of Education,001,NON,Other Write-Ins,19,
+Queen Anne's,,Board of Education,002,NON,Other Write-Ins,68,
+Queen Anne's,,Board of Education,002,NON,"Vito Tinelli, III",16622,TRUE
+Queen Anne's,,Board of Education,003,NON,Cheryl H. Jaffe,6892,
+Queen Anne's,,Board of Education,003,NON,Edward Eddie Miller,9859,TRUE
+Queen Anne's,,Board of Education,003,NON,Other Write-Ins,27,
+Queen Anne's,,Board of Education,004,NON,Allen T. Cork,6253,
+Queen Anne's,,Board of Education,004,NON,Lisa M. Darden,10832,TRUE
+Queen Anne's,,Board of Education,004,NON,Other Write-Ins,22,
+Queen Anne's,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,15707,TRUE
+Queen Anne's,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,14855,TRUE
+Queen Anne's,,President,,BOT,Other Write-Ins,80,
+Queen Anne's,,President,,CON,Chuck Baldwin,52,
+Queen Anne's,,President,,DEM,Barack Obama,8575,TRUE
+Queen Anne's,,President,,GRN,Cynthia McKinney,26,
+Queen Anne's,,President,,IND,Ralph Nader,147,
+Queen Anne's,,President,,LIB,Bob Barr,78,
+Queen Anne's,,President,,REP,John McCain,15087,
+Queen Anne's,,President,,UNF,Alan Keyes,0,
+Queen Anne's,,President,,UNF,Blaine Taylor,0,
+Queen Anne's,,President,,UNF,Brian Moore,0,
+Queen Anne's,,President,,UNF,Charles Jay,0,
+Queen Anne's,,President,,UNF,David Jon Sponheim,0,
+Queen Anne's,,President,,UNF,Donald K. Allen,0,
+Queen Anne's,,President,,UNF,Frank Moore,0,
+Queen Anne's,,President,,UNF,James D. Criveau,0,
+Queen Anne's,,President,,UNF,Joe Schriner,0,
+Queen Anne's,,President,,UNF,Jose M. Aparicio,0,
+Queen Anne's,,President,,UNF,Keith Russell Judd,0,
+Queen Anne's,,President,,UNF,Lawson Mitchell Bone,0,
+Queen Anne's,,President,,UNF,Lynne A. Starr,0,
+Queen Anne's,,President,,UNF,Monroe Lee,0,
+Queen Anne's,,President,,UNF,RaeDeen R. Heupel,0,
+Queen Anne's,,President,,UNF,Ronald G. Hobbs,0,
+Queen Anne's,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Queen Anne's,,U.S. House,01,BOT,Other Write-Ins,17,
+Queen Anne's,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",12752,TRUE
+Queen Anne's,,U.S. House,01,LIB,Richard James Davis,416,
+Queen Anne's,,U.S. House,01,REP,Andy Harris,10426,
+Somerset,,Appellate Judge,01,BOT,Sally D. Adkins,6668,TRUE
+Somerset,,Board of Education,002,NON,Other Write-Ins,0,TRUE
+Somerset,,Board of Education,004,NON,Other Write-Ins,0,TRUE
+Somerset,,Judge Circuit Court,01,BOT,Daniel M. Long,8304,TRUE
+Somerset,,Judge Circuit Court,01,BOT,Other Write-Ins,60,
+Somerset,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,6380,TRUE
+Somerset,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,6079,TRUE
+Somerset,,President,,BOT,Other Write-Ins,9,
+Somerset,,President,,CON,Chuck Baldwin,8,
+Somerset,,President,,DEM,Barack Obama,4779,TRUE
+Somerset,,President,,GRN,Cynthia McKinney,17,
+Somerset,,President,,IND,Ralph Nader,46,
+Somerset,,President,,LIB,Bob Barr,27,
+Somerset,,President,,REP,John McCain,5037,
+Somerset,,President,,UNF,Alan Keyes,1,
+Somerset,,President,,UNF,Blaine Taylor,0,
+Somerset,,President,,UNF,Brian Moore,0,
+Somerset,,President,,UNF,Charles Jay,0,
+Somerset,,President,,UNF,David Jon Sponheim,0,
+Somerset,,President,,UNF,Donald K. Allen,0,
+Somerset,,President,,UNF,Frank Moore,0,
+Somerset,,President,,UNF,James D. Criveau,0,
+Somerset,,President,,UNF,Joe Schriner,0,
+Somerset,,President,,UNF,Jose M. Aparicio,0,
+Somerset,,President,,UNF,Keith Russell Judd,0,
+Somerset,,President,,UNF,Lawson Mitchell Bone,0,
+Somerset,,President,,UNF,Lynne A. Starr,0,
+Somerset,,President,,UNF,Monroe Lee,0,
+Somerset,,President,,UNF,RaeDeen R. Heupel,0,
+Somerset,,President,,UNF,Ronald G. Hobbs,0,
+Somerset,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Somerset,,U.S. House,01,BOT,Other Write-Ins,4,
+Somerset,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",5668,TRUE
+Somerset,,U.S. House,01,LIB,Richard James Davis,177,
+Somerset,,U.S. House,01,REP,Andy Harris,3775,
+St. Mary's,,Board of Ed at Large,,NON,Gary Kessler,18068,
+St. Mary's,,Board of Ed at Large,,NON,Marilyn Crosby,18655,TRUE
+St. Mary's,,Board of Ed at Large,,NON,Other Write-Ins,139,
+St. Mary's,,Board of Education,002,NON,Cathy Allen,33786,TRUE
+St. Mary's,,Board of Education,002,NON,Other Write-Ins,288,
+St. Mary's,,Board of Education,004,NON,Mary M. Washington,34543,TRUE
+St. Mary's,,Board of Education,004,NON,Other Write-Ins,312,
+St. Mary's,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,30925,TRUE
+St. Mary's,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,29652,TRUE
+St. Mary's,,President,,BOT,Other Write-Ins,101,
+St. Mary's,,President,,CON,Chuck Baldwin,84,
+St. Mary's,,President,,DEM,Barack Obama,19023,TRUE
+St. Mary's,,President,,GRN,Cynthia McKinney,72,
+St. Mary's,,President,,IND,Ralph Nader,261,
+St. Mary's,,President,,LIB,Bob Barr,163,
+St. Mary's,,President,,REP,John McCain,24705,
+St. Mary's,,President,,UNF,Alan Keyes,0,
+St. Mary's,,President,,UNF,Blaine Taylor,0,
+St. Mary's,,President,,UNF,Brian Moore,0,
+St. Mary's,,President,,UNF,Charles Jay,0,
+St. Mary's,,President,,UNF,David Jon Sponheim,0,
+St. Mary's,,President,,UNF,Donald K. Allen,0,
+St. Mary's,,President,,UNF,Frank Moore,0,
+St. Mary's,,President,,UNF,James D. Criveau,0,
+St. Mary's,,President,,UNF,Joe Schriner,0,
+St. Mary's,,President,,UNF,Jose M. Aparicio,0,
+St. Mary's,,President,,UNF,Keith Russell Judd,0,
+St. Mary's,,President,,UNF,Lawson Mitchell Bone,0,
+St. Mary's,,President,,UNF,Lynne A. Starr,0,
+St. Mary's,,President,,UNF,Monroe Lee,0,
+St. Mary's,,President,,UNF,RaeDeen R. Heupel,0,
+St. Mary's,,President,,UNF,Ronald G. Hobbs,0,
+St. Mary's,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+St. Mary's,,U.S. House,05,BOT,Other Write-Ins,35,
+St. Mary's,,U.S. House,05,DEM,Steny H. Hoyer,26634,TRUE
+St. Mary's,,U.S. House,05,LIB,Darlene H. Nicholas,967,
+St. Mary's,,U.S. House,05,REP,Collins Bailey,15386,
+Talbot,,Appellate Judge,01,BOT,Sally D. Adkins,14798,TRUE
+Talbot,,Board of Education,002,NON,Maryann Judy,1366,
+Talbot,,Board of Education,002,NON,Norman Ernest Bowie,1519,TRUE
+Talbot,,Board of Education,002,NON,Other Write-Ins,12,
+Talbot,,Board of Education,005,NON,Juanita Sue Hopkins,2443,TRUE
+Talbot,,Board of Education,005,NON,Other Write-Ins,35,
+Talbot,,Board of Education,006,NON,Donna M. Matthews,1888,TRUE
+Talbot,,Board of Education,006,NON,John P. Mastandrea,680,
+Talbot,,Board of Education,006,NON,Other Write-Ins,23,
+Talbot,,Judge Circuit Court,02,BOT,Broughton Bo Earnest,16003,TRUE
+Talbot,,Judge Circuit Court,02,BOT,Other Write-Ins,128,
+Talbot,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,13910,TRUE
+Talbot,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,13448,TRUE
+Talbot,,President,,BOT,Other Write-Ins,46,
+Talbot,,President,,CON,Chuck Baldwin,26,
+Talbot,,President,,DEM,Barack Obama,9035,TRUE
+Talbot,,President,,GRN,Cynthia McKinney,26,
+Talbot,,President,,IND,Ralph Nader,109,
+Talbot,,President,,LIB,Bob Barr,91,
+Talbot,,President,,REP,John McCain,10995,
+Talbot,,President,,UNF,Alan Keyes,0,
+Talbot,,President,,UNF,Blaine Taylor,0,
+Talbot,,President,,UNF,Brian Moore,0,
+Talbot,,President,,UNF,Charles Jay,0,
+Talbot,,President,,UNF,David Jon Sponheim,0,
+Talbot,,President,,UNF,Donald K. Allen,0,
+Talbot,,President,,UNF,Frank Moore,0,
+Talbot,,President,,UNF,James D. Criveau,0,
+Talbot,,President,,UNF,Joe Schriner,0,
+Talbot,,President,,UNF,Jose M. Aparicio,0,
+Talbot,,President,,UNF,Keith Russell Judd,0,
+Talbot,,President,,UNF,Lawson Mitchell Bone,0,
+Talbot,,President,,UNF,Lynne A. Starr,0,
+Talbot,,President,,UNF,Monroe Lee,0,
+Talbot,,President,,UNF,RaeDeen R. Heupel,0,
+Talbot,,President,,UNF,Ronald G. Hobbs,0,
+Talbot,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Talbot,,U.S. House,01,BOT,Other Write-Ins,21,
+Talbot,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",10985,TRUE
+Talbot,,U.S. House,01,LIB,Richard James Davis,372,
+Talbot,,U.S. House,01,REP,Andy Harris,8533,
+Washington,,Board of Education,,NON,Donna L. Brightman,23703,TRUE
+Washington,,Board of Education,,NON,Jacqueline Fischer,20559,
+Washington,,Board of Education,,NON,Justin M. Hartings,22531,TRUE
+Washington,,Board of Education,,NON,Margie Lowery,14319,
+Washington,,Board of Education,,NON,Meredith Fouche,16108,
+Washington,,Board of Education,,NON,Other Write-Ins,421,
+Washington,,Board of Education,,NON,"Russell French Williams, II",10100,
+Washington,,Board of Education,,NON,W. Edward Forrest,23861,TRUE
+Washington,,Board of Education,,NON,Wayne David Ridenour,27869,TRUE
+Washington,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,40422,TRUE
+Washington,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,37849,TRUE
+Washington,,President,,BOT,Other Write-Ins,236,
+Washington,,President,,CON,Chuck Baldwin,102,
+Washington,,President,,DEM,Barack Obama,26245,TRUE
+Washington,,President,,GRN,Cynthia McKinney,106,
+Washington,,President,,IND,Ralph Nader,480,
+Washington,,President,,LIB,Bob Barr,261,
+Washington,,President,,REP,John McCain,34169,
+Washington,,President,,UNF,Alan Keyes,0,
+Washington,,President,,UNF,Blaine Taylor,0,
+Washington,,President,,UNF,Brian Moore,0,
+Washington,,President,,UNF,Charles Jay,0,
+Washington,,President,,UNF,David Jon Sponheim,0,
+Washington,,President,,UNF,Donald K. Allen,1,
+Washington,,President,,UNF,Frank Moore,0,
+Washington,,President,,UNF,James D. Criveau,0,
+Washington,,President,,UNF,Joe Schriner,0,
+Washington,,President,,UNF,Jose M. Aparicio,0,
+Washington,,President,,UNF,Keith Russell Judd,0,
+Washington,,President,,UNF,Lawson Mitchell Bone,0,
+Washington,,President,,UNF,Lynne A. Starr,0,
+Washington,,President,,UNF,Monroe Lee,0,
+Washington,,President,,UNF,RaeDeen R. Heupel,0,
+Washington,,President,,UNF,Ronald G. Hobbs,0,
+Washington,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Washington,,U.S. House,06,BOT,Other Write-Ins,37,
+Washington,,U.S. House,06,DEM,Jennifer P. Dougherty,24277,
+Washington,,U.S. House,06,LIB,"Gary W. Hoover, Sr.",2323,
+Washington,,U.S. House,06,REP,Roscoe Bartlett,32278,TRUE
+Wicomico,,Appellate Judge,01,BOT,Sally D. Adkins,31001,TRUE
+Wicomico,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,28978,TRUE
+Wicomico,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,27460,TRUE
+Wicomico,,President,,BOT,Other Write-Ins,96,
+Wicomico,,President,,CON,Chuck Baldwin,43,
+Wicomico,,President,,DEM,Barack Obama,19436,TRUE
+Wicomico,,President,,GRN,Cynthia McKinney,59,
+Wicomico,,President,,IND,Ralph Nader,246,
+Wicomico,,President,,LIB,Bob Barr,121,
+Wicomico,,President,,REP,John McCain,21849,
+Wicomico,,President,,UNF,Alan Keyes,1,
+Wicomico,,President,,UNF,Blaine Taylor,0,
+Wicomico,,President,,UNF,Brian Moore,0,
+Wicomico,,President,,UNF,Charles Jay,0,
+Wicomico,,President,,UNF,David Jon Sponheim,0,
+Wicomico,,President,,UNF,Donald K. Allen,2,
+Wicomico,,President,,UNF,Frank Moore,0,
+Wicomico,,President,,UNF,James D. Criveau,0,
+Wicomico,,President,,UNF,Joe Schriner,0,
+Wicomico,,President,,UNF,Jose M. Aparicio,0,
+Wicomico,,President,,UNF,Keith Russell Judd,0,
+Wicomico,,President,,UNF,Lawson Mitchell Bone,0,
+Wicomico,,President,,UNF,Lynne A. Starr,0,
+Wicomico,,President,,UNF,Monroe Lee,0,
+Wicomico,,President,,UNF,RaeDeen R. Heupel,0,
+Wicomico,,President,,UNF,Ronald G. Hobbs,1,
+Wicomico,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Wicomico,,U.S. House,01,BOT,Other Write-Ins,36,
+Wicomico,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",22841,TRUE
+Wicomico,,U.S. House,01,LIB,Richard James Davis,834,
+Wicomico,,U.S. House,01,REP,Andy Harris,17023,
+Worcester,,Appellate Judge,01,BOT,Sally D. Adkins,19703,TRUE
+Worcester,,Board of Education,002,NON,Garry Lee Mumford,2412,TRUE
+Worcester,,Board of Education,002,NON,Other Write-Ins,22,
+Worcester,,Board of Education,003,NON,Other Write-Ins,47,
+Worcester,,Board of Education,003,NON,Sara D. Thompson,3757,TRUE
+Worcester,,Board of Education,005,NON,Jonathan C. Cook,3700,TRUE
+Worcester,,Board of Education,005,NON,Other Write-Ins,20,
+Worcester,,Judge Spec Appeal at Lg,,BOT,Deborah Eyler,18914,TRUE
+Worcester,,Judge Spec Appeal at Lg,,BOT,Robert A. Zarnoch,18206,TRUE
+Worcester,,President,,BOT,Other Write-Ins,49,
+Worcester,,President,,CON,Chuck Baldwin,27,
+Worcester,,President,,DEM,Barack Obama,11374,TRUE
+Worcester,,President,,GRN,Cynthia McKinney,49,
+Worcester,,President,,IND,Ralph Nader,168,
+Worcester,,President,,LIB,Bob Barr,72,
+Worcester,,President,,REP,John McCain,15607,
+Worcester,,President,,UNF,Alan Keyes,0,
+Worcester,,President,,UNF,Blaine Taylor,0,
+Worcester,,President,,UNF,Brian Moore,0,
+Worcester,,President,,UNF,Charles Jay,0,
+Worcester,,President,,UNF,David Jon Sponheim,0,
+Worcester,,President,,UNF,Donald K. Allen,0,
+Worcester,,President,,UNF,Frank Moore,0,
+Worcester,,President,,UNF,James D. Criveau,0,
+Worcester,,President,,UNF,Joe Schriner,0,
+Worcester,,President,,UNF,Jose M. Aparicio,0,
+Worcester,,President,,UNF,Keith Russell Judd,0,
+Worcester,,President,,UNF,Lawson Mitchell Bone,0,
+Worcester,,President,,UNF,Lynne A. Starr,0,
+Worcester,,President,,UNF,Monroe Lee,0,
+Worcester,,President,,UNF,RaeDeen R. Heupel,0,
+Worcester,,President,,UNF,Ronald G. Hobbs,0,
+Worcester,,President,,UNF,"Theodis (Ted) Brown, Sr.",0,
+Worcester,,U.S. House,01,BOT,Other Write-Ins,28,
+Worcester,,U.S. House,01,DEM,"Frank M. Kratovil, Jr.",14076,TRUE
+Worcester,,U.S. House,01,LIB,Richard James Davis,532,
+Worcester,,U.S. House,01,REP,Andy Harris,11845,

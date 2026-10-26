@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "scope": "state_senate",
+    "contest_type": "us_senate",
+    "year": 2016,
+    "district_lines_year": 2022,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2016_gen_2020_blocks.zip",
+    "bef_file": "data/MD-2022OFFICIALLYADOPTEDSENATE.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20161108__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1": [
+        "ALLEGANY",
+        "GARRETT"
+      ],
+      "29": [
+        "SAINTMARYS"
+      ],
+      "36": [
+        "KENT",
+        "QUEENANNES"
+      ],
+      "37": [
+        "DORCHESTER",
+        "TALBOT"
+      ],
+      "38": [
+        "SOMERSET",
+        "WORCESTER"
+      ]
+    },
+    "allocated_components": {
+      "1": [
+        "WASHINGTON"
+      ],
+      "10": [
+        "BALTIMORE"
+      ],
+      "11": [
+        "BALTIMORE"
+      ],
+      "12": [
+        "ANNEARUNDEL",
+        "HOWARD"
+      ],
+      "13": [
+        "HOWARD"
+      ],
+      "14": [
+        "MONTGOMERY"
+      ],
+      "15": [
+        "MONTGOMERY"
+      ],
+      "16": [
+        "MONTGOMERY"
+      ],
+      "17": [
+        "MONTGOMERY"
+      ],
+      "18": [
+        "MONTGOMERY"
+      ],
+      "19": [
+        "MONTGOMERY"
+      ],
+      "2": [
+        "FREDERICK",
+        "WASHINGTON"
+      ],
+      "20": [
+        "MONTGOMERY"
+      ],
+      "21": [
+        "ANNEARUNDEL",
+        "PRINCEGEORGES"
+      ],
+      "22": [
+        "PRINCEGEORGES"
+      ],
+      "23": [
+        "PRINCEGEORGES"
+      ],
+      "24": [
+        "PRINCEGEORGES"
+      ],
+      "25": [
+        "PRINCEGEORGES"
+      ],
+      "26": [
+        "PRINCEGEORGES"
+      ],
+      "27": [
+        "CALVERT",
+        "CHARLES",
+        "PRINCEGEORGES"
+      ],
+      "28": [
+        "CHARLES"
+      ],
+      "29": [
+        "CALVERT"
+      ],
+      "3": [
+        "FREDERICK"
+      ],
+      "30": [
+        "ANNEARUNDEL"
+      ],
+      "31": [
+        "ANNEARUNDEL"
+      ],
+      "32": [
+        "ANNEARUNDEL"
+      ],
+      "33": [
+        "ANNEARUNDEL"
+      ],
+      "34": [
+        "HARFORD"
+      ],
+      "35": [
+        "CECIL",
+        "HARFORD"
+      ],
+      "36": [
+        "CAROLINE",
+        "CECIL"
+      ],
+      "37": [
+        "CAROLINE",
+        "WICOMICO"
+      ],
+      "38": [
+        "WICOMICO"
+      ],
+      "39": [
+        "MONTGOMERY"
+      ],
+      "4": [
+        "FREDERICK"
+      ],
+      "40": [
+        "BALTIMORECITY"
+      ],
+      "41": [
+        "BALTIMORECITY"
+      ],
+      "42": [
+        "BALTIMORE",
+        "CARROLL"
+      ],
+      "43": [
+        "BALTIMORE",
+        "BALTIMORECITY"
+      ],
+      "44": [
+        "BALTIMORE"
+      ],
+      "45": [
+        "BALTIMORECITY"
+      ],
+      "46": [
+        "BALTIMORECITY"
+      ],
+      "47": [
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "CARROLL",
+        "FREDERICK"
+      ],
+      "6": [
+        "BALTIMORE"
+      ],
+      "7": [
+        "BALTIMORE",
+        "HARFORD"
+      ],
+      "8": [
+        "BALTIMORE"
+      ],
+      "9": [
+        "HOWARD",
+        "MONTGOMERY"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 59218,
+        "dem_votes": 17293,
+        "rep_votes": 39596,
+        "other_votes": 2329,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 37.662535040021616
+      },
+      "2": {
+        "total_votes": 52825,
+        "dem_votes": 20530,
+        "rep_votes": 30035,
+        "other_votes": 2260,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 17.993374349266446
+      },
+      "3": {
+        "total_votes": 47643,
+        "dem_votes": 27650,
+        "rep_votes": 17697,
+        "other_votes": 2296,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -20.890791931658377
+      },
+      "4": {
+        "total_votes": 66112,
+        "dem_votes": 26436,
+        "rep_votes": 37331,
+        "other_votes": 2345,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 16.479610358180057
+      },
+      "5": {
+        "total_votes": 70814,
+        "dem_votes": 22768,
+        "rep_votes": 46134,
+        "other_votes": 1912,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 32.996300166633716
+      },
+      "6": {
+        "total_votes": 55058,
+        "dem_votes": 25729,
+        "rep_votes": 27504,
+        "other_votes": 1825,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 3.223873006647535
+      },
+      "7": {
+        "total_votes": 66137,
+        "dem_votes": 23311,
+        "rep_votes": 41006,
+        "other_votes": 1820,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 26.755069023390842
+      },
+      "8": {
+        "total_votes": 56937,
+        "dem_votes": 32704,
+        "rep_votes": 22197,
+        "other_votes": 2036,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -18.453729560742573
+      },
+      "9": {
+        "total_votes": 60444,
+        "dem_votes": 30936,
+        "rep_votes": 27631,
+        "other_votes": 1877,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -5.467871087287406
+      },
+      "10": {
+        "total_votes": 50825,
+        "dem_votes": 36772,
+        "rep_votes": 12268,
+        "other_votes": 1785,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -48.21249385145106
+      },
+      "11": {
+        "total_votes": 59877,
+        "dem_votes": 37068,
+        "rep_votes": 21140,
+        "other_votes": 1669,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.601199124872654
+      },
+      "12": {
+        "total_votes": 58423,
+        "dem_votes": 36260,
+        "rep_votes": 19944,
+        "other_votes": 2219,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -27.927357376375745
+      },
+      "13": {
+        "total_votes": 64044,
+        "dem_votes": 43363,
+        "rep_votes": 18232,
+        "other_votes": 2449,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.24020985572419
+      },
+      "14": {
+        "total_votes": 63319,
+        "dem_votes": 43210,
+        "rep_votes": 18273,
+        "other_votes": 1836,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.383123549013725
+      },
+      "15": {
+        "total_votes": 60913,
+        "dem_votes": 41654,
+        "rep_votes": 17547,
+        "other_votes": 1712,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -39.576116756685764
+      },
+      "16": {
+        "total_votes": 68498,
+        "dem_votes": 52648,
+        "rep_votes": 14506,
+        "other_votes": 1344,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -55.683377616864725
+      },
+      "17": {
+        "total_votes": 51685,
+        "dem_votes": 39026,
+        "rep_votes": 11029,
+        "other_votes": 1630,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -54.16852084744123
+      },
+      "18": {
+        "total_votes": 58471,
+        "dem_votes": 47099,
+        "rep_votes": 9661,
+        "other_votes": 1711,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -64.02832173214071
+      },
+      "19": {
+        "total_votes": 57504,
+        "dem_votes": 43038,
+        "rep_votes": 12857,
+        "other_votes": 1609,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -52.48504451864218
+      },
+      "20": {
+        "total_votes": 49158,
+        "dem_votes": 42268,
+        "rep_votes": 5102,
+        "other_votes": 1788,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -75.60519142357298
+      },
+      "21": {
+        "total_votes": 47748,
+        "dem_votes": 35809,
+        "rep_votes": 9991,
+        "other_votes": 1948,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -54.07137471726564
+      },
+      "22": {
+        "total_votes": 51012,
+        "dem_votes": 44151,
+        "rep_votes": 4727,
+        "other_votes": 2134,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -77.28377636634517
+      },
+      "23": {
+        "total_votes": 56972,
+        "dem_votes": 45603,
+        "rep_votes": 9539,
+        "other_votes": 1830,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -63.30127079969108
+      },
+      "24": {
+        "total_votes": 60507,
+        "dem_votes": 55796,
+        "rep_votes": 2842,
+        "other_votes": 1869,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -87.51714677640604
+      },
+      "25": {
+        "total_votes": 55649,
+        "dem_votes": 51752,
+        "rep_votes": 2274,
+        "other_votes": 1623,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -88.91085194702511
+      },
+      "26": {
+        "total_votes": 57156,
+        "dem_votes": 52100,
+        "rep_votes": 3396,
+        "other_votes": 1660,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -85.21240114773602
+      },
+      "27": {
+        "total_votes": 64445,
+        "dem_votes": 36625,
+        "rep_votes": 25525,
+        "other_votes": 2295,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -17.223989448366826
+      },
+      "28": {
+        "total_votes": 62429,
+        "dem_votes": 39141,
+        "rep_votes": 21312,
+        "other_votes": 1976,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -28.558842845472455
+      },
+      "29": {
+        "total_votes": 59020,
+        "dem_votes": 22491,
+        "rep_votes": 33943,
+        "other_votes": 2586,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 19.403592002710944
+      },
+      "30": {
+        "total_votes": 57531,
+        "dem_votes": 29047,
+        "rep_votes": 26661,
+        "other_votes": 1823,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -4.147329265960961
+      },
+      "31": {
+        "total_votes": 65732,
+        "dem_votes": 24136,
+        "rep_votes": 39588,
+        "other_votes": 2008,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 23.507576218584557
+      },
+      "32": {
+        "total_votes": 51067,
+        "dem_votes": 30307,
+        "rep_votes": 18907,
+        "other_votes": 1853,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -22.32361407562614
+      },
+      "33": {
+        "total_votes": 66519,
+        "dem_votes": 31721,
+        "rep_votes": 32639,
+        "other_votes": 2159,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 1.3800568258693005
+      },
+      "34": {
+        "total_votes": 59656,
+        "dem_votes": 27815,
+        "rep_votes": 29757,
+        "other_votes": 2084,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 3.255330561888159
+      },
+      "35": {
+        "total_votes": 72080,
+        "dem_votes": 20091,
+        "rep_votes": 49957,
+        "other_votes": 2032,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 41.43451720310766
+      },
+      "36": {
+        "total_votes": 61854,
+        "dem_votes": 22669,
+        "rep_votes": 37283,
+        "other_votes": 1902,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 23.626604584990464
+      },
+      "37": {
+        "total_votes": 61935,
+        "dem_votes": 27622,
+        "rep_votes": 32690,
+        "other_votes": 1623,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 8.182772261241626
+      },
+      "38": {
+        "total_votes": 60880,
+        "dem_votes": 23865,
+        "rep_votes": 35208,
+        "other_votes": 1807,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 18.631734559789752
+      },
+      "39": {
+        "total_votes": 55525,
+        "dem_votes": 41683,
+        "rep_votes": 11858,
+        "other_votes": 1984,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -53.714542998649264
+      },
+      "40": {
+        "total_votes": 53919,
+        "dem_votes": 46719,
+        "rep_votes": 4359,
+        "other_votes": 2841,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -78.56228787625884
+      },
+      "41": {
+        "total_votes": 46986,
+        "dem_votes": 39519,
+        "rep_votes": 5612,
+        "other_votes": 1855,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -72.16404886561955
+      },
+      "42": {
+        "total_votes": 69855,
+        "dem_votes": 25442,
+        "rep_votes": 42343,
+        "other_votes": 2070,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 24.1944026912891
+      },
+      "43": {
+        "total_votes": 52243,
+        "dem_votes": 41007,
+        "rep_votes": 8138,
+        "other_votes": 3098,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -62.915605918496254
+      },
+      "44": {
+        "total_votes": 54157,
+        "dem_votes": 37423,
+        "rep_votes": 14705,
+        "other_votes": 2029,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -41.94840925457466
+      },
+      "45": {
+        "total_votes": 51188,
+        "dem_votes": 43835,
+        "rep_votes": 5128,
+        "other_votes": 2225,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -75.61733218723138
+      },
+      "46": {
+        "total_votes": 48124,
+        "dem_votes": 34212,
+        "rep_votes": 11700,
+        "other_votes": 2212,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -46.77915385254758
+      },
+      "47": {
+        "total_votes": 44076,
+        "dem_votes": 39688,
+        "rep_votes": 2785,
+        "other_votes": 1603,
+        "dem_candidate": "Chris Van Hollen",
+        "rep_candidate": "Kathy Szeliga",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -83.72583719030764
+      }
+    }
+  }
+}

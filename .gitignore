@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local tooling and scratch work
+.vendor/
+tmp/
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Raw source material. Generated runtime assets remain tracked.
+data/*.zip
+data/*.xlsx
+data/*.pdf
+data/2008 vtds/
+data/Allegany_By_Precinct_2010_General.csv
+data/State_Precinct_Reference_2010_Primary.csv
+data/openelections/*.csv

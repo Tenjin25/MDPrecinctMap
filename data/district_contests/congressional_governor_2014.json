@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "governor",
+    "year": 2014,
+    "district_lines_year": 2022,
+    "vtd_vintage": 2012,
+    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2022_enacted.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1733177.0,
+      "direct_geographic_votes": 1304581.0,
+      "unmatched_geographic_votes": 50193.0,
+      "pseudo_votes": 378403.0,
+      "aliased_geographic_votes": 16326.0,
+      "imputed_votes": 428596.0,
+      "allocated_votes": 1733177,
+      "matched_precinct_keys": 1830,
+      "unmatched_precinct_keys": 222,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 75.27107733370568,
+      "direct_geographic_vote_coverage_pct": 96.29510161842492
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 196557,
+        "dem_votes": 69766,
+        "rep_votes": 122947,
+        "other_votes": 3844,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 27.056273752651904
+      },
+      "3": {
+        "total_votes": 246361,
+        "dem_votes": 91626,
+        "rep_votes": 150404,
+        "other_votes": 4331,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 23.85848409447924
+      },
+      "5": {
+        "total_votes": 227599,
+        "dem_votes": 114026,
+        "rep_votes": 110346,
+        "other_votes": 3227,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -1.6168788087821124
+      },
+      "7": {
+        "total_votes": 186090,
+        "dem_votes": 125493,
+        "rep_votes": 56035,
+        "other_votes": 4562,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -37.32495029286904
+      },
+      "2": {
+        "total_votes": 255241,
+        "dem_votes": 89502,
+        "rep_votes": 160661,
+        "other_votes": 5078,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 27.879141673947366
+      },
+      "1": {
+        "total_votes": 252937,
+        "dem_votes": 61013,
+        "rep_votes": 187701,
+        "other_votes": 4223,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 50.08678050265482
+      },
+      "8": {
+        "total_votes": 209942,
+        "dem_votes": 132701,
+        "rep_votes": 74356,
+        "other_votes": 2885,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -27.791008945327754
+      },
+      "4": {
+        "total_votes": 158450,
+        "dem_votes": 135046,
+        "rep_votes": 21950,
+        "other_votes": 1454,
+        "dem_candidate": "Anthony G. Brown",
+        "rep_candidate": "Larry Hogan",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -71.3764594509309
+      }
+    }
+  }
+}

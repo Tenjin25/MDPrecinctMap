@@ -1,0 +1,47 @@
+{
+  "status": "provisional",
+  "vtd_vintage": 2012,
+  "vtd_features": 1859,
+  "block_assignment": {
+    "blocks": 145835,
+    "assigned": 145835,
+    "nearest_fallback": 0,
+    "missing_county": 0
+  },
+  "method": {
+    "vtd_to_block2010": "block internal point; nearest same-county VTD fallback",
+    "vtd_block_weight": "2010 Census block land area",
+    "block2010_to_2020": "NHGIS normalized population/housing weight; area fallback",
+    "block2020_to_district": "official Maryland BEF"
+  },
+  "outputs": [
+    {
+      "plan": "congressional_2022_enacted",
+      "file": "vtd2012_to_congressional_2022_enacted.csv",
+      "rows": 1934,
+      "vtds": 1859,
+      "bad_weight_sums": 0
+    },
+    {
+      "plan": "congressional_2021_mcrc",
+      "file": "vtd2012_to_congressional_2021_mcrc.csv",
+      "rows": 1894,
+      "vtds": 1859,
+      "bad_weight_sums": 0
+    },
+    {
+      "plan": "state_house_2022",
+      "file": "vtd2012_to_state_house_2022.csv",
+      "rows": 2299,
+      "vtds": 1859,
+      "bad_weight_sums": 0
+    },
+    {
+      "plan": "state_senate_2022",
+      "file": "vtd2012_to_state_senate_2022.csv",
+      "rows": 2198,
+      "vtds": 1859,
+      "bad_weight_sums": 0
+    }
+  ]
+}

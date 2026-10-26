@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2012,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2012,
+    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2633234.0,
+      "direct_geographic_votes": 1995651.0,
+      "unmatched_geographic_votes": 51899.0,
+      "pseudo_votes": 585684.0,
+      "aliased_geographic_votes": 22162.0,
+      "imputed_votes": 637583.0,
+      "allocated_votes": 2633234,
+      "matched_precinct_keys": 1834,
+      "unmatched_precinct_keys": 55,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 75.78707399342406,
+      "direct_geographic_vote_coverage_pct": 97.46531220238822
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 336985,
+        "dem_votes": 117887,
+        "rep_votes": 154978,
+        "other_votes": 64120,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 11.006721367419916
+      },
+      "7": {
+        "total_votes": 313722,
+        "dem_votes": 220462,
+        "rep_votes": 37889,
+        "other_votes": 55371,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -58.19579117817686
+      },
+      "3": {
+        "total_votes": 349435,
+        "dem_votes": 163433,
+        "rep_votes": 120421,
+        "other_votes": 65581,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -12.309013121181335
+      },
+      "2": {
+        "total_votes": 332911,
+        "dem_votes": 183045,
+        "rep_votes": 77104,
+        "other_votes": 72762,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -31.82261925860065
+      },
+      "1": {
+        "total_votes": 358520,
+        "dem_votes": 130833,
+        "rep_votes": 145610,
+        "other_votes": 82077,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 4.121666852616312
+      },
+      "5": {
+        "total_votes": 339046,
+        "dem_votes": 228744,
+        "rep_votes": 58250,
+        "other_votes": 52052,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -50.28639181703958
+      },
+      "8": {
+        "total_votes": 334923,
+        "dem_votes": 219792,
+        "rep_votes": 72096,
+        "other_votes": 43035,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -44.098494280774986
+      },
+      "4": {
+        "total_votes": 267692,
+        "dem_votes": 209995,
+        "rep_votes": 26964,
+        "other_votes": 30733,
+        "dem_candidate": "Ben Cardin",
+        "rep_candidate": "Daniel John Bongino",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -68.37372801577934
+      }
+    }
+  }
+}

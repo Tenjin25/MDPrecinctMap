@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "attorney_general",
+    "year": 2018,
+    "district_lines_year": 2022,
+    "source": "rdh_2020_blocks_joined_to_official_maryland_bef",
+    "generated_at_utc": "2026-10-26T03:20:35.523971+00:00",
+    "match_coverage_pct": 100.0,
+    "input_blocks": 83827,
+    "matched_blocks": 83827,
+    "input_file": "data/md_2018_gen_2020_blocks.zip",
+    "bef_file": "data/SB1012-2022-Md-Congress-BEQ.xlsx",
+    "county_total_file": "data/openelections/md_sbe/20181106__md__general__county.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Reconcile each county/contest/party to its canonical SBE total; retain block-derived shares only within split counties; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "exact_components": {
+      "1": [
+        "CAROLINE",
+        "CECIL",
+        "DORCHESTER",
+        "HARFORD",
+        "KENT",
+        "QUEENANNES",
+        "SOMERSET",
+        "TALBOT",
+        "WICOMICO",
+        "WORCESTER"
+      ],
+      "3": [
+        "HOWARD"
+      ],
+      "5": [
+        "CALVERT",
+        "CHARLES",
+        "SAINTMARYS"
+      ],
+      "6": [
+        "ALLEGANY",
+        "FREDERICK",
+        "GARRETT",
+        "WASHINGTON"
+      ]
+    },
+    "allocated_components": {
+      "1": [
+        "BALTIMORE"
+      ],
+      "2": [
+        "BALTIMORE",
+        "CARROLL",
+        "BALTIMORECITY"
+      ],
+      "3": [
+        "ANNEARUNDEL",
+        "CARROLL"
+      ],
+      "4": [
+        "MONTGOMERY",
+        "PRINCEGEORGES"
+      ],
+      "5": [
+        "ANNEARUNDEL",
+        "PRINCEGEORGES"
+      ],
+      "6": [
+        "MONTGOMERY"
+      ],
+      "7": [
+        "BALTIMORE",
+        "BALTIMORECITY"
+      ],
+      "8": [
+        "MONTGOMERY",
+        "PRINCEGEORGES"
+      ]
+    }
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 304622,
+        "dem_votes": 124873,
+        "rep_votes": 179545,
+        "other_votes": 204,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 17.94748901917787
+      },
+      "2": {
+        "total_votes": 308408,
+        "dem_votes": 176720,
+        "rep_votes": 131458,
+        "other_votes": 230,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -14.676013592384116
+      },
+      "3": {
+        "total_votes": 317659,
+        "dem_votes": 185794,
+        "rep_votes": 131647,
+        "other_votes": 218,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -17.045636988091005
+      },
+      "4": {
+        "total_votes": 232687,
+        "dem_votes": 213163,
+        "rep_votes": 19238,
+        "other_votes": 286,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -83.34157043582151
+      },
+      "5": {
+        "total_votes": 295076,
+        "dem_votes": 194946,
+        "rep_votes": 99868,
+        "other_votes": 262,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -32.221529368705006
+      },
+      "6": {
+        "total_votes": 272015,
+        "dem_votes": 144525,
+        "rep_votes": 127323,
+        "other_votes": 167,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -6.323915960516883
+      },
+      "7": {
+        "total_votes": 236706,
+        "dem_votes": 190758,
+        "rep_votes": 45611,
+        "other_votes": 337,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -61.31952717717337
+      },
+      "8": {
+        "total_votes": 308615,
+        "dem_votes": 244054,
+        "rep_votes": 64345,
+        "other_votes": 216,
+        "dem_candidate": "Brian Frosh",
+        "rep_candidate": "Craig Wolf",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -58.23080537238955
+      }
+    }
+  }
+}

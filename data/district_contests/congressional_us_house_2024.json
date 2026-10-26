@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "scope": "congressional",
+    "contest_type": "us_house",
+    "year": 2024,
+    "district_lines_year": 2022,
+    "source": "direct_maryland_sbe_reported_district_returns",
+    "generated_at_utc": "2026-10-26T03:05:09.216498+00:00",
+    "match_coverage_pct": 100.0,
+    "input_file": "data/openelections/md_sbe/20241105__md__general__precinct.csv",
+    "office": "U.S. House",
+    "source_rows": 7152,
+    "allocation_method": "reported_sbe_district_no_geographic_reallocation",
+    "multi_member_note": null
+  },
+  "general": {
+    "results": {
+      "1": {
+        "total_votes": 414680,
+        "dem_votes": 154985,
+        "rep_votes": 246356,
+        "other_votes": 13339,
+        "dem_candidate": "Blane H. Miller, III",
+        "rep_candidate": "Andy Harris",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 22.034098582039164
+      },
+      "2": {
+        "total_votes": 384794,
+        "dem_votes": 223797,
+        "rep_votes": 152079,
+        "other_votes": 8918,
+        "dem_candidate": "John \"Johnny O\" Olszewski, Jr.",
+        "rep_candidate": "Kim Klacik",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -18.63802450142154
+      },
+      "3": {
+        "total_votes": 399200,
+        "dem_votes": 236681,
+        "rep_votes": 151186,
+        "other_votes": 11333,
+        "dem_candidate": "Sarah Elfreth",
+        "rep_candidate": "Robert J. Steinberger",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.416583166332664
+      },
+      "4": {
+        "total_votes": 270970,
+        "dem_votes": 239596,
+        "rep_votes": 30454,
+        "other_votes": 920,
+        "dem_candidate": "Glenn F. Ivey",
+        "rep_candidate": "George McDermott",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -77.1827139535742
+      },
+      "5": {
+        "total_votes": 418603,
+        "dem_votes": 283619,
+        "rep_votes": 133985,
+        "other_votes": 999,
+        "dem_candidate": "Steny Hoyer",
+        "rep_candidate": "Michelle Talkington",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -35.746040998272825
+      },
+      "6": {
+        "total_votes": 376624,
+        "dem_votes": 199788,
+        "rep_votes": 175974,
+        "other_votes": 862,
+        "dem_candidate": "April McClain Delaney",
+        "rep_candidate": "Neil C. Parrott",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -6.323017120523387
+      },
+      "7": {
+        "total_votes": 290137,
+        "dem_votes": 232849,
+        "rep_votes": 49799,
+        "other_votes": 7489,
+        "dem_candidate": "Kweisi Mfume",
+        "rep_candidate": "Scott M. Collier",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -63.09088465104416
+      },
+      "8": {
+        "total_votes": 380320,
+        "dem_votes": 292101,
+        "rep_votes": 77821,
+        "other_votes": 10398,
+        "dem_candidate": "Jamie Raskin",
+        "rep_candidate": "Cheryl Riley",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -56.342027766091704
+      }
+    }
+  }
+}

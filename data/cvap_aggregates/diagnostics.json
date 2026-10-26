@@ -1,0 +1,43 @@
+{
+  "source": "data\\md_cvap_2024_2020_b_csv.zip",
+  "input_blocks": 83827,
+  "county_unmatched_blocks": 0,
+  "precinct_unmatched_blocks": 0,
+  "vtd20_assignment": {
+    "blocks": 83827,
+    "assigned": 83827,
+    "nearest_fallback": 1135,
+    "missing_county": 0
+  },
+  "plans": {
+    "cd118_2022_lines__cvap24.csv": {
+      "rows": 8,
+      "unmatched_blocks": 0
+    },
+    "cd119_2024_lines__cvap24.csv": {
+      "rows": 8,
+      "unmatched_blocks": 0
+    },
+    "cd_mcrc_2021_lines__cvap24.csv": {
+      "rows": 8,
+      "unmatched_blocks": 0
+    },
+    "state_house_2022_lines__cvap24.csv": {
+      "rows": 71,
+      "unmatched_blocks": 0
+    },
+    "state_house_2024_lines__cvap24.csv": {
+      "rows": 71,
+      "unmatched_blocks": 0
+    },
+    "state_senate_2022_lines__cvap24.csv": {
+      "rows": 47,
+      "unmatched_blocks": 0
+    },
+    "state_senate_2024_lines__cvap24.csv": {
+      "rows": 47,
+      "unmatched_blocks": 0
+    }
+  },
+  "statewide_cvap_total": 4418107
+}

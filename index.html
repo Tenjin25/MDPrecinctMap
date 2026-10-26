@@ -10362,6 +10362,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
                   <button id="counties-view" class="view-toggle-btn active" onclick="setMapView('counties')" data-testid="view-counties" aria-label="Show counties view" aria-pressed="true">Counties</button>
                   <button id="districts-view" class="view-toggle-btn" onclick="setMapView('districts')" data-testid="view-congress" aria-label="Show congressional districts view" aria-pressed="false">Congress</button>
+                  <button id="state-house-view" class="view-toggle-btn" onclick="setMapView('state_house')" data-testid="view-state-house" aria-label="Show House of Delegates districts view" aria-pressed="false">House of Delegates</button>
+                  <button id="state-senate-view" class="view-toggle-btn" onclick="setMapView('state_senate')" data-testid="view-state-senate" aria-label="Show State Senate districts view" aria-pressed="false">State Senate</button>
                 </div>
             </div>
             <div class="control-group" id="district-plan-controls" style="margin-bottom:10px;display:none;">
@@ -25923,7 +25925,10 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!name) return clearHoverOutline();
       showHoverOutline(
         'county-stroke-hover',
-        ['==', ['coalesce', ['get', 'NAMELSAD20'], ['get', 'NAME20'], ['get', 'CountyName'], ['get', 'COUNTYNAME'], ['get', 'county_nam'], ['get', 'NAME'], ['get', 'name']], name],
+        ['any',
+          ['==', ['coalesce', ['get', 'NAME20'], ['get', 'CountyName'], ['get', 'COUNTYNAME'], ['get', 'county_nam'], ['get', 'NAME'], ['get', 'name']], name],
+          ['==', ['coalesce', ['get', 'NAMELSAD20'], ['get', 'NameLSAD20'], ['get', 'NAMELSAD'], ['get', 'NameLSAD']], name]
+        ],
         `county:${name}`
       );
     }
@@ -27788,12 +27793,18 @@ document.addEventListener('DOMContentLoaded', function() {
       } catch (_) {}
 
       const props = e.features[0].properties || {};
-      const countyName = props.NAMELSAD20 || props.NameLSAD20 || props.NAMELSAD || props.NameLSAD || props.NAME20 || props.CountyName || props.COUNTYNAME || props.county_nam || props.NAME || props.name || 'Unknown Locality';
       const localityLabelRaw = (props.NAMELSAD20 || props.NameLSAD20 || props.NAMELSAD || props.NameLSAD || props.NAME20 || props.CountyName || props.COUNTYNAME || props.county_nam || props.NAME || props.name || '').toString().trim();
       const countyFpRaw = (props.COUNTYFP20 || props.COUNTYFP || props.countyfp || '').toString().replace(/[^0-9]/g, '');
       const countyFp = Number(countyFpRaw);
       const isIndependentCityByCode = Number.isFinite(countyFp) && countyFp >= 500;
       const isIndependentCity = isIndependentCityByCode || /^city of\s+/i.test(localityLabelRaw) || /\bindependent city\b/i.test(localityLabelRaw);
+      const baseCountyName = (props.NAME20 || props.CountyName || props.COUNTYNAME || props.county_nam || props.NAME || props.name || '').toString().trim();
+      // Election rows use bare county names, while Census NAMELSAD adds the
+      // "County" suffix. Keep Baltimore city distinct but join ordinary
+      // counties through the Census NAME field so hover results resolve.
+      const countyName = isIndependentCity
+        ? (localityLabelRaw || baseCountyName || 'Unknown Locality')
+        : (baseCountyName || localityLabelRaw || 'Unknown Locality');
       const localityTypeLabel = isIndependentCity ? 'Independent City' : 'County';
       const countyDisplay = displayCountyName(countyName);
       setCountyHoverOutline(countyName);
@@ -30568,6 +30579,37 @@ document.addEventListener('DOMContentLoaded', function() {
       if (map.getLayer('precinct-selection-dim')) {
         map.on('click', 'precinct-selection-dim', handlePrecinctPolygonClick);
       }
+
+      // Centroid dots handle hover at statewide zoom. Once the map crosses the
+      // polygon threshold those dots are hidden, so the VTD20 fill needs the
+      // equivalent handlers or the precinct tooltip disappears while zoomed in.
+      map.on('mouseenter', 'precinct-fill', () => {
+        if (!isTouchInteractionMode()) map.getCanvas().style.cursor = 'pointer';
+      });
+      map.on('mousemove', 'precinct-fill', (e) => {
+        if (isTouchInteractionMode()) return;
+        lastPrecinctDotHoverEvent = e;
+        if (precinctDotHoverRaf) return;
+        precinctDotHoverRaf = requestAnimationFrame(() => {
+          precinctDotHoverRaf = null;
+          const evt = lastPrecinctDotHoverEvent;
+          if (!evt) return;
+          const feature = evt.features?.[0];
+          if (!feature || !evt.point) return;
+          renderPrecinctHoverAtPoint(evt.point, feature);
+        });
+      });
+      map.on('mouseleave', 'precinct-fill', () => {
+        map.getCanvas().style.cursor = '';
+        lastPrecinctDotHoverEvent = null;
+        if (precinctDotHoverRaf) {
+          cancelAnimationFrame(precinctDotHoverRaf);
+          precinctDotHoverRaf = null;
+        }
+        hideHoverTooltip();
+        clearVoteCounterHoverState();
+        clearHoverOutline();
+      });
     }
 
 	    async function ensurePrecinctCentroidsLoaded() {

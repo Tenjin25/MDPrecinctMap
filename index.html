@@ -13939,6 +13939,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // one county-equivalent independent city: Baltimore city.
     const VA_INDEPENDENT_CITIES = new Set(['BALTIMORE CITY']);
     const VA_CITY_SUFFIX_COUNTIES = new Set();
+    const MD_LOCALITY_DISPLAY_BASES = new Map([
+      ['PRINCE GEORGES', "Prince George's"],
+      ['QUEEN ANNES', "Queen Anne's"],
+      ['ST. MARYS', "St. Mary's"],
+      ['ST MARYS', "St. Mary's"]
+    ]);
 
     function normalizeLooseLocalityLabel(raw) {
       return (raw || '')
@@ -21514,7 +21520,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const key = canonicalizeVirginiaLocalityKey(raw);
       if (!key) return 'Unknown Locality';
       if (key === 'MARYLAND') return 'Maryland';
-      const base = toTitleCaseName(localityBaseName(key));
+      const baseKey = localityBaseName(key);
+      const base = MD_LOCALITY_DISPLAY_BASES.get(normalizeLooseLocalityLabel(baseKey)) || toTitleCaseName(baseKey);
       if (!base) return 'Unknown Locality';
       return localityNoun(key) === 'city' ? `City of ${base}` : `${base} County`;
     }

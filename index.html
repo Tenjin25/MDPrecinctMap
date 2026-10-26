@@ -10751,8 +10751,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v6';
-    const APP_BUILD_ID = '2026-10-26-maryland-data-v6';
+    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v7';
+    const APP_BUILD_ID = '2026-10-26-maryland-data-v7';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -28104,9 +28104,6 @@ document.addEventListener('DOMContentLoaded', function() {
         : '';
 
       const marginCall = winnerMarginCall(repVotes, demVotes, totalVotes, repCandidate, demCandidate, signedMarginPct, { precision: 'county' });
-      const flipLine = (prevSignedForFlip !== null)
-        ? flipLineHTML(prevSignedForFlip, signedMarginPct, vizPrevCache?.prevYear || null, Number(year))
-        : '';
       const shiftDelta = Number.isFinite(shiftDeltaForTooltip)
         ? shiftDeltaForTooltip
         : ((prevSignedForFlip !== null && Number.isFinite(Number(prevSignedForFlip)))
@@ -28226,7 +28223,6 @@ document.addEventListener('DOMContentLoaded', function() {
       const detailLines = `
         ${finalInsight ? `<div class="tooltip-insight">${escapeHtml(finalInsight)}</div>` : ''}
         ${detailShiftLine}
-        ${flipLine}
         ${deltaBlock}
         ${splitInsightLine}
         ${demoLine}

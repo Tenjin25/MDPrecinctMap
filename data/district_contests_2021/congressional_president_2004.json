@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "president",
+    "year": 2004,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T18:18:11.374164+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2386678.0,
+      "direct_geographic_votes": 2058901.0,
+      "aliased_geographic_votes": 48017.0,
+      "unmatched_geographic_votes": 162886.0,
+      "pseudo_votes": 164891.0,
+      "imputed_votes": 327777.0,
+      "allocated_votes": 2386678,
+      "matched_precinct_keys": 1641,
+      "unmatched_precinct_keys": 170,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 86.26639203109929,
+      "direct_geographic_vote_coverage_pct": 92.66869416375198
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 311408,
+        "dem_votes": 111861,
+        "rep_votes": 195961,
+        "other_votes": 3586,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 27.006371063042696
+      },
+      "7": {
+        "total_votes": 275871,
+        "dem_votes": 202476,
+        "rep_votes": 70265,
+        "other_votes": 3130,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -47.92493593019926
+      },
+      "3": {
+        "total_votes": 321662,
+        "dem_votes": 152872,
+        "rep_votes": 164531,
+        "other_votes": 4259,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 3.6246121705392618
+      },
+      "2": {
+        "total_votes": 315141,
+        "dem_votes": 169461,
+        "rep_votes": 141336,
+        "other_votes": 4344,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -8.924576618085238
+      },
+      "1": {
+        "total_votes": 327637,
+        "dem_votes": 120803,
+        "rep_votes": 202912,
+        "other_votes": 3922,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 25.06096686271697
+      },
+      "5": {
+        "total_votes": 280649,
+        "dem_votes": 186539,
+        "rep_votes": 92190,
+        "other_votes": 1920,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -33.61814936094552
+      },
+      "8": {
+        "total_votes": 311713,
+        "dem_votes": 202874,
+        "rep_votes": 105169,
+        "other_votes": 3670,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -31.344538084712543
+      },
+      "4": {
+        "total_votes": 242597,
+        "dem_votes": 187614,
+        "rep_votes": 52339,
+        "other_votes": 2644,
+        "dem_candidate": "John F. Kerry",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -55.76120067436943
+      }
+    }
+  }
+}

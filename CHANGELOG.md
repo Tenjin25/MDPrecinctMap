@@ -13,16 +13,19 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 - 2022 governor, U.S. Senate, comptroller, and attorney general aggregates for enacted congressional, House of Delegates, and State Senate lines.
 - Matching 2022 statewide aggregates for the 2021 MCRC congressional comparison plan.
 - A reproducible 2022 SBE precinct-to-official-BEF aggregation builder with coverage and unmatched-precinct diagnostics.
+- The 18 previously omitted 2000–2014 statewide contest slices for the 2021 MCRC congressional comparison plan.
 
 ### Changed
 
 - District candidate labels now inherit the canonical county-contest names after aggregation, including governor names without running mates.
 - The README now distinguishes direct reported legislative results, modern precinct-crosswalk aggregates, historical VTD-chain estimates, and the county-only 2002 governor result.
+- Historical builders now promote both enacted and MCRC congressional outputs and support `--mcrc-only` rebuilds.
 
 ### Validated
 
 - The new 2022 district slices preserve official county and statewide party totals as whole votes.
 - Direct geographic vote coverage is approximately 97.59–97.60%; remaining votes use county-local imputation rather than statewide allocation.
+- All 31 MCRC statewide contest-years with precinct data conserve their official Democratic, Republican, other, and total vote counts.
 
 ## [0.1.0] - 2026-10-25
 

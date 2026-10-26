@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "us_senate",
+    "year": 2000,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T18:18:11.374164+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 1968996.0,
+      "direct_geographic_votes": 1879580.0,
+      "aliased_geographic_votes": 51847.0,
+      "pseudo_votes": 88551.0,
+      "unmatched_geographic_votes": 865.0,
+      "imputed_votes": 89416.0,
+      "allocated_votes": 1968996,
+      "matched_precinct_keys": 1686,
+      "unmatched_precinct_keys": 3,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 95.45880235409315,
+      "direct_geographic_vote_coverage_pct": 99.95400024994083
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 244930,
+        "dem_votes": 115971,
+        "rep_votes": 128952,
+        "other_votes": 7,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 5.299881598824154
+      },
+      "7": {
+        "total_votes": 233488,
+        "dem_votes": 186444,
+        "rep_votes": 47040,
+        "other_votes": 4,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -59.70499554580964
+      },
+      "3": {
+        "total_votes": 267020,
+        "dem_votes": 141779,
+        "rep_votes": 125217,
+        "other_votes": 24,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -6.20253164556962
+      },
+      "2": {
+        "total_votes": 264722,
+        "dem_votes": 161325,
+        "rep_votes": 103382,
+        "other_votes": 15,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -21.888245026858364
+      },
+      "1": {
+        "total_votes": 260553,
+        "dem_votes": 130380,
+        "rep_votes": 130168,
+        "other_votes": 5,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -0.08136540358391575
+      },
+      "5": {
+        "total_votes": 210273,
+        "dem_votes": 154006,
+        "rep_votes": 56259,
+        "other_votes": 8,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -46.48575898950412
+      },
+      "8": {
+        "total_votes": 289877,
+        "dem_votes": 198523,
+        "rep_votes": 91339,
+        "other_votes": 15,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -36.975682789596966
+      },
+      "4": {
+        "total_votes": 198133,
+        "dem_votes": 158239,
+        "rep_votes": 39892,
+        "other_votes": 2,
+        "dem_candidate": "Paul S. Sarbanes",
+        "rep_candidate": "Paul H. Rappaport",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -59.73108972256009
+      }
+    }
+  }
+}

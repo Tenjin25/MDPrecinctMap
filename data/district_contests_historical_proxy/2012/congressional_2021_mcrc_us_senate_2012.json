@@ -6,7 +6,7 @@
     "year": 2012,
     "district_lines_year": 2021,
     "vtd_vintage": 2012,
-    "generated_at_utc": "2026-10-26T03:24:36.725442+00:00",
+    "generated_at_utc": "2026-10-26T18:18:14.443192+00:00",
     "source": "Maryland SBE precinct returns via 2012 VTD and Census block chain",
     "crosswalk": "data/crosswalks_2012_vtd/vtd2012_to_congressional_2021_mcrc.csv",
     "county_constrained_aggregation": true,

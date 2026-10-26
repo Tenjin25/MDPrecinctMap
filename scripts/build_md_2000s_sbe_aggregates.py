@@ -184,9 +184,10 @@ def aggregate(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--promote", action="store_true")
+    parser.add_argument("--mcrc-only", action="store_true")
     args = parser.parse_args()
     generated_at = datetime.now(timezone.utc).isoformat()
-    promoted_entries: list[dict[str, object]] = []
+    promoted_entries: dict[str, list[dict[str, object]]] = defaultdict(list)
 
     for year, election in ELECTIONS.items():
         output_dir = DATA / "district_contests_historical_proxy" / str(year)
@@ -195,6 +196,8 @@ def main() -> None:
         for contest_type, office in election["contests"].items():
             vote_rows, candidates = load_vote_rows(str(election["date"]), office)
             for plan, (scope, lines_year) in PLANS.items():
+                if args.mcrc_only and plan != "congressional_2021_mcrc":
+                    continue
                 results, diagnostics, unmatched = aggregate(vote_rows, candidates, plan)
                 filename = f"{plan}_{contest_type}_{year}.json"
                 payload = {
@@ -227,11 +230,16 @@ def main() -> None:
                         writer.writeheader()
                         writer.writerows(unmatched)
 
-                if args.promote and plan != "congressional_2021_mcrc":
-                    main_dir = DATA / "district_contests"
+                if args.promote:
+                    output_name = (
+                        "district_contests_2021"
+                        if plan == "congressional_2021_mcrc"
+                        else "district_contests"
+                    )
+                    main_dir = DATA / output_name
                     main_filename = f"{scope}_{contest_type}_{year}.json"
                     (main_dir / main_filename).write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
-                    promoted_entries.append(
+                    promoted_entries[output_name].append(
                         {
                             "scope": scope,
                             "contest_type": contest_type,
@@ -254,22 +262,38 @@ def main() -> None:
                     f"{year} {contest_type} {plan}: {diagnostics['direct_geographic_vote_coverage_pct']:.2f}% "
                     "direct geographic coverage"
                 )
-        (output_dir / "manifest.json").write_text(json.dumps({"files": local_manifest}, indent=2) + "\n", encoding="utf-8")
+        local_manifest_path = output_dir / "manifest.json"
+        if args.mcrc_only and local_manifest_path.exists():
+            existing = json.loads(local_manifest_path.read_text(encoding="utf-8")).get("files", [])
+            replacement_keys = {
+                (row["plan"], row["contest_type"], int(row["year"])) for row in local_manifest
+            }
+            local_manifest = [
+                row for row in existing
+                if (row.get("plan"), row.get("contest_type"), int(row.get("year", 0)))
+                not in replacement_keys
+            ] + local_manifest
+        local_manifest_path.write_text(json.dumps({"files": local_manifest}, indent=2) + "\n", encoding="utf-8")
 
     if args.promote:
-        manifest_path = DATA / "district_contests" / "manifest.json"
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-        keys = {(row["scope"], row["contest_type"], int(row["year"])) for row in promoted_entries}
-        files = [
-            row for row in manifest.get("files", [])
-            if (row.get("scope"), row.get("contest_type"), int(row.get("year", 0))) not in keys
-        ]
-        files.extend(promoted_entries)
-        files.sort(key=lambda row: (str(row["scope"]), str(row["contest_type"]), int(row["year"])))
-        manifest["files"] = files
-        manifest["includes_provisional_historical_slices"] = True
-        manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
-        print(f"promoted {len(promoted_entries)} historical slices into data/district_contests")
+        for output_name, entries in promoted_entries.items():
+            manifest_path = DATA / output_name / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            keys = {(row["scope"], row["contest_type"], int(row["year"])) for row in entries}
+            files = [
+                row for row in manifest.get("files", [])
+                if (row.get("scope"), row.get("contest_type"), int(row.get("year", 0))) not in keys
+            ]
+            files.extend(entries)
+            files.sort(key=lambda row: (str(row["scope"]), str(row["contest_type"]), int(row["year"])))
+            manifest["files"] = files
+            manifest["source"] = (
+                "Maryland SBE precinct/block election results + official Maryland BEF/VTD crosswalks"
+            )
+            manifest["generated_at_utc"] = generated_at
+            manifest["includes_provisional_historical_slices"] = True
+            manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+            print(f"promoted {len(entries)} historical slices into data/{output_name}")
 
 
 if __name__ == "__main__":

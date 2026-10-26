@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "status": "provisional_historical_proxy",
+    "scope": "congressional",
+    "contest_type": "president",
+    "year": 2000,
+    "district_lines_year": 2021,
+    "vtd_vintage": 2008,
+    "generated_at_utc": "2026-10-26T18:18:11.374164+00:00",
+    "source": "Maryland SBE precinct returns via 2008 VTD and Census block chain",
+    "crosswalk": "data/crosswalks_2008_vtd/vtd2008_to_congressional_2021_mcrc.csv",
+    "county_constrained_aggregation": true,
+    "county_constrained_method": "Preserve each county/party total exactly; allocate only split-county components with VTD/block weights; largest-remainder round within each county/party; then sum county contributions into districts.",
+    "diagnostics": {
+      "input_votes": 2046755.0,
+      "direct_geographic_votes": 1955142.0,
+      "aliased_geographic_votes": 56557.0,
+      "pseudo_votes": 90709.0,
+      "unmatched_geographic_votes": 904.0,
+      "imputed_votes": 91613.0,
+      "allocated_votes": 2046755,
+      "matched_precinct_keys": 1686,
+      "unmatched_precinct_keys": 3,
+      "county_total_checks": 72,
+      "direct_vote_coverage_pct": 95.5239879712032,
+      "direct_geographic_vote_coverage_pct": 99.95378431795571
+    }
+  },
+  "general": {
+    "results": {
+      "6": {
+        "total_votes": 256667,
+        "dem_votes": 96738,
+        "rep_votes": 152022,
+        "other_votes": 7907,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 21.53919280624311
+      },
+      "7": {
+        "total_votes": 244231,
+        "dem_votes": 184040,
+        "rep_votes": 52262,
+        "other_votes": 7929,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -53.95629547436648
+      },
+      "3": {
+        "total_votes": 271788,
+        "dem_votes": 127875,
+        "rep_votes": 134262,
+        "other_votes": 9651,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 2.349993377191046
+      },
+      "2": {
+        "total_votes": 269704,
+        "dem_votes": 148623,
+        "rep_votes": 112175,
+        "other_votes": 8906,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -13.514074689288998
+      },
+      "1": {
+        "total_votes": 267450,
+        "dem_votes": 108232,
+        "rep_votes": 150631,
+        "other_votes": 8587,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Republican",
+        "winner_party": "REP",
+        "margin_pct": 15.853056646102075
+      },
+      "5": {
+        "total_votes": 224397,
+        "dem_votes": 151899,
+        "rep_votes": 68715,
+        "other_votes": 3783,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -37.07001430500408
+      },
+      "8": {
+        "total_votes": 298945,
+        "dem_votes": 184419,
+        "rep_votes": 103780,
+        "other_votes": 10746,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -26.974527086922347
+      },
+      "4": {
+        "total_votes": 213573,
+        "dem_votes": 157826,
+        "rep_votes": 47974,
+        "other_votes": 7773,
+        "dem_candidate": "Al Gore",
+        "rep_candidate": "George W. Bush",
+        "winner": "Democratic",
+        "winner_party": "DEM",
+        "margin_pct": -51.435340609533974
+      }
+    }
+  }
+}

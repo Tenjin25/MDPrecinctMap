@@ -10328,6 +10328,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="control-group" style="margin-bottom:12px;">
                 <span class="section-kicker">Quick Jumps</span>
                 <div class="region-jumps" id="region-jumps">
+                  <button type="button" class="region-jump-btn" data-region-jump="statewide">Statewide</button>
                   <button type="button" class="region-jump-btn" data-region-jump="baltimoremetro">Baltimore Metro</button>
                   <button type="button" class="region-jump-btn" data-region-jump="dcsuburbs">D.C. Suburbs</button>
                   <button type="button" class="region-jump-btn" data-region-jump="western">Western Maryland</button>
@@ -10336,8 +10337,11 @@ document.addEventListener('DOMContentLoaded', function() {
                   <details class="region-jump-more">
                     <summary>More regions</summary>
                     <div class="region-jump-more-grid">
-                      <button type="button" class="region-jump-btn" data-region-jump="capital">Capital Region</button>
+                      <button type="button" class="region-jump-btn" data-region-jump="capital">Baltimore–Washington Corridor</button>
                       <button type="button" class="region-jump-btn" data-region-jump="central">Central Maryland</button>
+                      <button type="button" class="region-jump-btn" data-region-jump="upper-shore">Upper Shore</button>
+                      <button type="button" class="region-jump-btn" data-region-jump="lower-shore">Lower Shore</button>
+                      <button type="button" class="region-jump-btn" data-region-jump="i270">I-270 Corridor</button>
                     </div>
                   </details>
                 </div>
@@ -10740,8 +10744,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-26-maryland-ui-v8';
-    const APP_BUILD_ID = '2026-10-26-maryland-ui-v8';
+    const DATA_CACHE_BUSTER = '2026-10-26-maryland-regions-v9';
+    const APP_BUILD_ID = '2026-10-26-maryland-regions-v9';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -10854,7 +10858,7 @@ document.addEventListener('DOMContentLoaded', function() {
         counties: ['Montgomery', "Prince George's"]
       },
       capital: {
-        label: 'Capital Region',
+        label: 'Baltimore–Washington Corridor',
         bounds: [[-77.35, 38.55], [-76.25, 39.35]],
         counties: ['Anne Arundel', 'Howard', "Prince George's"]
       },
@@ -10877,6 +10881,21 @@ document.addEventListener('DOMContentLoaded', function() {
         label: 'Eastern Shore',
         bounds: [[-76.45, 37.75], [-74.85, 39.80]],
         counties: ['Caroline', 'Cecil', 'Dorchester', 'Kent', "Queen Anne's", 'Somerset', 'Talbot', 'Wicomico', 'Worcester']
+      },
+      'upper-shore': {
+        label: 'Upper Shore',
+        bounds: [[-76.55, 38.55], [-75.55, 39.80]],
+        counties: ['Caroline', 'Cecil', 'Kent', "Queen Anne's", 'Talbot']
+      },
+      'lower-shore': {
+        label: 'Lower Shore',
+        bounds: [[-76.35, 37.75], [-74.85, 39.25]],
+        counties: ['Dorchester', 'Somerset', 'Wicomico', 'Worcester']
+      },
+      i270: {
+        label: 'I-270 Corridor',
+        bounds: [[-77.75, 38.85], [-76.85, 39.80]],
+        counties: ['Frederick', 'Montgomery']
       }
     };
 
@@ -27854,6 +27873,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function jumpToRegion(regionKey) {
+      if (regionKey === 'statewide') {
+        if (!map) return;
+        setActiveRegionKey('');
+        window.lastSelectedCounty = '';
+        try { clearSelectedPrecinctNorm(); } catch (_) {}
+        try { clearPinnedVoteCounterState(); } catch (_) {}
+        updateContextBanner();
+        map.fitBounds(CONFIG.fitBounds, { padding: computeMapViewportPadding(24), duration: 900 });
+        try { settleMobilePanelsAfterMapAction(); } catch (_) {}
+        document.querySelectorAll('.region-jump-more[open]').forEach(details => { details.open = false; });
+        setStatus('Returned to the statewide view.');
+        return;
+      }
       const region = REGION_JUMPS[regionKey];
       if (!region || !map) return;
       setActiveRegionKey(regionKey);

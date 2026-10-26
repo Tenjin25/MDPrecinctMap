@@ -10751,8 +10751,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v4';
-    const APP_BUILD_ID = '2026-10-26-maryland-data-v2';
+    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v5';
+    const APP_BUILD_ID = '2026-10-26-maryland-data-v5';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -13728,7 +13728,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyActive: 0.65,
           countyWithPrecinct: 0.11,
           district: 0.59,
-          house: 0.84,
+          house: 0.65,
           senate: 0.64,
           precinctFill: 0.62,
           precinctDot: 0.80
@@ -13737,7 +13737,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyActive: 0.71,
           countyWithPrecinct: 0.13,
           district: 0.72,
-          house: 0.88,
+          house: 0.72,
           senate: 0.73,
           precinctFill: 0.68,
           precinctDot: 0.84
@@ -13746,7 +13746,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyActive: 0.9,
           countyWithPrecinct: 0.18,
           district: 0.88,
-          house: 0.94,
+          house: 0.87,
           senate: 0.86,
           precinctFill: 0.76,
           precinctDot: 0.88
@@ -21209,12 +21209,26 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function normalizeDistrictNumber(raw) {
-      const s = (raw ?? '').toString().trim();
+      const s = (raw ?? '').toString().trim().toUpperCase();
       if (!s) return '';
-      const m = s.match(/(\d+)\s*([A-Za-z]?)/);
-      if (!m) return s;
-      const n = Number(m[1]);
-      return Number.isFinite(n) ? `${String(n)}${String(m[2] || '').toUpperCase()}` : m[0];
+      const compact = s.replace(/\s+/g, '');
+      const withSuffix = compact.match(/^0*([0-9]+)([A-Z])$/);
+      if (withSuffix) return `${Number(withSuffix[1])}${withSuffix[2]}`;
+      const numericOnly = compact.match(/^0*([0-9]+)$/);
+      if (numericOnly) return String(Number(numericOnly[1]));
+      return compact;
+    }
+
+    function getDistrictResultRow(results, districtNum) {
+      if (!results) return null;
+      const target = normalizeDistrictNumber(districtNum);
+      const targetNum = Number(target);
+      for (const [key, value] of Object.entries(results)) {
+        const normalizedKey = normalizeDistrictNumber(key);
+        if (normalizedKey && target && normalizedKey === target) return value;
+        if (Number.isFinite(targetNum) && Number(normalizedKey) === targetNum) return value;
+      }
+      return null;
     }
 
     function getDistrictNumberFromPropsCandidates(props, candidates) {
@@ -26049,15 +26063,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function buildAnyPropertyMatchFilter(keys, districtNum) {
       const raw = (districtNum || '').toString().trim();
-      if (!raw) return ['==', 1, 0];
-      const padded3 = raw.padStart(3, '0');
-      const num = Number(raw);
+      const norm = normalizeDistrictNumber(raw);
+      if (!raw && !norm) return ['==', 1, 0];
+      const variants = new Set([raw, norm]);
+      const num = Number(norm || raw);
+      if (Number.isFinite(num)) {
+        variants.add(String(num));
+        variants.add(String(num).padStart(2, '0'));
+        variants.add(String(num).padStart(3, '0'));
+      }
+      const suffix = norm.match(/^([0-9]+)([A-Z])$/);
+      if (suffix) {
+        const n = Number(suffix[1]);
+        variants.add(`${String(n).padStart(2, '0')}${suffix[2]}`);
+        variants.add(`${String(n).padStart(3, '0')}${suffix[2]}`);
+      }
 
       const clauses = [];
       (keys || []).forEach(k => {
-        clauses.push(['==', ['to-string', ['get', k]], raw]);
-        clauses.push(['==', ['to-string', ['get', k]], padded3]);
-        if (Number.isFinite(num)) clauses.push(['==', ['to-number', ['get', k]], num]);
+        variants.forEach(value => {
+          if (value !== undefined && value !== null && `${value}`.trim() !== '') {
+            clauses.push(['==', ['to-string', ['get', k]], `${value}`]);
+          }
+        });
+        // Maryland House geometry mixes numeric and letter-suffixed values in
+        // the same property. Supply a fallback so Mapbox never tries to treat
+        // values such as "43A" as an expression error while testing numeric
+        // district variants.
+        if (Number.isFinite(num)) clauses.push(['==', ['to-number', ['get', k], -999999], num]);
       });
 
       return clauses.length ? ['any', ...clauses] : ['==', 1, 0];
@@ -28522,14 +28555,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (requestId !== districtHoverRequestId) return;
       const results = node?.general?.results || {};
 
-      let row = null;
-      const districtNumAsNumber = Number(districtNum);
-      for (const [key, value] of Object.entries(results)) {
-        if (key === districtNum || Number(key) === districtNumAsNumber) {
-          row = value;
-          break;
-        }
-      }
+      const row = getDistrictResultRow(results, districtNum);
 
       if (!row) {
         const pinnedShell = !!(tooltipPinned || (forceTooltip && isTouchInteractionMode()));
@@ -28628,7 +28654,7 @@ document.addEventListener('DOMContentLoaded', function() {
         prevYearForFlip = prevCached?.prevYear || null;
         const prevResults = prevCached?.prevNode?.general?.results || null;
         if (prevResults) {
-          const prevRow = prevResults[String(districtNum)] || prevResults[String(Number(districtNum))] || null;
+          const prevRow = getDistrictResultRow(prevResults, districtNum);
           if (prevRow) {
             const prevSignedRaw = signedDistrictMarginPct(prevRow, prevCached?.prevNode);
             if (Number.isFinite(prevSignedRaw)) {
@@ -31598,7 +31624,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const contestType = contestValue.substring(0, i);
                 const year = contestValue.substring(i + 1);
                 loadDistrictSlice('congressional', contestType, year).then(node => {
-                  const row = node?.general?.results?.[String(districtNum)] || node?.general?.results?.[String(Number(districtNum))] || null;
+                  const row = getDistrictResultRow(node?.general?.results, districtNum);
                   if (!row) return;
                   const displayVotes = districtDisplayVoteSet(row, node);
                   const demVotes = displayVotes.dem;
@@ -31718,7 +31744,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const contestType = contestValue.substring(0, i);
                 const year = contestValue.substring(i + 1);
                 loadDistrictSlice('state_house', contestType, year).then(node => {
-                  const row = node?.general?.results?.[String(districtNum)] || node?.general?.results?.[String(Number(districtNum))] || null;
+                  const row = getDistrictResultRow(node?.general?.results, districtNum);
                   if (!row) return;
                   const displayVotes = districtDisplayVoteSet(row, node);
                   const demVotes = displayVotes.dem;
@@ -31837,7 +31863,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const contestType = contestValue.substring(0, i);
                 const year = contestValue.substring(i + 1);
                 loadDistrictSlice('state_senate', contestType, year).then(node => {
-                  const row = node?.general?.results?.[String(districtNum)] || node?.general?.results?.[String(Number(districtNum))] || null;
+                  const row = getDistrictResultRow(node?.general?.results, districtNum);
                   if (!row) return;
                   const displayVotes = districtDisplayVoteSet(row, node);
                   const demVotes = displayVotes.dem;
@@ -32298,7 +32324,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function getDistrictNumberFromPropsNumeric(props) {
       const p = props || {};
       const raw = p.DISTRICT || p.SLDLST || p.SLDUST || p.district_id || p.district || p.DIST || p.CD118FP || p.CD119FP || p.CD || p.cd || null;
-      return normalizeDistrictNumber(raw) || null;
+      const key = normalizeDistrictNumber(raw);
+      const n = Number(key);
+      return Number.isFinite(n) ? n : null;
+    }
+
+    function getDistrictNumberFromPropsKey(props) {
+      const p = props || {};
+      const raw = p.DISTRICT || p.SLDLST || p.SLDUST || p.district_id || p.district || p.DIST || p.CD118FP || p.CD119FP || p.CD || p.cd || null;
+      return normalizeDistrictNumber(raw);
     }
 
     async function handleDistrictSelection(districtNum, sourceId, chamber, label) {
@@ -32307,7 +32341,12 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!gj || !gj.features) return;
 
       const normalizedTarget = normalizeDistrictNumber(districtNum);
-      const match = gj.features.find(f => getDistrictNumberFromPropsNumeric(f.properties) === normalizedTarget);
+      const numericTarget = Number(normalizedTarget);
+      const match = gj.features.find(f => {
+        const featureKey = getDistrictNumberFromPropsKey(f.properties);
+        if (featureKey && normalizedTarget && featureKey === normalizedTarget) return true;
+        return Number.isFinite(numericTarget) && getDistrictNumberFromPropsNumeric(f.properties) === numericTarget;
+      });
       if (!match) {
         console.warn('District not found for search:', label, districtNum);
         setFlySearchFeedback('#ef4444');
@@ -33099,11 +33138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let districtSidebarRequestId = 0;
 
     function pickDistrictSliceRow(payload, districtNum) {
-      const results = payload?.general?.results || null;
-      if (!results) return null;
-      const keyA = String(districtNum);
-      const keyB = String(Number(districtNum));
-      return results[keyA] || results[keyB] || null;
+      return getDistrictResultRow(payload?.general?.results || null, districtNum);
     }
 
     function districtSourceMarginIsAuthoritative(payload) {
@@ -34074,19 +34109,6 @@ document.addEventListener('DOMContentLoaded', function() {
       return yes ? '#bbf7d0' : '#fecaca';
     }
 
-    function colorForHouseDistrictMarginMode(contestType, marginPctAbs, winner) {
-      if (isBallotMeasureContest(contestType) || isColorblindModeActive()) {
-        return colorForContestMarginMode(contestType, marginPctAbs, winner);
-      }
-      const margin = Math.abs(Number(marginPctAbs) || 0);
-      // Small legislative districts sit over a detailed basemap. Use brighter
-      // endpoints so safe lettered seats remain visibly red or blue instead of
-      // blending into near-black at statewide zoom.
-      if (margin >= 40) return winner === 'R' ? '#b91c1c' : '#1d4ed8';
-      if (margin >= 30) return winner === 'R' ? '#dc2626' : '#2563eb';
-      if (margin >= 20) return winner === 'R' ? '#ef4444' : '#3b82f6';
-      return colorForContestMarginMode(contestType, margin, winner);
-    }
 
     function colorForContestWinnerMode(contestType, winner) {
       if (!isBallotMeasureContest(contestType)) return colorForWinnerMode(winner);
@@ -35909,13 +35931,13 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (mode === 'winners') {
           color = colorForWinnerMode(winner);
         }
-        currentDistrictTurnoutTotals[String(Number(district))] = totalVotes;
+        const districtKey = normalizeDistrictNumber(district);
+        currentDistrictTurnoutTotals[districtKey] = totalVotes;
 
-        expr.push([
-          '==',
-          ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'CD119FP'], ['get', 'district_id'], ['get', 'district']]],
-          Number(district)
-        ]);
+        expr.push(buildAnyPropertyMatchFilter(
+          ['DISTRICT', 'CD118FP', 'CD119FP', 'district_id', 'district'],
+          districtKey
+        ));
         expr.push(color);
       });
 
@@ -36122,20 +36144,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 demoRow?.multiracial_vap_pct ?? demoRow?.multiracial_pct ?? demoRow?.Multiracial
               );
             } else if (mode === 'flips') {
-              const prevRow = prevResults ? (prevResults[String(districtId)] || prevResults[String(Number(districtId))] || null) : null;
+              const prevRow = getDistrictResultRow(prevResults, districtId);
               const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
               const f = flipInfo(prevSigned, signed);
               color = f.flipped ? colorForFlipMode(f.to) : colorForFlipMode('T');
             } else if (mode === 'winners') {
               color = colorForContestWinnerMode(contestType, winner);
             } else if (mode === 'shift' && prevResults && prevYear) {
-              const prevRow = prevResults[String(districtId)] || prevResults[String(Number(districtId))] || null;
+              const prevRow = getDistrictResultRow(prevResults, districtId);
               const prevSigned = prevRow ? Number(prevRow.margin_pct || 0) : 0;
               color = colorForShiftMode(signed - prevSigned);
             } else {
-              color = districtScope === 'state_house'
-                ? colorForHouseDistrictMarginMode(contestType, Math.abs(signed), winner)
-                : colorForContestMarginMode(contestType, Math.abs(signed), winner);
+              color = colorForContestMarginMode(contestType, Math.abs(signed), winner);
             }
 
             if (districtNum) {

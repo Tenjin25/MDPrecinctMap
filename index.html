@@ -12177,8 +12177,8 @@ document.addEventListener('DOMContentLoaded', function() {
         if (meta.kind === 'region' && meta.regionKey) {
           return `region:${String(meta.regionKey).trim().toLowerCase()}`;
         }
-        if (meta.kind === 'district' && Number.isFinite(Number(meta.districtNum))) {
-          const num = Number(meta.districtNum);
+        if (meta.kind === 'district' && normalizeDistrictNumber(meta.districtNum)) {
+          const num = normalizeDistrictNumber(meta.districtNum);
           if (meta.scope === 'congressional') return `cd:${num}`;
           if (meta.scope === 'state_house') return `hd:${num}`;
           if (meta.scope === 'state_senate') return `sd:${num}`;
@@ -12199,8 +12199,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!raw || /^statewide$/i.test(raw)) return '';
       const cdMatch = raw.match(/congressional district\s+(\d+)/i);
       if (cdMatch) return `cd:${Number(cdMatch[1])}`;
-      const hdMatch = raw.match(/(?:state house|house of delegates) district\s+(\d+)/i);
-      if (hdMatch) return `hd:${Number(hdMatch[1])}`;
+      const hdMatch = raw.match(/(?:state house|house of delegates) district\s+(\d+[a-z]?)/i);
+      if (hdMatch) return `hd:${normalizeDistrictNumber(hdMatch[1])}`;
       const sdMatch = raw.match(/state senate district\s+(\d+)/i);
       if (sdMatch) return `sd:${Number(sdMatch[1])}`;
       if (raw.includes(' - ')) return `precinct:${raw}`;
@@ -12297,8 +12297,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       if (kind === 'cd' || kind === 'hd' || kind === 'sd') {
-        const num = Number(String(payload).replace(/[^0-9]/g, ''));
-        if (!Number.isFinite(num) || num <= 0) return;
+        const num = normalizeDistrictNumber(payload);
+        if (!num) return;
         if (kind === 'cd') {
           await setMapView('districts');
           await handleDistrictSelection(num, 'districts', 'congressional', 'Congressional District');
@@ -15952,16 +15952,16 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!contestType || !year) return false;
 
       let scope = (meta.scope || '').toString().trim();
-      let districtNum = Number(meta.districtNum);
-      if (!scope || !Number.isFinite(districtNum)) return false;
+      let districtNum = normalizeDistrictNumber(meta.districtNum);
+      if (!scope || !districtNum) return false;
 
       const viewScope = getDistrictScopeForView(currentView);
       if (!viewScope) return false;
       if (scope !== viewScope) {
         const mappedDistrict = await mapDistrictSelectionAcrossScopes(scope, districtNum, viewScope, Number(year));
-        districtNum = Number(mappedDistrict);
+        districtNum = normalizeDistrictNumber(mappedDistrict);
         scope = viewScope;
-        if (!Number.isFinite(districtNum)) return false;
+        if (!districtNum) return false;
       }
 
       const contestValue = `${contestType}_${year}`;
@@ -20943,8 +20943,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function padDistrictNumber(districtNum) {
-      const n = Number(String(districtNum ?? '').toString().replace(/[^0-9]/g, ''));
-      return Number.isFinite(n) ? String(n).padStart(2, '0') : String(districtNum || '').padStart(2, '0');
+      const normalized = normalizeDistrictNumber(districtNum);
+      const match = normalized.match(/^(\d+)([A-Z]*)$/);
+      if (!match) return normalized.padStart(2, '0');
+      return `${String(Number(match[1])).padStart(2, '0')}${match[2]}`;
     }
 
     function getDistrictTitleForScope(scope, districtNum) {
@@ -20976,8 +20978,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function showAndPinDistrictSelection(scope, districtNum, contestValue = '') {
-      const districtId = Number(districtNum);
-      if (!scope || !Number.isFinite(districtId)) return false;
+      const districtId = normalizeDistrictNumber(districtNum);
+      if (!scope || !districtId) return false;
 
       setActiveRegionKey('');
       const title = getDistrictTitleForScope(scope, districtId);
@@ -26255,8 +26257,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function recountFocusLabelFromMeta(meta) {
       if (!meta) return getReadableFocusLabel();
       if (meta.kind === 'district') {
-        const d = Number(meta.districtNum);
-        if (!Number.isFinite(d)) return getReadableFocusLabel();
+        const d = normalizeDistrictNumber(meta.districtNum);
+        if (!d) return getReadableFocusLabel();
         if (meta.scope === 'congressional') return `CD ${d}`;
         if (meta.scope === 'state_house') return `HD ${d}`;
         if (meta.scope === 'state_senate') return `SD ${d}`;
@@ -28593,7 +28595,7 @@ document.addEventListener('DOMContentLoaded', function() {
         repVotes,
         otherVotes,
         { demCandidate, repCandidate },
-        { kind: 'district', scope, districtNum: Number(districtNum), contestType, year: Number(year), marginPct: signedMarginPct }
+        { kind: 'district', scope, districtNum: normalizeDistrictNumber(districtNum), contestType, year: Number(year), marginPct: signedMarginPct }
       );
 
       let prevSignedForFlip = null;
@@ -31707,7 +31709,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     demVotes,
                     repVotes,
                     otherVotes,
-                    { kind: 'district', scope: 'state_house', districtNum: Number(districtNum), contestType, year: Number(year), marginPct: signedMarginPct },
+                    { kind: 'district', scope: 'state_house', districtNum: normalizeDistrictNumber(districtNum), contestType, year: Number(year), marginPct: signedMarginPct },
                     { demCandidate: row.dem_candidate || '', repCandidate: row.rep_candidate || '' }
                   );
                 }).catch(() => {});
@@ -32203,9 +32205,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const cd = q.match(/^(?:(?:MD|MARYLAND)\s*[- ]\s*)?(CD|CONG(?:RESS)?|US HOUSE)\s*[-#:]?\s*(\d{1,2})$/i)
         || q.match(/^(?:MD|MARYLAND)\s*[-#:]?\s*(\d{1,2})$/i);
       if (cd) return { kind: 'cd', num: Number(cd[2] || cd[1]), raw };
-      const hd = q.match(/^(?:(?:MD|MARYLAND)\s+)?(HD|HOUSE)\s*[-#:]?\s*(\d{1,3})$/i)
-        || q.match(/^(?:MD|MARYLAND)\s+HOUSE\s*[-#:]?\s*(\d{1,3})$/i);
-      if (hd) return { kind: 'hd', num: Number(hd[2] || hd[1]), raw };
+      const hd = q.match(/^(?:(?:MD|MARYLAND)\s+)?(HD|HOUSE)\s*[-#:]?\s*(\d{1,3}[A-Z]?)$/i)
+        || q.match(/^(?:MD|MARYLAND)\s+HOUSE\s*[-#:]?\s*(\d{1,3}[A-Z]?)$/i);
+      if (hd) return { kind: 'hd', num: normalizeDistrictNumber(hd[2] || hd[1]), raw };
       const sd = q.match(/^(?:(?:MD|MARYLAND)\s+)?(SD|SENATE)\s*[-#:]?\s*(\d{1,3})$/i)
         || q.match(/^(?:MD|MARYLAND)\s+SENATE\s*[-#:]?\s*(\d{1,3})$/i);
       if (sd) return { kind: 'sd', num: Number(sd[2] || sd[1]), raw };
@@ -32274,8 +32276,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function getDistrictNumberFromPropsNumeric(props) {
       const p = props || {};
       const raw = p.DISTRICT || p.SLDLST || p.SLDUST || p.district_id || p.district || p.DIST || p.CD118FP || p.CD119FP || p.CD || p.cd || null;
-      const n = Number(String(raw || '').replace(/[^0-9]/g, ''));
-      return Number.isFinite(n) ? n : null;
+      return normalizeDistrictNumber(raw) || null;
     }
 
     async function handleDistrictSelection(districtNum, sourceId, chamber, label) {
@@ -32283,7 +32284,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const gj = await ensureSearchGeoJSON(sourceId, path);
       if (!gj || !gj.features) return;
 
-      const match = gj.features.find(f => getDistrictNumberFromPropsNumeric(f.properties) === Number(districtNum));
+      const normalizedTarget = normalizeDistrictNumber(districtNum);
+      const match = gj.features.find(f => getDistrictNumberFromPropsNumeric(f.properties) === normalizedTarget);
       if (!match) {
         console.warn('District not found for search:', label, districtNum);
         setFlySearchFeedback('#ef4444');

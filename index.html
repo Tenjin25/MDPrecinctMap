@@ -6793,6 +6793,15 @@ body.ballot-measure-mode .vote-share-fill.rep { background: linear-gradient(90de
     line-height: 1.2;
     letter-spacing: -0.02em;
     color: #0f172a;
+    min-width: 0;
+    overflow: hidden;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
   }
 
   .desktop-statewide-sub,
@@ -6991,38 +7000,14 @@ body.ballot-measure-mode .vote-share-fill.rep { background: linear-gradient(90de
 
   .statewide-breakdown-label {
     min-width: 0;
-    display: inline-flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    column-gap: 4px;
-    row-gap: 1px;
     font-size: 11px;
     font-weight: 800;
-    letter-spacing: 0.03em;
-    line-height: 1.25;
-    color: #64748b;
-    overflow: visible;
-    white-space: normal;
-  }
-
-  .statewide-breakdown-party {
-    font: inherit;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: inherit;
-  }
-
-  .statewide-breakdown-separator {
-    color: inherit;
-  }
-
-  .statewide-breakdown-candidate {
-    min-width: 0;
-    font: inherit;
-    letter-spacing: 0.01em;
-    color: inherit;
-    overflow-wrap: anywhere;
-    text-transform: none;
+    color: #64748b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .statewide-breakdown-value {
@@ -10382,6 +10367,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="viz-mode-btn" data-mode="shift" type="button"><span>Shift</span></button>
                 <button class="viz-mode-btn" data-mode="flips" type="button"><span>Flips</span></button>
                 <button class="viz-mode-btn" data-mode="demographics" type="button"><span>Demographics</span></button>
+                <button class="viz-mode-btn" data-mode="population_change" type="button"><span>Pop Change</span></button>
               </div>
             </div>
             <details class="control-group control-group-scenario controls-disclosure" id="scenario-disclosure">
@@ -10548,6 +10534,9 @@ document.addEventListener('DOMContentLoaded', function() {
     </button>
     <button class="viz-mode-btn" data-mode="demographics" id="mode-demographics">
       <span>Demographics</span>
+    </button>
+    <button class="viz-mode-btn" data-mode="population_change" id="mode-population-change">
+      <span>Pop Change</span>
     </button>
   </div>
 
@@ -10751,8 +10740,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-26-maryland-data-v7';
-    const APP_BUILD_ID = '2026-10-26-maryland-data-v7';
+    const DATA_CACHE_BUSTER = '2026-10-26-maryland-ui-v8';
+    const APP_BUILD_ID = '2026-10-26-maryland-ui-v8';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -23519,11 +23508,7 @@ document.addEventListener('DOMContentLoaded', function() {
           `<div class="statewide-breakdown-item">` +
             `<div class="statewide-breakdown-head">` +
               `<span class="statewide-dot ${item.key}"></span>` +
-              `<span class="statewide-breakdown-label">` +
-                `<span class="statewide-breakdown-party">${escapeHtml(item.label)}</span>` +
-                `<span class="statewide-breakdown-separator">:</span>` +
-                `<span class="statewide-breakdown-candidate">${escapeHtml(item.candidate)}</span>` +
-              `</span>` +
+              `<span class="statewide-breakdown-label">${escapeHtml(item.label)}: ${escapeHtml(item.candidate)}</span>` +
             `</div>` +
             `<div class="statewide-breakdown-value" style="color:${item.color};">` +
               `${item.votes.toLocaleString()}` +

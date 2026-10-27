@@ -10744,8 +10744,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-27-candidate-names-v12';
-    const APP_BUILD_ID = '2026-10-27-candidate-names-v12';
+    const DATA_CACHE_BUSTER = '2026-10-27-contest-order-v13';
+    const APP_BUILD_ID = '2026-10-27-contest-order-v13';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -20394,7 +20394,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'US House',
 	        'Governor',
 	        'House of Delegates',
-	        'State Senate',
 	        'Lieutenant Governor',
 	        'Attorney General',
 	        'Comptroller',
@@ -20420,7 +20419,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      const orderedLabels = [
 	        ...groupOrder.filter(l => grouped.has(l)),
-	        ...Array.from(grouped.keys()).filter(l => !groupOrder.includes(l)).sort((a, b) => a.localeCompare(b))
+	        ...Array.from(grouped.keys()).filter(l => !groupOrder.includes(l) && l !== 'State Senate').sort((a, b) => a.localeCompare(b)),
+	        ...(grouped.has('State Senate') ? ['State Senate'] : [])
 	      ];
 
 	      const fragment = document.createDocumentFragment();

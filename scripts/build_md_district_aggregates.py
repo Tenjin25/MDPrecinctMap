@@ -418,6 +418,28 @@ def main() -> None:
 
     for output_dir_name, files in manifests.items():
         lines_year = 2021 if output_dir_name.endswith("2021") else 2022
+        # Direct U.S. House and enacted legislative returns are produced by
+        # build_md_actual_legislative_results.py. Preserve those manifest rows
+        # when this broader district aggregation is rebuilt later, otherwise
+        # the JSON slices remain on disk but disappear from the atlas selector.
+        manifest_path = DATA / output_dir_name / "manifest.json"
+        if output_dir_name == "district_contests" and manifest_path.exists():
+            existing_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            generated_keys = {
+                (str(row["scope"]), str(row["contest_type"]), int(row["year"]))
+                for row in files
+            }
+            for row in existing_manifest.get("files", []):
+                contest_type = str(row.get("contest_type", ""))
+                key = (str(row.get("scope", "")), contest_type, int(row.get("year", 0)))
+                slice_path = DATA / output_dir_name / str(row.get("file", ""))
+                if (
+                    contest_type in {"us_house", "state_house", "state_senate"}
+                    and key not in generated_keys
+                    and slice_path.is_file()
+                ):
+                    files.append(row)
+                    generated_keys.add(key)
         files.sort(key=lambda row: (str(row["scope"]), str(row["contest_type"]), int(row["year"])))
         manifest = {
             "source": "RDH Maryland election results on 2020 Census blocks + official Maryland BEFs",
@@ -425,7 +447,7 @@ def main() -> None:
             "generated_at_utc": generated_at,
             "files": files,
         }
-        (DATA / output_dir_name / "manifest.json").write_text(
+        manifest_path.write_text(
             json.dumps(manifest, indent=2) + "\n", encoding="utf-8"
         )
         print(f"wrote data/{output_dir_name}/manifest.json ({len(files)} slices)")

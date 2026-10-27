@@ -1529,8 +1529,85 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "county_constrained_aggregation": true
+    },
+    {
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "year": 2022,
+      "file": "congressional_us_house_2022.json",
+      "rows": 8,
+      "districts": 8,
+      "total_votes": 1995728,
+      "dem_total": 1291446,
+      "rep_total": 690463,
+      "other_total": 13819,
+      "major_party_contested": true,
+      "match_coverage_pct": 100.0,
+      "direct_reported_district_results": true,
+      "allocation_method": "reported_sbe_district_no_geographic_reallocation"
+    },
+    {
+      "scope": "congressional",
+      "contest_type": "us_house",
+      "year": 2024,
+      "file": "congressional_us_house_2024.json",
+      "rows": 8,
+      "districts": 8,
+      "total_votes": 2935328,
+      "dem_total": 1863416,
+      "rep_total": 1017654,
+      "other_total": 54258,
+      "major_party_contested": true,
+      "match_coverage_pct": 100.0,
+      "direct_reported_district_results": true,
+      "allocation_method": "reported_sbe_district_no_geographic_reallocation"
+    },
+    {
+      "scope": "state_house",
+      "contest_type": "state_house",
+      "year": 2022,
+      "file": "state_house_state_house_2022.json",
+      "rows": 71,
+      "districts": 71,
+      "total_votes": 3829393,
+      "dem_total": 2579509,
+      "rep_total": 1208567,
+      "other_total": 41317,
+      "major_party_contested": true,
+      "match_coverage_pct": 100.0,
+      "direct_reported_district_results": true,
+      "allocation_method": "reported_sbe_district_no_geographic_reallocation",
+      "multi_member_note": "House of Delegates totals are candidate votes; multi-member districts can contain multiple candidates per party."
+    },
+    {
+      "scope": "state_senate",
+      "contest_type": "state_senate",
+      "year": 2022,
+      "file": "state_senate_state_senate_2022.json",
+      "rows": 47,
+      "districts": 47,
+      "total_votes": 1850479,
+      "dem_total": 1120350,
+      "rep_total": 692101,
+      "other_total": 38028,
+      "major_party_contested": true,
+      "match_coverage_pct": 100.0,
+      "direct_reported_district_results": true,
+      "allocation_method": "reported_sbe_district_no_geographic_reallocation"
     }
   ],
   "includes_provisional_historical_slices": true,
-  "includes_2022_precinct_crosswalk_slices": true
+  "includes_2022_precinct_crosswalk_slices": true,
+  "actual_legislative_results": {
+    "us_house": [
+      2022,
+      2024
+    ],
+    "state_house": [
+      2022
+    ],
+    "state_senate": [
+      2022
+    ]
+  }
 }

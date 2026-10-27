@@ -22063,11 +22063,7 @@ document.addEventListener('DOMContentLoaded', function() {
           return expandLegacyCandidateShorthand(left || raw);
         }
       }
-      // Legacy "GORE-LIEBERMAN" style.
-      if (raw.includes('-')) {
-        const [left, right] = raw.split('-', 2).map(s => (s || '').trim());
-        if (left && right && (right.includes('.') || right.includes(' '))) return expandLegacyCandidateShorthand(left);
-      }
+      // Preserve hyphenated surnames; only explicit ticket separators above are split.
       return expandLegacyCandidateShorthand(raw);
     }
 
@@ -36059,7 +36055,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (key === 'state_senate') {
           return {
             repCandidate: 'Minority Leader Stephen S. Hershey Jr.',
-            demCandidate: 'Senate President Bill Ferguson'
+            demCandidate: 'Bill Ferguson'
           };
         }
         return null;

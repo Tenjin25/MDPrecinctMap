@@ -548,9 +548,10 @@
       map.fitBounds(bbox, { padding: pad, maxZoom: 10 });
     }
   </script>
-  <script src='https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-gl.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/maplibre-gl@5.21.1/dist/maplibre-gl.js'></script>
   <script>
-    // MapLibre does not require Mapbox telemetry or a Mapbox access token.
+    // MapLibre v5 provides window.maplibregl for this classic-script atlas.
+    if (!window.maplibregl) console.error('MapLibre GL JS failed to load. Check the CDN request and Brave Shields.');
   </script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
@@ -564,7 +565,7 @@
     <meta property="og:description" content="Interactive Maryland election atlas with county and congressional-plan views.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link href='https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-gl.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/maplibre-gl@5.21.1/dist/maplibre-gl.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap&v=2026-08-25-typography-tooltip-v2" rel="stylesheet">
@@ -11063,8 +11064,9 @@ document.addEventListener('DOMContentLoaded', function() {
       preserveDrawingBuffer: true,
       attributionControl: true
     });
+    window.__atlasMapInitialized = true;
 
-    let basemapVisible = true;
+    var basemapVisible = true;
     let basemapLayerIds = [];
     const basemapOriginalVisibility = new Map();
 
@@ -11084,6 +11086,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function syncBasemapToggleUI() {
+      if (!window.__atlasMapInitialized) return;
       const btn = document.getElementById('basemap-toggle');
       if (!btn) return;
       btn.textContent = basemapVisible ? 'Map On' : 'Map Off';
@@ -12101,8 +12104,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const MODELED_CONTEST_OVERRIDES_BY_TYPE = new Map(); // contestType -> { blendWeight?, turnoutFactor?, bonusScale? }
     const MODELED_CONTEST_PRESETS_BY_TYPE = {};
 
-    let urlStateRestoreInFlight = false;
-    let saveUIStateTimer = null;
+    var urlStateRestoreInFlight = false;
+    var saveUIStateTimer = null;
     let urlPopstateSyncWired = false;
     let analyticsPanelsTimer = null;
     let analyticsPanelsRequestId = 0;
@@ -36465,7 +36468,7 @@ document.addEventListener('DOMContentLoaded', function() {
           { kind: 'statewide', contestType, year: Number(year) },
           {
             demCandidate: statewideTotals.demCandidate || resolvedStatewideCandidates().demCandidate,
-            repCandidate: statewideTotals.repCandidate || resolvedStatewideCandidates().repCandidate
+            repCandidate: statewideTotals.repCandidate || resolvedStatewideCandidates().repCandidate,
           }
         );
       }

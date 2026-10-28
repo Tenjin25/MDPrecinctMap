@@ -10744,8 +10744,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-10-27-contest-order-v13';
-    const APP_BUILD_ID = '2026-10-27-contest-order-v13';
+    const DATA_CACHE_BUSTER = '2026-10-28-candidate-names-v14';
+    const APP_BUILD_ID = '2026-10-28-candidate-names-v14';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -21405,6 +21405,24 @@ document.addEventListener('DOMContentLoaded', function() {
       return displayName.toUpperCase() === 'KIMBERLY POPE ADAMS' ? 'Adams' : displayName;
     }
 
+    const CANDIDATE_UNQUOTED_NICKNAME_PAIRS = new Set([
+      'CHARLES|CHUCK',
+      'EDWARD|ED',
+      'ELIZABETH|BETH',
+      'ELIZABETH|LIZ',
+      'JAMES|JIM',
+      'JOHN|JACK',
+      'JOSEPH|JOE',
+      'MARGARET|PEGGY',
+      'MICHAEL|MIKE',
+      'RICHARD|DICK',
+      'ROBERT|BOB',
+      'ROBERT|BOBBY',
+      'THOMAS|TOM',
+      'WILLIAM|BILL',
+      'WILLIAM|BILLY'
+    ]);
+
     function preferredCandidateDisplayName(name) {
       const raw = stripRunningMateName((name || '').toString().trim());
       if (!raw) return '';
@@ -21424,6 +21442,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const aliasMap = {
         'ABIGAIL ANNE DAVIS SPANBERGER': 'Abigail D. Spanberger',
         'ABIGAIL D SPANBERGER': 'Abigail D. Spanberger',
+        'ANJALI REED PHUKAN': 'Anjali Reed Phukan',
         'BEN L CLINE': 'Ben Cline',
         'BENJAMIN LEE CLINE': 'Ben Cline',
         'CHARLENA JONES': 'Charlena Jones',
@@ -21585,7 +21604,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       let firstIndex = 0;
       const nicknameToken = parts[1] || '';
-      if (parts.length >= 3 && !isInitialToken(nicknameToken) && nicknameToken.length <= 4 && (parts[0] || '').length >= 5) {
+      const givenNicknameKey = `${String(parts[0] || '').replace(/[^A-Za-z]/g, '').toUpperCase()}|${String(nicknameToken).replace(/[^A-Za-z]/g, '').toUpperCase()}`;
+      if (parts.length >= 3 && CANDIDATE_UNQUOTED_NICKNAME_PAIRS.has(givenNicknameKey)) {
         firstIndex = 1;
       }
 
@@ -21602,6 +21622,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const normalized = token.replace(/[^A-Za-z]/g, '');
         if (normalized.length === 1) {
           middle.push(`${normalized.toUpperCase()}.`);
+        } else {
+          middle.push(toTitleCaseName(token));
         }
       }
 

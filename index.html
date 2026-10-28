@@ -548,14 +548,9 @@
       map.fitBounds(bbox, { padding: pad, maxZoom: 10 });
     }
   </script>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js'></script>
+  <script src='https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-gl.js'></script>
   <script>
-    // Reduce noisy console errors when ad blockers block Mapbox telemetry (events.mapbox.com).
-    try {
-      if (window.mapboxgl && typeof window.mapboxgl.setTelemetryEnabled === 'function') {
-        window.mapboxgl.setTelemetryEnabled(false);
-      }
-    } catch (_) {}
+    // MapLibre does not require Mapbox telemetry or a Mapbox access token.
   </script>
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
@@ -569,7 +564,7 @@
     <meta property="og:description" content="Interactive Maryland election atlas with county and congressional-plan views.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
-    <link href='https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css' rel='stylesheet'>
+    <link href='https://unpkg.com/maplibre-gl@6.16.0/dist/maplibre-gl.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap&v=2026-08-25-typography-tooltip-v2" rel="stylesheet">
@@ -635,7 +630,7 @@ body { height: var(--app-height); }
 }
 
 /* Add smooth color transitions to the map */
-.mapboxgl-canvas-container.mapboxgl-interactive {
+.maplibregl-canvas-container.maplibregl-interactive {
   cursor: pointer;
   transition: filter 0.2s ease;
 }
@@ -668,7 +663,7 @@ a:focus-visible {
     transition-duration: 0.001ms !important;
     scroll-behavior: auto !important;
   }
-  .mapboxgl-canvas-container.mapboxgl-interactive {
+  .maplibregl-canvas-container.maplibregl-interactive {
     transition: none !important;
   }
 }
@@ -10757,7 +10752,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const CONFIG = {
-      mapboxToken: (window.MAPBOX_TOKEN || localStorage.getItem('mapbox_token') || 'pk.eyJ1Ijoic2hhbWFyZGF2aXMiLCJhIjoiY212b3BxNnZ6MGV4dTJ4cHh4cHN3enF1dyJ9.3V7eoS02VNeDFBrMDAFlmQ'),
+      basemapStyle: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
       tilesets: {
         enabled: true,
         sources: {
@@ -11060,21 +11055,13 @@ document.addEventListener('DOMContentLoaded', function() {
       return true;
     }
 
-    mapboxgl.accessToken = CONFIG.mapboxToken;
-    // Silence Mapbox telemetry requests (often blocked by ad blockers, causing noisy console errors).
-    try {
-      if (mapboxgl && typeof mapboxgl.setTelemetryEnabled === 'function') {
-        mapboxgl.setTelemetryEnabled(false);
-      }
-    } catch (_) {}
-
-    const map = new mapboxgl.Map({
+    const map = new maplibregl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/light-v11',
+      style: CONFIG.basemapStyle,
       center: CONFIG.center,
       zoom: CONFIG.zoom,
       preserveDrawingBuffer: true,
-      performanceMetricsCollection: false
+      attributionControl: true
     });
 
     let basemapVisible = true;
@@ -11084,11 +11071,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function captureBasemapLayers() {
       if (basemapLayerIds.length || !map || !map.getStyle) return;
       const layers = map.getStyle()?.layers || [];
-      // Keep the neutral style background in place. The Mapbox Light style's
-      // reference layers use its composite source; atlas overlays use their
-      // own sources and must never be captured here, even during a style race.
+      // Capture basemap layers before atlas overlays are added. CARTO's style
+      // uses several source IDs rather than Mapbox's `composite` source.
       basemapLayerIds = layers
-        .filter(layer => layer && layer.id && layer.source === 'composite')
+        .filter(layer => layer && layer.id && !['counties', 'precincts', 'precinct-centroids', 'districts', 'state-house', 'state-senate', 'bellwether-precincts', 'my-location'].includes(layer.source))
         .map(layer => layer.id);
       basemapLayerIds.forEach(layerId => {
         let visibility = 'visible';

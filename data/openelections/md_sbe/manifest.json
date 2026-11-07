@@ -486,6 +486,53 @@
       "source_urls": [
         "https://elections.maryland.gov/elections/archive/2024/election_data/PG24_AllPrecincts.csv"
       ]
+    },
+    {
+      "year": 2026,
+      "date": "20261103",
+      "coverage": "unofficial county vote-mode totals retained as pseudo-precincts; no geographic precinct results published",
+      "preliminary": true,
+      "missing_vote_modes": [
+        "Provisional"
+      ],
+      "incomplete_canvasses": [
+        "Provisional",
+        "Mail-In Ballot 2"
+      ],
+      "snapshot_generated_at_utc": "2026-11-07T21:57:09.591943+00:00",
+      "results_status_url": "https://elections.maryland.gov/",
+      "precinct_rows": 4965,
+      "county_rows": 1655,
+      "precincts": 0,
+      "pseudo_precincts": 72,
+      "precinct_file": "20261103__md__general__precinct.csv",
+      "county_file": "20261103__md__general__county.csv",
+      "source_urls": [
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_1.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_2.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_3.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_4.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_5.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_6.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_7.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_8.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_9.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_10.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_11.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_12.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_13.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_14.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_15.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_16.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_17.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_18.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_19.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_20.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_21.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_22.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_23.html",
+        "https://elections.maryland.gov/elections/2026/General_results/gen_results_2026_by_county_24.html"
+      ]
     }
   ]
 }

@@ -20,17 +20,18 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from collections import defaultdict
+from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
 
 BASE = "https://elections.maryland.gov/elections/archive/{year}/election_data/"
-DEFAULT_YEARS = (2000, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024)
+DEFAULT_YEARS = (2000, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024, 2026)
 ELECTION_DATES = {
     2000: "20001107", 2004: "20041102", 2006: "20061107",
     2008: "20081104", 2010: "20101102", 2012: "20121106",
     2014: "20141104", 2016: "20161108", 2018: "20181106",
-    2020: "20201103", 2022: "20221108", 2024: "20241105",
+    2020: "20201103", 2022: "20221108", 2024: "20241105", 2026: "20261103",
 }
 COUNTIES = {
     "01": "Allegany", "02": "Anne Arundel", "03": "Baltimore City",
@@ -56,6 +57,97 @@ class LinkParser(HTMLParser):
         href = dict(attrs).get("href")
         if href:
             self.links.append(href)
+
+
+class LiveCountyResultsParser(HTMLParser):
+    """Parse SBE's temporary county result tables used before archive CSVs post."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.county = ""
+        self.office = ""
+        self.district = ""
+        self.tables: list[tuple[str, str, list[str], list[tuple[list[str], bool]]]] = []
+        self._heading_tag = ""
+        self._heading_text: list[str] = []
+        self._in_table = False
+        self._headers: list[str] = []
+        self._rows: list[tuple[list[str], bool]] = []
+        self._cells: list[str] = []
+        self._cell_text: list[str] = []
+        self._cell_tag = ""
+        self._row_winner = False
+        self._row_is_header = False
+        self._table_office = ""
+        self._table_district = ""
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag = tag.lower()
+        if tag in {"h1", "h2", "h3", "h4"}:
+            self._heading_tag = tag
+            self._heading_text = []
+        elif tag == "table":
+            self._in_table = True
+            self._headers = []
+            self._rows = []
+            self._table_office = self.office
+            self._table_district = self.district
+        elif self._in_table and tag == "tr":
+            self._cells = []
+            self._row_winner = False
+            self._row_is_header = False
+        elif self._in_table and tag in {"th", "td"}:
+            self._cell_tag = tag
+            self._cell_text = []
+            if tag == "th":
+                self._row_is_header = True
+        elif self._in_table and tag == "img":
+            alt = dict(attrs).get("alt") or ""
+            if "winner" in alt.lower():
+                self._row_winner = True
+
+    def handle_data(self, data: str) -> None:
+        if self._heading_tag:
+            self._heading_text.append(data)
+        if self._cell_tag:
+            self._cell_text.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag = tag.lower()
+        if tag == self._heading_tag:
+            value = " ".join("".join(self._heading_text).split())
+            if tag == "h1":
+                match = re.search(r"Results for (.+)$", value, flags=re.I)
+                self.county = re.sub(r"\s+County$", "", match.group(1), flags=re.I) if match else ""
+            elif tag == "h2":
+                self.office = value
+                self.district = ""
+            elif tag == "h3" and value.lower().startswith("district "):
+                self.district = value[9:].strip()
+            self._heading_tag = ""
+            self._heading_text = []
+        elif tag == self._cell_tag:
+            value = " ".join("".join(self._cell_text).split())
+            self._cells.append(value)
+            self._cell_tag = ""
+            self._cell_text = []
+        elif self._in_table and tag == "tr":
+            if self._cells and self._row_is_header:
+                self._headers = self._cells[:]
+            elif self._cells:
+                self._rows.append((self._cells[:], self._row_winner))
+            self._cells = []
+        elif tag == "table" and self._in_table:
+            self.tables.append((self._table_office, self._table_district, self._headers[:], self._rows[:]))
+            self._in_table = False
+
+
+def live_party(value: str) -> str:
+    return {
+        "DEMOCRATIC": "DEM", "REPUBLICAN": "REP", "GREEN": "GRN",
+        "LIBERTARIAN": "LIB", "WORKING CLASS PARTY": "WCP",
+        "UNAFFILIATED": "UNA", "NON-PARTISAN": "NON",
+    }.get(value.strip().upper(), value.strip())
 
 
 def fetch(url: str, attempts: int = 5) -> bytes:
@@ -119,6 +211,8 @@ def county_name(row: dict[str, str]) -> str:
         supplied = re.sub(r"\s+County$", "", supplied, flags=re.I).strip()
         if supplied.lower() == "baltimore city":
             return "Baltimore City"
+        if supplied.lower() in {"saint mary's", "saint marys", "st mary's", "st marys"}:
+            return "St. Mary's"
         return supplied
     return COUNTIES.get(code, code)
 
@@ -241,6 +335,14 @@ def select_links(year: int) -> tuple[list[str], list[str], str]:
         precinct = [u for u in links if Path(urllib.parse.urlparse(u).path).name.lower() == "gg22_allprecincts.csv"]
     elif year == 2024:
         precinct = [u for u in links if Path(urllib.parse.urlparse(u).path).name.lower() == "pg24_allprecincts.csv"]
+    elif year == 2026:
+        precinct = [
+            u for u in links
+            if Path(urllib.parse.urlparse(u).path).name.lower() in {
+                "gg26_allprecincts.csv", "all_by_precinct_2026_general.csv",
+            }
+            or re.search(r"(?i)all.*precinct.*2026.*general.*\.csv$", u)
+        ]
     else:
         precinct = [u for u in links if re.search(rf"(?i)_By_Precinct_(?:General_{year}|{year}_General)\.csv$", u)]
         precinct = [u for u in precinct if "question" not in u.lower() and "state_precinct_reference" not in u.lower()]
@@ -287,7 +389,13 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
 
 
 def convert_year(year: int, output_dir: Path) -> dict[str, object]:
-    precinct_urls, county_urls, coverage = select_links(year)
+    if year == 2026:
+        try:
+            precinct_urls, county_urls, coverage = select_links(year)
+        except RuntimeError:
+            return convert_live_2026(output_dir)
+    else:
+        precinct_urls, county_urls, coverage = select_links(year)
     rows: list[dict[str, str]] = []
     for url in precinct_urls:
         for source in csv_rows(url):
@@ -330,6 +438,72 @@ def convert_year(year: int, output_dir: Path) -> dict[str, object]:
         "precinct_file": precinct_path.name,
         "county_file": county_path.name,
         "source_urls": precinct_urls + county_urls,
+    }
+
+
+def convert_live_2026(output_dir: Path) -> dict[str, object]:
+    """Convert SBE's unofficial live county pages while precinct CSVs are absent.
+
+    Vote modes become explicit pseudo-precincts. This retains the finest
+    published geography without implying that county totals are precinct data.
+    """
+    base = "https://elections.maryland.gov/elections/2026/General_results/"
+    urls = [urllib.parse.urljoin(base, f"gen_results_2026_by_county_{code}.html") for code in range(1, 25)]
+    rows: list[dict[str, str]] = []
+    modes = ("Early Voting", "Election Day", "Mail-In Ballot", "Provisional")
+    for url in urls:
+        parser = LiveCountyResultsParser()
+        parser.feed(decode(fetch(url)))
+        if not parser.county:
+            raise RuntimeError(f"Could not identify county in {url}")
+        for office, district, headers, table_rows in parser.tables:
+            if "Name" not in headers or "Party" not in headers or "Total" not in headers:
+                continue
+            indexes = {name: headers.index(name) for name in ("Name", "Party", "Total")}
+            mode_indexes = {name: headers.index(name) for name in modes if name in headers}
+            for cells, is_winner in table_rows:
+                if len(cells) < len(headers):
+                    continue
+                candidate = cells[indexes["Name"]].strip()
+                if not candidate or candidate.lower() == "totals":
+                    continue
+                source = {
+                    "County Name": parser.county,
+                    "Office Name": office,
+                    "Office District": district,
+                    "Party": live_party(cells[indexes["Party"]]),
+                    "Candidate Name": candidate,
+                    "Winner": "Y" if is_winner else "",
+                }
+                for mode, index in mode_indexes.items():
+                    raw = cells[index].strip()
+                    if not raw or raw.upper() == "NR":
+                        continue
+                    rows.append(normalized_row(source, mode.upper(), number(raw)))
+
+    precinct_rows = merge_rows(rows)
+    county_rows = merge_rows([{**row, "precinct": ""} for row in precinct_rows])
+    date = ELECTION_DATES[2026]
+    precinct_path = output_dir / f"{date}__md__general__precinct.csv"
+    county_path = output_dir / f"{date}__md__general__county.csv"
+    write_csv(precinct_path, precinct_rows)
+    write_csv(county_path, county_rows)
+    return {
+        "year": 2026,
+        "date": date,
+        "coverage": "unofficial county vote-mode totals retained as pseudo-precincts; no geographic precinct results published",
+        "preliminary": True,
+        "missing_vote_modes": ["Provisional"],
+        "incomplete_canvasses": ["Provisional", "Mail-In Ballot 2"],
+        "snapshot_generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "results_status_url": "https://elections.maryland.gov/",
+        "precinct_rows": len(precinct_rows),
+        "county_rows": len(county_rows),
+        "precincts": 0,
+        "pseudo_precincts": len({(r["county"], r["precinct"]) for r in precinct_rows}),
+        "precinct_file": precinct_path.name,
+        "county_file": county_path.name,
+        "source_urls": urls,
     }
 
 

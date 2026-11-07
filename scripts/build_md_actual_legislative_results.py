@@ -8,6 +8,7 @@ reallocation to another chamber or proposed plan.
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 from collections import defaultdict
@@ -22,6 +23,9 @@ CONTESTS = [
     (2024, "20241105", "congressional", "us_house", "U.S. House"),
     (2022, "20221108", "state_house", "state_house", "House of Delegates"),
     (2022, "20221108", "state_senate", "state_senate", "State Senator"),
+    (2026, "20261103", "congressional", "us_house", "U.S. House"),
+    (2026, "20261103", "state_house", "state_house", "House of Delegates"),
+    (2026, "20261103", "state_senate", "state_senate", "State Senator"),
 ]
 
 
@@ -43,7 +47,8 @@ def candidate_label(candidate_totals: dict[str, int]) -> str:
 
 
 def build_slice(year: int, date: str, scope: str, contest_type: str, office: str):
-    source = DATA / "openelections" / "md_sbe" / f"{date}__md__general__precinct.csv"
+    geography = "county" if year == 2026 else "precinct"
+    source = DATA / "openelections" / "md_sbe" / f"{date}__md__general__{geography}.csv"
     totals = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     candidates = defaultdict(lambda: {"dem": defaultdict(int), "rep": defaultdict(int), "other": defaultdict(int)})
     source_rows = 0
@@ -86,8 +91,11 @@ def build_slice(year: int, date: str, scope: str, contest_type: str, office: str
             "source": "direct_maryland_sbe_reported_district_returns",
             "generated_at_utc": datetime.now(timezone.utc).isoformat(),
             "match_coverage_pct": 100.0,
+            "preliminary": year == 2026,
+            "missing_vote_modes": ["Provisional"] if year == 2026 else [],
             "input_file": f"data/openelections/md_sbe/{source.name}",
             "office": office,
+            "input_geography": geography,
             "source_rows": source_rows,
             "allocation_method": "reported_sbe_district_no_geographic_reallocation",
             "multi_member_note": (
@@ -115,31 +123,33 @@ def build_slice(year: int, date: str, scope: str, contest_type: str, office: str
         ),
         "match_coverage_pct": 100.0,
         "direct_reported_district_results": True,
+        "preliminary": year == 2026,
     }
     print(f"wrote data/district_contests/{filename} ({len(results)} districts)")
     return entry
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--years", nargs="+", type=int)
+    args = parser.parse_args()
+    selected_years = set(args.years or [])
+    specs = [spec for spec in CONTESTS if not selected_years or spec[0] in selected_years]
     manifest_path = OUTPUT / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-    # U.S. House is valid only on enacted/current congressional lines.
+    replacing = {(scope, contest_type, year) for year, _date, scope, contest_type, _office in specs}
     files = [
         row for row in manifest.get("files", [])
-        if row.get("contest_type") != "us_house"
-        and not (
-            row.get("contest_type") in {"state_house", "state_senate"}
-            and int(row.get("year", 0)) == 2022
-        )
+        if (row.get("scope"), row.get("contest_type"), int(row.get("year", 0))) not in replacing
     ]
-    entries = [build_slice(*spec) for spec in CONTESTS]
+    entries = [build_slice(*spec) for spec in specs]
     files.extend(entries)
     files.sort(key=lambda row: (str(row["scope"]), str(row["contest_type"]), int(row["year"])))
     manifest["files"] = files
     manifest["actual_legislative_results"] = {
-        "us_house": [2022, 2024],
-        "state_house": [2022],
-        "state_senate": [2022],
+        "us_house": [2022, 2024, 2026],
+        "state_house": [2022, 2026],
+        "state_senate": [2022, 2026],
     }
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 

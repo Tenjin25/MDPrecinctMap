@@ -39,8 +39,9 @@ def grouped(rows: list[dict[str, str]]) -> dict[tuple[str, ...], int]:
 
 def main() -> None:
     manifest = json.loads((BASE / "manifest.json").read_text(encoding="utf-8"))["elections"]
-    if len(manifest) != 12:
-        raise AssertionError(f"Expected 12 elections, found {len(manifest)}")
+    years = [int(item["year"]) for item in manifest]
+    if years != sorted(set(years)):
+        raise AssertionError(f"Manifest years must be unique and sorted: {years}")
     for item in manifest:
         precinct_path = BASE / item["precinct_file"]
         county_path = BASE / item["county_file"]
@@ -54,7 +55,8 @@ def main() -> None:
         correction_note = f"; {precinct_corrections} signed source corrections" if precinct_corrections else ""
         if county_corrections > precinct_corrections:
             correction_note += f"; {county_corrections} county corrections"
-        print(f"{item['year']}: {len(precinct_rows):,} precinct rows; {len(county_rows):,} county rows{correction_note}; OK")
+        status = "; PRELIMINARY" if item.get("preliminary") else ""
+        print(f"{item['year']}: {len(precinct_rows):,} precinct rows; {len(county_rows):,} county rows{correction_note}{status}; OK")
 
 
 if __name__ == "__main__":

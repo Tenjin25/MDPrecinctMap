@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-26T03:23:42.804436+00:00",
+  "generated_at_utc": "2026-11-07T21:57:17.903255+00:00",
   "files": [
     {
       "contest_type": "attorney_general",
@@ -47,6 +47,16 @@
       "total_votes": 1982290
     },
     {
+      "contest_type": "attorney_general",
+      "year": 2026,
+      "file": "attorney_general_2026.json",
+      "rows": 24,
+      "precinct_rows": 0,
+      "county_only": true,
+      "preliminary": true,
+      "total_votes": 2003516
+    },
+    {
       "contest_type": "comptroller",
       "year": 2006,
       "file": "comptroller_2006.json",
@@ -90,6 +100,16 @@
       "precinct_rows": 1913,
       "county_only": false,
       "total_votes": 1986710
+    },
+    {
+      "contest_type": "comptroller",
+      "year": 2026,
+      "file": "comptroller_2026.json",
+      "rows": 24,
+      "precinct_rows": 0,
+      "county_only": true,
+      "preliminary": true,
+      "total_votes": 1988975
     },
     {
       "contest_type": "governor",
@@ -144,6 +164,16 @@
       "precinct_rows": 1913,
       "county_only": false,
       "total_votes": 2005223
+    },
+    {
+      "contest_type": "governor",
+      "year": 2026,
+      "file": "governor_2026.json",
+      "rows": 24,
+      "precinct_rows": 0,
+      "county_only": true,
+      "preliminary": true,
+      "total_votes": 2015990
     },
     {
       "contest_type": "president",

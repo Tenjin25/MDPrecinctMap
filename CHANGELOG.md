@@ -8,6 +8,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ### Added
 
+- Preliminary 2026 OpenElections-style county and vote-mode CSVs sourced from SBE's live unofficial result tables.
+- Exact 2026 congressional, State Senate, and House of Delegates aggregates on the districts in which the election was held.
+- County-only 2026 governor, comptroller, and attorney-general atlas slices, explicitly marked preliminary pending SBE's precinct archive and remaining canvasses.
 - Initial repository documentation and reproducible local-run instructions.
 - Python dependency manifest and repository ignore rules.
 - 2022 governor, U.S. Senate, comptroller, and attorney general aggregates for enacted congressional, House of Delegates, and State Senate lines.

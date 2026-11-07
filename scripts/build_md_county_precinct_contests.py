@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 import math
@@ -19,14 +20,14 @@ SBE = DATA / "openelections" / "md_sbe"
 CONTESTS = {
     "president": ("President", [2000, 2004, 2008, 2012, 2016, 2020, 2024]),
     "us_senate": ("US Senate", [2000, 2004, 2006, 2010, 2012, 2016, 2018, 2022, 2024]),
-    "governor": ("Governor", [2002, 2006, 2010, 2014, 2018, 2022]),
-    "attorney_general": ("Attorney General", [2006, 2010, 2014, 2018, 2022]),
-    "comptroller": ("Comptroller", [2006, 2010, 2014, 2018, 2022]),
+    "governor": ("Governor", [2002, 2006, 2010, 2014, 2018, 2022, 2026]),
+    "attorney_general": ("Attorney General", [2006, 2010, 2014, 2018, 2022, 2026]),
+    "comptroller": ("Comptroller", [2006, 2010, 2014, 2018, 2022, 2026]),
 }
 DATES = {
     2000: "20001107", 2002: "20021105", 2004: "20041102", 2006: "20061107", 2008: "20081104",
     2010: "20101102", 2012: "20121106", 2014: "20141104", 2016: "20161108",
-    2018: "20181106", 2020: "20201103", 2022: "20221108", 2024: "20241105",
+    2018: "20181106", 2020: "20201103", 2022: "20221108", 2024: "20241105", 2026: "20261103",
 }
 
 
@@ -109,8 +110,13 @@ def result_fields(dem: int, rep: int, other: int, dem_candidate: str, rep_candid
 
 
 def build_slice(contest_type, office, year, weights, target_keys, targets_by_county):
-    county_only = year == 2002
-    path = (DATA / "openelections" / f"{DATES[year]}__md__general__county.csv") if county_only else (SBE / f"{DATES[year]}__md__general__precinct.csv")
+    county_only = year in {2002, 2026}
+    if year == 2002:
+        path = DATA / "openelections" / f"{DATES[year]}__md__general__county.csv"
+    elif county_only:
+        path = SBE / f"{DATES[year]}__md__general__county.csv"
+    else:
+        path = SBE / f"{DATES[year]}__md__general__precinct.csv"
     source_votes = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     county_votes = defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
     county_labels = {}
@@ -187,6 +193,10 @@ def build_slice(contest_type, office, year, weights, target_keys, targets_by_cou
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--years", nargs="+", type=int)
+    args = parser.parse_args()
+    selected_years = set(args.years or [])
     OUT.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).isoformat()
     target_keys, targets_by_county = load_target_keys()
@@ -195,9 +205,15 @@ def main():
         "vtd10": load_weights(DATA / "crosswalks_vtd20" / "vtd10_to_vtd20.csv"),
         "current2024": load_weights(DATA / "crosswalks_vtd20" / "precinct2024_to_vtd20.csv"),
     }
+    manifest_path = OUT / "manifest.json"
     manifest = []
+    if selected_years and manifest_path.exists():
+        prior = json.loads(manifest_path.read_text(encoding="utf-8"))
+        manifest = [row for row in prior.get("files", []) if int(row.get("year", 0)) not in selected_years]
     for contest_type, (office, years) in CONTESTS.items():
         for year in years:
+            if selected_years and year not in selected_years:
+                continue
             weights = year_weights(year, weight_sets, target_keys)
             county_rows, precinct_rows, matched, source_count, county_only, input_path = build_slice(
                 contest_type, office, year, weights, target_keys, targets_by_county
@@ -210,6 +226,8 @@ def main():
                     "contest_type": contest_type, "year": year,
                     "precinct_geometry": None if county_only else "VTD20", "generated_at_utc": generated_at,
                     "county_only": county_only,
+                    "preliminary": year == 2026,
+                    "missing_vote_modes": ["Provisional"] if year == 2026 else [],
                     "source": str(input_path.relative_to(ROOT)).replace("\\", "/"),
                     "source_precincts": source_count, "directly_matched_source_precincts": matched,
                     "allocation_method": "county_totals_only" if county_only else "whole_vote_largest_remainder_block_crosswalk_with_county_imputation",
@@ -222,11 +240,12 @@ def main():
                 "contest_type": contest_type, "year": year, "file": filename,
                 "rows": len(county_rows), "precinct_rows": len(precinct_rows),
                 "county_only": county_only,
+                "preliminary": year == 2026,
                 "total_votes": sum(row["total_votes"] for row in county_rows),
             })
             print(f"wrote data/contests/{filename} ({len(county_rows)} counties; {len(precinct_rows)} VTD20 precincts)")
     manifest.sort(key=lambda row: (row["contest_type"], row["year"]))
-    (OUT / "manifest.json").write_text(json.dumps({"generated_at_utc": generated_at, "files": manifest}, indent=2) + "\n", encoding="utf-8")
+    manifest_path.write_text(json.dumps({"generated_at_utc": generated_at, "files": manifest}, indent=2) + "\n", encoding="utf-8")
     print(f"wrote data/contests/manifest.json ({len(manifest)} slices)")
 
 

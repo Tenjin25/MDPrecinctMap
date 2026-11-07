@@ -6,8 +6,9 @@ The application is a single-page Mapbox GL site backed by generated GeoJSON, CSV
 
 ## Current coverage
 
-- Statewide general-election contests from 2000 through 2024, with availability varying by office and year.
+- Statewide general-election contests from 2000 through 2026, with availability varying by office and year; 2026 returns are preliminary and county-only until SBE posts its precinct archive.
 - County and precinct results sourced from Maryland State Board of Elections returns.
+- Preliminary 2026 county returns plus direct congressional and legislative-district aggregates from SBE's live unofficial tables; provisional and later mail canvasses remain incomplete.
 - Congressional comparisons for the enacted 2022 plan and the Maryland Citizens Redistricting Commission's 2021 recommended plan.
 - The enacted and 2021 MCRC congressional views contain the same complete set of 31 statewide contest-years with precinct data; 2002 governor remains county-only.
 - House of Delegates and State Senate results on the enacted 2022 lines.

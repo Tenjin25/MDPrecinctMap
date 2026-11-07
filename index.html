@@ -20308,6 +20308,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      sel.innerHTML = '<option value="">Select a contest...</option>';
 
 	      const contestYearPairs = {};
+        const preliminaryContestKeys = new Set();
         const councilOfStateTypes = new Set([
           'governor',
           'lieutenant_governor',
@@ -20360,6 +20361,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	        if (!contestYearPairs[contestType]) contestYearPairs[contestType] = new Set();
 	        contestYearPairs[contestType].add(year);
+          if (entry.preliminary) preliminaryContestKeys.add(`${contestType}_${year}`);
 	      });
 
 	      function groupLabelForContestType(contestType) {
@@ -20448,13 +20450,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const modeledDef = getModeledContestDefinition(item.contestType, item.year);
             const modeledOptionLabel = String(modeledDef?.optionLabel || '').trim();
             const modeledSuffix = modeledDef && !modeledOptionLabel ? ' [Modeled]' : '';
+            const preliminarySuffix = preliminaryContestKeys.has(`${item.contestType}_${item.year}`) ? ' [Preliminary]' : '';
             if (modeledOptionLabel) {
               opt.textContent = modeledOptionLabel;
             } else
 	          if (isJudicial || modeledDef) {
-              opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}`;
+	              opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}${preliminarySuffix}`;
 	          } else {
-              opt.textContent = `${label} (${item.year})${modeledSuffix}`;
+	              opt.textContent = `${label} (${item.year})${modeledSuffix}${preliminarySuffix}`;
 	          }
 	          if (q) {
 	            const hay = `${label} ${item.year} ${item.contestType} ${formatContestName(item.contestType, item.year)}`.toUpperCase();
@@ -20481,7 +20484,9 @@ document.addEventListener('DOMContentLoaded', function() {
       let entries = null;
 
       if (currentView === 'counties' || currentView === 'vtds_2000' || !currentView) {
-        entries = contestManifest || [];
+        entries = currentView === 'vtds_2000'
+          ? (contestManifest || []).filter(entry => entry && !entry.county_only)
+          : (contestManifest || []);
       } else {
         const scope = currentView === 'districts'
           ? 'congressional'
